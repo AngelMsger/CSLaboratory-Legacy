@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder.html" title="com.angelmsger.cslaboratory.course.\lCourseRecyclerViewAdapter.ClassViewHolder" alt="" coords="167,5,456,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder.html" title="com.angelmsger.cslaboratory.course.\lCourseRecyclerViewAdapter.CourseViewHolder" alt="" coords="163,71,460,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder.html" title="com.angelmsger.cslaboratory.course.subclass.\lSubclassRecyclerViewAdapter.CourseClassViewHolder" alt="" coords="140,136,483,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder.html" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter.ADViewHolder" alt="" coords="174,201,449,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder.html" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter.CategoryViewHolder" alt="" coords="157,267,465,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder.html" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter.QualityViewHolder" alt="" coords="163,332,460,373"/>
+</map>

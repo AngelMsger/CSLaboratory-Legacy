@@ -1,0 +1,64 @@
+.TH "com.angelmsger.cslaboratory.quality.QualityContent" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.quality.QualityContent \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public 属性"
+
+.in +1c
+.ti -1c
+.RI "final List< \fBQualityADItem\fP > \fBAD_ITEMS\fP = new LinkedList<>()"
+.br
+.ti -1c
+.RI "final List< \fBQualityCategoryItem\fP > \fBCLASS_ITEMS\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "final List< \fBQualityArticleItem\fP > \fBQUALITY_ITEMS\fP = new ArrayList<>()"
+.br
+.in -1c
+.SS "包函数"
+
+.in +1c
+.ti -1c
+.RI "synchronized int \fBupdate\fP (\fBQualityContent\fP qualityContent, boolean pushToBottom)"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 
+.PP
+在文件 QualityContent\&.java 第 15 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "synchronized int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityContent\&.update (\fBQualityContent\fP qualityContent, boolean pushToBottom)\fC [package]\fP"
+互斥更新 \fBQualityRecyclerViewAdapter\fP 数据集， 此方法认为得到的数据条目已经根据 ID 由大到小排列，且 ID 越大代表数据优先级越高。 
+.PP
+\fB返回:\fP
+.RS 4
+新增条目数量 
+.RE
+.PP
+
+.PP
+在文件 QualityContent\&.java 第 30 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final List<\fBQualityADItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityContent\&.AD_ITEMS = new LinkedList<>()"
+数据项实例数组。 
+.PP
+在文件 QualityContent\&.java 第 20 行定义\&.
+.SS "final List<\fBQualityCategoryItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityContent\&.CLASS_ITEMS = new ArrayList<>()"
+
+.PP
+在文件 QualityContent\&.java 第 21 行定义\&.
+.SS "final List<\fBQualityArticleItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityContent\&.QUALITY_ITEMS = new ArrayList<>()"
+
+.PP
+在文件 QualityContent\&.java 第 22 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

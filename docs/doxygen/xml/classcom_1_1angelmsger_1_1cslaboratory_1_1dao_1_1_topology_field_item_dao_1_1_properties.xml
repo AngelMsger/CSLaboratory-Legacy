@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a98fb8a636649e1c052386d14753809c9" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <initializer>= new Property(0, Long.class, &quot;id&quot;, true, &quot;_id&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ac3db290e49e696418087064873d25432" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties.BackgroundURI</definition>
+        <argsstring></argsstring>
+        <name>BackgroundURI</name>
+        <initializer>= new Property(1, String.class, &quot;backgroundURI&quot;, false, &quot;BACKGROUND_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ad384399c573cf89698443bcf56158245" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <initializer>= new Property(2, String.class, &quot;title&quot;, false, &quot;TITLE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a1666bcd579c130ffa5d0704c20ebfd0b" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <initializer>= new Property(3, String.class, &quot;content&quot;, false, &quot;CONTENT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a69dfb2bf08d50c31f85496dd1faf1021" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties.ImageURI</definition>
+        <argsstring></argsstring>
+        <name>ImageURI</name>
+        <initializer>= new Property(4, String.class, &quot;imageURI&quot;, false, &quot;IMAGE_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties" kindref="compound">Properties</ref> of entity TopologyFieldItem.<linebreak/>
+ Can be used for QueryBuilder and for referencing column names. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="400">
+        <label>Property</label>
+      </node>
+      <node id="399">
+        <label>com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.Properties</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties"/>
+        <childnode refid="400" relation="usage">
+          <edgelabel>ImageURI</edgelabel>
+          <edgelabel>Title</edgelabel>
+          <edgelabel>BackgroundURI</edgelabel>
+          <edgelabel>Id</edgelabel>
+          <edgelabel>Content</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/TopologyFieldItemDao.java" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ac3db290e49e696418087064873d25432" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</scope><name>BackgroundURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a1666bcd579c130ffa5d0704c20ebfd0b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</scope><name>Content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a98fb8a636649e1c052386d14753809c9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</scope><name>Id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a69dfb2bf08d50c31f85496dd1faf1021" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</scope><name>ImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ad384399c573cf89698443bcf56158245" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::User::Base</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" compoundref="_user_8java" startline="40" endline="45">com.angelmsger.cslaboratory.login.User.Base.Base</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a6e7749e05eba618b7a436cbdee2aee42" compoundref="_user_8java" startline="47" endline="49">com.angelmsger.cslaboratory.login.User.Base.getId</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af506570507d27272931d8af9c1f0be31" compoundref="_user_8java" startline="51" endline="53">com.angelmsger.cslaboratory.login.User.Base.setId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.nickname</definition>
+        <argsstring></argsstring>
+        <name>nickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" compoundref="_user_8java" startline="40" endline="45">com.angelmsger.cslaboratory.login.User.Base.Base</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a04a55e80e0c02b021028aea1c618f32b" compoundref="_user_8java" startline="55" endline="57">com.angelmsger.cslaboratory.login.User.Base.getNickname</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1acdf6c58aff58dc67ff57430b01b2c3a5" compoundref="_user_8java" startline="59" endline="61">com.angelmsger.cslaboratory.login.User.Base.setNickname</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.imageURI</definition>
+        <argsstring></argsstring>
+        <name>imageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" compoundref="_user_8java" startline="40" endline="45">com.angelmsger.cslaboratory.login.User.Base.Base</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1adf6f44a33e97431ff8157726f9a7b4c8" compoundref="_user_8java" startline="63" endline="65">com.angelmsger.cslaboratory.login.User.Base.getImageURI</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af37a6b4c23c1a2b74e5817bd4f4088ce" compoundref="_user_8java" startline="67" endline="69">com.angelmsger.cslaboratory.login.User.Base.setImageURI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.avatarURI</definition>
+        <argsstring></argsstring>
+        <name>avatarURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" compoundref="_user_8java" startline="40" endline="45">com.angelmsger.cslaboratory.login.User.Base.Base</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a8c5c497c6ae430dfc2732542bb29d85e" compoundref="_user_8java" startline="71" endline="73">com.angelmsger.cslaboratory.login.User.Base.getAvatarURI</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9e5833fc196bbeb5ba3121f27c0bef8c" compoundref="_user_8java" startline="75" endline="77">com.angelmsger.cslaboratory.login.User.Base.setAvatarURI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a2b52ef796f36e5228b5ac7f97bc39cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.Base.Base</definition>
+        <argsstring>()</argsstring>
+        <name>Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="37" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.Base.Base</definition>
+        <argsstring>(String id, String nickname, String imageURI, String avatarURI)</argsstring>
+        <name>Base</name>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nickname</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>avatarURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="40" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="40" bodyend="45"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" compoundref="_user_8java" startline="32">com.angelmsger.cslaboratory.login.User.Base.id</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" compoundref="_user_8java" startline="33">com.angelmsger.cslaboratory.login.User.Base.nickname</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" compoundref="_user_8java" startline="34">com.angelmsger.cslaboratory.login.User.Base.imageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" compoundref="_user_8java" startline="35">com.angelmsger.cslaboratory.login.User.Base.avatarURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a6e7749e05eba618b7a436cbdee2aee42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="47" bodyend="49"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" compoundref="_user_8java" startline="32">com.angelmsger.cslaboratory.login.User.Base.id</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af506570507d27272931d8af9c1f0be31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Base.setId</definition>
+        <argsstring>(String id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="51" bodyend="53"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" compoundref="_user_8java" startline="32">com.angelmsger.cslaboratory.login.User.Base.id</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac589b1756691bc49039eb4522ba9421a" compoundref="_unreal_data_source_8java" startline="28" endline="47">com.angelmsger.cslaboratory.source.UnrealDataSource.attemptLogin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a04a55e80e0c02b021028aea1c618f32b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.getNickname</definition>
+        <argsstring>()</argsstring>
+        <name>getNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="55" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="55" bodyend="57"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" compoundref="_user_8java" startline="33">com.angelmsger.cslaboratory.login.User.Base.nickname</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1acdf6c58aff58dc67ff57430b01b2c3a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Base.setNickname</definition>
+        <argsstring>(String nickname)</argsstring>
+        <name>setNickname</name>
+        <param>
+          <type>String</type>
+          <declname>nickname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="59" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="59" bodyend="61"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" compoundref="_user_8java" startline="33">com.angelmsger.cslaboratory.login.User.Base.nickname</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1adf6f44a33e97431ff8157726f9a7b4c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.getImageURI</definition>
+        <argsstring>()</argsstring>
+        <name>getImageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="63" bodyend="65"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" compoundref="_user_8java" startline="34">com.angelmsger.cslaboratory.login.User.Base.imageURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af37a6b4c23c1a2b74e5817bd4f4088ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Base.setImageURI</definition>
+        <argsstring>(String imageURI)</argsstring>
+        <name>setImageURI</name>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="67" bodyend="69"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" compoundref="_user_8java" startline="34">com.angelmsger.cslaboratory.login.User.Base.imageURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a8c5c497c6ae430dfc2732542bb29d85e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.User.Base.getAvatarURI</definition>
+        <argsstring>()</argsstring>
+        <name>getAvatarURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="71" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="71" bodyend="73"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" compoundref="_user_8java" startline="35">com.angelmsger.cslaboratory.login.User.Base.avatarURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9e5833fc196bbeb5ba3121f27c0bef8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Base.setAvatarURI</definition>
+        <argsstring>(String avatarURI)</argsstring>
+        <name>setAvatarURI</name>
+        <param>
+          <type>String</type>
+          <declname>avatarURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="75" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="75" bodyend="77"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" compoundref="_user_8java" startline="35">com.angelmsger.cslaboratory.login.User.Base.avatarURI</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="31" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>avatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a2b52ef796f36e5228b5ac7f97bc39cea" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>Base</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>Base</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a8c5c497c6ae430dfc2732542bb29d85e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>getAvatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a6e7749e05eba618b7a436cbdee2aee42" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1adf6f44a33e97431ff8157726f9a7b4c8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>getImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a04a55e80e0c02b021028aea1c618f32b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>getNickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>imageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>nickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9e5833fc196bbeb5ba3121f27c0bef8c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>setAvatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af506570507d27272931d8af9c1f0be31" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af37a6b4c23c1a2b74e5817bd4f4088ce" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>setImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1acdf6c58aff58dc67ff57430b01b2c3a5" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Base</scope><name>setNickname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

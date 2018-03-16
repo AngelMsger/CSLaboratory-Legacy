@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::source::UnrealDataSource</compoundname>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.source.DataSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a7f310ce74c7bd9495c9031c3d95b0176" prot="private" static="no" mutable="no">
+        <type>int []</type>
+        <definition>int [] com.angelmsger.cslaboratory.source.UnrealDataSource.mRequestsCount</definition>
+        <argsstring></argsstring>
+        <name>mRequestsCount</name>
+        <initializer>= { 0, 0, 0, 0, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="25" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac589b1756691bc49039eb4522ba9421a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Login.Response</type>
+        <definition>Login.Response com.angelmsger.cslaboratory.source.UnrealDataSource.attemptLogin</definition>
+        <argsstring>(Login.Request request)</argsstring>
+        <name>attemptLogin</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1aafa63f8f082ec04fc15f13792a0c0d93">attemptLogin</reimplements>
+        <param>
+          <type>Login.Request</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="28" bodyend="47"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af506570507d27272931d8af9c1f0be31" compoundref="_user_8java" startline="51" endline="53">com.angelmsger.cslaboratory.login.User.Base.setId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a361e368452fabf04596bc7262116e6b7" compoundref="_user_8java" startline="157" endline="159">com.angelmsger.cslaboratory.login.User.Extra.setFavTag</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a53d64a104615c76f4280ea11b13ee18f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kindref="compound">CourseContent</ref></type>
+        <definition>CourseContent com.angelmsger.cslaboratory.source.UnrealDataSource.getCourseContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getCourseContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a1759cb945c4d5e1d69a11eb5dd26951b">getCourseContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="50" bodyend="87"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_content_1a5c49a7d602f954a4551184d865b9d9de" compoundref="_subclass_content_8java" startline="16">com.angelmsger.cslaboratory.course.subclass.SubclassContent.ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" compoundref="_course_content_8java" startline="18">com.angelmsger.cslaboratory.course.CourseContent.CATEGORY_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" compoundref="_course_content_8java" startline="19">com.angelmsger.cslaboratory.course.CourseContent.COURSE_ITEMS</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a5573d4eb3ce05aeaa3262ef538304470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kindref="compound">DailyContent</ref></type>
+        <definition>DailyContent com.angelmsger.cslaboratory.source.UnrealDataSource.getDailyContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getDailyContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a39aa5a36adf3325db4368f3c4ca4e8fc">getDailyContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="90" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac090a14c7d61eae1d5381a5c0aa6adb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kindref="compound">ForumContent</ref></type>
+        <definition>ForumContent com.angelmsger.cslaboratory.source.UnrealDataSource.getForumContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getForumContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1ae7050fcea726224039bc44a5e080bc82">getForumContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="95" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="95" bodyend="123"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" compoundref="_forum_content_8java" startline="17">com.angelmsger.cslaboratory.forum.ForumContent.ITEMS</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kindref="compound">QualityContent</ref></type>
+        <definition>QualityContent com.angelmsger.cslaboratory.source.UnrealDataSource.getQualityContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getQualityContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a608a34020903097b2bc20001df452630">getQualityContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="126" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="126" bodyend="170"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" compoundref="_quality_content_8java" startline="20">com.angelmsger.cslaboratory.quality.QualityContent.AD_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" compoundref="_quality_content_8java" startline="21">com.angelmsger.cslaboratory.quality.QualityContent.CLASS_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" compoundref="_quality_content_8java" startline="22">com.angelmsger.cslaboratory.quality.QualityContent.QUALITY_ITEMS</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a00f888e4a2d7f4c2c4499562cbaaf7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kindref="compound">TopologyContent</ref></type>
+        <definition>TopologyContent com.angelmsger.cslaboratory.source.UnrealDataSource.getTopologyContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getTopologyContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1af06482b9adcc19d803ed4fb7f82eb050">getTopologyContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="173" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="173" bodyend="264"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" compoundref="_topology_content_8java" startline="16">com.angelmsger.cslaboratory.topology.TopologyContent.ITEMS</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="558">
+        <label>com.angelmsger.cslaboratory.source.UnrealDataSource</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source"/>
+        <childnode refid="559" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="560">
+        <label>com.angelmsger.cslaboratory.source.UnrealDataSource</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source"/>
+        <childnode refid="561" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="561">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" line="24" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/UnrealDataSource.java" bodystart="24" bodyend="265"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac589b1756691bc49039eb4522ba9421a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>attemptLogin</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a53d64a104615c76f4280ea11b13ee18f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>getCourseContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a5573d4eb3ce05aeaa3262ef538304470" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>getDailyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac090a14c7d61eae1d5381a5c0aa6adb1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>getForumContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>getQualityContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a00f888e4a2d7f4c2c4499562cbaaf7f6" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>getTopologyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a7f310ce74c7bd9495c9031c3d95b0176" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::UnrealDataSource</scope><name>mRequestsCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

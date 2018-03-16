@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::DaoSession</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractDaoSession</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acd42d844a4c3f9bdb2f691dc32f81491" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseCourseItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>courseCourseItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="40" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a07c2e6e1b3b8893be3c76281e18abe55" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseCategoryItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>courseCategoryItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a54ac6c31f1baffa20e17dfbd3e237998" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseSubclassItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>courseSubclassItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a2dd8e7f7d28502af9c99b55050c4837a" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.dailyArticleItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>dailyArticleItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="43" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc31bc2ff07ebe14dab010f3c1c6bafd" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.forumTopicItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>forumTopicItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ec2878b66001759b8a1e6a01155192c" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityADItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>qualityADItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac3170ae8e1cbe889758ff2481780817b" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityArticleItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>qualityArticleItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="46" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc4ace3f99cf19b9830cbb41159395a1" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityCategoryItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>qualityCategoryItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac092d978e000c9b96f0b1f7e9f9e1366" prot="private" static="no" mutable="no">
+        <type>final DaoConfig</type>
+        <definition>final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.topologyFieldItemDaoConfig</definition>
+        <argsstring></argsstring>
+        <name>topologyFieldItemDaoConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="48" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1af5b311fba9d5679f0054f41cd9649d79" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao" kindref="compound">CourseCourseItemDao</ref></type>
+        <definition>final CourseCourseItemDao com.angelmsger.cslaboratory.dao.DaoSession.courseCourseItemDao</definition>
+        <argsstring></argsstring>
+        <name>courseCourseItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a960e2a063668bf05b442920cbb5afcd4" compoundref="_dao_session_8java" startline="124" endline="126">com.angelmsger.cslaboratory.dao.DaoSession.getCourseCourseItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ea850053635b3ed9e2f771380c14ae1" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao" kindref="compound">CourseCategoryItemDao</ref></type>
+        <definition>final CourseCategoryItemDao com.angelmsger.cslaboratory.dao.DaoSession.courseCategoryItemDao</definition>
+        <argsstring></argsstring>
+        <name>courseCategoryItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1aa8e40d99aa1f3ee94d30a51686cd2c9e" compoundref="_dao_session_8java" startline="128" endline="130">com.angelmsger.cslaboratory.dao.DaoSession.getCourseCategoryItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a29a6231d7d91566be5fef25ad744bbc0" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao" kindref="compound">CourseSubclassItemDao</ref></type>
+        <definition>final CourseSubclassItemDao com.angelmsger.cslaboratory.dao.DaoSession.courseSubclassItemDao</definition>
+        <argsstring></argsstring>
+        <name>courseSubclassItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="52" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a27c4e37903c5bc2252415e9303689d7b" compoundref="_dao_session_8java" startline="132" endline="134">com.angelmsger.cslaboratory.dao.DaoSession.getCourseSubclassItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7873c1f10b46c5405afc5e726878f262" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao" kindref="compound">DailyArticleItemDao</ref></type>
+        <definition>final DailyArticleItemDao com.angelmsger.cslaboratory.dao.DaoSession.dailyArticleItemDao</definition>
+        <argsstring></argsstring>
+        <name>dailyArticleItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="53" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ad396b5104c24f30b781e1f12da191157" compoundref="_dao_session_8java" startline="136" endline="138">com.angelmsger.cslaboratory.dao.DaoSession.getDailyArticleItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ace2fe46042b0fb46c658221f8ad35958" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao" kindref="compound">ForumTopicItemDao</ref></type>
+        <definition>final ForumTopicItemDao com.angelmsger.cslaboratory.dao.DaoSession.forumTopicItemDao</definition>
+        <argsstring></argsstring>
+        <name>forumTopicItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="54" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a21fffd35e8b12be75cc5fb38c72cde72" compoundref="_dao_session_8java" startline="140" endline="142">com.angelmsger.cslaboratory.dao.DaoSession.getForumTopicItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a4ea06d1f2337330ca7d78a36ee0a1bb0" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao" kindref="compound">QualityADItemDao</ref></type>
+        <definition>final QualityADItemDao com.angelmsger.cslaboratory.dao.DaoSession.qualityADItemDao</definition>
+        <argsstring></argsstring>
+        <name>qualityADItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="55" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a33dcd4526a90193adc23e92bd69d7934" compoundref="_dao_session_8java" startline="144" endline="146">com.angelmsger.cslaboratory.dao.DaoSession.getQualityADItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a849f18062c10f5fca6d49553fab2aadb" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao" kindref="compound">QualityArticleItemDao</ref></type>
+        <definition>final QualityArticleItemDao com.angelmsger.cslaboratory.dao.DaoSession.qualityArticleItemDao</definition>
+        <argsstring></argsstring>
+        <name>qualityArticleItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1afc2a2cf0ac157a30e8b55cfe67de8317" compoundref="_dao_session_8java" startline="148" endline="150">com.angelmsger.cslaboratory.dao.DaoSession.getQualityArticleItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1abce0875daf68f987837044a8df029464" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao" kindref="compound">QualityCategoryItemDao</ref></type>
+        <definition>final QualityCategoryItemDao com.angelmsger.cslaboratory.dao.DaoSession.qualityCategoryItemDao</definition>
+        <argsstring></argsstring>
+        <name>qualityCategoryItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acaffbccab5340f738c5df2c18b3c45ea" compoundref="_dao_session_8java" startline="152" endline="154">com.angelmsger.cslaboratory.dao.DaoSession.getQualityCategoryItemDao</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7708a3f904dc54e7679c1f8d6e01bf85" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao" kindref="compound">TopologyFieldItemDao</ref></type>
+        <definition>final TopologyFieldItemDao com.angelmsger.cslaboratory.dao.DaoSession.topologyFieldItemDao</definition>
+        <argsstring></argsstring>
+        <name>topologyFieldItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="58" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a65d702b2113f3bc9c333902e8828da1d" compoundref="_dao_session_8java" startline="156" endline="158">com.angelmsger.cslaboratory.dao.DaoSession.getTopologyFieldItemDao</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a227dd5d376f69a3274db38a905114a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DaoSession.DaoSession</definition>
+        <argsstring>(Database db, IdentityScopeType type, Map&lt; Class&lt;? extends AbstractDao&lt;?, ?&gt;&gt;, DaoConfig &gt; daoConfigMap)</argsstring>
+        <name>DaoSession</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>IdentityScopeType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Map&lt; Class&lt;? extends AbstractDao&lt;?, ?&gt;&gt;, DaoConfig &gt;</type>
+          <declname>daoConfigMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="60" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="60" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a994388493acabb5c32bd93fe1aa6b43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.DaoSession.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="112" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="112" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a960e2a063668bf05b442920cbb5afcd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao" kindref="compound">CourseCourseItemDao</ref></type>
+        <definition>CourseCourseItemDao com.angelmsger.cslaboratory.dao.DaoSession.getCourseCourseItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getCourseCourseItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="124" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="124" bodyend="126"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1af5b311fba9d5679f0054f41cd9649d79" compoundref="_dao_session_8java" startline="50">com.angelmsger.cslaboratory.dao.DaoSession.courseCourseItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1aa8e40d99aa1f3ee94d30a51686cd2c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao" kindref="compound">CourseCategoryItemDao</ref></type>
+        <definition>CourseCategoryItemDao com.angelmsger.cslaboratory.dao.DaoSession.getCourseCategoryItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getCourseCategoryItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="128" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="128" bodyend="130"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ea850053635b3ed9e2f771380c14ae1" compoundref="_dao_session_8java" startline="51">com.angelmsger.cslaboratory.dao.DaoSession.courseCategoryItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a27c4e37903c5bc2252415e9303689d7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao" kindref="compound">CourseSubclassItemDao</ref></type>
+        <definition>CourseSubclassItemDao com.angelmsger.cslaboratory.dao.DaoSession.getCourseSubclassItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getCourseSubclassItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="132" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="132" bodyend="134"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a29a6231d7d91566be5fef25ad744bbc0" compoundref="_dao_session_8java" startline="52">com.angelmsger.cslaboratory.dao.DaoSession.courseSubclassItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ad396b5104c24f30b781e1f12da191157" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao" kindref="compound">DailyArticleItemDao</ref></type>
+        <definition>DailyArticleItemDao com.angelmsger.cslaboratory.dao.DaoSession.getDailyArticleItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getDailyArticleItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="136" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="136" bodyend="138"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7873c1f10b46c5405afc5e726878f262" compoundref="_dao_session_8java" startline="53">com.angelmsger.cslaboratory.dao.DaoSession.dailyArticleItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a21fffd35e8b12be75cc5fb38c72cde72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao" kindref="compound">ForumTopicItemDao</ref></type>
+        <definition>ForumTopicItemDao com.angelmsger.cslaboratory.dao.DaoSession.getForumTopicItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getForumTopicItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="140" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="140" bodyend="142"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ace2fe46042b0fb46c658221f8ad35958" compoundref="_dao_session_8java" startline="54">com.angelmsger.cslaboratory.dao.DaoSession.forumTopicItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a33dcd4526a90193adc23e92bd69d7934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao" kindref="compound">QualityADItemDao</ref></type>
+        <definition>QualityADItemDao com.angelmsger.cslaboratory.dao.DaoSession.getQualityADItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getQualityADItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="144" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="144" bodyend="146"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a4ea06d1f2337330ca7d78a36ee0a1bb0" compoundref="_dao_session_8java" startline="55">com.angelmsger.cslaboratory.dao.DaoSession.qualityADItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1afc2a2cf0ac157a30e8b55cfe67de8317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao" kindref="compound">QualityArticleItemDao</ref></type>
+        <definition>QualityArticleItemDao com.angelmsger.cslaboratory.dao.DaoSession.getQualityArticleItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getQualityArticleItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="148" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="148" bodyend="150"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a849f18062c10f5fca6d49553fab2aadb" compoundref="_dao_session_8java" startline="56">com.angelmsger.cslaboratory.dao.DaoSession.qualityArticleItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acaffbccab5340f738c5df2c18b3c45ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao" kindref="compound">QualityCategoryItemDao</ref></type>
+        <definition>QualityCategoryItemDao com.angelmsger.cslaboratory.dao.DaoSession.getQualityCategoryItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getQualityCategoryItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="152" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="152" bodyend="154"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1abce0875daf68f987837044a8df029464" compoundref="_dao_session_8java" startline="57">com.angelmsger.cslaboratory.dao.DaoSession.qualityCategoryItemDao</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a65d702b2113f3bc9c333902e8828da1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao" kindref="compound">TopologyFieldItemDao</ref></type>
+        <definition>TopologyFieldItemDao com.angelmsger.cslaboratory.dao.DaoSession.getTopologyFieldItemDao</definition>
+        <argsstring>()</argsstring>
+        <name>getTopologyFieldItemDao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="156" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="156" bodyend="158"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7708a3f904dc54e7679c1f8d6e01bf85" compoundref="_dao_session_8java" startline="58">com.angelmsger.cslaboratory.dao.DaoSession.topologyFieldItemDao</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>org.greenrobot.greendao.AbstractDaoSession </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>com.angelmsger.cslaboratory.dao.DaoSession</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>AbstractDaoSession</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityADItem, Long &gt;</label>
+      </node>
+      <node id="199">
+        <label>com.angelmsger.cslaboratory.dao.DaoSession</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+        <childnode refid="201" relation="usage">
+          <edgelabel>courseCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="203" relation="usage">
+          <edgelabel>qualityADItemDaoConfig</edgelabel>
+          <edgelabel>topologyFieldItemDaoConfig</edgelabel>
+          <edgelabel>dailyArticleItemDaoConfig</edgelabel>
+          <edgelabel>forumTopicItemDaoConfig</edgelabel>
+          <edgelabel>courseCourseItemDaoConfig</edgelabel>
+          <edgelabel>courseSubclassItemDaoConfig</edgelabel>
+          <edgelabel>qualityCategoryItemDaoConfig</edgelabel>
+          <edgelabel>courseCategoryItemDaoConfig</edgelabel>
+          <edgelabel>qualityArticleItemDaoConfig</edgelabel>
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>forumTopicItemDao</edgelabel>
+        </childnode>
+        <childnode refid="206" relation="usage">
+          <edgelabel>courseSubclassItemDao</edgelabel>
+        </childnode>
+        <childnode refid="208" relation="usage">
+          <edgelabel>qualityCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="210" relation="usage">
+          <edgelabel>dailyArticleItemDao</edgelabel>
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>qualityADItemDao</edgelabel>
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>courseCourseItemDao</edgelabel>
+        </childnode>
+        <childnode refid="216" relation="usage">
+          <edgelabel>topologyFieldItemDao</edgelabel>
+        </childnode>
+        <childnode refid="218" relation="usage">
+          <edgelabel>qualityArticleItemDao</edgelabel>
+        </childnode>
+      </node>
+      <node id="216">
+        <label>com.angelmsger.cslaboratory.dao.TopologyFieldItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</label>
+      </node>
+      <node id="203">
+        <label>DaoConfig</label>
+      </node>
+      <node id="215">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCourseItem, Long &gt;</label>
+      </node>
+      <node id="208">
+        <label>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao"/>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>com.angelmsger.cslaboratory.dao.CourseCourseItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>org::greenrobot::greendao::AbstractDao&lt; TopologyFieldItem, Long &gt;</label>
+      </node>
+      <node id="201">
+        <label>com.angelmsger.cslaboratory.dao.CourseCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>com.angelmsger.cslaboratory.dao.QualityADItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</label>
+      </node>
+      <node id="200">
+        <label>AbstractDaoSession</label>
+      </node>
+      <node id="209">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</label>
+      </node>
+      <node id="205">
+        <label>org::greenrobot::greendao::AbstractDao&lt; ForumTopicItem, Long &gt;</label>
+      </node>
+      <node id="202">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCategoryItem, Long &gt;</label>
+      </node>
+      <node id="204">
+        <label>com.angelmsger.cslaboratory.dao.ForumTopicItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoSession.java" bodystart="38" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a994388493acabb5c32bd93fe1aa6b43d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>clear</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ea850053635b3ed9e2f771380c14ae1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a07c2e6e1b3b8893be3c76281e18abe55" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseCategoryItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1af5b311fba9d5679f0054f41cd9649d79" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseCourseItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acd42d844a4c3f9bdb2f691dc32f81491" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseCourseItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a29a6231d7d91566be5fef25ad744bbc0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseSubclassItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a54ac6c31f1baffa20e17dfbd3e237998" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>courseSubclassItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7873c1f10b46c5405afc5e726878f262" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>dailyArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a2dd8e7f7d28502af9c99b55050c4837a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>dailyArticleItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a227dd5d376f69a3274db38a905114a1c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>DaoSession</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ace2fe46042b0fb46c658221f8ad35958" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>forumTopicItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc31bc2ff07ebe14dab010f3c1c6bafd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>forumTopicItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1aa8e40d99aa1f3ee94d30a51686cd2c9e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getCourseCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a960e2a063668bf05b442920cbb5afcd4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getCourseCourseItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a27c4e37903c5bc2252415e9303689d7b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getCourseSubclassItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ad396b5104c24f30b781e1f12da191157" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getDailyArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a21fffd35e8b12be75cc5fb38c72cde72" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getForumTopicItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a33dcd4526a90193adc23e92bd69d7934" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getQualityADItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1afc2a2cf0ac157a30e8b55cfe67de8317" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getQualityArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acaffbccab5340f738c5df2c18b3c45ea" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getQualityCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a65d702b2113f3bc9c333902e8828da1d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>getTopologyFieldItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a4ea06d1f2337330ca7d78a36ee0a1bb0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityADItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ec2878b66001759b8a1e6a01155192c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityADItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a849f18062c10f5fca6d49553fab2aadb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac3170ae8e1cbe889758ff2481780817b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityArticleItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1abce0875daf68f987837044a8df029464" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc4ace3f99cf19b9830cbb41159395a1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>qualityCategoryItemDaoConfig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7708a3f904dc54e7679c1f8d6e01bf85" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>topologyFieldItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac092d978e000c9b96f0b1f7e9f9e1366" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoSession</scope><name>topologyFieldItemDaoConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

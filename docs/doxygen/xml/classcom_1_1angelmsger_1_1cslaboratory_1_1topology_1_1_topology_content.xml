@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::topology::TopologyContent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref> &gt;</type>
+        <definition>final List&lt;TopologyFieldItem&gt; com.angelmsger.cslaboratory.topology.TopologyContent.ITEMS</definition>
+        <argsstring></argsstring>
+        <name>ITEMS</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>数据项实例数组。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a00f888e4a2d7f4c2c4499562cbaaf7f6" compoundref="_unreal_data_source_8java" startline="173" endline="264">com.angelmsger.cslaboratory.source.UnrealDataSource.getTopologyContent</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1aefe32bdfd7d6532779ea0ab22bcebcad" compoundref="_topology_content_8java" startline="18" endline="46">com.angelmsger.cslaboratory.topology.TopologyContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1aefe32bdfd7d6532779ea0ab22bcebcad" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized int</type>
+        <definition>synchronized int com.angelmsger.cslaboratory.topology.TopologyContent.update</definition>
+        <argsstring>(TopologyContent topologyContent, boolean pushToBottom)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kindref="compound">TopologyContent</ref></type>
+          <declname>topologyContent</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>pushToBottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" bodystart="18" bodyend="46"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" compoundref="_topology_content_8java" startline="16">com.angelmsger.cslaboratory.topology.TopologyContent.ITEMS</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a97c10d8fe8b04575ffc97e45c052f6ab" compoundref="_topology_fragment_8java" startline="176" endline="180">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="516">
+        <label>com.angelmsger.cslaboratory.topology.TopologyContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content"/>
+        <childnode refid="517" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="517">
+        <label>List&lt; com.angelmsger.cslaboratory.topology.field.TopologyFieldItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" line="12" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyContent.java" bodystart="12" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyContent</scope><name>ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1aefe32bdfd7d6532779ea0ab22bcebcad" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyContent</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DatabaseOpenHelper</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.dao.DaoMaster.DevOpenHelper</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1acc13fd5fa805218642331ba310eb4193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper.OpenHelper</definition>
+        <argsstring>(Context context, String name)</argsstring>
+        <name>OpenHelper</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="87" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a36623b1a38006d4467b2cfbc7a8e0ef2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper.OpenHelper</definition>
+        <argsstring>(Context context, String name, CursorFactory factory)</argsstring>
+        <name>OpenHelper</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>CursorFactory</type>
+          <declname>factory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="91" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a548511adce25d951cde3e5dcc54dfaeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper.onCreate</definition>
+        <argsstring>(Database db)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="96" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="96" bodyend="99"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" compoundref="_dao_master_8java" startline="23" endline="33">com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper_1ae0aa01e2f88e769a9ec48bc7476bf618" compoundref="_dao_master_8java" startline="113" endline="117">com.angelmsger.cslaboratory.dao.DaoMaster.DevOpenHelper.onUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Calls <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" kindref="member">createAllTables(Database, boolean)</ref> in <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a548511adce25d951cde3e5dcc54dfaeb" kindref="member">onCreate(Database)</ref> - </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="367">
+        <label>DatabaseOpenHelper</label>
+      </node>
+      <node id="368">
+        <label>com.angelmsger.cslaboratory.dao.DaoMaster.DevOpenHelper</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="370">
+        <label>DatabaseOpenHelper</label>
+      </node>
+      <node id="369">
+        <label>com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="86" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="86" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a548511adce25d951cde3e5dcc54dfaeb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1acc13fd5fa805218642331ba310eb4193" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</scope><name>OpenHelper</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a36623b1a38006d4467b2cfbc7a8e0ef2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</scope><name>OpenHelper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

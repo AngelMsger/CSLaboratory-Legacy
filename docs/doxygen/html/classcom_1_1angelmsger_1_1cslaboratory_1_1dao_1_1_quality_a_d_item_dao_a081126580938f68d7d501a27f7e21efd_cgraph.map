@@ -1,0 +1,6 @@
+<map id="com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues" name="com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a1d7dc2dc2be4b93c6f450ae33774d30e" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.getId" alt="" coords="276,5,533,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a69300cca6438000bb06cda1debce2256" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.getTitle" alt="" coords="276,71,533,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#af17f64c2e41cb339f9f45a67d1571ae1" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.getImageURI" alt="" coords="276,136,533,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a4c2d13eefef025a1d65fc84d369e171b" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.getActionURI" alt="" coords="276,201,533,243"/>
+</map>

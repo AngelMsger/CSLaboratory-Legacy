@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1afd4eea18fd1763b23032225de49951c3" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <initializer>= new Property(0, Long.class, &quot;id&quot;, true, &quot;_id&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1abdf4b43ec6895907ada167b9234358b4" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties.ImageURI</definition>
+        <argsstring></argsstring>
+        <name>ImageURI</name>
+        <initializer>= new Property(1, String.class, &quot;imageURI&quot;, false, &quot;IMAGE_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a3242f4ed37d68b3502dba96fb247328b" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <initializer>= new Property(2, String.class, &quot;title&quot;, false, &quot;TITLE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1ac609dbf1f251e5d05f06414fe9a1a9e7" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties.ActionURI</definition>
+        <argsstring></argsstring>
+        <name>ActionURI</name>
+        <initializer>= new Property(3, String.class, &quot;actionURI&quot;, false, &quot;ACTION_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a7853633744e5f80797c27440a0aecb5f" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties.LearnNum</definition>
+        <argsstring></argsstring>
+        <name>LearnNum</name>
+        <initializer>= new Property(4, int.class, &quot;learnNum&quot;, false, &quot;LEARN_NUM&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties" kindref="compound">Properties</ref> of entity CourseCourseItem.<linebreak/>
+ Can be used for QueryBuilder and for referencing column names. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="388">
+        <label>Property</label>
+      </node>
+      <node id="387">
+        <label>com.angelmsger.cslaboratory.dao.CourseCourseItemDao.Properties</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties"/>
+        <childnode refid="388" relation="usage">
+          <edgelabel>ImageURI</edgelabel>
+          <edgelabel>ActionURI</edgelabel>
+          <edgelabel>Title</edgelabel>
+          <edgelabel>Id</edgelabel>
+          <edgelabel>LearnNum</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCourseItemDao.java" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1ac609dbf1f251e5d05f06414fe9a1a9e7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</scope><name>ActionURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1afd4eea18fd1763b23032225de49951c3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</scope><name>Id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1abdf4b43ec6895907ada167b9234358b4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</scope><name>ImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a7853633744e5f80797c27440a0aecb5f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</scope><name>LearnNum</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a3242f4ed37d68b3502dba96fb247328b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

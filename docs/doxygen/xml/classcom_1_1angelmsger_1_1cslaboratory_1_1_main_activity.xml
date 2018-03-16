@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppCompatActivity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnNavigationItemSelectedListener</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnPageChangeListener</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter" prot="public">com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab923e244e79b06d937f93dcce15e13a7" prot="private" static="no" mutable="no">
+        <type>FloatingActionButton</type>
+        <definition>FloatingActionButton com.angelmsger.cslaboratory.MainActivity.mFloatingActionButton</definition>
+        <argsstring></argsstring>
+        <name>mFloatingActionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="61" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1642ad5df5500f5ff2e6fdfe9a57e421" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView com.angelmsger.cslaboratory.MainActivity.mDrawerImage</definition>
+        <argsstring></argsstring>
+        <name>mDrawerImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a50cd138a4dc98fed62b6524c075f193c" prot="private" static="no" mutable="no">
+        <type>CircleImageView</type>
+        <definition>CircleImageView com.angelmsger.cslaboratory.MainActivity.mDrawerAvatar</definition>
+        <argsstring></argsstring>
+        <name>mDrawerAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a9452cffdbd0ea26802254643e5d18b1f" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView com.angelmsger.cslaboratory.MainActivity.mDrawerNickname</definition>
+        <argsstring></argsstring>
+        <name>mDrawerNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="64" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a51e57f1d673f8b1dc41475ca127c1742" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button com.angelmsger.cslaboratory.MainActivity.mDrawerSigninButton</definition>
+        <argsstring></argsstring>
+        <name>mDrawerSigninButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a55b6ae564c33f4e34e3ca3071a14483f" prot="private" static="no" mutable="no">
+        <type>List&lt; Fragment &gt;</type>
+        <definition>List&lt;Fragment&gt; com.angelmsger.cslaboratory.MainActivity.mFragments</definition>
+        <argsstring></argsstring>
+        <name>mFragments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="68" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" prot="private" static="no" mutable="no">
+        <type>List&lt; NavigationTabBar.Model &gt;</type>
+        <definition>List&lt;NavigationTabBar.Model&gt; com.angelmsger.cslaboratory.MainActivity.mModels</definition>
+        <argsstring></argsstring>
+        <name>mModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="70" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae461c2272d29aa1240f7d92ccb3ba468" compoundref="_main_activity_8java" startline="287" endline="290">com.angelmsger.cslaboratory.MainActivity.onPageSelected</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a2db7124ea5b1eee7199d1d2f1364058f" compoundref="_main_activity_8java" startline="298" endline="300">com.angelmsger.cslaboratory.MainActivity.onCourseListScroll</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aefa718679a175cbd0ff80940ed93301a" compoundref="_main_activity_8java" startline="303" endline="307">com.angelmsger.cslaboratory.MainActivity.onCourseListUpdate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af3fd17d085b25dfa6fb5bd9a9ca3803d" compoundref="_main_activity_8java" startline="320" endline="322">com.angelmsger.cslaboratory.MainActivity.onDailyListScroll</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6c4fa080dbaca4f22a5acddb4853bf8b" compoundref="_main_activity_8java" startline="325" endline="329">com.angelmsger.cslaboratory.MainActivity.onDailyListUpdate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af9be9354ec113f629d8abc417442799c" compoundref="_main_activity_8java" startline="341" endline="343">com.angelmsger.cslaboratory.MainActivity.onForumListScroll</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a84229cc5edc79497a46e4c6f6dfa265e" compoundref="_main_activity_8java" startline="346" endline="350">com.angelmsger.cslaboratory.MainActivity.onForumListUpdate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aec971522ac16701dcebf6b746947b69f" compoundref="_main_activity_8java" startline="358" endline="360">com.angelmsger.cslaboratory.MainActivity.onQualityListScroll</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a70c00f4b82e166695b4425f2548ef275" compoundref="_main_activity_8java" startline="363" endline="367">com.angelmsger.cslaboratory.MainActivity.onQualityListUpdate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a429569c2ebc89194251bfb2091bfe239" compoundref="_main_activity_8java" startline="385" endline="387">com.angelmsger.cslaboratory.MainActivity.onTopologyListScroll</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a28581138040b814e7a1e191f63d4292f" compoundref="_main_activity_8java" startline="390" endline="394">com.angelmsger.cslaboratory.MainActivity.onTopologyListUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1acf28f5ee4c2b7d09e6a9485d753fdba4" prot="private" static="no" mutable="no">
+        <type>List&lt; ColorStateList &gt;</type>
+        <definition>List&lt;ColorStateList&gt; com.angelmsger.cslaboratory.MainActivity.mColorStates</definition>
+        <argsstring></argsstring>
+        <name>mColorStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="71" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1017b4cd2bba59dadaf62691d336bbe6" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory" kindref="compound">CSLaboratory</ref></type>
+        <definition>CSLaboratory com.angelmsger.cslaboratory.MainActivity.mApplication</definition>
+        <argsstring></argsstring>
+        <name>mApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="73" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a205b9583bd4abc2a796c58d27893d619" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.MainActivity.PERMISSIONS_REQUEST_INTERNET</definition>
+        <argsstring></argsstring>
+        <name>PERMISSIONS_REQUEST_INTERNET</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="75" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a34daac628b0f191509565327ffa4ad6d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.MainActivity.LOGIN_REQUEST</definition>
+        <argsstring></argsstring>
+        <name>LOGIN_REQUEST</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="76" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a5bac5c459653498bb764d5a2b9a6a94e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="79" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="79" bodyend="85"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab6cec1c1ab01e57f1ace780d658479f7" compoundref="_main_activity_8java" startline="207" endline="211">com.angelmsger.cslaboratory.MainActivity.requestPermission</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a387e45af23698014cdb2995e2d99381f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onActivityResult</definition>
+        <argsstring>(int requestCode, int resultCode, Intent data)</argsstring>
+        <name>onActivityResult</name>
+        <param>
+          <type>int</type>
+          <declname>requestCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Intent</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="273" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="273" bodyend="279"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa6b1d19c079daa6911520d7d2cbfca4d" compoundref="_login_activity_8java" startline="47">com.angelmsger.cslaboratory.login.LoginActivity.LOGIN_SUCCESSFULLY</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" compoundref="_main_activity_8java" startline="196" endline="205">com.angelmsger.cslaboratory.MainActivity.refreshUserinfo</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.initUI</definition>
+        <argsstring>()</argsstring>
+        <name>initUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="87" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="87" bodyend="194"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ab8c5177524cc71b1c6ccf5de77987e45" compoundref="_daily_fragment_8java" startline="56" endline="62">com.angelmsger.cslaboratory.daily.DailyFragment.newInstance</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a3f479f38a3051de06b66fe83521a99e2" compoundref="_forum_fragment_8java" startline="58" endline="64">com.angelmsger.cslaboratory.forum.ForumFragment.newInstance</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aecff98c9368030359e2fc9748fe36378" compoundref="_quality_fragment_8java" startline="62" endline="68">com.angelmsger.cslaboratory.quality.QualityFragment.newInstance</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a66a65ed3302cc67d6e69a9181f72719b" compoundref="_course_fragment_8java" startline="56" endline="62">com.angelmsger.cslaboratory.course.CourseFragment.newInstance</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1afc61e89e78f3e466bdb5a8bc7e1dbda1" compoundref="_topology_fragment_8java" startline="58" endline="64">com.angelmsger.cslaboratory.topology.TopologyFragment.newInstance</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a5bac5c459653498bb764d5a2b9a6a94e" compoundref="_main_activity_8java" startline="79" endline="85">com.angelmsger.cslaboratory.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.refreshUserinfo</definition>
+        <argsstring>()</argsstring>
+        <name>refreshUserinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="196" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="196" bodyend="205"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a653986a4f6acccd6b32d9d8345b5a3e3" compoundref="_c_s_laboratory_8java" startline="39">com.angelmsger.cslaboratory.CSLaboratory.mGlobal</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a6d2abc838a8f232dab7de0763bca8de6" compoundref="_user_8java" startline="15" endline="17">com.angelmsger.cslaboratory.login.User.getBase</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a387e45af23698014cdb2995e2d99381f" compoundref="_main_activity_8java" startline="273" endline="279">com.angelmsger.cslaboratory.MainActivity.onActivityResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab6cec1c1ab01e57f1ace780d658479f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.requestPermission</definition>
+        <argsstring>()</argsstring>
+        <name>requestPermission</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="207" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="207" bodyend="211"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a5bac5c459653498bb764d5a2b9a6a94e" compoundref="_main_activity_8java" startline="79" endline="85">com.angelmsger.cslaboratory.MainActivity.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a376b245dc2a83b925fd4cfa6c0af8fcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>onBackPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="214" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="214" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a073548f45df4840e8290f8a5e4a709b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.MainActivity.onCreateOptionsMenu</definition>
+        <argsstring>(Menu menu)</argsstring>
+        <name>onCreateOptionsMenu</name>
+        <param>
+          <type>Menu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="224" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a19835298183fa2571ff367fb7024839f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.MainActivity.onOptionsItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onOptionsItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="231" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="231" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a539fe34a92ea47cef1354b3ef80bc8b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.MainActivity.onNavigationItemSelected</definition>
+        <argsstring>(MenuItem item)</argsstring>
+        <name>onNavigationItemSelected</name>
+        <param>
+          <type>MenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="246" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="246" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae91ff563a99c97d15e96a6cbb9fe4d9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onPageScrolled</definition>
+        <argsstring>(int position, float positionOffset, int positionOffsetPixels)</argsstring>
+        <name>onPageScrolled</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positionOffset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>positionOffsetPixels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="282" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="282" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae461c2272d29aa1240f7d92ccb3ba468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onPageSelected</definition>
+        <argsstring>(int position)</argsstring>
+        <name>onPageSelected</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="287" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="287" bodyend="290"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af55afccc430a16cf06a351ca47ec9653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onPageScrollStateChanged</definition>
+        <argsstring>(int state)</argsstring>
+        <name>onPageScrollStateChanged</name>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="293" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="293" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a2db7124ea5b1eee7199d1d2f1364058f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCourseListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onCourseListScroll</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1a4db99b63a63693a0a1c38b2d5ff63973">onCourseListScroll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="298" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="298" bodyend="300"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aefa718679a175cbd0ff80940ed93301a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCourseListUpdate</definition>
+        <argsstring>(final int updateCount)</argsstring>
+        <name>onCourseListUpdate</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1ae08852d7873b0bfdef329ecc7fcfc081">onCourseListUpdate</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="303" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="303" bodyend="307"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ac07b4b67a8380f68e90745c8a69f8fe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCourseCategoryItemClick</definition>
+        <argsstring>(CourseSubclassItem courseSubclassItem)</argsstring>
+        <name>onCourseCategoryItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1a3c92c90978ad6e29b1455fce2296ff3c">onCourseCategoryItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>courseSubclassItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="310" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="310" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a72c0b37a823d7c33b74549713aaa11c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCourseItemClick</definition>
+        <argsstring>(CourseCourseItem courseCourseItem)</argsstring>
+        <name>onCourseItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1ac6540b775e526bffc6f1f027ae06bc44">onCourseItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item" kindref="compound">CourseCourseItem</ref></type>
+          <declname>courseCourseItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="315" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="315" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af3fd17d085b25dfa6fb5bd9a9ca3803d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onDailyListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onDailyListScroll</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ad143f25f0dcc94792398aa1a935d9438">onDailyListScroll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="320" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="320" bodyend="322"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6c4fa080dbaca4f22a5acddb4853bf8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onDailyListUpdate</definition>
+        <argsstring>(int updateCount)</argsstring>
+        <name>onDailyListUpdate</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1afa6e44a1e2065cf3c2a1c2124587a14b">onDailyListUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="325" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="325" bodyend="329"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onDailyItemClick</definition>
+        <argsstring>(DailyArticleItem dailyArticleItem)</argsstring>
+        <name>onDailyItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ac76558a3e865b425e00f3987dfd97881">onDailyItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>dailyArticleItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="332" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="332" bodyend="338"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1a70b21939ce5b8e63a5e3bd35dac5fca1" compoundref="_scrolling_activity_8java" startline="16">com.angelmsger.cslaboratory.shared.ScrollingActivity.IMAGE_URI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" compoundref="_daily_article_item_8java" startline="61" endline="63">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1afda4d06158d5a2d6eea547b0f697fa1f" compoundref="_scrolling_activity_8java" startline="17">com.angelmsger.cslaboratory.shared.ScrollingActivity.ARTICLE_TITLE</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" compoundref="_daily_article_item_8java" startline="69" endline="71">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1a2c63620631d5ff06ef723ea06b1f465f" compoundref="_scrolling_activity_8java" startline="18">com.angelmsger.cslaboratory.shared.ScrollingActivity.ARTICLE_CONTENT</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" compoundref="_daily_article_item_8java" startline="77" endline="79">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getContent</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af9be9354ec113f629d8abc417442799c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onForumListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onForumListScroll</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1acc8ae4d26ce9bec48cfe95ee86989d52">onForumListScroll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="341" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="341" bodyend="343"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a84229cc5edc79497a46e4c6f6dfa265e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onForumListUpdate</definition>
+        <argsstring>(int updateCount)</argsstring>
+        <name>onForumListUpdate</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a34811abc8a084e97edc348610012ceeb">onForumListUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="346" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="346" bodyend="350"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a940fa4d07755b51e12ed75b27b1b34c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onForumItemClick</definition>
+        <argsstring>(ForumTopicItem forumTopicItem)</argsstring>
+        <name>onForumItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a20e4aba11bdc498ee81d8b9675437d5c">onForumItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref></type>
+          <declname>forumTopicItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="353" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="353" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aec971522ac16701dcebf6b746947b69f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onQualityListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onQualityListScroll</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a9a3da28b846dbabdbdb9e38213414209">onQualityListScroll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="358" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="358" bodyend="360"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a70c00f4b82e166695b4425f2548ef275" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onQualityListUpdate</definition>
+        <argsstring>(int updateCount)</argsstring>
+        <name>onQualityListUpdate</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a86b745d26dc8d26a2ac74ae8a8601d09">onQualityListUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="363" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="363" bodyend="367"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ad50bf0e8a25c2c467d69eaeeaf8d42bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onADItemClick</definition>
+        <argsstring>(QualityADItem qualityAdItem)</argsstring>
+        <name>onADItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a6aa7377fd5550d30b9cf1b8c89327c81">onADItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref></type>
+          <declname>qualityAdItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="370" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a4330d04dd2d7fff389de075e3ea16469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onCategoryItemClick</definition>
+        <argsstring>(QualityCategoryItem qualityCategoryItem)</argsstring>
+        <name>onCategoryItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1ae8f3f77d470b293bf4e01e6c7da7b1a6">onCategoryItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>qualityCategoryItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="375" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1f0effd647a8651a551025bd8e425599" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onQualityItemClick</definition>
+        <argsstring>(QualityArticleItem qualityArticleItem)</argsstring>
+        <name>onQualityItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a88bbfe7eb711725c5185a9c450a255ed">onQualityItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>qualityArticleItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="380" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="380" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a429569c2ebc89194251bfb2091bfe239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onTopologyListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onTopologyListScroll</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a201fd8fa9769fe16815b829cae2e1287">onTopologyListScroll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="385" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="385" bodyend="387"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a28581138040b814e7a1e191f63d4292f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onTopologyListUpdate</definition>
+        <argsstring>(int updateCount)</argsstring>
+        <name>onTopologyListUpdate</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1aa7f52cee0a6e40778f50bb7d2bcbf639">onTopologyListUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="390" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="390" bodyend="394"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" compoundref="_main_activity_8java" startline="70">com.angelmsger.cslaboratory.MainActivity.mModels</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a39a6e686f93ef892813770b385d6af91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.onTopologyItemClick</definition>
+        <argsstring>(TopologyFieldItem topologyFieldItem)</argsstring>
+        <name>onTopologyItemClick</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a66c8c35d5b1113b61d2047ddfe39f13d">onTopologyItemClick</reimplements>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref></type>
+          <declname>topologyFieldItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="397" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="397" bodyend="399"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="302">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="298">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="303">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="301">
+        <label>ViewPager::OnPageChangeListener</label>
+      </node>
+      <node id="300">
+        <label>NavigationView::OnNavigationItemSelectedListener</label>
+      </node>
+      <node id="304">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="306">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="299">
+        <label>AppCompatActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityADItem, Long &gt;</label>
+      </node>
+      <node id="349">
+        <label>FloatingActionButton</label>
+      </node>
+      <node id="348">
+        <label>List&lt; Fragment &gt;</label>
+      </node>
+      <node id="350">
+        <label>TextView</label>
+      </node>
+      <node id="311">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="307">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+        <childnode refid="312" relation="public-inheritance">
+        </childnode>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+        <childnode refid="316" relation="usage">
+          <edgelabel>mModels</edgelabel>
+        </childnode>
+        <childnode refid="317" relation="usage">
+          <edgelabel>mColorStates</edgelabel>
+        </childnode>
+        <childnode refid="318" relation="usage">
+          <edgelabel>mDrawerSigninButton</edgelabel>
+        </childnode>
+        <childnode refid="319" relation="usage">
+          <edgelabel>mDrawerAvatar</edgelabel>
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>mDrawerImage</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>mApplication</edgelabel>
+        </childnode>
+        <childnode refid="348" relation="usage">
+          <edgelabel>mFragments</edgelabel>
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>mFloatingActionButton</edgelabel>
+        </childnode>
+        <childnode refid="350" relation="usage">
+          <edgelabel>mDrawerNickname</edgelabel>
+        </childnode>
+      </node>
+      <node id="323">
+        <label>com.angelmsger.cslaboratory.dao.DaoSession</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>courseCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="327" relation="usage">
+          <edgelabel>qualityADItemDaoConfig</edgelabel>
+          <edgelabel>topologyFieldItemDaoConfig</edgelabel>
+          <edgelabel>dailyArticleItemDaoConfig</edgelabel>
+          <edgelabel>forumTopicItemDaoConfig</edgelabel>
+          <edgelabel>courseCourseItemDaoConfig</edgelabel>
+          <edgelabel>courseSubclassItemDaoConfig</edgelabel>
+          <edgelabel>qualityCategoryItemDaoConfig</edgelabel>
+          <edgelabel>courseCategoryItemDaoConfig</edgelabel>
+          <edgelabel>qualityArticleItemDaoConfig</edgelabel>
+        </childnode>
+        <childnode refid="328" relation="usage">
+          <edgelabel>forumTopicItemDao</edgelabel>
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>courseSubclassItemDao</edgelabel>
+        </childnode>
+        <childnode refid="332" relation="usage">
+          <edgelabel>qualityCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>dailyArticleItemDao</edgelabel>
+        </childnode>
+        <childnode refid="336" relation="usage">
+          <edgelabel>qualityADItemDao</edgelabel>
+        </childnode>
+        <childnode refid="338" relation="usage">
+          <edgelabel>courseCourseItemDao</edgelabel>
+        </childnode>
+        <childnode refid="340" relation="usage">
+          <edgelabel>topologyFieldItemDao</edgelabel>
+        </childnode>
+        <childnode refid="342" relation="usage">
+          <edgelabel>qualityArticleItemDao</edgelabel>
+        </childnode>
+      </node>
+      <node id="314">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="312">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="310">
+        <label>ViewPager::OnPageChangeListener</label>
+      </node>
+      <node id="309">
+        <label>NavigationView::OnNavigationItemSelectedListener</label>
+      </node>
+      <node id="340">
+        <label>com.angelmsger.cslaboratory.dao.TopologyFieldItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao"/>
+        <childnode refid="341" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>Button</label>
+      </node>
+      <node id="335">
+        <label>org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</label>
+      </node>
+      <node id="319">
+        <label>CircleImageView</label>
+      </node>
+      <node id="327">
+        <label>DaoConfig</label>
+      </node>
+      <node id="339">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCourseItem, Long &gt;</label>
+      </node>
+      <node id="344">
+        <label>OkHttpClient</label>
+      </node>
+      <node id="316">
+        <label>List&lt; NavigationTabBar.Model &gt;</label>
+      </node>
+      <node id="313">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="345">
+        <label>Cache</label>
+      </node>
+      <node id="315">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="332">
+        <label>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao"/>
+        <childnode refid="343" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>com.angelmsger.cslaboratory.dao.CourseCourseItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao"/>
+        <childnode refid="339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>Application</label>
+      </node>
+      <node id="341">
+        <label>org::greenrobot::greendao::AbstractDao&lt; TopologyFieldItem, Long &gt;</label>
+      </node>
+      <node id="347">
+        <label>ExecutorService</label>
+      </node>
+      <node id="325">
+        <label>com.angelmsger.cslaboratory.dao.CourseCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>com.angelmsger.cslaboratory.dao.QualityADItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</label>
+      </node>
+      <node id="324">
+        <label>AbstractDaoSession</label>
+      </node>
+      <node id="346">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+      <node id="333">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</label>
+      </node>
+      <node id="321">
+        <label>com.angelmsger.cslaboratory.CSLaboratory</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory"/>
+        <childnode refid="322" relation="public-inheritance">
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>mDaoSession</edgelabel>
+        </childnode>
+        <childnode refid="344" relation="usage">
+          <edgelabel>mHttpClient</edgelabel>
+          <edgelabel>mApiClient</edgelabel>
+        </childnode>
+        <childnode refid="345" relation="usage">
+          <edgelabel>mHttpCache</edgelabel>
+        </childnode>
+        <childnode refid="346" relation="usage">
+          <edgelabel>mGlobal</edgelabel>
+        </childnode>
+        <childnode refid="347" relation="usage">
+          <edgelabel>mExecutorService</edgelabel>
+        </childnode>
+      </node>
+      <node id="329">
+        <label>org::greenrobot::greendao::AbstractDao&lt; ForumTopicItem, Long &gt;</label>
+      </node>
+      <node id="326">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCategoryItem, Long &gt;</label>
+      </node>
+      <node id="328">
+        <label>com.angelmsger.cslaboratory.dao.ForumTopicItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>List&lt; ColorStateList &gt;</label>
+      </node>
+      <node id="320">
+        <label>ImageView</label>
+      </node>
+      <node id="308">
+        <label>AppCompatActivity</label>
+      </node>
+      <node id="343">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="60" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="53" bodyend="436"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>initUI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a34daac628b0f191509565327ffa4ad6d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>LOGIN_REQUEST</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1017b4cd2bba59dadaf62691d336bbe6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mApplication</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1acf28f5ee4c2b7d09e6a9485d753fdba4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mColorStates</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a50cd138a4dc98fed62b6524c075f193c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mDrawerAvatar</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1642ad5df5500f5ff2e6fdfe9a57e421" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mDrawerImage</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a9452cffdbd0ea26802254643e5d18b1f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mDrawerNickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a51e57f1d673f8b1dc41475ca127c1742" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mDrawerSigninButton</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab923e244e79b06d937f93dcce15e13a7" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mFloatingActionButton</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a55b6ae564c33f4e34e3ca3071a14483f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mFragments</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>mModels</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a387e45af23698014cdb2995e2d99381f" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onActivityResult</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ad50bf0e8a25c2c467d69eaeeaf8d42bf" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onADItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a376b245dc2a83b925fd4cfa6c0af8fcc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onBackPressed</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a4330d04dd2d7fff389de075e3ea16469" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCategoryItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ac07b4b67a8380f68e90745c8a69f8fe1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCourseCategoryItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a72c0b37a823d7c33b74549713aaa11c1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCourseItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a2db7124ea5b1eee7199d1d2f1364058f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCourseListScroll</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aefa718679a175cbd0ff80940ed93301a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCourseListUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a5bac5c459653498bb764d5a2b9a6a94e" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a073548f45df4840e8290f8a5e4a709b2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onCreateOptionsMenu</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onDailyItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af3fd17d085b25dfa6fb5bd9a9ca3803d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onDailyListScroll</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6c4fa080dbaca4f22a5acddb4853bf8b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onDailyListUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a940fa4d07755b51e12ed75b27b1b34c1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onForumItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af9be9354ec113f629d8abc417442799c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onForumListScroll</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a84229cc5edc79497a46e4c6f6dfa265e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onForumListUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a539fe34a92ea47cef1354b3ef80bc8b0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onNavigationItemSelected</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a19835298183fa2571ff367fb7024839f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onOptionsItemSelected</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae91ff563a99c97d15e96a6cbb9fe4d9b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onPageScrolled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af55afccc430a16cf06a351ca47ec9653" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onPageScrollStateChanged</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae461c2272d29aa1240f7d92ccb3ba468" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onPageSelected</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1f0effd647a8651a551025bd8e425599" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onQualityItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aec971522ac16701dcebf6b746947b69f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onQualityListScroll</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a70c00f4b82e166695b4425f2548ef275" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onQualityListUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a39a6e686f93ef892813770b385d6af91" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onTopologyItemClick</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a429569c2ebc89194251bfb2091bfe239" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onTopologyListScroll</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a28581138040b814e7a1e191f63d4292f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>onTopologyListUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a205b9583bd4abc2a796c58d27893d619" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>PERMISSIONS_REQUEST_INTERNET</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>refreshUserinfo</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab6cec1c1ab01e57f1ace780d658479f7" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity</scope><name>requestPermission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

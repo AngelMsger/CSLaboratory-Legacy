@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_quality_a_d_item_8java" kind="file" language="Java">
+    <compoundname>QualityADItem.java</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" prot="public">com::angelmsger::cslaboratory::quality::ad::QualityADItem</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad">com::angelmsger::cslaboratory::quality::ad</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.angelmsger.cslaboratory.quality.ad;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Entity;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Id;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Keep;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.NotNull;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Unique;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Generated;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@Entity(nameInDb<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;quality_ads&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" refkind="compound"><highlight class="normal">public<sp/>class<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>@Id(autoincrement<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a53e6e4d5176ef66ed50ea632dff2bcf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>@Unique</highlight></codeline>
+<codeline lineno="20" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1c6b9eea81b3286f553234527a6cdcc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>title;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="23" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1ab855a581fe379834a147d482d8df5bec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>imageURI;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="26" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a3a336b8f81abe4106962619dab30ce44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>actionURI;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a315063d7e040e719f24e3272277439a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>public<sp/>QualityADItem()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>@Keep</highlight></codeline>
+<codeline lineno="32" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a598891fe0db2125dd3029aa4ddff3567" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a598891fe0db2125dd3029aa4ddff3567" kindref="member">QualityADItem</ref>(Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>String<sp/>title,<sp/>String<sp/>imageURI,<sp/>String<sp/>actionURI)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.title<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.imageURI<sp/>=<sp/>imageURI;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.actionURI<sp/>=<sp/>actionURI;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1d7dc2dc2be4b93c6f450ae33774d30e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Long<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1d7dc2dc2be4b93c6f450ae33774d30e" kindref="member">getId</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a003c1cbab48c6996c744045731732081" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a003c1cbab48c6996c744045731732081" kindref="member">setId</ref>(Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a69300cca6438000bb06cda1debce2256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a69300cca6438000bb06cda1debce2256" kindref="member">getTitle</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>title;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a798c244f09c116107a04837626872b89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a798c244f09c116107a04837626872b89" kindref="member">setTitle</ref>(String<sp/>title)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.title<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1af17f64c2e41cb339f9f45a67d1571ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1af17f64c2e41cb339f9f45a67d1571ae1" kindref="member">getImageURI</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imageURI;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a5b1301ad61b6edf75230eede354e1692" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a5b1301ad61b6edf75230eede354e1692" kindref="member">setImageURI</ref>(String<sp/>imageURI)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.imageURI<sp/>=<sp/>imageURI;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a4c2d13eefef025a1d65fc84d369e171b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a4c2d13eefef025a1d65fc84d369e171b" kindref="member">getActionURI</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>actionURI;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1abef71af0da1e6d70182d10795f3f5fbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1abef71af0da1e6d70182d10795f3f5fbc" kindref="member">setActionURI</ref>(String<sp/>actionURI)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.actionURI<sp/>=<sp/>actionURI;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java"/>
+  </compounddef>
+</doxygen>

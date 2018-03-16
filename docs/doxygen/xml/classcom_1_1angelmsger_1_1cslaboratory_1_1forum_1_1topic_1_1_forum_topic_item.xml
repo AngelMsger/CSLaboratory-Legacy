@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a027fd419024c840d5037c5392965ec7d" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a1e495f8b1973c5dd5c3e3e1406bf7498" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.avatarURI</definition>
+        <argsstring></argsstring>
+        <name>avatarURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a0a416f894dc72f480cfb9871e2823809" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.nickname</definition>
+        <argsstring></argsstring>
+        <name>nickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="23" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1acaf6c82d6ce21677c598ec66abcbefce" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a57cef7452dbf87549ebcae35235a61a3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a40be7e63d28796d69aeda0c2982480a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.ForumTopicItem</definition>
+        <argsstring>()</argsstring>
+        <name>ForumTopicItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a3535f76a0abbb3063071ab4f6853f108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.ForumTopicItem</definition>
+        <argsstring>(Long id, String avatarURI, String nickname, String title, String content)</argsstring>
+        <name>ForumTopicItem</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>avatarURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nickname</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a05af82d3f0a9d256ca23dd55f1188412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="44" bodyend="46"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" compoundref="_forum_topic_item_dao_8java" startline="64" endline="79">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a8c47de0456866ab841ec56fe99f0c998" compoundref="_forum_topic_item_dao_8java" startline="132" endline="138">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.getKey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a697fdd103bc04022b1ef7b5c352e9926" compoundref="_forum_topic_item_dao_8java" startline="141" endline="143">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.hasKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c5b04bb3df90e0763c26eb3db1b787e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="48" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="48" bodyend="50"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" compoundref="_forum_topic_item_dao_8java" startline="117" endline="123">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a6927d578b43767c07db2d1c8219465ea" compoundref="_forum_topic_item_dao_8java" startline="126" endline="129">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.updateKeyAfterInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1adedf3eb0806be3a411472a1961f31345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getAvatarURI</definition>
+        <argsstring>()</argsstring>
+        <name>getAvatarURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="52" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="52" bodyend="54"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" compoundref="_forum_topic_item_dao_8java" startline="64" endline="79">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" compoundref="_forum_recycler_view_adapter_8java" startline="78" endline="93">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a201f2d518e5f88730688363062b2fe22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.setAvatarURI</definition>
+        <argsstring>(String avatarURI)</argsstring>
+        <name>setAvatarURI</name>
+        <param>
+          <type>String</type>
+          <declname>avatarURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="56" bodyend="58"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" compoundref="_forum_topic_item_dao_8java" startline="117" endline="123">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c54d6527e03d127a18a13e915dcff7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getNickname</definition>
+        <argsstring>()</argsstring>
+        <name>getNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="60" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="60" bodyend="62"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" compoundref="_forum_topic_item_dao_8java" startline="64" endline="79">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" compoundref="_forum_recycler_view_adapter_8java" startline="78" endline="93">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a444e0d54d69007a214c6c01f4053668f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.setNickname</definition>
+        <argsstring>(String nickname)</argsstring>
+        <name>setNickname</name>
+        <param>
+          <type>String</type>
+          <declname>nickname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="64" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="64" bodyend="66"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" compoundref="_forum_topic_item_dao_8java" startline="117" endline="123">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a18b04ebf4a750fdffc631aa092c53220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="68" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="68" bodyend="70"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" compoundref="_forum_topic_item_dao_8java" startline="64" endline="79">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" compoundref="_forum_recycler_view_adapter_8java" startline="78" endline="93">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a50f74a8f310aef5f33a850c24d638f6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="72" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="72" bodyend="74"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" compoundref="_forum_topic_item_dao_8java" startline="117" endline="123">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1ac319a921fbcedf7ef0b3cd4a4272ca4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getContent</definition>
+        <argsstring>()</argsstring>
+        <name>getContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="76" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="76" bodyend="78"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" compoundref="_forum_topic_item_dao_8java" startline="64" endline="79">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" compoundref="_forum_recycler_view_adapter_8java" startline="78" endline="93">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a96b39c331bf5f32691fe71febc385531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.setContent</definition>
+        <argsstring>(String content)</argsstring>
+        <name>setContent</name>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="80" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="80" bodyend="82"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" compoundref="_forum_topic_item_dao_8java" startline="117" endline="123">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>数据项实例类。 </para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic/ForumTopicItem.java" bodystart="16" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a1e495f8b1973c5dd5c3e3e1406bf7498" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>avatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a57cef7452dbf87549ebcae35235a61a3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a40be7e63d28796d69aeda0c2982480a1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>ForumTopicItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a3535f76a0abbb3063071ab4f6853f108" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>ForumTopicItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1adedf3eb0806be3a411472a1961f31345" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>getAvatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1ac319a921fbcedf7ef0b3cd4a4272ca4e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>getContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a05af82d3f0a9d256ca23dd55f1188412" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c54d6527e03d127a18a13e915dcff7a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>getNickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a18b04ebf4a750fdffc631aa092c53220" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a027fd419024c840d5037c5392965ec7d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a0a416f894dc72f480cfb9871e2823809" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>nickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a201f2d518e5f88730688363062b2fe22" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>setAvatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a96b39c331bf5f32691fe71febc385531" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>setContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c5b04bb3df90e0763c26eb3db1b787e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a444e0d54d69007a214c6c01f4053668f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>setNickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a50f74a8f310aef5f33a850c24d638f6f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1acaf6c82d6ce21677c598ec66abcbefce" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

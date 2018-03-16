@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_3d529131db3b9d4ae900f7cf52feae94" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology</compoundname>
+    <innerdir refid="dir_c399cdb0867a30e9d28b940f0426cfb0">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field</innerdir>
+    <innerfile refid="_topology_content_8java">TopologyContent.java</innerfile>
+    <innerfile refid="_topology_fragment_8java">TopologyFragment.java</innerfile>
+    <innerfile refid="_topology_recycler_view_adapter_8java">TopologyRecyclerViewAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/"/>
+  </compounddef>
+</doxygen>

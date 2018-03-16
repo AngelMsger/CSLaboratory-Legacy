@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.MainActivity" name="com.angelmsger.cslaboratory.MainActivity">
+<area shape="rect" id="node5" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.OnListFragmentInteraction\lListener" alt="" coords="17,173,280,229"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.forum.\lForumFragment.OnListFragmentInteraction\lListener" alt="" coords="13,253,284,309"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.OnListFragmentInteraction\lListener" alt="" coords="11,333,286,389"/>
+<area shape="rect" id="node8" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.course.\lCourseFragment.OnListFragmentInteraction\lListener" alt="" coords="11,413,286,469"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.topology.\lTopologyFragment.OnListFragmentInteraction\lListener" alt="" coords="5,493,292,549"/>
+</map>

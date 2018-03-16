@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::daily::DailyFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data" prot="private">com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</innerclass>
+    <innerclass refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" prot="public">com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a70c61a2a2c1e7358346af510442d0fcf" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.daily.DailyFragment.ARG_COLUMN_COUNT</definition>
+        <argsstring></argsstring>
+        <name>ARG_COLUMN_COUNT</name>
+        <initializer>= &quot;column-count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa74a68ed6b4638631c361f7f41ce843f" compoundref="_daily_fragment_8java" startline="65" endline="71">com.angelmsger.cslaboratory.daily.DailyFragment.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a5ba8ef93402c0caf8e6c8de6c684e406" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.daily.DailyFragment.mColumnCount</definition>
+        <argsstring></argsstring>
+        <name>mColumnCount</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa74a68ed6b4638631c361f7f41ce843f" compoundref="_daily_fragment_8java" startline="65" endline="71">com.angelmsger.cslaboratory.daily.DailyFragment.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>OnListFragmentInteractionListener com.angelmsger.cslaboratory.daily.DailyFragment.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ac5f9a571596074d045dfd298bd0258fe" compoundref="_daily_fragment_8java" startline="130" endline="139">com.angelmsger.cslaboratory.daily.DailyFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a77840ca356320069c07c8b66874715f4" compoundref="_daily_fragment_8java" startline="142" endline="145">com.angelmsger.cslaboratory.daily.DailyFragment.onDetach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" compoundref="_daily_fragment_8java" startline="185" endline="196">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" prot="private" static="no" mutable="no">
+        <type>PullToRefreshView</type>
+        <definition>PullToRefreshView com.angelmsger.cslaboratory.daily.DailyFragment.mPullToRefreshView</definition>
+        <argsstring></argsstring>
+        <name>mPullToRefreshView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" compoundref="_daily_fragment_8java" startline="185" endline="196">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1a5b6eb912d53a0db65010e82b1145494d" compoundref="_daily_fragment_8java" startline="199" endline="204">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a261c5fc63e0ce5dddb2c26a784a705b0" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView com.angelmsger.cslaboratory.daily.DailyFragment.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a0fbd291ad51add51ceaa4d8f32833642" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter" kindref="compound">DailyRecyclerViewAdapter</ref></type>
+        <definition>DailyRecyclerViewAdapter com.angelmsger.cslaboratory.daily.DailyFragment.mRecyclerViewAdapter</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerViewAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" compoundref="_daily_fragment_8java" startline="185" endline="196">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a2994176eaf0bb6a6297babb9b46551fb" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>DataSource com.angelmsger.cslaboratory.daily.DailyFragment.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ac5f9a571596074d045dfd298bd0258fe" compoundref="_daily_fragment_8java" startline="130" endline="139">com.angelmsger.cslaboratory.daily.DailyFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" compoundref="_daily_fragment_8java" startline="178" endline="182">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a00489ec7284835d773ed5f31ffd56761" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kindref="compound">DailyContent</ref></type>
+        <definition>DailyContent com.angelmsger.cslaboratory.daily.DailyFragment.mDailyContent</definition>
+        <argsstring></argsstring>
+        <name>mDailyContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" compoundref="_daily_fragment_8java" startline="178" endline="182">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1af48d269094555236f3d3e14270ed8e11" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.daily.DailyFragment.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data" kindref="compound">AsynLoadData</ref></type>
+        <definition>AsynLoadData com.angelmsger.cslaboratory.daily.DailyFragment.mLoadDataTask</definition>
+        <argsstring></argsstring>
+        <name>mLoadDataTask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a429aa1e2d544bf67bd8a556a8fed3ca0" compoundref="_daily_fragment_8java" startline="148" endline="151">com.angelmsger.cslaboratory.daily.DailyFragment.onRefresh</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" compoundref="_daily_fragment_8java" startline="185" endline="196">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1a5b6eb912d53a0db65010e82b1145494d" compoundref="_daily_fragment_8java" startline="199" endline="204">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a076fdb59f5497fb79abde00630e30938" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.daily.DailyFragment.mRequestLimit</definition>
+        <argsstring></argsstring>
+        <name>mRequestLimit</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" compoundref="_daily_fragment_8java" startline="178" endline="182">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a7840a6b737baa6f54eb73df8f2063faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.daily.DailyFragment.DailyFragment</definition>
+        <argsstring>()</argsstring>
+        <name>DailyFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>为 fragment manager 预留的强制的空构造器以实例化 fragment (e.g. upon screen orientation changes)。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="50" bodyend="52"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ab8c5177524cc71b1c6ccf5de77987e45" compoundref="_daily_fragment_8java" startline="56" endline="62">com.angelmsger.cslaboratory.daily.DailyFragment.newInstance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa74a68ed6b4638631c361f7f41ce843f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="65" bodyend="71"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a5ba8ef93402c0caf8e6c8de6c684e406" compoundref="_daily_fragment_8java" startline="31">com.angelmsger.cslaboratory.daily.DailyFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a70c61a2a2c1e7358346af510442d0fcf" compoundref="_daily_fragment_8java" startline="29">com.angelmsger.cslaboratory.daily.DailyFragment.ARG_COLUMN_COUNT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</definition>
+        <argsstring>(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>final LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="74" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="74" bodyend="127"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" compoundref="_daily_fragment_8java" startline="34">com.angelmsger.cslaboratory.daily.DailyFragment.mPullToRefreshView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a261c5fc63e0ce5dddb2c26a784a705b0" compoundref="_daily_fragment_8java" startline="35">com.angelmsger.cslaboratory.daily.DailyFragment.mRecyclerView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a00489ec7284835d773ed5f31ffd56761" compoundref="_daily_fragment_8java" startline="39">com.angelmsger.cslaboratory.daily.DailyFragment.mDailyContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" compoundref="_daily_fragment_8java" startline="42">com.angelmsger.cslaboratory.daily.DailyFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a0fbd291ad51add51ceaa4d8f32833642" compoundref="_daily_fragment_8java" startline="36">com.angelmsger.cslaboratory.daily.DailyFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" compoundref="_daily_content_8java" startline="17">com.angelmsger.cslaboratory.daily.DailyContent.ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" compoundref="_daily_fragment_8java" startline="32">com.angelmsger.cslaboratory.daily.DailyFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a5ba8ef93402c0caf8e6c8de6c684e406" compoundref="_daily_fragment_8java" startline="31">com.angelmsger.cslaboratory.daily.DailyFragment.mColumnCount</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ad143f25f0dcc94792398aa1a935d9438">com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyListScroll</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a5db2c78e12e1c132988e35c5350873e4" compoundref="_daily_recycler_view_adapter_8java" startline="58" endline="60">com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.getNextRequestOffset</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1af48d269094555236f3d3e14270ed8e11" compoundref="_daily_fragment_8java" startline="41">com.angelmsger.cslaboratory.daily.DailyFragment.mHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ac5f9a571596074d045dfd298bd0258fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.onAttach</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="130" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="130" bodyend="139"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" compoundref="_daily_fragment_8java" startline="32">com.angelmsger.cslaboratory.daily.DailyFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a2994176eaf0bb6a6297babb9b46551fb" compoundref="_daily_fragment_8java" startline="38">com.angelmsger.cslaboratory.daily.DailyFragment.mDataSource</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a77840ca356320069c07c8b66874715f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="142" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="142" bodyend="145"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" compoundref="_daily_fragment_8java" startline="32">com.angelmsger.cslaboratory.daily.DailyFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a429aa1e2d544bf67bd8a556a8fed3ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="148" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="148" bodyend="151"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" compoundref="_daily_fragment_8java" startline="42">com.angelmsger.cslaboratory.daily.DailyFragment.mLoadDataTask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ab8c5177524cc71b1c6ccf5de77987e45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment" kindref="compound">DailyFragment</ref></type>
+        <definition>static DailyFragment com.angelmsger.cslaboratory.daily.DailyFragment.newInstance</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newInstance</name>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="56" bodyend="62"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a7840a6b737baa6f54eb73df8f2063faf" compoundref="_daily_fragment_8java" startline="50" endline="52">com.angelmsger.cslaboratory.daily.DailyFragment.DailyFragment</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref> 接口。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="158">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="159">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="170">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="161">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="164" relation="usage">
+          <edgelabel>mPullToRefreshView</edgelabel>
+        </childnode>
+        <childnode refid="165" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="167" relation="usage">
+          <edgelabel>mRecyclerViewAdapter</edgelabel>
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>mDailyContent</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="174" relation="usage">
+          <edgelabel>mRecyclerView</edgelabel>
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>mLoadDataTask</edgelabel>
+        </childnode>
+      </node>
+      <node id="169">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="173">
+        <label>com.angelmsger.cslaboratory.daily.DailyContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content"/>
+        <childnode refid="171" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="163">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="172">
+        <label>Pattern</label>
+      </node>
+      <node id="171">
+        <label>List&lt; com.angelmsger.cslaboratory.daily.article.DailyArticleItem &gt;</label>
+      </node>
+      <node id="164">
+        <label>PullToRefreshView</label>
+      </node>
+      <node id="174">
+        <label>RecyclerView</label>
+      </node>
+      <node id="166">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="176">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="162">
+        <label>Fragment</label>
+      </node>
+      <node id="165">
+        <label>Handler</label>
+      </node>
+      <node id="175">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+      <node id="167">
+        <label>com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>mDailyArticleItems</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>mHtmlPattern</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="26" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a70c61a2a2c1e7358346af510442d0fcf" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>ARG_COLUMN_COUNT</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a7840a6b737baa6f54eb73df8f2063faf" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>DailyFragment</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a5ba8ef93402c0caf8e6c8de6c684e406" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mColumnCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a00489ec7284835d773ed5f31ffd56761" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mDailyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a2994176eaf0bb6a6297babb9b46551fb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1af48d269094555236f3d3e14270ed8e11" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mLoadDataTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mPullToRefreshView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a261c5fc63e0ce5dddb2c26a784a705b0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mRecyclerView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a0fbd291ad51add51ceaa4d8f32833642" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a076fdb59f5497fb79abde00630e30938" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>mRequestLimit</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ab8c5177524cc71b1c6ccf5de77987e45" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>newInstance</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ac5f9a571596074d045dfd298bd0258fe" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa74a68ed6b4638631c361f7f41ce843f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>onCreateView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a77840ca356320069c07c8b66874715f4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a429aa1e2d544bf67bd8a556a8fed3ca0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment</scope><name>onRefresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

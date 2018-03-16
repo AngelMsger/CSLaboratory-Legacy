@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RecyclerView::Adapter&lt; ViewHolder &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder" prot="public">com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1abf9e34db143de312f1689a02a1b314d9" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref> &gt;</type>
+        <definition>final List&lt;ForumTopicItem&gt; com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.mForumTopicItems</definition>
+        <argsstring></argsstring>
+        <name>mForumTopicItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a749c0c970f06d5eba6b01e0f35ec9036" prot="private" static="no" mutable="no">
+        <type>final LayoutInflater</type>
+        <definition>final LayoutInflater com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.mInflater</definition>
+        <argsstring></argsstring>
+        <name>mInflater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a5c2406a9f37cec47e38899c5e77dc498" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>final OnListFragmentInteractionListener com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a713b8f5f47a45829fd2ef7d5e1d2abc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumRecyclerViewAdapter</definition>
+        <argsstring>(List&lt; ForumTopicItem &gt; forumTopicItems, LayoutInflater inflater, OnListFragmentInteractionListener listener)</argsstring>
+        <name>ForumRecyclerViewAdapter</name>
+        <param>
+          <type>List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref> &gt;</type>
+          <declname>forumTopicItems</declname>
+        </param>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a85b43d7ef9c8e270e999cc064f1cbc6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ViewHolder</type>
+        <definition>ViewHolder com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.onCreateViewHolder</definition>
+        <argsstring>(ViewGroup parent, int viewType)</argsstring>
+        <name>onCreateViewHolder</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1ad182a81a7d2e455f111ccc7400f22704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.onBindViewHolder</definition>
+        <argsstring>(final ViewHolder holder, int position)</argsstring>
+        <name>onBindViewHolder</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="46" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1adf0110b2589d20736ad6ba444a669df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.getItemCount</definition>
+        <argsstring>()</argsstring>
+        <name>getItemCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a181860c1fc375bffa97bee1e1de42722" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.getNextRequestOffset</definition>
+        <argsstring>()</argsstring>
+        <name>getNextRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="56" bodyend="58"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="" kindref="compound">RecyclerView.Adapter</ref> 可以展示一些 <ref refid="" kindref="compound">ForumTopicItem</ref> 并且调用指定的 <ref refid="" kindref="compound">OnListFragmentInteractionListener</ref>. TODO: 替换为自定义代码段。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="254">
+        <label>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="260">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="258">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="256">
+        <label>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter"/>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>mForumTopicItems</edgelabel>
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="259">
+        <label>List&lt; com.angelmsger.cslaboratory.forum.topic.ForumTopicItem &gt;</label>
+      </node>
+      <node id="257">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="24" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="24" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a713b8f5f47a45829fd2ef7d5e1d2abc5" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>ForumRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1adf0110b2589d20736ad6ba444a669df5" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>getItemCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a181860c1fc375bffa97bee1e1de42722" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>getNextRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1abf9e34db143de312f1689a02a1b314d9" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>mForumTopicItems</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a749c0c970f06d5eba6b01e0f35ec9036" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>mInflater</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a5c2406a9f37cec47e38899c5e77dc498" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1ad182a81a7d2e455f111ccc7400f22704" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>onBindViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a85b43d7ef9c8e270e999cc064f1cbc6e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</scope><name>onCreateViewHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

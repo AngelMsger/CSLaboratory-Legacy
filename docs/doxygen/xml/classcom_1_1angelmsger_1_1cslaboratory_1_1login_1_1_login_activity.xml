@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::LoginActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppCompatActivity</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task" prot="public">com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a3dd306a4f6519c0fd13367b2262f1941" prot="private" static="no" mutable="no">
+        <type>CircularProgressButton</type>
+        <definition>CircularProgressButton com.angelmsger.cslaboratory.login.LoginActivity.mEmailSignInButton</definition>
+        <argsstring></argsstring>
+        <name>mEmailSignInButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a984a680460d928e2d68b1f9df4bfe53f" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.login.LoginActivity.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a772572dc6d9b205df6b4e14ec821701a" prot="private" static="no" mutable="no">
+        <type>Runnable</type>
+        <definition>Runnable com.angelmsger.cslaboratory.login.LoginActivity.mResetButton</definition>
+        <argsstring></argsstring>
+        <name>mResetButton</name>
+        <initializer>= new Runnable() {
+        @Override
+        public void run() {
+            mEmailSignInButton.setProgress(0);
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a6d9e55334049ccf0da39a85ee54077ce" prot="private" static="no" mutable="no">
+        <type>Runnable</type>
+        <definition>Runnable com.angelmsger.cslaboratory.login.LoginActivity.mLoginSuccessfully</definition>
+        <argsstring></argsstring>
+        <name>mLoginSuccessfully</name>
+        <initializer>= new Runnable() {
+        @Override
+        public void run() {
+            setResult(<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa6b1d19c079daa6911520d7d2cbfca4d" kindref="member">LOGIN_SUCCESSFULLY</ref>);
+            finish();
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa8c3284a49a4e2452fe591bb7a28f318" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>DataSource com.angelmsger.cslaboratory.login.LoginActivity.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a8a55a381d7d55f2bfba5816b11bd6b4a" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task" kindref="compound">UserLoginTask</ref></type>
+        <definition>UserLoginTask com.angelmsger.cslaboratory.login.LoginActivity.mAuthTask</definition>
+        <argsstring></argsstring>
+        <name>mAuthTask</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>持续跟踪登录任务以保证当需要时可以取消。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="52" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a122ffc799597a0e8b80dc0ef47360cd3" prot="private" static="no" mutable="no">
+        <type>AutoCompleteTextView</type>
+        <definition>AutoCompleteTextView com.angelmsger.cslaboratory.login.LoginActivity.mEmailView</definition>
+        <argsstring></argsstring>
+        <name>mEmailView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="55" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" compoundref="_login_activity_8java" startline="93" endline="136">com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a91191087c939bb6a47f65d4889e8e0ff" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText com.angelmsger.cslaboratory.login.LoginActivity.mPasswordView</definition>
+        <argsstring></argsstring>
+        <name>mPasswordView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" compoundref="_login_activity_8java" startline="93" endline="136">com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa6b1d19c079daa6911520d7d2cbfca4d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.LoginActivity.LOGIN_SUCCESSFULLY</definition>
+        <argsstring></argsstring>
+        <name>LOGIN_SUCCESSFULLY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a387e45af23698014cdb2995e2d99381f" compoundref="_main_activity_8java" startline="273" endline="279">com.angelmsger.cslaboratory.MainActivity.onActivityResult</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1ace66bcd35a9be362ef98be6bb29f9e88" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.LoginActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="59" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="59" bodyend="87"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" compoundref="_login_activity_8java" startline="93" endline="136">com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</definition>
+        <argsstring>()</argsstring>
+        <name>attemptLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>来自登录表格的注册或登录请求。 如果存在非法输入 (无效的电子邮件地址，缺少填写的内容等。), 错误将被跳过并且不会发出登录请求。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="93" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="93" bodyend="136"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a059a1da498c1bb373aef08c20f80acdd" compoundref="_login_activity_8java" startline="143" endline="146">com.angelmsger.cslaboratory.login.LoginActivity.isPasswordValid</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a91191087c939bb6a47f65d4889e8e0ff" compoundref="_login_activity_8java" startline="56">com.angelmsger.cslaboratory.login.LoginActivity.mPasswordView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a122ffc799597a0e8b80dc0ef47360cd3" compoundref="_login_activity_8java" startline="55">com.angelmsger.cslaboratory.login.LoginActivity.mEmailView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1af98ccbf14435c4909566c70abde9b329" compoundref="_login_activity_8java" startline="138" endline="141">com.angelmsger.cslaboratory.login.LoginActivity.isEmailValid</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1ace66bcd35a9be362ef98be6bb29f9e88" compoundref="_login_activity_8java" startline="59" endline="87">com.angelmsger.cslaboratory.login.LoginActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1af98ccbf14435c4909566c70abde9b329" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.login.LoginActivity.isEmailValid</definition>
+        <argsstring>(String email)</argsstring>
+        <name>isEmailValid</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="138" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="138" bodyend="141"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" compoundref="_login_activity_8java" startline="93" endline="136">com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a059a1da498c1bb373aef08c20f80acdd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.login.LoginActivity.isPasswordValid</definition>
+        <argsstring>(String password)</argsstring>
+        <name>isPasswordValid</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="143" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="143" bodyend="146"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" compoundref="_login_activity_8java" startline="93" endline="136">com.angelmsger.cslaboratory.login.LoginActivity.attemptLogin</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个登录屏幕以提供了电子邮箱地址及密码登录方式。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="287">
+        <label>com.angelmsger.cslaboratory.login.LoginActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>AppCompatActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="289">
+        <label>com.angelmsger.cslaboratory.login.LoginActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="293" relation="usage">
+          <edgelabel>mPasswordView</edgelabel>
+        </childnode>
+        <childnode refid="294" relation="usage">
+          <edgelabel>mAuthTask</edgelabel>
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>mEmailSignInButton</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>mEmailView</edgelabel>
+        </childnode>
+      </node>
+      <node id="294">
+        <label>com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>EditText</label>
+      </node>
+      <node id="296">
+        <label>CircularProgressButton</label>
+      </node>
+      <node id="297">
+        <label>AutoCompleteTextView</label>
+      </node>
+      <node id="292">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="291">
+        <label>Handler</label>
+      </node>
+      <node id="295">
+        <label>android::os::AsyncTask&lt; Void, Integer, Boolean &gt;</label>
+      </node>
+      <node id="290">
+        <label>AppCompatActivity</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="27" bodyend="211"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>attemptLogin</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1af98ccbf14435c4909566c70abde9b329" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>isEmailValid</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a059a1da498c1bb373aef08c20f80acdd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>isPasswordValid</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa6b1d19c079daa6911520d7d2cbfca4d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>LOGIN_SUCCESSFULLY</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a8a55a381d7d55f2bfba5816b11bd6b4a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mAuthTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa8c3284a49a4e2452fe591bb7a28f318" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a3dd306a4f6519c0fd13367b2262f1941" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mEmailSignInButton</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a122ffc799597a0e8b80dc0ef47360cd3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mEmailView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a984a680460d928e2d68b1f9df4bfe53f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a6d9e55334049ccf0da39a85ee54077ce" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mLoginSuccessfully</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a91191087c939bb6a47f65d4889e8e0ff" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mPasswordView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a772572dc6d9b205df6b4e14ec821701a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>mResetButton</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1ace66bcd35a9be362ef98be6bb29f9e88" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity</scope><name>onCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

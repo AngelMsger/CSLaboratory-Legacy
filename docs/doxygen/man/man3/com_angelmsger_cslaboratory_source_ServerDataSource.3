@@ -1,0 +1,122 @@
+.TH "com.angelmsger.cslaboratory.source.ServerDataSource" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.source.ServerDataSource \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP \&.
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBServerDataSource\fP (Context context)"
+.br
+.ti -1c
+.RI "Login\&.Response \fBattemptLogin\fP (Login\&.Request request)"
+.br
+.ti -1c
+.RI "\fBCourseContent\fP \fBgetCourseContent\fP (final int offset, final int limit)"
+.br
+.ti -1c
+.RI "\fBDailyContent\fP \fBgetDailyContent\fP (final int offset, final int limit)"
+.br
+.ti -1c
+.RI "\fBForumContent\fP \fBgetForumContent\fP (final int offset, final int limit)"
+.br
+.ti -1c
+.RI "\fBQualityContent\fP \fBgetQualityContent\fP (final int offset, final int limit)"
+.br
+.ti -1c
+.RI "\fBTopologyContent\fP \fBgetTopologyContent\fP (final int offset, final int limit)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final String \fBmBaseRequestURI\fP = 'http://10\&.0\&.2\&.2:9090'"
+.br
+.ti -1c
+.RI "Context \fBmContext\fP"
+.br
+.ti -1c
+.RI "OkHttpClient \fBmApiClient\fP"
+.br
+.ti -1c
+.RI "Gson \fBmGson\fP = new Gson()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+实现数据源接口，数据源为从远程服务器加载 
+.PP
+在文件 ServerDataSource\&.java 第 28 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.ServerDataSource (Context context)"
+
+.PP
+在文件 ServerDataSource\&.java 第 36 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "Login\&.Response com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.attemptLogin (Login\&.Request request)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 42 行定义\&.
+.SS "\fBCourseContent\fP com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.getCourseContent (final int offset, final int limit)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 47 行定义\&.
+.SS "\fBDailyContent\fP com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.getDailyContent (final int offset, final int limit)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 74 行定义\&.
+.SS "\fBForumContent\fP com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.getForumContent (final int offset, final int limit)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 93 行定义\&.
+.SS "\fBQualityContent\fP com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.getQualityContent (final int offset, final int limit)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 98 行定义\&.
+.SS "\fBTopologyContent\fP com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.getTopologyContent (final int offset, final int limit)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.source\&.DataSource\fP\&.
+.PP
+在文件 ServerDataSource\&.java 第 103 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "OkHttpClient com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.mApiClient\fC [private]\fP"
+
+.PP
+在文件 ServerDataSource\&.java 第 32 行定义\&.
+.SS "final String com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.mBaseRequestURI = 'http://10\&.0\&.2\&.2:9090'\fC [private]\fP"
+
+.PP
+在文件 ServerDataSource\&.java 第 29 行定义\&.
+.SS "Context com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.mContext\fC [private]\fP"
+
+.PP
+在文件 ServerDataSource\&.java 第 31 行定义\&.
+.SS "Gson com\&.angelmsger\&.cslaboratory\&.source\&.ServerDataSource\&.mGson = new Gson()\fC [private]\fP"
+
+.PP
+在文件 ServerDataSource\&.java 第 34 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

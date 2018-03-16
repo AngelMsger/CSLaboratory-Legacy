@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::course::CourseFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data" prot="private">com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</innerclass>
+    <innerclass refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener" prot="public">com::angelmsger::cslaboratory::course::CourseFragment::OnListFragmentInteractionListener</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a308423b24c733c300d26dbdaa584c922" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.course.CourseFragment.ARG_COLUMN_COUNT</definition>
+        <argsstring></argsstring>
+        <name>ARG_COLUMN_COUNT</name>
+        <initializer>= &quot;column-count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a3d1a3c964a8a856873b4daf1cca5a429" compoundref="_course_fragment_8java" startline="65" endline="71">com.angelmsger.cslaboratory.course.CourseFragment.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1ab129fd3ab746397a03b329bc46aef9fa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.course.CourseFragment.mColumnCount</definition>
+        <argsstring></argsstring>
+        <name>mColumnCount</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a3d1a3c964a8a856873b4daf1cca5a429" compoundref="_course_fragment_8java" startline="65" endline="71">com.angelmsger.cslaboratory.course.CourseFragment.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>OnListFragmentInteractionListener com.angelmsger.cslaboratory.course.CourseFragment.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1abf944eb1fb7892c24e3b223c5057655a" compoundref="_course_fragment_8java" startline="143" endline="152">com.angelmsger.cslaboratory.course.CourseFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a0ece848e9903c8a136f624a743aa8509" compoundref="_course_fragment_8java" startline="155" endline="158">com.angelmsger.cslaboratory.course.CourseFragment.onDetach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" compoundref="_course_fragment_8java" startline="198" endline="209">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" prot="private" static="no" mutable="no">
+        <type>PullToRefreshView</type>
+        <definition>PullToRefreshView com.angelmsger.cslaboratory.course.CourseFragment.mPullToRefreshView</definition>
+        <argsstring></argsstring>
+        <name>mPullToRefreshView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" compoundref="_course_fragment_8java" startline="198" endline="209">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ad6dcdffda36b2968618f90837bd3a7a3" compoundref="_course_fragment_8java" startline="212" endline="217">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1add9327c5c1f77a3e903dda67f076d1b1" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView com.angelmsger.cslaboratory.course.CourseFragment.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5f304e1a60141118166a39ea71bf5c22" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter" kindref="compound">CourseRecyclerViewAdapter</ref></type>
+        <definition>CourseRecyclerViewAdapter com.angelmsger.cslaboratory.course.CourseFragment.mRecyclerViewAdapter</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerViewAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" compoundref="_course_fragment_8java" startline="198" endline="209">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8f167d072f40d4d33c3a32a880175112" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>DataSource com.angelmsger.cslaboratory.course.CourseFragment.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1abf944eb1fb7892c24e3b223c5057655a" compoundref="_course_fragment_8java" startline="143" endline="152">com.angelmsger.cslaboratory.course.CourseFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" compoundref="_course_fragment_8java" startline="191" endline="195">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5bdb30cba7f139923fd6b992530c9175" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kindref="compound">CourseContent</ref></type>
+        <definition>CourseContent com.angelmsger.cslaboratory.course.CourseFragment.mCourseContent</definition>
+        <argsstring></argsstring>
+        <name>mCourseContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" compoundref="_course_fragment_8java" startline="191" endline="195">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a2aabfa2ffa3decf111cd619021569a25" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.course.CourseFragment.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data" kindref="compound">AsynLoadData</ref></type>
+        <definition>AsynLoadData com.angelmsger.cslaboratory.course.CourseFragment.mLoadDataTask</definition>
+        <argsstring></argsstring>
+        <name>mLoadDataTask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a92ed05963417f950b6b8bdf3df50a558" compoundref="_course_fragment_8java" startline="161" endline="164">com.angelmsger.cslaboratory.course.CourseFragment.onRefresh</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" compoundref="_course_fragment_8java" startline="198" endline="209">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ad6dcdffda36b2968618f90837bd3a7a3" compoundref="_course_fragment_8java" startline="212" endline="217">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a16cb3ba6515e239fd19b8b00b9659b25" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.course.CourseFragment.mRequestLimit</definition>
+        <argsstring></argsstring>
+        <name>mRequestLimit</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" compoundref="_course_fragment_8java" startline="191" endline="195">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a136785a1b0bfb44de1c994331f099a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.course.CourseFragment.CourseFragment</definition>
+        <argsstring>()</argsstring>
+        <name>CourseFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>为 fragment manager 预留的强制的空构造器以实例化 fragment (e.g. upon screen orientation changes)。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="50" bodyend="52"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a66a65ed3302cc67d6e69a9181f72719b" compoundref="_course_fragment_8java" startline="56" endline="62">com.angelmsger.cslaboratory.course.CourseFragment.newInstance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a3d1a3c964a8a856873b4daf1cca5a429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="65" bodyend="71"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1ab129fd3ab746397a03b329bc46aef9fa" compoundref="_course_fragment_8java" startline="32">com.angelmsger.cslaboratory.course.CourseFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a308423b24c733c300d26dbdaa584c922" compoundref="_course_fragment_8java" startline="30">com.angelmsger.cslaboratory.course.CourseFragment.ARG_COLUMN_COUNT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</definition>
+        <argsstring>(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>final LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="74" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="74" bodyend="140"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" compoundref="_course_fragment_8java" startline="35">com.angelmsger.cslaboratory.course.CourseFragment.mPullToRefreshView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1add9327c5c1f77a3e903dda67f076d1b1" compoundref="_course_fragment_8java" startline="36">com.angelmsger.cslaboratory.course.CourseFragment.mRecyclerView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5bdb30cba7f139923fd6b992530c9175" compoundref="_course_fragment_8java" startline="39">com.angelmsger.cslaboratory.course.CourseFragment.mCourseContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" compoundref="_course_fragment_8java" startline="42">com.angelmsger.cslaboratory.course.CourseFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5f304e1a60141118166a39ea71bf5c22" compoundref="_course_fragment_8java" startline="37">com.angelmsger.cslaboratory.course.CourseFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" compoundref="_course_content_8java" startline="18">com.angelmsger.cslaboratory.course.CourseContent.CATEGORY_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" compoundref="_course_content_8java" startline="19">com.angelmsger.cslaboratory.course.CourseContent.COURSE_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" compoundref="_course_fragment_8java" startline="33">com.angelmsger.cslaboratory.course.CourseFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1ab129fd3ab746397a03b329bc46aef9fa" compoundref="_course_fragment_8java" startline="32">com.angelmsger.cslaboratory.course.CourseFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1ad9e2b9f5d94aad9cbc9d7a9bd58b7ec2" compoundref="_course_recycler_view_adapter_8java" startline="45" endline="52">com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.getItemViewType</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1a4db99b63a63693a0a1c38b2d5ff63973">com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener.onCourseListScroll</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1a5fea8c751a95514ee84a1d5bf3d2c8c9" compoundref="_course_recycler_view_adapter_8java" startline="85" endline="87">com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.getNextRequestOffset</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a2aabfa2ffa3decf111cd619021569a25" compoundref="_course_fragment_8java" startline="41">com.angelmsger.cslaboratory.course.CourseFragment.mHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1abf944eb1fb7892c24e3b223c5057655a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.onAttach</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="143" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="143" bodyend="152"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" compoundref="_course_fragment_8java" startline="33">com.angelmsger.cslaboratory.course.CourseFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8f167d072f40d4d33c3a32a880175112" compoundref="_course_fragment_8java" startline="38">com.angelmsger.cslaboratory.course.CourseFragment.mDataSource</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a0ece848e9903c8a136f624a743aa8509" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="155" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="155" bodyend="158"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" compoundref="_course_fragment_8java" startline="33">com.angelmsger.cslaboratory.course.CourseFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a92ed05963417f950b6b8bdf3df50a558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="161" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="161" bodyend="164"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" compoundref="_course_fragment_8java" startline="42">com.angelmsger.cslaboratory.course.CourseFragment.mLoadDataTask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a66a65ed3302cc67d6e69a9181f72719b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment" kindref="compound">CourseFragment</ref></type>
+        <definition>static CourseFragment com.angelmsger.cslaboratory.course.CourseFragment.newInstance</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newInstance</name>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="56" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="56" bodyend="62"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a136785a1b0bfb44de1c994331f099a7a" compoundref="_course_fragment_8java" startline="50" endline="52">com.angelmsger.cslaboratory.course.CourseFragment.CourseFragment</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref> 接口。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>PullToRefreshView::OnRefreshListener</label>
+      </node>
+      <node id="79">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="93">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="84">
+        <label>PullToRefreshView::OnRefreshListener</label>
+      </node>
+      <node id="97">
+        <label>com.angelmsger.cslaboratory.course.CourseContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>COURSE_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>CATEGORY_ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="91">
+        <label>com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>mCourseCourseItems</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>mCourseCategoryItems</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>RecyclerView::Adapter&lt; RecyclerView.ViewHolder &gt;</label>
+      </node>
+      <node id="82">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>mPullToRefreshView</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>mLoadDataTask</edgelabel>
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>mRecyclerViewAdapter</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>mRecyclerView</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>mCourseContent</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>List&lt; com.angelmsger.cslaboratory.course.subclass.CourseCategoryItem &gt;</label>
+      </node>
+      <node id="85">
+        <label>PullToRefreshView</label>
+      </node>
+      <node id="96">
+        <label>RecyclerView</label>
+      </node>
+      <node id="88">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="90">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="83">
+        <label>Fragment</label>
+      </node>
+      <node id="87">
+        <label>Handler</label>
+      </node>
+      <node id="94">
+        <label>List&lt; com.angelmsger.cslaboratory.course.course.CourseCourseItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="27" bodyend="219"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a308423b24c733c300d26dbdaa584c922" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>ARG_COLUMN_COUNT</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a136785a1b0bfb44de1c994331f099a7a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>CourseFragment</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1ab129fd3ab746397a03b329bc46aef9fa" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mColumnCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5bdb30cba7f139923fd6b992530c9175" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mCourseContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8f167d072f40d4d33c3a32a880175112" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a2aabfa2ffa3decf111cd619021569a25" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mLoadDataTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mPullToRefreshView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1add9327c5c1f77a3e903dda67f076d1b1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mRecyclerView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5f304e1a60141118166a39ea71bf5c22" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a16cb3ba6515e239fd19b8b00b9659b25" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>mRequestLimit</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a66a65ed3302cc67d6e69a9181f72719b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>newInstance</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1abf944eb1fb7892c24e3b223c5057655a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a3d1a3c964a8a856873b4daf1cca5a429" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>onCreateView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a0ece848e9903c8a136f624a743aa8509" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a92ed05963417f950b6b8bdf3df50a558" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment</scope><name>onRefresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

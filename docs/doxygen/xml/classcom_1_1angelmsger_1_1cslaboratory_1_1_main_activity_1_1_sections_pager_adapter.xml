@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FragmentPagerAdapter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ab965c5be8737a9a69de2be98d656cc33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter.SectionsPagerAdapter</definition>
+        <argsstring>(FragmentManager fm)</argsstring>
+        <name>SectionsPagerAdapter</name>
+        <param>
+          <type>FragmentManager</type>
+          <declname>fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="409" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="409" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a82919b8a8df95ff1b55e74f22df709f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fragment</type>
+        <definition>Fragment com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter.getItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="414" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ad6212168c1418b61aaecb9cf2a35812c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="420" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="420" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1adcb053d3c7bf43bf94cab95f80822f89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CharSequence</type>
+        <definition>CharSequence com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter.getPageTitle</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getPageTitle</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="426" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="426" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a559968ac2d220a1f3fe4ad468dad4933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter.destroyItem</definition>
+        <argsstring>(ViewGroup container, int position, Object object)</argsstring>
+        <name>destroyItem</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="431" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="431" bodyend="434"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="" kindref="compound">android.support.v4.view.PagerAdapter</ref> 将为每一页提供 fragments。 使用一个<ref refid="" kindref="compound">FragmentPagerAdapter</ref> 子类，将在内存中保持每一个载入的 fragment。 如果这使得内存占用过高，则它可以被替换为 <ref refid="" kindref="compound">android.support.v4.app.FragmentStatePagerAdapter</ref>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="477">
+        <label>FragmentPagerAdapter</label>
+      </node>
+      <node id="476">
+        <label>com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="479">
+        <label>FragmentPagerAdapter</label>
+      </node>
+      <node id="478">
+        <label>com.angelmsger.cslaboratory.MainActivity.SectionsPagerAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter"/>
+        <childnode refid="479" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" line="407" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/MainActivity.java" bodystart="407" bodyend="435"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a559968ac2d220a1f3fe4ad468dad4933" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</scope><name>destroyItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ad6212168c1418b61aaecb9cf2a35812c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</scope><name>getCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a82919b8a8df95ff1b55e74f22df709f9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</scope><name>getItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1adcb053d3c7bf43bf94cab95f80822f89" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</scope><name>getPageTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ab965c5be8737a9a69de2be98d656cc33" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</scope><name>SectionsPagerAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

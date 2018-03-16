@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.course.\lCourseFragment.AsynLoadData" alt="" coords="145,5,385,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.AsynLoadData" alt="" coords="151,71,379,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.forum.\lForumFragment.AsynLoadData" alt="" coords="149,136,382,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task.html" title="com.angelmsger.cslaboratory.login.\lLoginActivity.UserLoginTask" alt="" coords="151,201,379,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.AsynLoadData" alt="" coords="146,267,385,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.topology.\lTopologyFragment.AsynLoadData" alt="" coords="140,332,391,373"/>
+</map>

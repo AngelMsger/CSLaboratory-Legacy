@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity" name="com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item.html#a100a000aca47f79dbec146a1baaa1472" title="com.angelmsger.cslaboratory.course.subclass.\lCourseSubclassItem.setId" alt="" coords="281,5,577,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item.html#a5b331afe1c2acb19aa9defa3cf6d0692" title="com.angelmsger.cslaboratory.course.subclass.\lCourseSubclassItem.setImageURI" alt="" coords="281,71,577,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item.html#ac50d783321fa04797a848128a8ca10b1" title="com.angelmsger.cslaboratory.course.subclass.\lCourseSubclassItem.setTitle" alt="" coords="281,136,577,177"/>
+</map>

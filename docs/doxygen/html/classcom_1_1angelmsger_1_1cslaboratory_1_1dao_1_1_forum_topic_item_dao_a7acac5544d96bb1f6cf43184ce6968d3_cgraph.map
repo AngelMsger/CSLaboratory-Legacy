@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity" name="com.angelmsger.cslaboratory.dao.ForumTopicItemDao.readEntity">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item.html#a5c5b04bb3df90e0763c26eb3db1b787e" title="com.angelmsger.cslaboratory.forum.topic.\lForumTopicItem.setId" alt="" coords="276,5,541,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item.html#a201f2d518e5f88730688363062b2fe22" title="com.angelmsger.cslaboratory.forum.topic.\lForumTopicItem.setAvatarURI" alt="" coords="276,71,541,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item.html#a444e0d54d69007a214c6c01f4053668f" title="com.angelmsger.cslaboratory.forum.topic.\lForumTopicItem.setNickname" alt="" coords="276,136,541,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item.html#a50f74a8f310aef5f33a850c24d638f6f" title="com.angelmsger.cslaboratory.forum.topic.\lForumTopicItem.setTitle" alt="" coords="276,201,541,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item.html#a96b39c331bf5f32691fe71febc385531" title="com.angelmsger.cslaboratory.forum.topic.\lForumTopicItem.setContent" alt="" coords="276,267,541,308"/>
+</map>

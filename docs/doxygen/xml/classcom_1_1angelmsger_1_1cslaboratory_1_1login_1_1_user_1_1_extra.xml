@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::User::Extra</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3e85292605751f82e1d6c4963bbb11bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.sex</definition>
+        <argsstring></argsstring>
+        <name>sex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="81" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a0f4b29cbe24fcecbe8ccac097614d0eb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.topicCount</definition>
+        <argsstring></argsstring>
+        <name>topicCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="82" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a70073117976de938b9f17dd013514a0c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.replyCount</definition>
+        <argsstring></argsstring>
+        <name>replyCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="83" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a9de8da18a2da0430653c3014739ea2b8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.followerCount</definition>
+        <argsstring></argsstring>
+        <name>followerCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="84" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ab5cd415ba2fbded4ad975e039d803be3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.goodTopicCount</definition>
+        <argsstring></argsstring>
+        <name>goodTopicCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="85" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1aaac8515cb950fb29e7c44f029e6acfdd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.favUser</definition>
+        <argsstring></argsstring>
+        <name>favUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="86" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a4eb9444b9d9678cbfa64a8ff9dae705d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.favTag</definition>
+        <argsstring></argsstring>
+        <name>favTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="87" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a6db06c53395b368139284760e6218ccb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.favTopic</definition>
+        <argsstring></argsstring>
+        <name>favTopic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="88" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1acb360a0480ad8ac53ad3eb02f9b36c38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.Extra.Extra</definition>
+        <argsstring>()</argsstring>
+        <name>Extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="90" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="90" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1abc8e9dd209e48af7709a7ba0a7b1b315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.Extra.Extra</definition>
+        <argsstring>(int sex, int topicCount, int replyCount, int followerCount, int goodTopicCount, int favUser, int favTag, int favTopic)</argsstring>
+        <name>Extra</name>
+        <param>
+          <type>int</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topicCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>replyCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>followerCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>goodTopicCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>favUser</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>favTag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>favTopic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="93" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a290b5255f2c5baa02847aefbf7b9e4f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getSex</definition>
+        <argsstring>()</argsstring>
+        <name>getSex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="105" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3b8e505cac214b11244f9073fc42fca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setSex</definition>
+        <argsstring>(int sex)</argsstring>
+        <name>setSex</name>
+        <param>
+          <type>int</type>
+          <declname>sex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="109" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1afec326ae91196fc3800ee418c8bf3e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getTopicCount</definition>
+        <argsstring>()</argsstring>
+        <name>getTopicCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="113" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a5c47c830c66ad5b6b34c9096cd6cd97f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setTopicCount</definition>
+        <argsstring>(int topicCount)</argsstring>
+        <name>setTopicCount</name>
+        <param>
+          <type>int</type>
+          <declname>topicCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="117" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a343c62a36a0afd8efc2ea2ae819835e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getReplyCount</definition>
+        <argsstring>()</argsstring>
+        <name>getReplyCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="121" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c3019d2ebea4537fdfc55240dd9ece2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setReplyCount</definition>
+        <argsstring>(int replyCount)</argsstring>
+        <name>setReplyCount</name>
+        <param>
+          <type>int</type>
+          <declname>replyCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="125" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="125" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac9d58d4c3dbe2d69754b14cd44e01204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getFollowerCount</definition>
+        <argsstring>()</argsstring>
+        <name>getFollowerCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="129" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a91da2ec4d2f08f93dd67a3d370072f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setFollowerCount</definition>
+        <argsstring>(int followerCount)</argsstring>
+        <name>setFollowerCount</name>
+        <param>
+          <type>int</type>
+          <declname>followerCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="133" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="133" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a529426d30a00e96103353a532950ca52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getGoodTopicCount</definition>
+        <argsstring>()</argsstring>
+        <name>getGoodTopicCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="137" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac3db6c80138f2e681776e528cb155f2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setGoodTopicCount</definition>
+        <argsstring>(int goodTopicCount)</argsstring>
+        <name>setGoodTopicCount</name>
+        <param>
+          <type>int</type>
+          <declname>goodTopicCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="141" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c4902f08fdd5454c2e1755914037f16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getFavUser</definition>
+        <argsstring>()</argsstring>
+        <name>getFavUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="145" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac39d54f9a6048976039161dbb15c48fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setFavUser</definition>
+        <argsstring>(int favUser)</argsstring>
+        <name>setFavUser</name>
+        <param>
+          <type>int</type>
+          <declname>favUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="149" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="149" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ae2abcd1da72a7a2f5d19bfae2410159a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getFavTag</definition>
+        <argsstring>()</argsstring>
+        <name>getFavTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="153" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a361e368452fabf04596bc7262116e6b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setFavTag</definition>
+        <argsstring>(int favTag)</argsstring>
+        <name>setFavTag</name>
+        <param>
+          <type>int</type>
+          <declname>favTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="157" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="157" bodyend="159"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac589b1756691bc49039eb4522ba9421a" compoundref="_unreal_data_source_8java" startline="28" endline="47">com.angelmsger.cslaboratory.source.UnrealDataSource.attemptLogin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a714cbdeb076090e47b62d6489f2b36b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.User.Extra.getFavTopic</definition>
+        <argsstring>()</argsstring>
+        <name>getFavTopic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="161" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1af1e3d86a0f4ec4d85e700fa07c1b3818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.Extra.setFavTopic</definition>
+        <argsstring>(int favTopic)</argsstring>
+        <name>setFavTopic</name>
+        <param>
+          <type>int</type>
+          <declname>favTopic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="165" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="165" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="80" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="80" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1acb360a0480ad8ac53ad3eb02f9b36c38" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>Extra</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1abc8e9dd209e48af7709a7ba0a7b1b315" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>Extra</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a4eb9444b9d9678cbfa64a8ff9dae705d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>favTag</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a6db06c53395b368139284760e6218ccb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>favTopic</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1aaac8515cb950fb29e7c44f029e6acfdd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>favUser</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a9de8da18a2da0430653c3014739ea2b8" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>followerCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ae2abcd1da72a7a2f5d19bfae2410159a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getFavTag</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a714cbdeb076090e47b62d6489f2b36b7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getFavTopic</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c4902f08fdd5454c2e1755914037f16" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getFavUser</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac9d58d4c3dbe2d69754b14cd44e01204" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getFollowerCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a529426d30a00e96103353a532950ca52" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getGoodTopicCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a343c62a36a0afd8efc2ea2ae819835e6" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getReplyCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a290b5255f2c5baa02847aefbf7b9e4f1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getSex</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1afec326ae91196fc3800ee418c8bf3e33" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>getTopicCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ab5cd415ba2fbded4ad975e039d803be3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>goodTopicCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a70073117976de938b9f17dd013514a0c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>replyCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a361e368452fabf04596bc7262116e6b7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setFavTag</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1af1e3d86a0f4ec4d85e700fa07c1b3818" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setFavTopic</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac39d54f9a6048976039161dbb15c48fd" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setFavUser</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a91da2ec4d2f08f93dd67a3d370072f5a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setFollowerCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac3db6c80138f2e681776e528cb155f2e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setGoodTopicCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c3019d2ebea4537fdfc55240dd9ece2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setReplyCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3b8e505cac214b11244f9073fc42fca8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setSex</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a5c47c830c66ad5b6b34c9096cd6cd97f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>setTopicCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3e85292605751f82e1d6c4963bbb11bf" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>sex</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a0f4b29cbe24fcecbe8ccac097614d0eb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User::Extra</scope><name>topicCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

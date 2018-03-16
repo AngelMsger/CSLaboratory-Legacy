@@ -1,0 +1,146 @@
+.TH "com.angelmsger.cslaboratory.dao.ForumTopicItemDao" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.ForumTopicItemDao \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDao< ForumTopicItem, Long > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBProperties\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBForumTopicItemDao\fP (DaoConfig config)"
+.br
+.ti -1c
+.RI "\fBForumTopicItemDao\fP (DaoConfig config, \fBDaoSession\fP daoSession)"
+.br
+.ti -1c
+.RI "Long \fBreadKey\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "\fBForumTopicItem\fP \fBreadEntity\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "void \fBreadEntity\fP (Cursor cursor, \fBForumTopicItem\fP entity, int offset)"
+.br
+.ti -1c
+.RI "Long \fBgetKey\fP (\fBForumTopicItem\fP entity)"
+.br
+.ti -1c
+.RI "boolean \fBhasKey\fP (\fBForumTopicItem\fP entity)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateTable\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropTable\fP (Database db, boolean ifExists)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTABLENAME\fP = 'forum_topics'"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "final void \fBbindValues\fP (DatabaseStatement stmt, \fBForumTopicItem\fP entity)"
+.br
+.ti -1c
+.RI "final void \fBbindValues\fP (SQLiteStatement stmt, \fBForumTopicItem\fP entity)"
+.br
+.ti -1c
+.RI "final Long \fBupdateKeyAfterInsert\fP (\fBForumTopicItem\fP entity, long rowId)"
+.br
+.ti -1c
+.RI "final boolean \fBisEntityUpdateable\fP ()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+DAO for table 'forum_topics'\&. 
+.PP
+在文件 ForumTopicItemDao\&.java 第 18 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.ForumTopicItemDao (DaoConfig config)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 35 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.ForumTopicItemDao (DaoConfig config, \fBDaoSession\fP daoSession)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 39 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.bindValues (DatabaseStatement stmt, \fBForumTopicItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 64 行定义\&.
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.bindValues (SQLiteStatement stmt, \fBForumTopicItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 82 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.createTable (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates the underlying database table\&. 
+.PP
+在文件 ForumTopicItemDao\&.java 第 44 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.dropTable (Database db, boolean ifExists)\fC [static]\fP"
+Drops the underlying database table\&. 
+.PP
+在文件 ForumTopicItemDao\&.java 第 58 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.getKey (\fBForumTopicItem\fP entity)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 132 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.hasKey (\fBForumTopicItem\fP entity)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 141 行定义\&.
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.isEntityUpdateable ()\fC [protected]\fP"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 146 行定义\&.
+.SS "\fBForumTopicItem\fP com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.readEntity (Cursor cursor, int offset)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 105 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.readEntity (Cursor cursor, \fBForumTopicItem\fP entity, int offset)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 117 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.readKey (Cursor cursor, int offset)"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 100 行定义\&.
+.SS "final Long com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.updateKeyAfterInsert (\fBForumTopicItem\fP entity, long rowId)\fC [protected]\fP"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 126 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.dao\&.ForumTopicItemDao\&.TABLENAME = 'forum_topics'\fC [static]\fP"
+
+.PP
+在文件 ForumTopicItemDao\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

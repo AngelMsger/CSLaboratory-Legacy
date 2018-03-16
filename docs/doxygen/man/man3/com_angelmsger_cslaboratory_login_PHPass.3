@@ -1,0 +1,107 @@
+.TH "com.angelmsger.cslaboratory.login.PHPass" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.login.PHPass \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBPHPass\fP (int \fBiterationCountLog2\fP)"
+.br
+.ti -1c
+.RI "String \fBHashPassword\fP (String password)"
+.br
+.ti -1c
+.RI "boolean \fBCheckPassword\fP (String password, String storedHash)"
+.br
+.in -1c
+.SS "Private 成员函数"
+
+.in +1c
+.ti -1c
+.RI "String \fBencode64\fP (byte[] src, int count)"
+.br
+.ti -1c
+.RI "String \fBcryptPrivate\fP (String password, String setting)"
+.br
+.ti -1c
+.RI "String \fBgensaltPrivate\fP (byte[] input)"
+.br
+.ti -1c
+.RI "byte [] \fBstringToUtf8\fP (String string)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "int \fBiterationCountLog2\fP"
+.br
+.ti -1c
+.RI "SecureRandom \fBrandomGen\fP"
+.br
+.in -1c
+.SS "静态 Private 属性"
+
+.in +1c
+.ti -1c
+.RI "static String \fBitoa64\fP = '\&./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+在文件 PHPass\&.java 第 9 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.PHPass (int iterationCountLog2)"
+
+.PP
+在文件 PHPass\&.java 第 14 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.CheckPassword (String password, String storedHash)"
+
+.PP
+在文件 PHPass\&.java 第 121 行定义\&.
+.SS "String com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.cryptPrivate (String password, String setting)\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 57 行定义\&.
+.SS "String com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.encode64 (byte [] src, int count)\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 22 行定义\&.
+.SS "String com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.gensaltPrivate (byte [] input)\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 95 行定义\&.
+.SS "String com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.HashPassword (String password)"
+
+.PP
+在文件 PHPass\&.java 第 110 行定义\&.
+.SS "byte [] com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.stringToUtf8 (String string)\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 102 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "int com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.iterationCountLog2\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 11 行定义\&.
+.SS "String com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.itoa64 = '\&./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'\fC [static]\fP, \fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 10 行定义\&.
+.SS "SecureRandom com\&.angelmsger\&.cslaboratory\&.login\&.PHPass\&.randomGen\fC [private]\fP"
+
+.PP
+在文件 PHPass\&.java 第 12 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_e1d38602d704d36576536c822dcd7aab" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum</compoundname>
+    <innerdir refid="dir_60c435049a5db7b290157213b53bcadc">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic</innerdir>
+    <innerfile refid="_forum_content_8java">ForumContent.java</innerfile>
+    <innerfile refid="_forum_fragment_8java">ForumFragment.java</innerfile>
+    <innerfile refid="_forum_recycler_view_adapter_8java">ForumRecyclerViewAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/"/>
+  </compounddef>
+</doxygen>

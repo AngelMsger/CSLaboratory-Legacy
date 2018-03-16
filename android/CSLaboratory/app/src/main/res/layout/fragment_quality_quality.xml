@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/content_padding">
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group"
+        android:layout_marginTop="@dimen/quality_text_magin"
+        android:layout_marginBottom="@dimen/quality_text_magin"
+        app:cardCornerRadius="@dimen/card_corner_radius">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="图片" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card"
+        android:textColor="@color/black"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="@dimen/quality_text_magin"
+        android:layout_marginBottom="@dimen/quality_text_magin"
+        android:textColor="@color/black"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/attitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:textColor="@color/gray"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <com.sackcentury.shinebuttonlib.ShineButton
+        android:id="@+id/favorite"
+        android:layout_width="@dimen/community_button_size"
+        android:layout_height="@dimen/community_button_size"
+        android:layout_below="@id/content"
+        android:layout_alignParentEnd="true"
+        android:src="@android:color/darker_gray"
+        app:siShape="@raw/heart"
+        app:btn_color="@android:color/darker_gray"
+        app:btn_fill_color="@color/communityFavorite"
+        app:allow_random_color="true" />
+
+</RelativeLayout>

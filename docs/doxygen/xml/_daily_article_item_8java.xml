@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_daily_article_item_8java" kind="file" language="Java">
+    <compoundname>DailyArticleItem.java</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" prot="public">com::angelmsger::cslaboratory::daily::article::DailyArticleItem</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article">com::angelmsger::cslaboratory::daily::article</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.angelmsger.cslaboratory.daily.article;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Entity;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Id;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Index;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Keep;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.NotNull;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.greenrobot.greendao.annotation.Generated;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@Entity(nameInDb<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;daily_articles&quot;</highlight><highlight class="normal">,indexes<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@Index(value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;title,<sp/>postTime<sp/>DESC&quot;</highlight><highlight class="normal">,<sp/>unique<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;TitlePostTimeIndex&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">})</highlight></codeline>
+<codeline lineno="16" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>@Id(autoincrement<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="18" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a6f48a20f48104f97e60d79b277e6470e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="21" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a89c8f0f9874f4aaa4d2a638f7590c271" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>bannerURI;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="24" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a111e47c0a5ca39e7d8a6b6883fe1a9e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>imageURI;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>@NotNull</highlight></codeline>
+<codeline lineno="27" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a763b55dd46735c9d77c0120b4cc86f89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>title;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a66f3198e30ae1411d0cc5e477f1be4f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>content;</highlight></codeline>
+<codeline lineno="30" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ad03bf61d3977ddb8c103e310b46fd0b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>postTime;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a279b7d8b838076cc35df4b53b6b3dee9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>public<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>@Keep</highlight></codeline>
+<codeline lineno="36" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1af5dc9a0329c7ce6472786d2511e9e80c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1af5dc9a0329c7ce6472786d2511e9e80c" kindref="member">DailyArticleItem</ref>(Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>String<sp/>bannerURI,<sp/>String<sp/>imageURI,<sp/>String<sp/>title,<sp/>String<sp/>content,<sp/>String<sp/>postTime)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.bannerURI<sp/>=<sp/>bannerURI;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.imageURI<sp/>=<sp/>imageURI;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.title<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.content<sp/>=<sp/>content;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.postTime<sp/>=<sp/>postTime;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Long<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" kindref="member">getId</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" kindref="member">setId</ref>(Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" kindref="member">getBannerURI</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bannerURI;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" kindref="member">setBannerURI</ref>(String<sp/>bannerURI)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.bannerURI<sp/>=<sp/>bannerURI;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" kindref="member">getImageURI</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imageURI;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" kindref="member">setImageURI</ref>(String<sp/>imageURI)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.imageURI<sp/>=<sp/>imageURI;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" kindref="member">getTitle</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>title;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" kindref="member">setTitle</ref>(String<sp/>title)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.title<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" kindref="member">getContent</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>content;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" kindref="member">setContent</ref>(String<sp/>content)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.content<sp/>=<sp/>content;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" kindref="member">getPostTime</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>postTime;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" kindref="member">setPostTime</ref>(String<sp/>postTime)<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.postTime<sp/>=<sp/>postTime;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java"/>
+  </compounddef>
+</doxygen>

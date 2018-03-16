@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a03217e98574da8c45872eb11149398c8" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <initializer>= new Property(0, Long.class, &quot;id&quot;, true, &quot;_id&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aa9f0efdcf33845ea284f33520fa8ec08" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.BannerURI</definition>
+        <argsstring></argsstring>
+        <name>BannerURI</name>
+        <initializer>= new Property(1, String.class, &quot;bannerURI&quot;, false, &quot;BANNER_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a56d29298268ed2b2576d35471f05eb02" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.ImageURI</definition>
+        <argsstring></argsstring>
+        <name>ImageURI</name>
+        <initializer>= new Property(2, String.class, &quot;imageURI&quot;, false, &quot;IMAGE_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aed839ed291c822cafb83c94c3d0e4ad2" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <initializer>= new Property(3, String.class, &quot;title&quot;, false, &quot;TITLE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a101e3296929ffbdbdcf19ffe3a64c534" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <initializer>= new Property(4, String.class, &quot;content&quot;, false, &quot;CONTENT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a8a8142c9e74866f372b85c68347d3b70" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties.PostTime</definition>
+        <argsstring></argsstring>
+        <name>PostTime</name>
+        <initializer>= new Property(5, String.class, &quot;postTime&quot;, false, &quot;POST_TIME&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties" kindref="compound">Properties</ref> of entity DailyArticleItem.<linebreak/>
+ Can be used for QueryBuilder and for referencing column names. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="397">
+        <label>Property</label>
+      </node>
+      <node id="396">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao.Properties</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties"/>
+        <childnode refid="397" relation="usage">
+          <edgelabel>ImageURI</edgelabel>
+          <edgelabel>Title</edgelabel>
+          <edgelabel>PostTime</edgelabel>
+          <edgelabel>BannerURI</edgelabel>
+          <edgelabel>Id</edgelabel>
+          <edgelabel>Content</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="26" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aa9f0efdcf33845ea284f33520fa8ec08" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>BannerURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a101e3296929ffbdbdcf19ffe3a64c534" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>Content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a03217e98574da8c45872eb11149398c8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>Id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a56d29298268ed2b2576d35471f05eb02" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>ImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a8a8142c9e74866f372b85c68347d3b70" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>PostTime</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aed839ed291c822cafb83c94c3d0e4ad2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

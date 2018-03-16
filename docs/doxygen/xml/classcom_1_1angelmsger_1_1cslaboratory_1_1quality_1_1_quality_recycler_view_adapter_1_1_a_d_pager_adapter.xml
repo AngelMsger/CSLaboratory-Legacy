@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PagerAdapter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1d87702f7209895b4480652cabdafe79" prot="private" static="no" mutable="no">
+        <type>final List&lt; ImageView &gt;</type>
+        <definition>final List&lt;ImageView&gt; com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.mADViews</definition>
+        <argsstring></argsstring>
+        <name>mADViews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="213" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1a7de570bf2c6231d435e9b72a11e49a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.ADPagerAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>ADPagerAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="215" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="215" bodyend="235"/>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a6aa7377fd5550d30b9cf1b8c89327c81">com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onADItemClick</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a472d81c4771890bbb4b5dad4f75608d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="238" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="238" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1ac001d2acf85b2e531f42615d1271687f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.isViewFromObject</definition>
+        <argsstring>(View view, Object object)</argsstring>
+        <name>isViewFromObject</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="243" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a6a4be505ae8bb3d910e3a2d4d32e5c91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.instantiateItem</definition>
+        <argsstring>(ViewGroup container, int position)</argsstring>
+        <name>instantiateItem</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="248" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="248" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a276c5aa0b0d6c8e1b253b158e15cb2ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.destroyItem</definition>
+        <argsstring>(ViewGroup container, int position, Object object)</argsstring>
+        <name>destroyItem</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="259" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="259" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PagerAdapter</label>
+      </node>
+      <node id="0">
+        <label>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>List&lt; ImageView &gt;</label>
+      </node>
+      <node id="3">
+        <label>PagerAdapter</label>
+      </node>
+      <node id="2">
+        <label>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>mADViews</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="212" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="212" bodyend="262"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1a7de570bf2c6231d435e9b72a11e49a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>ADPagerAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a276c5aa0b0d6c8e1b253b158e15cb2ce" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>destroyItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a472d81c4771890bbb4b5dad4f75608d9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>getCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a6a4be505ae8bb3d910e3a2d4d32e5c91" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>instantiateItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1ac001d2acf85b2e531f42615d1271687f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>isViewFromObject</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1d87702f7209895b4480652cabdafe79" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</scope><name>mADViews</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

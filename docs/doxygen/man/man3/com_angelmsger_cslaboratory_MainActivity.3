@@ -1,0 +1,371 @@
+.TH "com.angelmsger.cslaboratory.MainActivity" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.MainActivity \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AppCompatActivity, OnNavigationItemSelectedListener, OnPageChangeListener, \fBcom\&.angelmsger\&.cslaboratory\&.daily\&.DailyFragment\&.OnListFragmentInteractionListener\fP, \fBcom\&.angelmsger\&.cslaboratory\&.forum\&.ForumFragment\&.OnListFragmentInteractionListener\fP, \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP, \fBcom\&.angelmsger\&.cslaboratory\&.course\&.CourseFragment\&.OnListFragmentInteractionListener\fP , 以及 \fBcom\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.OnListFragmentInteractionListener\fP \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBSectionsPagerAdapter\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBonBackPressed\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBonCreateOptionsMenu\fP (Menu menu)"
+.br
+.ti -1c
+.RI "boolean \fBonOptionsItemSelected\fP (MenuItem item)"
+.br
+.ti -1c
+.RI "boolean \fBonNavigationItemSelected\fP (MenuItem item)"
+.br
+.ti -1c
+.RI "void \fBonPageScrolled\fP (int position, float positionOffset, int positionOffsetPixels)"
+.br
+.ti -1c
+.RI "void \fBonPageSelected\fP (int position)"
+.br
+.ti -1c
+.RI "void \fBonPageScrollStateChanged\fP (int state)"
+.br
+.ti -1c
+.RI "void \fBonCourseListScroll\fP ()"
+.br
+.ti -1c
+.RI "void \fBonCourseListUpdate\fP (final int updateCount)"
+.br
+.ti -1c
+.RI "void \fBonCourseCategoryItemClick\fP (\fBCourseSubclassItem\fP courseSubclassItem)"
+.br
+.ti -1c
+.RI "void \fBonCourseItemClick\fP (\fBCourseCourseItem\fP courseCourseItem)"
+.br
+.ti -1c
+.RI "void \fBonDailyListScroll\fP ()"
+.br
+.ti -1c
+.RI "void \fBonDailyListUpdate\fP (int updateCount)"
+.br
+.ti -1c
+.RI "void \fBonDailyItemClick\fP (\fBDailyArticleItem\fP dailyArticleItem)"
+.br
+.ti -1c
+.RI "void \fBonForumListScroll\fP ()"
+.br
+.ti -1c
+.RI "void \fBonForumListUpdate\fP (int updateCount)"
+.br
+.ti -1c
+.RI "void \fBonForumItemClick\fP (\fBForumTopicItem\fP forumTopicItem)"
+.br
+.ti -1c
+.RI "void \fBonQualityListScroll\fP ()"
+.br
+.ti -1c
+.RI "void \fBonQualityListUpdate\fP (int updateCount)"
+.br
+.ti -1c
+.RI "void \fBonADItemClick\fP (\fBQualityADItem\fP qualityAdItem)"
+.br
+.ti -1c
+.RI "void \fBonCategoryItemClick\fP (\fBQualityCategoryItem\fP qualityCategoryItem)"
+.br
+.ti -1c
+.RI "void \fBonQualityItemClick\fP (\fBQualityArticleItem\fP qualityArticleItem)"
+.br
+.ti -1c
+.RI "void \fBonTopologyListScroll\fP ()"
+.br
+.ti -1c
+.RI "void \fBonTopologyListUpdate\fP (int updateCount)"
+.br
+.ti -1c
+.RI "void \fBonTopologyItemClick\fP (\fBTopologyFieldItem\fP topologyFieldItem)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBPERMISSIONS_REQUEST_INTERNET\fP = 0"
+.br
+.ti -1c
+.RI "static final int \fBLOGIN_REQUEST\fP = 0"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBonCreate\fP (Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBonActivityResult\fP (int requestCode, int resultCode, Intent data)"
+.br
+.in -1c
+.SS "Private 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBrefreshUserinfo\fP ()"
+.br
+.ti -1c
+.RI "void \fBrequestPermission\fP ()"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "FloatingActionButton \fBmFloatingActionButton\fP"
+.br
+.ti -1c
+.RI "ImageView \fBmDrawerImage\fP"
+.br
+.ti -1c
+.RI "CircleImageView \fBmDrawerAvatar\fP"
+.br
+.ti -1c
+.RI "TextView \fBmDrawerNickname\fP"
+.br
+.ti -1c
+.RI "Button \fBmDrawerSigninButton\fP"
+.br
+.ti -1c
+.RI "List< Fragment > \fBmFragments\fP"
+.br
+.ti -1c
+.RI "List< NavigationTabBar\&.Model > \fBmModels\fP"
+.br
+.ti -1c
+.RI "List< ColorStateList > \fBmColorStates\fP"
+.br
+.ti -1c
+.RI "\fBCSLaboratory\fP \fBmApplication\fP"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+在文件 MainActivity\&.java 第 53 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.initUI ()\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 87 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onActivityResult (int requestCode, int resultCode, Intent data)\fC [protected]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 273 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onADItemClick (\fBQualityADItem\fP qualityAdItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 370 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onBackPressed ()"
+
+.PP
+在文件 MainActivity\&.java 第 214 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCategoryItemClick (\fBQualityCategoryItem\fP qualityCategoryItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 375 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCourseCategoryItemClick (\fBCourseSubclassItem\fP courseSubclassItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.course\&.CourseFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 310 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCourseItemClick (\fBCourseCourseItem\fP courseCourseItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.course\&.CourseFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 315 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCourseListScroll ()"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.course\&.CourseFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 298 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCourseListUpdate (final int updateCount)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.course\&.CourseFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 303 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCreate (Bundle savedInstanceState)\fC [protected]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 79 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onCreateOptionsMenu (Menu menu)"
+
+.PP
+在文件 MainActivity\&.java 第 224 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onDailyItemClick (\fBDailyArticleItem\fP dailyArticleItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.daily\&.DailyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 332 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onDailyListScroll ()"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.daily\&.DailyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 320 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onDailyListUpdate (int updateCount)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.daily\&.DailyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 325 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onForumItemClick (\fBForumTopicItem\fP forumTopicItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.forum\&.ForumFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 353 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onForumListScroll ()"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.forum\&.ForumFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 341 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onForumListUpdate (int updateCount)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.forum\&.ForumFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 346 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onNavigationItemSelected (MenuItem item)"
+
+.PP
+在文件 MainActivity\&.java 第 246 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onOptionsItemSelected (MenuItem item)"
+
+.PP
+在文件 MainActivity\&.java 第 231 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onPageScrolled (int position, float positionOffset, int positionOffsetPixels)"
+
+.PP
+在文件 MainActivity\&.java 第 282 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onPageScrollStateChanged (int state)"
+
+.PP
+在文件 MainActivity\&.java 第 293 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onPageSelected (int position)"
+
+.PP
+在文件 MainActivity\&.java 第 287 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onQualityItemClick (\fBQualityArticleItem\fP qualityArticleItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 380 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onQualityListScroll ()"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 358 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onQualityListUpdate (int updateCount)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.quality\&.QualityFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 363 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onTopologyItemClick (\fBTopologyFieldItem\fP topologyFieldItem)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 397 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onTopologyListScroll ()"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 385 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.onTopologyListUpdate (int updateCount)"
+
+.PP
+实现了 \fBcom\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.OnListFragmentInteractionListener\fP\&.
+.PP
+在文件 MainActivity\&.java 第 390 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.refreshUserinfo ()\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 196 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.MainActivity\&.requestPermission ()\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 207 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final int com\&.angelmsger\&.cslaboratory\&.MainActivity\&.LOGIN_REQUEST = 0\fC [static]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 76 行定义\&.
+.SS "\fBCSLaboratory\fP com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mApplication\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 73 行定义\&.
+.SS "List<ColorStateList> com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mColorStates\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 71 行定义\&.
+.SS "CircleImageView com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mDrawerAvatar\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 63 行定义\&.
+.SS "ImageView com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mDrawerImage\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 62 行定义\&.
+.SS "TextView com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mDrawerNickname\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 64 行定义\&.
+.SS "Button com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mDrawerSigninButton\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 65 行定义\&.
+.SS "FloatingActionButton com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mFloatingActionButton\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 61 行定义\&.
+.SS "List<Fragment> com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mFragments\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 68 行定义\&.
+.SS "List<NavigationTabBar\&.Model> com\&.angelmsger\&.cslaboratory\&.MainActivity\&.mModels\fC [private]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 70 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.MainActivity\&.PERMISSIONS_REQUEST_INTERNET = 0\fC [static]\fP"
+
+.PP
+在文件 MainActivity\&.java 第 75 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

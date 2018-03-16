@@ -1,0 +1,146 @@
+.TH "com.angelmsger.cslaboratory.dao.DailyArticleItemDao" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.DailyArticleItemDao \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDao< DailyArticleItem, Long > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBProperties\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBDailyArticleItemDao\fP (DaoConfig config)"
+.br
+.ti -1c
+.RI "\fBDailyArticleItemDao\fP (DaoConfig config, \fBDaoSession\fP daoSession)"
+.br
+.ti -1c
+.RI "Long \fBreadKey\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "\fBDailyArticleItem\fP \fBreadEntity\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "void \fBreadEntity\fP (Cursor cursor, \fBDailyArticleItem\fP entity, int offset)"
+.br
+.ti -1c
+.RI "Long \fBgetKey\fP (\fBDailyArticleItem\fP entity)"
+.br
+.ti -1c
+.RI "boolean \fBhasKey\fP (\fBDailyArticleItem\fP entity)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateTable\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropTable\fP (Database db, boolean ifExists)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTABLENAME\fP = 'daily_articles'"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "final void \fBbindValues\fP (DatabaseStatement stmt, \fBDailyArticleItem\fP entity)"
+.br
+.ti -1c
+.RI "final void \fBbindValues\fP (SQLiteStatement stmt, \fBDailyArticleItem\fP entity)"
+.br
+.ti -1c
+.RI "final Long \fBupdateKeyAfterInsert\fP (\fBDailyArticleItem\fP entity, long rowId)"
+.br
+.ti -1c
+.RI "final boolean \fBisEntityUpdateable\fP ()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+DAO for table 'daily_articles'\&. 
+.PP
+在文件 DailyArticleItemDao\&.java 第 18 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.DailyArticleItemDao (DaoConfig config)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 36 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.DailyArticleItemDao (DaoConfig config, \fBDaoSession\fP daoSession)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 40 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.bindValues (DatabaseStatement stmt, \fBDailyArticleItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 66 行定义\&.
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.bindValues (SQLiteStatement stmt, \fBDailyArticleItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 89 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.createTable (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates the underlying database table\&. 
+.PP
+在文件 DailyArticleItemDao\&.java 第 45 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.dropTable (Database db, boolean ifExists)\fC [static]\fP"
+Drops the underlying database table\&. 
+.PP
+在文件 DailyArticleItemDao\&.java 第 60 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.getKey (\fBDailyArticleItem\fP entity)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 146 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.hasKey (\fBDailyArticleItem\fP entity)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 155 行定义\&.
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.isEntityUpdateable ()\fC [protected]\fP"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 160 行定义\&.
+.SS "\fBDailyArticleItem\fP com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.readEntity (Cursor cursor, int offset)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 117 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.readEntity (Cursor cursor, \fBDailyArticleItem\fP entity, int offset)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 130 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.readKey (Cursor cursor, int offset)"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 112 行定义\&.
+.SS "final Long com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.updateKeyAfterInsert (\fBDailyArticleItem\fP entity, long rowId)\fC [protected]\fP"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 140 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.dao\&.DailyArticleItemDao\&.TABLENAME = 'daily_articles'\fC [static]\fP"
+
+.PP
+在文件 DailyArticleItemDao\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

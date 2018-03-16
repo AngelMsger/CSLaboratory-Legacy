@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::PHPass</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a0d9811658545ec12011fbf5d51fe3a82" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.PHPass.itoa64</definition>
+        <argsstring></argsstring>
+        <name>itoa64</name>
+        <initializer>= &quot;./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="10" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad4e80c95fd8e8a2ab412ef962c066b8c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.PHPass.iterationCountLog2</definition>
+        <argsstring></argsstring>
+        <name>iterationCountLog2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="11" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a2fc641ddf8674fe49a22634131f64008" compoundref="_p_h_pass_8java" startline="14" endline="20">com.angelmsger.cslaboratory.login.PHPass.PHPass</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a147f7bb772c378324ddeb7a81fbb175f" prot="private" static="no" mutable="no">
+        <type>SecureRandom</type>
+        <definition>SecureRandom com.angelmsger.cslaboratory.login.PHPass.randomGen</definition>
+        <argsstring></argsstring>
+        <name>randomGen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="12" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a2fc641ddf8674fe49a22634131f64008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.PHPass.PHPass</definition>
+        <argsstring>(int iterationCountLog2)</argsstring>
+        <name>PHPass</name>
+        <param>
+          <type>int</type>
+          <declname>iterationCountLog2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="14" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="14" bodyend="20"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad4e80c95fd8e8a2ab412ef962c066b8c" compoundref="_p_h_pass_8java" startline="11">com.angelmsger.cslaboratory.login.PHPass.iterationCountLog2</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.PHPass.HashPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>HashPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="110" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="110" bodyend="119"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" compoundref="_p_h_pass_8java" startline="57" endline="93">com.angelmsger.cslaboratory.login.PHPass.cryptPrivate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a5bd44f8a9bbfb0c167329011e06ea553" compoundref="_p_h_pass_8java" startline="95" endline="100">com.angelmsger.cslaboratory.login.PHPass.gensaltPrivate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ae307d7c10dfeb8d57d34996af04af42c" compoundref="_p_h_pass_8java" startline="102" endline="108">com.angelmsger.cslaboratory.login.PHPass.stringToUtf8</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a15eaf622043a9dc066a61ef906ce9157" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.login.PHPass.CheckPassword</definition>
+        <argsstring>(String password, String storedHash)</argsstring>
+        <name>CheckPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>storedHash</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="121" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="121" bodyend="155"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" compoundref="_p_h_pass_8java" startline="57" endline="93">com.angelmsger.cslaboratory.login.PHPass.cryptPrivate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ad9eca7d24a787b2638328cf8dc3ec431" compoundref="_b_crypt_8java" startline="736" endline="738">com.angelmsger.cslaboratory.login.BCrypt.checkpw</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad1f1ba195c8a97451c9a3d486991c879" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.PHPass.encode64</definition>
+        <argsstring>(byte[] src, int count)</argsstring>
+        <name>encode64</name>
+        <param>
+          <type>byte []</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="22" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="22" bodyend="55"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" compoundref="_p_h_pass_8java" startline="57" endline="93">com.angelmsger.cslaboratory.login.PHPass.cryptPrivate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a5bd44f8a9bbfb0c167329011e06ea553" compoundref="_p_h_pass_8java" startline="95" endline="100">com.angelmsger.cslaboratory.login.PHPass.gensaltPrivate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.PHPass.cryptPrivate</definition>
+        <argsstring>(String password, String setting)</argsstring>
+        <name>cryptPrivate</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>setting</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="57" bodyend="93"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ae307d7c10dfeb8d57d34996af04af42c" compoundref="_p_h_pass_8java" startline="102" endline="108">com.angelmsger.cslaboratory.login.PHPass.stringToUtf8</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad1f1ba195c8a97451c9a3d486991c879" compoundref="_p_h_pass_8java" startline="22" endline="55">com.angelmsger.cslaboratory.login.PHPass.encode64</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" compoundref="_p_h_pass_8java" startline="110" endline="119">com.angelmsger.cslaboratory.login.PHPass.HashPassword</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a15eaf622043a9dc066a61ef906ce9157" compoundref="_p_h_pass_8java" startline="121" endline="155">com.angelmsger.cslaboratory.login.PHPass.CheckPassword</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a5bd44f8a9bbfb0c167329011e06ea553" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.PHPass.gensaltPrivate</definition>
+        <argsstring>(byte[] input)</argsstring>
+        <name>gensaltPrivate</name>
+        <param>
+          <type>byte []</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="95" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="95" bodyend="100"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad1f1ba195c8a97451c9a3d486991c879" compoundref="_p_h_pass_8java" startline="22" endline="55">com.angelmsger.cslaboratory.login.PHPass.encode64</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" compoundref="_p_h_pass_8java" startline="110" endline="119">com.angelmsger.cslaboratory.login.PHPass.HashPassword</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ae307d7c10dfeb8d57d34996af04af42c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte []</type>
+        <definition>byte [] com.angelmsger.cslaboratory.login.PHPass.stringToUtf8</definition>
+        <argsstring>(String string)</argsstring>
+        <name>stringToUtf8</name>
+        <param>
+          <type>String</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="102" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="102" bodyend="108"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" compoundref="_p_h_pass_8java" startline="57" endline="93">com.angelmsger.cslaboratory.login.PHPass.cryptPrivate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" compoundref="_p_h_pass_8java" startline="110" endline="119">com.angelmsger.cslaboratory.login.PHPass.HashPassword</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="372">
+        <label>com.angelmsger.cslaboratory.login.PHPass</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass"/>
+        <childnode refid="373" relation="usage">
+          <edgelabel>randomGen</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>SecureRandom</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" line="9" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/PHPass.java" bodystart="9" bodyend="157"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a15eaf622043a9dc066a61ef906ce9157" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>CheckPassword</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>cryptPrivate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad1f1ba195c8a97451c9a3d486991c879" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>encode64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a5bd44f8a9bbfb0c167329011e06ea553" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>gensaltPrivate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>HashPassword</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad4e80c95fd8e8a2ab412ef962c066b8c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>iterationCountLog2</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a0d9811658545ec12011fbf5d51fe3a82" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>itoa64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a2fc641ddf8674fe49a22634131f64008" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>PHPass</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a147f7bb772c378324ddeb7a81fbb175f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>randomGen</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ae307d7c10dfeb8d57d34996af04af42c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::PHPass</scope><name>stringToUtf8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

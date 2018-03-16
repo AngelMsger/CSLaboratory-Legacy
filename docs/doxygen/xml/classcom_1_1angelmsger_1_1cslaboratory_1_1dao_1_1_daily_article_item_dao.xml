@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties" prot="public">com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3119aa90ab8f59ee53bf27e9fd37a46c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.dao.DailyArticleItemDao.TABLENAME</definition>
+        <argsstring></argsstring>
+        <name>TABLENAME</name>
+        <initializer>= &quot;daily_articles&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a692bccd125838d966e818f218bf9a49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DailyArticleItemDao.DailyArticleItemDao</definition>
+        <argsstring>(DaoConfig config)</argsstring>
+        <name>DailyArticleItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ac49dc37b5399302c0cc874933854582c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DailyArticleItemDao.DailyArticleItemDao</definition>
+        <argsstring>(DaoConfig config, DaoSession daoSession)</argsstring>
+        <name>DailyArticleItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+          <declname>daoSession</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="40" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a189ec7057ed512da47938c27d7774513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readKey</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readKey</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="112" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1adff244c0a2c3c1dead469c0e8f7dd21d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+        <definition>DailyArticleItem com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="117" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="117" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, DailyArticleItem entity, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="130" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="130" bodyend="137"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" compoundref="_daily_article_item_8java" startline="49" endline="51">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" compoundref="_daily_article_item_8java" startline="57" endline="59">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setBannerURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" compoundref="_daily_article_item_8java" startline="65" endline="67">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" compoundref="_daily_article_item_8java" startline="73" endline="75">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" compoundref="_daily_article_item_8java" startline="81" endline="83">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" compoundref="_daily_article_item_8java" startline="89" endline="91">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setPostTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3b6d41062b3815fd49d80571a0cc7f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.DailyArticleItemDao.getKey</definition>
+        <argsstring>(DailyArticleItem entity)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="146" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="146" bodyend="152"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" compoundref="_daily_article_item_8java" startline="45" endline="47">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a396be56297657d4824b98f7eca1b25ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.dao.DailyArticleItemDao.hasKey</definition>
+        <argsstring>(DailyArticleItem entity)</argsstring>
+        <name>hasKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="155" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="155" bodyend="157"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" compoundref="_daily_article_item_8java" startline="45" endline="47">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getId</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a632f6064972fd6ed4a47a4d34cb105d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.DailyArticleItemDao.createTable</definition>
+        <argsstring>(Database db, boolean ifNotExists)</argsstring>
+        <name>createTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifNotExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="45" bodyend="57"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" compoundref="_dao_master_8java" startline="23" endline="33">com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a8da8928262bb90e87288309b3f8d17a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.DailyArticleItemDao.dropTable</definition>
+        <argsstring>(Database db, boolean ifExists)</argsstring>
+        <name>dropTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drops the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="60" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="60" bodyend="63"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" compoundref="_dao_master_8java" startline="36" endline="46">com.angelmsger.cslaboratory.dao.DaoMaster.dropAllTables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</definition>
+        <argsstring>(DatabaseStatement stmt, DailyArticleItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>DatabaseStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="66" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="66" bodyend="86"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" compoundref="_daily_article_item_8java" startline="45" endline="47">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" compoundref="_daily_article_item_8java" startline="53" endline="55">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getBannerURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" compoundref="_daily_article_item_8java" startline="61" endline="63">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" compoundref="_daily_article_item_8java" startline="69" endline="71">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" compoundref="_daily_article_item_8java" startline="77" endline="79">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" compoundref="_daily_article_item_8java" startline="85" endline="87">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getPostTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ab1b43bacb98d51a3371c574ea74ef9b8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</definition>
+        <argsstring>(SQLiteStatement stmt, DailyArticleItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>SQLiteStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="89" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="89" bodyend="109"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" compoundref="_daily_article_item_8java" startline="45" endline="47">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" compoundref="_daily_article_item_8java" startline="53" endline="55">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getBannerURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" compoundref="_daily_article_item_8java" startline="61" endline="63">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" compoundref="_daily_article_item_8java" startline="69" endline="71">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" compoundref="_daily_article_item_8java" startline="77" endline="79">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" compoundref="_daily_article_item_8java" startline="85" endline="87">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getPostTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ad7ad5e51af1568c55269b9202d01aaee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Long</type>
+        <definition>final Long com.angelmsger.cslaboratory.dao.DailyArticleItemDao.updateKeyAfterInsert</definition>
+        <argsstring>(DailyArticleItem entity, long rowId)</argsstring>
+        <name>updateKeyAfterInsert</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rowId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="140" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="140" bodyend="143"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" compoundref="_daily_article_item_8java" startline="49" endline="51">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a4143648475b503f6d0f256059d781a2f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean com.angelmsger.cslaboratory.dao.DailyArticleItemDao.isEntityUpdateable</definition>
+        <argsstring>()</argsstring>
+        <name>isEntityUpdateable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="160" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="160" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DAO for table &quot;daily_articles&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</label>
+      </node>
+      <node id="151">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="154">
+        <label>org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</label>
+      </node>
+      <node id="153">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DailyArticleItemDao.java" bodystart="18" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ab1b43bacb98d51a3371c574ea74ef9b8" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a632f6064972fd6ed4a47a4d34cb105d8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>createTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a692bccd125838d966e818f218bf9a49c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>DailyArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ac49dc37b5399302c0cc874933854582c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>DailyArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a8da8928262bb90e87288309b3f8d17a9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>dropTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3b6d41062b3815fd49d80571a0cc7f31" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>getKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a396be56297657d4824b98f7eca1b25ac" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>hasKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a4143648475b503f6d0f256059d781a2f" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>isEntityUpdateable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1adff244c0a2c3c1dead469c0e8f7dd21d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a189ec7057ed512da47938c27d7774513" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>readKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3119aa90ab8f59ee53bf27e9fd37a46c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>TABLENAME</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ad7ad5e51af1568c55269b9202d01aaee" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</scope><name>updateKeyAfterInsert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

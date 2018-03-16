@@ -1,0 +1,146 @@
+.TH "com.angelmsger.cslaboratory.dao.CourseCourseItemDao" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.CourseCourseItemDao \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDao< CourseCourseItem, Long > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBProperties\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBCourseCourseItemDao\fP (DaoConfig config)"
+.br
+.ti -1c
+.RI "\fBCourseCourseItemDao\fP (DaoConfig config, \fBDaoSession\fP daoSession)"
+.br
+.ti -1c
+.RI "Long \fBreadKey\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "\fBCourseCourseItem\fP \fBreadEntity\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "void \fBreadEntity\fP (Cursor cursor, \fBCourseCourseItem\fP entity, int offset)"
+.br
+.ti -1c
+.RI "Long \fBgetKey\fP (\fBCourseCourseItem\fP entity)"
+.br
+.ti -1c
+.RI "boolean \fBhasKey\fP (\fBCourseCourseItem\fP entity)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateTable\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropTable\fP (Database db, boolean ifExists)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTABLENAME\fP = 'course_courses'"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "final void \fBbindValues\fP (DatabaseStatement stmt, \fBCourseCourseItem\fP entity)"
+.br
+.ti -1c
+.RI "final void \fBbindValues\fP (SQLiteStatement stmt, \fBCourseCourseItem\fP entity)"
+.br
+.ti -1c
+.RI "final Long \fBupdateKeyAfterInsert\fP (\fBCourseCourseItem\fP entity, long rowId)"
+.br
+.ti -1c
+.RI "final boolean \fBisEntityUpdateable\fP ()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+DAO for table 'course_courses'\&. 
+.PP
+在文件 CourseCourseItemDao\&.java 第 18 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.CourseCourseItemDao (DaoConfig config)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 35 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.CourseCourseItemDao (DaoConfig config, \fBDaoSession\fP daoSession)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 39 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.bindValues (DatabaseStatement stmt, \fBCourseCourseItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 64 行定义\&.
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.bindValues (SQLiteStatement stmt, \fBCourseCourseItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 78 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.createTable (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates the underlying database table\&. 
+.PP
+在文件 CourseCourseItemDao\&.java 第 44 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.dropTable (Database db, boolean ifExists)\fC [static]\fP"
+Drops the underlying database table\&. 
+.PP
+在文件 CourseCourseItemDao\&.java 第 58 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.getKey (\fBCourseCourseItem\fP entity)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 124 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.hasKey (\fBCourseCourseItem\fP entity)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 133 行定义\&.
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.isEntityUpdateable ()\fC [protected]\fP"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 138 行定义\&.
+.SS "\fBCourseCourseItem\fP com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.readEntity (Cursor cursor, int offset)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 97 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.readEntity (Cursor cursor, \fBCourseCourseItem\fP entity, int offset)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 109 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.readKey (Cursor cursor, int offset)"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 92 行定义\&.
+.SS "final Long com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.updateKeyAfterInsert (\fBCourseCourseItem\fP entity, long rowId)\fC [protected]\fP"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 118 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.dao\&.CourseCourseItemDao\&.TABLENAME = 'course_courses'\fC [static]\fP"
+
+.PP
+在文件 CourseCourseItemDao\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

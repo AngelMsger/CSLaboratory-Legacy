@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::source::ServerDataSource</compoundname>
+    <basecompoundref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.source.DataSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a124b9fdd94db63868ef83d5652f51834" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.source.ServerDataSource.mBaseRequestURI</definition>
+        <argsstring></argsstring>
+        <name>mBaseRequestURI</name>
+        <initializer>= &quot;http://10.0.2.2:9090&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1aba4cdd27c7f0a8a1732514295e4d80fd" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context com.angelmsger.cslaboratory.source.ServerDataSource.mContext</definition>
+        <argsstring></argsstring>
+        <name>mContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a67d14c3e58b77e0372d21a7a728c8b5d" prot="private" static="no" mutable="no">
+        <type>OkHttpClient</type>
+        <definition>OkHttpClient com.angelmsger.cslaboratory.source.ServerDataSource.mApiClient</definition>
+        <argsstring></argsstring>
+        <name>mApiClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1afe7880fbbf94a85005904e837c25b00c" prot="private" static="no" mutable="no">
+        <type>Gson</type>
+        <definition>Gson com.angelmsger.cslaboratory.source.ServerDataSource.mGson</definition>
+        <argsstring></argsstring>
+        <name>mGson</name>
+        <initializer>= new Gson()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abf18ef6aedccf89a1698008c1cd22151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.source.ServerDataSource.ServerDataSource</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>ServerDataSource</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a818069b4fabc2d890b9134332f394aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Login.Response</type>
+        <definition>Login.Response com.angelmsger.cslaboratory.source.ServerDataSource.attemptLogin</definition>
+        <argsstring>(Login.Request request)</argsstring>
+        <name>attemptLogin</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1aafa63f8f082ec04fc15f13792a0c0d93">attemptLogin</reimplements>
+        <param>
+          <type>Login.Request</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5006765396f71775f1530513fe426c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kindref="compound">CourseContent</ref></type>
+        <definition>CourseContent com.angelmsger.cslaboratory.source.ServerDataSource.getCourseContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getCourseContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a1759cb945c4d5e1d69a11eb5dd26951b">getCourseContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="47" bodyend="71"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" compoundref="_course_content_8java" startline="18">com.angelmsger.cslaboratory.course.CourseContent.CATEGORY_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" compoundref="_course_content_8java" startline="19">com.angelmsger.cslaboratory.course.CourseContent.COURSE_ITEMS</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1ae89fc8c5d08bed772774c4f6c8592620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kindref="compound">DailyContent</ref></type>
+        <definition>DailyContent com.angelmsger.cslaboratory.source.ServerDataSource.getDailyContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getDailyContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a39aa5a36adf3325db4368f3c4ca4e8fc">getDailyContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="74" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="74" bodyend="90"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" compoundref="_daily_content_8java" startline="17">com.angelmsger.cslaboratory.daily.DailyContent.ITEMS</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a408e537e817904800bb7fca3ef241902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kindref="compound">ForumContent</ref></type>
+        <definition>ForumContent com.angelmsger.cslaboratory.source.ServerDataSource.getForumContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getForumContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1ae7050fcea726224039bc44a5e080bc82">getForumContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="93" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abe91cd7c27f62aedfb28a25a6b650a67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kindref="compound">QualityContent</ref></type>
+        <definition>QualityContent com.angelmsger.cslaboratory.source.ServerDataSource.getQualityContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getQualityContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a608a34020903097b2bc20001df452630">getQualityContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="98" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5cefe60a089f3ac4472e88ae778c7a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kindref="compound">TopologyContent</ref></type>
+        <definition>TopologyContent com.angelmsger.cslaboratory.source.ServerDataSource.getTopologyContent</definition>
+        <argsstring>(final int offset, final int limit)</argsstring>
+        <name>getTopologyContent</name>
+        <reimplements refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1af06482b9adcc19d803ed4fb7f82eb050">getTopologyContent</reimplements>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="103" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="103" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>实现数据源接口，数据源为从远程服务器加载 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="480">
+        <label>com.angelmsger.cslaboratory.source.ServerDataSource</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="482">
+        <label>com.angelmsger.cslaboratory.source.ServerDataSource</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source"/>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>mApiClient</edgelabel>
+        </childnode>
+        <childnode refid="485" relation="usage">
+          <edgelabel>mGson</edgelabel>
+        </childnode>
+        <childnode refid="486" relation="usage">
+          <edgelabel>mContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="485">
+        <label>Gson</label>
+      </node>
+      <node id="484">
+        <label>OkHttpClient</label>
+      </node>
+      <node id="486">
+        <label>Context</label>
+      </node>
+      <node id="483">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/ServerDataSource.java" bodystart="28" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a818069b4fabc2d890b9134332f394aab" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>attemptLogin</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5006765396f71775f1530513fe426c3e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>getCourseContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1ae89fc8c5d08bed772774c4f6c8592620" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>getDailyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a408e537e817904800bb7fca3ef241902" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>getForumContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abe91cd7c27f62aedfb28a25a6b650a67" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>getQualityContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5cefe60a089f3ac4472e88ae778c7a43" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>getTopologyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a67d14c3e58b77e0372d21a7a728c8b5d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>mApiClient</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a124b9fdd94db63868ef83d5652f51834" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>mBaseRequestURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1aba4cdd27c7f0a8a1732514295e4d80fd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>mContext</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1afe7880fbbf94a85005904e837c25b00c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>mGson</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abf18ef6aedccf89a1698008c1cd22151" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::source::ServerDataSource</scope><name>ServerDataSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

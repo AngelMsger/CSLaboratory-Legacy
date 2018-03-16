@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.login.LoginActivity.onCreate" name="com.angelmsger.cslaboratory.login.LoginActivity.onCreate">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity.html#a08fbc8d2bcd50c0af51cf4b06cd7fb7c" title="com.angelmsger.cslaboratory.login.\lLoginActivity.attemptLogin" alt="" coords="281,39,509,80"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity.html#a059a1da498c1bb373aef08c20f80acdd" title="com.angelmsger.cslaboratory.login.\lLoginActivity.isPasswordValid" alt="" coords="557,5,785,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity.html#af98ccbf14435c4909566c70abde9b329" title="com.angelmsger.cslaboratory.login.\lLoginActivity.isEmailValid" alt="" coords="557,71,785,112"/>
+</map>

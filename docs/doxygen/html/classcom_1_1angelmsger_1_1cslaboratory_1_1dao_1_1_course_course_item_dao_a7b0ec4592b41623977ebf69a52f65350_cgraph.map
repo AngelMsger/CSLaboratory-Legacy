@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.dao.CourseCourseItemDao.bindValues" name="com.angelmsger.cslaboratory.dao.CourseCourseItemDao.bindValues">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#ac7c0de057011ede54142379e01b51802" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getId" alt="" coords="276,5,559,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#a041a261e59d40c766cb4d5cd73b1fe9a" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getImageURI" alt="" coords="276,71,559,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#aa33eaca88a177613722709c395984892" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getTitle" alt="" coords="276,136,559,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#a73abd8e36a67b59c7da35e6317ac40d1" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getActionURI" alt="" coords="276,201,559,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#aad96aa4cb3a53057ec7c67c81cb90ebb" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getLearnNum" alt="" coords="276,267,559,308"/>
+</map>

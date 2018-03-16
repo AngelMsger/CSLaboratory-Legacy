@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1aa48d3316c9bb62f8f983c9436787dd19" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <initializer>= new Property(0, Long.class, &quot;id&quot;, true, &quot;_id&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9fbc3a69cfc43ac6b66579bf469cc44a" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <initializer>= new Property(1, String.class, &quot;title&quot;, false, &quot;TITLE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a351674c0a79cbab622ad37696c0ee0a6" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.Group</definition>
+        <argsstring></argsstring>
+        <name>Group</name>
+        <initializer>= new Property(2, String.class, &quot;group&quot;, false, &quot;GROUP&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a0c78656eccd54cabda8d5971dee75658" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <initializer>= new Property(3, String.class, &quot;content&quot;, false, &quot;CONTENT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a6edad615e7bd3e3b27b507129a660076" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.ImageURI</definition>
+        <argsstring></argsstring>
+        <name>ImageURI</name>
+        <initializer>= new Property(4, String.class, &quot;imageURI&quot;, false, &quot;IMAGE_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9e6acc8b5e01389378ecdf926ff7141d" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.ActionURI</definition>
+        <argsstring></argsstring>
+        <name>ActionURI</name>
+        <initializer>= new Property(5, String.class, &quot;actionURI&quot;, false, &quot;ACTION_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a959507e83d74fc48d3d4c7648a679b77" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.BangCount</definition>
+        <argsstring></argsstring>
+        <name>BangCount</name>
+        <initializer>= new Property(6, int.class, &quot;bangCount&quot;, false, &quot;BANG_COUNT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a300acaabf6db4396e43840e94bf79b25" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties.CommentCount</definition>
+        <argsstring></argsstring>
+        <name>CommentCount</name>
+        <initializer>= new Property(7, int.class, &quot;commentCount&quot;, false, &quot;COMMENT_COUNT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties" kindref="compound">Properties</ref> of entity QualityArticleItem.<linebreak/>
+ Can be used for QueryBuilder and for referencing column names. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="382">
+        <label>Property</label>
+      </node>
+      <node id="381">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao.Properties</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties"/>
+        <childnode refid="382" relation="usage">
+          <edgelabel>CommentCount</edgelabel>
+          <edgelabel>ImageURI</edgelabel>
+          <edgelabel>ActionURI</edgelabel>
+          <edgelabel>Title</edgelabel>
+          <edgelabel>Id</edgelabel>
+          <edgelabel>Group</edgelabel>
+          <edgelabel>BangCount</edgelabel>
+          <edgelabel>Content</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="26" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9e6acc8b5e01389378ecdf926ff7141d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>ActionURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a959507e83d74fc48d3d4c7648a679b77" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>BangCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a300acaabf6db4396e43840e94bf79b25" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>CommentCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a0c78656eccd54cabda8d5971dee75658" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>Content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a351674c0a79cbab622ad37696c0ee0a6" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>Group</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1aa48d3316c9bb62f8f983c9436787dd19" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>Id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a6edad615e7bd3e3b27b507129a660076" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>ImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9fbc3a69cfc43ac6b66579bf469cc44a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

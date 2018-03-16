@@ -1,0 +1,165 @@
+.TH "com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 Adapter< ViewHolder > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBADPagerAdapter\fP"
+.br
+.ti -1c
+.RI "class \fBADViewHolder\fP"
+.br
+.ti -1c
+.RI "class \fBCategoryViewHolder\fP"
+.br
+.ti -1c
+.RI "class \fBQualityViewHolder\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBQualityRecyclerViewAdapter\fP (List< \fBQualityADItem\fP > QualityADItems, List< \fBQualityCategoryItem\fP > qualityCategoryItems, List< \fBQualityArticleItem\fP > qualityArticleItems, final int colCount, LayoutInflater inflater, \fBOnListFragmentInteractionListener\fP listener)"
+.br
+.ti -1c
+.RI "int \fBgetItemViewType\fP (int position)"
+.br
+.ti -1c
+.RI "ViewHolder \fBonCreateViewHolder\fP (ViewGroup parent, int viewType)"
+.br
+.ti -1c
+.RI "void \fBonBindViewHolder\fP (final ViewHolder holder, int position)"
+.br
+.ti -1c
+.RI "int \fBgetItemCount\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNextRequestOffset\fP ()"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final List< \fBQualityADItem\fP > \fBmQualityADItems\fP"
+.br
+.ti -1c
+.RI "final List< \fBQualityCategoryItem\fP > \fBmQualityCategoryItems\fP"
+.br
+.ti -1c
+.RI "final List< \fBQualityArticleItem\fP > \fBmQualityArticleItems\fP"
+.br
+.ti -1c
+.RI "final int \fBmColCount\fP"
+.br
+.ti -1c
+.RI "final LayoutInflater \fBmInflater\fP"
+.br
+.ti -1c
+.RI "final \fBOnListFragmentInteractionListener\fP \fBmListener\fP"
+.br
+.ti -1c
+.RI "final int \fBmCategoryItemsCount\fP"
+.br
+.ti -1c
+.RI "final int \fBmPageCapacity\fP"
+.br
+.in -1c
+.SS "静态 Private 属性"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBmCategoryItemsRowCount\fP = 2"
+.br
+.ti -1c
+.RI "static final int \fBmQualityItemsRowCount\fP = 8"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+\fBRecyclerView\&.Adapter\fP 可以展示一些 \fBQualityArticleItem\fP 并且调用指定的 \fBOnListFragmentInteractionListener\fP\&. TODO: 替换为自定义代码段。 
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 31 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.QualityRecyclerViewAdapter (List< \fBQualityADItem\fP > QualityADItems, List< \fBQualityCategoryItem\fP > qualityCategoryItems, List< \fBQualityArticleItem\fP > qualityArticleItems, final int colCount, LayoutInflater inflater, \fBOnListFragmentInteractionListener\fP listener)"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 46 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.getItemCount ()"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 110 行定义\&.
+.SS "int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.getItemViewType (int position)"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 63 行定义\&.
+.SS "int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.getNextRequestOffset ()"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 116 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.onBindViewHolder (final ViewHolder holder, int position)"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 92 行定义\&.
+.SS "ViewHolder com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.onCreateViewHolder (ViewGroup parent, int viewType)"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 73 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mCategoryItemsCount\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 43 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mCategoryItemsRowCount = 2\fC [static]\fP, \fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 40 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mColCount\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 36 行定义\&.
+.SS "final LayoutInflater com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mInflater\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 37 行定义\&.
+.SS "final \fBOnListFragmentInteractionListener\fP com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mListener\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 38 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mPageCapacity\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 44 行定义\&.
+.SS "final List<\fBQualityADItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mQualityADItems\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 33 行定义\&.
+.SS "final List<\fBQualityArticleItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mQualityArticleItems\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 35 行定义\&.
+.SS "final List<\fBQualityCategoryItem\fP> com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mQualityCategoryItems\fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 34 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.quality\&.QualityRecyclerViewAdapter\&.mQualityItemsRowCount = 8\fC [static]\fP, \fC [private]\fP"
+
+.PP
+在文件 QualityRecyclerViewAdapter\&.java 第 41 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

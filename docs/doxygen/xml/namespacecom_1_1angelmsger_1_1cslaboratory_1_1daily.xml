@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::daily</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" prot="public">com::angelmsger::cslaboratory::daily::DailyContent</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment" prot="public">com::angelmsger::cslaboratory::daily::DailyFragment</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter" prot="public">com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article">com::angelmsger::cslaboratory::daily::article</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

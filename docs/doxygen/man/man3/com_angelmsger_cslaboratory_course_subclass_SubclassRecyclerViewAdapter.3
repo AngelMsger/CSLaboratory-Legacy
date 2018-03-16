@@ -1,0 +1,89 @@
+.TH "com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 Adapter< SubclassRecyclerViewAdapter\&.CourseClassViewHolder > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBCourseClassViewHolder\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBSubclassRecyclerViewAdapter\fP (List< \fBCourseSubclassItem\fP > courseSubclassItems, LayoutInflater inflater, CourseFragment\&.OnListFragmentInteractionListener listener)"
+.br
+.ti -1c
+.RI "\fBCourseClassViewHolder\fP \fBonCreateViewHolder\fP (ViewGroup parent, int viewType)"
+.br
+.ti -1c
+.RI "void \fBonBindViewHolder\fP (final \fBCourseClassViewHolder\fP holder, int position)"
+.br
+.ti -1c
+.RI "int \fBgetItemCount\fP ()"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final List< \fBCourseSubclassItem\fP > \fBmCourseSubclassItems\fP"
+.br
+.ti -1c
+.RI "final LayoutInflater \fBmInflater\fP"
+.br
+.ti -1c
+.RI "final CourseFragment\&.OnListFragmentInteractionListener \fBmListener\fP"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+\fBRecyclerView\&.Adapter\fP 可以展示一些 \fBCourseSubclassItem\fP 并且调用指定的 \fBCourseFragment\&.OnListFragmentInteractionListener\fP\&. TODO: 替换为自定义代码段。 
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 24 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.SubclassRecyclerViewAdapter (List< \fBCourseSubclassItem\fP > courseSubclassItems, LayoutInflater inflater, CourseFragment\&.OnListFragmentInteractionListener listener)"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 31 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "int com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.getItemCount ()"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 52 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.onBindViewHolder (final \fBCourseClassViewHolder\fP holder, int position)"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 47 行定义\&.
+.SS "\fBCourseClassViewHolder\fP com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.onCreateViewHolder (ViewGroup parent, int viewType)"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 40 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final List<\fBCourseSubclassItem\fP> com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.mCourseSubclassItems\fC [private]\fP"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 27 行定义\&.
+.SS "final LayoutInflater com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.mInflater\fC [private]\fP"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 28 行定义\&.
+.SS "final CourseFragment\&.OnListFragmentInteractionListener com\&.angelmsger\&.cslaboratory\&.course\&.subclass\&.SubclassRecyclerViewAdapter\&.mListener\fC [private]\fP"
+
+.PP
+在文件 SubclassRecyclerViewAdapter\&.java 第 29 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

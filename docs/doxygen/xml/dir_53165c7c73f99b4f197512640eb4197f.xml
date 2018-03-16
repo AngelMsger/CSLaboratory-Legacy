@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_53165c7c73f99b4f197512640eb4197f" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login</compoundname>
+    <innerfile refid="_b_crypt_8java">BCrypt.java</innerfile>
+    <innerfile refid="_login_8java">Login.java</innerfile>
+    <innerfile refid="_login_activity_8java">LoginActivity.java</innerfile>
+    <innerfile refid="_p_h_pass_8java">PHPass.java</innerfile>
+    <innerfile refid="_signup_activity_8java">SignupActivity.java</innerfile>
+    <innerfile refid="_user_8java">User.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/"/>
+  </compounddef>
+</doxygen>

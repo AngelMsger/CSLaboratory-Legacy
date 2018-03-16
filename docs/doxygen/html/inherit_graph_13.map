@@ -1,0 +1,11 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCategoryItemDao" alt="" coords="148,5,371,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCourseItemDao" alt="" coords="148,71,371,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseSubclassItemDao" alt="" coords="148,136,371,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lDailyArticleItemDao" alt="" coords="148,201,371,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lForumTopicItemDao" alt="" coords="148,267,371,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityADItemDao" alt="" coords="148,332,371,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityArticleItemDao" alt="" coords="148,397,371,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityCategoryItemDao" alt="" coords="148,463,371,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lTopologyFieldItemDao" alt="" coords="148,528,371,569"/>
+</map>

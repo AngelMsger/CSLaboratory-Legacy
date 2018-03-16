@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a0727c123f733fbea88120ddd00c6ae9b" prot="public" static="no" mutable="no">
+        <type>final View</type>
+        <definition>final View com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mView</definition>
+        <argsstring></argsstring>
+        <name>mView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a09f51ddd519acbf2c6d5c5ff49c24924" prot="public" static="no" mutable="no">
+        <type>final ImageView</type>
+        <definition>final ImageView com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mBackground</definition>
+        <argsstring></argsstring>
+        <name>mBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="64" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a2fc897402f5efd40c23831cb378313a1" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1aa8e747543e3baa80a38d9efd8b6ad83e" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mContent</definition>
+        <argsstring></argsstring>
+        <name>mContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="66" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a638d192a7816d8843ed165c0bb6868da" prot="public" static="no" mutable="no">
+        <type>final CircleImageView</type>
+        <definition>final CircleImageView com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mImage</definition>
+        <argsstring></argsstring>
+        <name>mImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a5028b046f103daa880329f2732478920" prot="public" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref></type>
+        <definition>TopologyFieldItem com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.mItem</definition>
+        <argsstring></argsstring>
+        <name>mItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="68" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1ad1aa0dc593577fcf16b001779f39554f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.TopologyViewHolder</definition>
+        <argsstring>(View view)</argsstring>
+        <name>TopologyViewHolder</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="70" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="70" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</definition>
+        <argsstring>(final TopologyFieldItem item)</argsstring>
+        <name>bind</name>
+        <param>
+          <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="79" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="79" bodyend="93"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a9e205cd5a78e31c62b7ac456d08952d4" compoundref="_topology_field_item_8java" startline="53" endline="55">com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getBackgroundURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1abe50a2a068d3d78c2fd63766c1f82a90" compoundref="_topology_field_item_8java" startline="61" endline="63">com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae8f3bb7dc8a51bec3dc3b13027b165af" compoundref="_topology_field_item_8java" startline="69" endline="71">com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae096ba91918178af5e7eab967723533a" compoundref="_topology_field_item_8java" startline="77" endline="79">com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getImageURI</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a66c8c35d5b1113b61d2047ddfe39f13d">com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener.onTopologyItemClick</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a6405e68f455ba70e0d742a9cdb6ce9c0" compoundref="_topology_recycler_view_adapter_8java" startline="48" endline="50">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.onBindViewHolder</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="549">
+        <label>com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="550">
+        <label>ViewHolder</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="557">
+        <label>TextView</label>
+      </node>
+      <node id="554">
+        <label>CircleImageView</label>
+      </node>
+      <node id="556">
+        <label>View</label>
+      </node>
+      <node id="551">
+        <label>com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder"/>
+        <childnode refid="552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="553" relation="usage">
+          <edgelabel>mItem</edgelabel>
+        </childnode>
+        <childnode refid="554" relation="usage">
+          <edgelabel>mImage</edgelabel>
+        </childnode>
+        <childnode refid="555" relation="usage">
+          <edgelabel>mBackground</edgelabel>
+        </childnode>
+        <childnode refid="556" relation="usage">
+          <edgelabel>mView</edgelabel>
+        </childnode>
+        <childnode refid="557" relation="usage">
+          <edgelabel>mContent</edgelabel>
+          <edgelabel>mTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="552">
+        <label>ViewHolder</label>
+      </node>
+      <node id="555">
+        <label>ImageView</label>
+      </node>
+      <node id="553">
+        <label>com.angelmsger.cslaboratory.topology.field.TopologyFieldItem</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyRecyclerViewAdapter.java" bodystart="62" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>bind</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a09f51ddd519acbf2c6d5c5ff49c24924" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1aa8e747543e3baa80a38d9efd8b6ad83e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a638d192a7816d8843ed165c0bb6868da" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mImage</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a5028b046f103daa880329f2732478920" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a2fc897402f5efd40c23831cb378313a1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a0727c123f733fbea88120ddd00c6ae9b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>mView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1ad1aa0dc593577fcf16b001779f39554f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</scope><name>TopologyViewHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

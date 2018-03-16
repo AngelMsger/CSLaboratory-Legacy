@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RecyclerView::Adapter&lt; ViewHolder &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter" prot="public">com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder" prot="public">com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADViewHolder</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder" prot="public">com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::CategoryViewHolder</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder" prot="public">com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::QualityViewHolder</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2d1940d54f77ce2f061e86aed512719a" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref> &gt;</type>
+        <definition>final List&lt;QualityADItem&gt; com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mQualityADItems</definition>
+        <argsstring></argsstring>
+        <name>mQualityADItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a937ca37c258ef0ea572772a3eee39d30" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref> &gt;</type>
+        <definition>final List&lt;QualityCategoryItem&gt; com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mQualityCategoryItems</definition>
+        <argsstring></argsstring>
+        <name>mQualityCategoryItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a89bb97dd60edb178acaedb811ebc82e6" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref> &gt;</type>
+        <definition>final List&lt;QualityArticleItem&gt; com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mQualityArticleItems</definition>
+        <argsstring></argsstring>
+        <name>mQualityArticleItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1af5a8e0b9021dcc5aa64501fdbb16f823" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mColCount</definition>
+        <argsstring></argsstring>
+        <name>mColCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a3fbe84ae3d429a8dd3871b4f24530e47" prot="private" static="no" mutable="no">
+        <type>final LayoutInflater</type>
+        <definition>final LayoutInflater com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mInflater</definition>
+        <argsstring></argsstring>
+        <name>mInflater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a50e94681bf1d745f57ddb45e3c26913f" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>final OnListFragmentInteractionListener com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1afef2dca58cc5800c12b9f2b18f8d820e" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mCategoryItemsCount</definition>
+        <argsstring></argsstring>
+        <name>mCategoryItemsCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="43" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" compoundref="_quality_recycler_view_adapter_8java" startline="92" endline="107">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.onBindViewHolder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2ebd225e6e08cf1ff3d06c4d24fb0960" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mPageCapacity</definition>
+        <argsstring></argsstring>
+        <name>mPageCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" compoundref="_quality_recycler_view_adapter_8java" startline="63" endline="70">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getItemViewType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a18aa6420c9de8a571e4f3e9a50354957" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mCategoryItemsRowCount</definition>
+        <argsstring></argsstring>
+        <name>mCategoryItemsRowCount</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="40" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a6ae5958fd1459eb0fb59c1d27b5f3875" compoundref="_quality_recycler_view_adapter_8java" startline="46" endline="60">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.QualityRecyclerViewAdapter</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" compoundref="_quality_recycler_view_adapter_8java" startline="92" endline="107">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.onBindViewHolder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1ac0d598356326e9433c51577054dac6d3" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mQualityItemsRowCount</definition>
+        <argsstring></argsstring>
+        <name>mQualityItemsRowCount</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a6ae5958fd1459eb0fb59c1d27b5f3875" compoundref="_quality_recycler_view_adapter_8java" startline="46" endline="60">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.QualityRecyclerViewAdapter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a6ae5958fd1459eb0fb59c1d27b5f3875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.QualityRecyclerViewAdapter</definition>
+        <argsstring>(List&lt; QualityADItem &gt; QualityADItems, List&lt; QualityCategoryItem &gt; qualityCategoryItems, List&lt; QualityArticleItem &gt; qualityArticleItems, final int colCount, LayoutInflater inflater, OnListFragmentInteractionListener listener)</argsstring>
+        <name>QualityRecyclerViewAdapter</name>
+        <param>
+          <type>List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref> &gt;</type>
+          <declname>QualityADItems</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref> &gt;</type>
+          <declname>qualityCategoryItems</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref> &gt;</type>
+          <declname>qualityArticleItems</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>colCount</declname>
+        </param>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="46" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="46" bodyend="60"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a18aa6420c9de8a571e4f3e9a50354957" compoundref="_quality_recycler_view_adapter_8java" startline="40">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mCategoryItemsRowCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1ac0d598356326e9433c51577054dac6d3" compoundref="_quality_recycler_view_adapter_8java" startline="41">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mQualityItemsRowCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getItemViewType</definition>
+        <argsstring>(int position)</argsstring>
+        <name>getItemViewType</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="63" bodyend="70"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2ebd225e6e08cf1ff3d06c4d24fb0960" compoundref="_quality_recycler_view_adapter_8java" startline="44">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mPageCapacity</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" compoundref="_quality_recycler_view_adapter_8java" startline="92" endline="107">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.onBindViewHolder</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5025f8af6fef943c1cc34590322cf8af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ViewHolder</type>
+        <definition>ViewHolder com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.onCreateViewHolder</definition>
+        <argsstring>(ViewGroup parent, int viewType)</argsstring>
+        <name>onCreateViewHolder</name>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="73" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="73" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.onBindViewHolder</definition>
+        <argsstring>(final ViewHolder holder, int position)</argsstring>
+        <name>onBindViewHolder</name>
+        <param>
+          <type>final ViewHolder</type>
+          <declname>holder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="92" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="92" bodyend="107"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" compoundref="_quality_recycler_view_adapter_8java" startline="63" endline="70">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getItemViewType</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a18aa6420c9de8a571e4f3e9a50354957" compoundref="_quality_recycler_view_adapter_8java" startline="40">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mCategoryItemsRowCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1afef2dca58cc5800c12b9f2b18f8d820e" compoundref="_quality_recycler_view_adapter_8java" startline="43">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.mCategoryItemsCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1adb969620cf0120a32f53e217033a802f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getItemCount</definition>
+        <argsstring>()</argsstring>
+        <name>getItemCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="110" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5177cef6d1aff524b6540579d1d89521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getNextRequestOffset</definition>
+        <argsstring>()</argsstring>
+        <name>getNextRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="116" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="116" bodyend="118"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="" kindref="compound">RecyclerView.Adapter</ref> 可以展示一些 <ref refid="" kindref="compound">QualityArticleItem</ref> 并且调用指定的 <ref refid="" kindref="compound">OnListFragmentInteractionListener</ref>. TODO: 替换为自定义代码段。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="448">
+        <label>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter"/>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="452">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="453">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.ad.QualityADItem &gt;</label>
+      </node>
+      <node id="454">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="455">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.article.QualityArticleItem &gt;</label>
+      </node>
+      <node id="456">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.category.QualityCategoryItem &gt;</label>
+      </node>
+      <node id="450">
+        <label>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+        <childnode refid="452" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>mQualityADItems</edgelabel>
+        </childnode>
+        <childnode refid="454" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="455" relation="usage">
+          <edgelabel>mQualityArticleItems</edgelabel>
+        </childnode>
+        <childnode refid="456" relation="usage">
+          <edgelabel>mQualityCategoryItems</edgelabel>
+        </childnode>
+      </node>
+      <node id="451">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityRecyclerViewAdapter.java" bodystart="31" bodyend="263"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1adb969620cf0120a32f53e217033a802f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>getItemCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>getItemViewType</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5177cef6d1aff524b6540579d1d89521" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>getNextRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1afef2dca58cc5800c12b9f2b18f8d820e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mCategoryItemsCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a18aa6420c9de8a571e4f3e9a50354957" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mCategoryItemsRowCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1af5a8e0b9021dcc5aa64501fdbb16f823" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mColCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a3fbe84ae3d429a8dd3871b4f24530e47" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mInflater</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a50e94681bf1d745f57ddb45e3c26913f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2ebd225e6e08cf1ff3d06c4d24fb0960" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mPageCapacity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2d1940d54f77ce2f061e86aed512719a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mQualityADItems</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a89bb97dd60edb178acaedb811ebc82e6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mQualityArticleItems</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a937ca37c258ef0ea572772a3eee39d30" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mQualityCategoryItems</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1ac0d598356326e9433c51577054dac6d3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>mQualityItemsRowCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>onBindViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5025f8af6fef943c1cc34590322cf8af" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>onCreateViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a6ae5958fd1459eb0fb59c1d27b5f3875" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</scope><name>QualityRecyclerViewAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data" prot="private">com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</innerclass>
+    <innerclass refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" prot="public">com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afcf3c4aeaaafbf94edf4e899e18ea730" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.forum.ForumFragment.ARG_COLUMN_COUNT</definition>
+        <argsstring></argsstring>
+        <name>ARG_COLUMN_COUNT</name>
+        <initializer>= &quot;column-count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a7881db7e71bebfa9e13709e2315f6e08" compoundref="_forum_fragment_8java" startline="67" endline="73">com.angelmsger.cslaboratory.forum.ForumFragment.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aff9550a5ec7692c84fe3b58aac222ea4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.forum.ForumFragment.mColumnCount</definition>
+        <argsstring></argsstring>
+        <name>mColumnCount</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a7881db7e71bebfa9e13709e2315f6e08" compoundref="_forum_fragment_8java" startline="67" endline="73">com.angelmsger.cslaboratory.forum.ForumFragment.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>OnListFragmentInteractionListener com.angelmsger.cslaboratory.forum.ForumFragment.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a34479d11567f78861a028f7c39df4002" compoundref="_forum_fragment_8java" startline="130" endline="138">com.angelmsger.cslaboratory.forum.ForumFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a492af9481f08de1dc07eed206959ead8" compoundref="_forum_fragment_8java" startline="141" endline="144">com.angelmsger.cslaboratory.forum.ForumFragment.onDetach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" compoundref="_forum_fragment_8java" startline="184" endline="195">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" prot="private" static="no" mutable="no">
+        <type>PullToRefreshView</type>
+        <definition>PullToRefreshView com.angelmsger.cslaboratory.forum.ForumFragment.mPullToRefreshView</definition>
+        <argsstring></argsstring>
+        <name>mPullToRefreshView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" compoundref="_forum_fragment_8java" startline="184" endline="195">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1adbeda03db4ef39498b7c434fa510ba90" compoundref="_forum_fragment_8java" startline="198" endline="203">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a5679c6544c50f7ca3edaf0ee55d85e4b" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView com.angelmsger.cslaboratory.forum.ForumFragment.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a9872ffaf4fc52ee660a65b550191f8a8" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter" kindref="compound">ForumRecyclerViewAdapter</ref></type>
+        <definition>ForumRecyclerViewAdapter com.angelmsger.cslaboratory.forum.ForumFragment.mRecyclerViewAdapter</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerViewAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" compoundref="_forum_fragment_8java" startline="184" endline="195">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afc6e1400b7f64699ce1651d06de63fde" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>final DataSource com.angelmsger.cslaboratory.forum.ForumFragment.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" compoundref="_forum_fragment_8java" startline="177" endline="181">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab91a936d245bc7b081001c880a4da9e9" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kindref="compound">ForumContent</ref></type>
+        <definition>ForumContent com.angelmsger.cslaboratory.forum.ForumFragment.mForumContent</definition>
+        <argsstring></argsstring>
+        <name>mForumContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" compoundref="_forum_fragment_8java" startline="177" endline="181">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a4006b7c3c51ad8ce5502add697780720" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.forum.ForumFragment.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data" kindref="compound">AsynLoadData</ref></type>
+        <definition>AsynLoadData com.angelmsger.cslaboratory.forum.ForumFragment.mLoadDataTask</definition>
+        <argsstring></argsstring>
+        <name>mLoadDataTask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ae900d8085d402e831960e5d871e4eb03" compoundref="_forum_fragment_8java" startline="147" endline="150">com.angelmsger.cslaboratory.forum.ForumFragment.onRefresh</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" compoundref="_forum_fragment_8java" startline="184" endline="195">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1adbeda03db4ef39498b7c434fa510ba90" compoundref="_forum_fragment_8java" startline="198" endline="203">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a87c93916e66a0fa58e865a72e2591c8c" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.forum.ForumFragment.mRequestLimit</definition>
+        <argsstring></argsstring>
+        <name>mRequestLimit</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" compoundref="_forum_fragment_8java" startline="177" endline="181">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a846290cbff5441f32f1156acba9dce2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.ForumFragment.ForumFragment</definition>
+        <argsstring>()</argsstring>
+        <name>ForumFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>为 fragment manager 预留的强制的空构造器以实例化 fragment (e.g. upon screen orientation changes)。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="50" bodyend="54"/>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1ae7050fcea726224039bc44a5e080bc82">com.angelmsger.cslaboratory.source.DataSource.getForumContent</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a3f479f38a3051de06b66fe83521a99e2" compoundref="_forum_fragment_8java" startline="58" endline="64">com.angelmsger.cslaboratory.forum.ForumFragment.newInstance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a7881db7e71bebfa9e13709e2315f6e08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="67" bodyend="73"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aff9550a5ec7692c84fe3b58aac222ea4" compoundref="_forum_fragment_8java" startline="31">com.angelmsger.cslaboratory.forum.ForumFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afcf3c4aeaaafbf94edf4e899e18ea730" compoundref="_forum_fragment_8java" startline="29">com.angelmsger.cslaboratory.forum.ForumFragment.ARG_COLUMN_COUNT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</definition>
+        <argsstring>(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>final LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="76" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="76" bodyend="127"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" compoundref="_forum_fragment_8java" startline="34">com.angelmsger.cslaboratory.forum.ForumFragment.mPullToRefreshView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a5679c6544c50f7ca3edaf0ee55d85e4b" compoundref="_forum_fragment_8java" startline="35">com.angelmsger.cslaboratory.forum.ForumFragment.mRecyclerView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a9872ffaf4fc52ee660a65b550191f8a8" compoundref="_forum_fragment_8java" startline="36">com.angelmsger.cslaboratory.forum.ForumFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab91a936d245bc7b081001c880a4da9e9" compoundref="_forum_fragment_8java" startline="39">com.angelmsger.cslaboratory.forum.ForumFragment.mForumContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" compoundref="_forum_content_8java" startline="17">com.angelmsger.cslaboratory.forum.ForumContent.ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" compoundref="_forum_fragment_8java" startline="32">com.angelmsger.cslaboratory.forum.ForumFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aff9550a5ec7692c84fe3b58aac222ea4" compoundref="_forum_fragment_8java" startline="31">com.angelmsger.cslaboratory.forum.ForumFragment.mColumnCount</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1acc8ae4d26ce9bec48cfe95ee86989d52">com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumListScroll</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" compoundref="_forum_fragment_8java" startline="42">com.angelmsger.cslaboratory.forum.ForumFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a181860c1fc375bffa97bee1e1de42722" compoundref="_forum_recycler_view_adapter_8java" startline="56" endline="58">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.getNextRequestOffset</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a4006b7c3c51ad8ce5502add697780720" compoundref="_forum_fragment_8java" startline="41">com.angelmsger.cslaboratory.forum.ForumFragment.mHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a34479d11567f78861a028f7c39df4002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.onAttach</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="130" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="130" bodyend="138"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" compoundref="_forum_fragment_8java" startline="32">com.angelmsger.cslaboratory.forum.ForumFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a492af9481f08de1dc07eed206959ead8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="141" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="141" bodyend="144"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" compoundref="_forum_fragment_8java" startline="32">com.angelmsger.cslaboratory.forum.ForumFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ae900d8085d402e831960e5d871e4eb03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="147" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="147" bodyend="150"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" compoundref="_forum_fragment_8java" startline="42">com.angelmsger.cslaboratory.forum.ForumFragment.mLoadDataTask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a3f479f38a3051de06b66fe83521a99e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment" kindref="compound">ForumFragment</ref></type>
+        <definition>static ForumFragment com.angelmsger.cslaboratory.forum.ForumFragment.newInstance</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newInstance</name>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="58" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="58" bodyend="64"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a846290cbff5441f32f1156acba9dce2e" compoundref="_forum_fragment_8java" startline="50" endline="54">com.angelmsger.cslaboratory.forum.ForumFragment.ForumFragment</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref> 接口。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="236">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="237">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="253">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="252">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="250">
+        <label>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="244" relation="usage">
+          <edgelabel>mForumTopicItems</edgelabel>
+        </childnode>
+        <childnode refid="253" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="239">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="242" relation="usage">
+          <edgelabel>mPullToRefreshView</edgelabel>
+        </childnode>
+        <childnode refid="243" relation="usage">
+          <edgelabel>mForumContent</edgelabel>
+        </childnode>
+        <childnode refid="245" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="246" relation="usage">
+          <edgelabel>mLoadDataTask</edgelabel>
+        </childnode>
+        <childnode refid="248" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="249" relation="usage">
+          <edgelabel>mRecyclerView</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>mRecyclerViewAdapter</edgelabel>
+        </childnode>
+        <childnode refid="253" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="241">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="243">
+        <label>com.angelmsger.cslaboratory.forum.ForumContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content"/>
+        <childnode refid="244" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="244">
+        <label>List&lt; com.angelmsger.cslaboratory.forum.topic.ForumTopicItem &gt;</label>
+      </node>
+      <node id="242">
+        <label>PullToRefreshView</label>
+      </node>
+      <node id="249">
+        <label>RecyclerView</label>
+      </node>
+      <node id="248">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="247">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="240">
+        <label>Fragment</label>
+      </node>
+      <node id="245">
+        <label>Handler</label>
+      </node>
+      <node id="251">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+      <node id="246">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="26" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afcf3c4aeaaafbf94edf4e899e18ea730" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>ARG_COLUMN_COUNT</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a846290cbff5441f32f1156acba9dce2e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>ForumFragment</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aff9550a5ec7692c84fe3b58aac222ea4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mColumnCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afc6e1400b7f64699ce1651d06de63fde" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab91a936d245bc7b081001c880a4da9e9" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mForumContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a4006b7c3c51ad8ce5502add697780720" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mLoadDataTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mPullToRefreshView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a5679c6544c50f7ca3edaf0ee55d85e4b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mRecyclerView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a9872ffaf4fc52ee660a65b550191f8a8" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a87c93916e66a0fa58e865a72e2591c8c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>mRequestLimit</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a3f479f38a3051de06b66fe83521a99e2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>newInstance</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a34479d11567f78861a028f7c39df4002" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a7881db7e71bebfa9e13709e2315f6e08" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>onCreateView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a492af9481f08de1dc07eed206959ead8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ae900d8085d402e831960e5d871e4eb03" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment</scope><name>onRefresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

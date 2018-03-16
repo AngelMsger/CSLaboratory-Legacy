@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.course.CourseFragment.onCreateView" name="com.angelmsger.cslaboratory.course.CourseFragment.onCreateView">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter.html#ad9e2b9f5d94aad9cbc9d7a9bd58b7ec2" title="com.angelmsger.cslaboratory.course.\lCourseRecyclerViewAdapter.getItemViewType" alt="" coords="307,5,598,47"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener.html#a4db99b63a63693a0a1c38b2d5ff63973" title="com.angelmsger.cslaboratory.course.\lCourseFragment.OnListFragmentInteraction\lListener.onCourseListScroll" alt="" coords="315,71,590,127"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter.html#a5fea8c751a95514ee84a1d5bf3d2c8c9" title="com.angelmsger.cslaboratory.course.\lCourseRecyclerViewAdapter.getNextRequestOffset" alt="" coords="293,152,612,193"/>
+</map>

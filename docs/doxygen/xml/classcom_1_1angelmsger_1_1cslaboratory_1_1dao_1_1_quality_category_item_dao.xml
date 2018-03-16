@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1_1_properties" prot="public">com::angelmsger::cslaboratory::dao::QualityCategoryItemDao::Properties</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a294c239b541266d368340f165f2a7feb" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.TABLENAME</definition>
+        <argsstring></argsstring>
+        <name>TABLENAME</name>
+        <initializer>= &quot;quality_categories&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8fe32b058f24f042f03cfe70f7e9d16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.QualityCategoryItemDao</definition>
+        <argsstring>(DaoConfig config)</argsstring>
+        <name>QualityCategoryItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ad70589883242f9c15a8345f8c5e4876b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.QualityCategoryItemDao</definition>
+        <argsstring>(DaoConfig config, DaoSession daoSession)</argsstring>
+        <name>QualityCategoryItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+          <declname>daoSession</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aa207000439410216020dfdd9441b23a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.readKey</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readKey</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="81" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a20ee4d2c1ab6c00f98bc714d970817c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+        <definition>QualityCategoryItem com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="86" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4571d1c710e838906dd389b10d0086dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, QualityCategoryItem entity, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="96" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="96" bodyend="100"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a1dc233cf7d05a5a1b403dc62d904ebbb" compoundref="_quality_category_item_8java" startline="39" endline="41">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.setId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a457a8602067aadf93dcc9b676029e796" compoundref="_quality_category_item_8java" startline="47" endline="49">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.setTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a999218a69f93f1d8f3077ab632aefdae" compoundref="_quality_category_item_8java" startline="55" endline="57">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.setImageURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a2ab2b0099e66fd54e42d85d8b06caa59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.getKey</definition>
+        <argsstring>(QualityCategoryItem entity)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="109" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="109" bodyend="115"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a46053cf23939e674aaac34105a778da4" compoundref="_quality_category_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aff8e2961f43efba662ff1158e502aab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.hasKey</definition>
+        <argsstring>(QualityCategoryItem entity)</argsstring>
+        <name>hasKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="118" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="118" bodyend="120"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a46053cf23939e674aaac34105a778da4" compoundref="_quality_category_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getId</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ab7ac2141d91ca8ea98589d9d4347c19e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.createTable</definition>
+        <argsstring>(Database db, boolean ifNotExists)</argsstring>
+        <name>createTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifNotExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="42" bodyend="48"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" compoundref="_dao_master_8java" startline="23" endline="33">com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ae1fecb5dae15e2791ba9ae44116700f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.dropTable</definition>
+        <argsstring>(Database db, boolean ifExists)</argsstring>
+        <name>dropTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drops the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="51" bodyend="54"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" compoundref="_dao_master_8java" startline="36" endline="46">com.angelmsger.cslaboratory.dao.DaoMaster.dropAllTables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8a184706f0af3a075c4719cc465b50c4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.bindValues</definition>
+        <argsstring>(DatabaseStatement stmt, QualityCategoryItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>DatabaseStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="57" bodyend="66"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a46053cf23939e674aaac34105a778da4" compoundref="_quality_category_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a41365ae959c7f51757a7fbd003367ae7" compoundref="_quality_category_item_8java" startline="43" endline="45">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1ab195322c91a479ceef0e2c02ddb7e0b1" compoundref="_quality_category_item_8java" startline="51" endline="53">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getImageURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a7300869db5e7e55a7b2a6c74b7135427" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.bindValues</definition>
+        <argsstring>(SQLiteStatement stmt, QualityCategoryItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>SQLiteStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="69" bodyend="78"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a46053cf23939e674aaac34105a778da4" compoundref="_quality_category_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a41365ae959c7f51757a7fbd003367ae7" compoundref="_quality_category_item_8java" startline="43" endline="45">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1ab195322c91a479ceef0e2c02ddb7e0b1" compoundref="_quality_category_item_8java" startline="51" endline="53">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.getImageURI</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a1721d8061aad1acac7c6b92a2ae43869" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Long</type>
+        <definition>final Long com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.updateKeyAfterInsert</definition>
+        <argsstring>(QualityCategoryItem entity, long rowId)</argsstring>
+        <name>updateKeyAfterInsert</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rowId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="103" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="103" bodyend="106"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a1dc233cf7d05a5a1b403dc62d904ebbb" compoundref="_quality_category_item_8java" startline="39" endline="41">com.angelmsger.cslaboratory.quality.category.QualityCategoryItem.setId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4f89365b4e31c905dbddef140511543c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.isEntityUpdateable</definition>
+        <argsstring>()</argsstring>
+        <name>isEntityUpdateable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="123" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DAO for table &quot;quality_categories&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="419">
+        <label>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="421">
+        <label>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="422">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityCategoryItemDao.java" bodystart="18" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8a184706f0af3a075c4719cc465b50c4" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a7300869db5e7e55a7b2a6c74b7135427" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ab7ac2141d91ca8ea98589d9d4347c19e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>createTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ae1fecb5dae15e2791ba9ae44116700f0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>dropTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a2ab2b0099e66fd54e42d85d8b06caa59" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>getKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aff8e2961f43efba662ff1158e502aab1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>hasKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4f89365b4e31c905dbddef140511543c" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>isEntityUpdateable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8fe32b058f24f042f03cfe70f7e9d16c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>QualityCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ad70589883242f9c15a8345f8c5e4876b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>QualityCategoryItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a20ee4d2c1ab6c00f98bc714d970817c7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4571d1c710e838906dd389b10d0086dc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aa207000439410216020dfdd9441b23a3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>readKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a294c239b541266d368340f165f2a7feb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>TABLENAME</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a1721d8061aad1acac7c6b92a2ae43869" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</scope><name>updateKeyAfterInsert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

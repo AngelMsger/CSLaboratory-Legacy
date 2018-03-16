@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_588d3b20df5070b479831ad3e43735c9" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory</compoundname>
+    <innerdir refid="dir_65765ce55df6430011ac0c6bdfeb5632">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course</innerdir>
+    <innerdir refid="dir_ba74327a4cd74d2d6c6b2d1eb34c95d2">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily</innerdir>
+    <innerdir refid="dir_30d09979890d72db4cc9c34fb267b4e7">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao</innerdir>
+    <innerdir refid="dir_e1d38602d704d36576536c822dcd7aab">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum</innerdir>
+    <innerdir refid="dir_53165c7c73f99b4f197512640eb4197f">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login</innerdir>
+    <innerdir refid="dir_5c644549eb77d55f1c7d0f9f72c28630">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality</innerdir>
+    <innerdir refid="dir_2d0ac8114a8193eec55eaef52ee3e7f0">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared</innerdir>
+    <innerdir refid="dir_e5110dfcba4caa17c8ad79c24406ed88">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source</innerdir>
+    <innerdir refid="dir_3d529131db3b9d4ae900f7cf52feae94">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology</innerdir>
+    <innerfile refid="_c_s_laboratory_8java">CSLaboratory.java</innerfile>
+    <innerfile refid="_main_activity_8java">MainActivity.java</innerfile>
+    <innerfile refid="_proprietary_receiver_8java">ProprietaryReceiver.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/"/>
+  </compounddef>
+</doxygen>

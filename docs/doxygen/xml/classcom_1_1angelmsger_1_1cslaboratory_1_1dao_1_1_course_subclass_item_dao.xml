@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1_1_properties" prot="public">com::angelmsger::cslaboratory::dao::CourseSubclassItemDao::Properties</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a842cb5f7a82d93ab4480f03afd93571f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.TABLENAME</definition>
+        <argsstring></argsstring>
+        <name>TABLENAME</name>
+        <initializer>= &quot;course_subclasses&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1afd5b93d1a452049051d68fd997228269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.CourseSubclassItemDao</definition>
+        <argsstring>(DaoConfig config)</argsstring>
+        <name>CourseSubclassItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a70be14c94d38ae2ac586b7407ee98b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.CourseSubclassItemDao</definition>
+        <argsstring>(DaoConfig config, DaoSession daoSession)</argsstring>
+        <name>CourseSubclassItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+          <declname>daoSession</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a45960c0da6a2c9a4b0c676fc14352702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readKey</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readKey</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="81" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a88c8863a8bdd67fb33238e68fe85bb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+        <definition>CourseSubclassItem com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="86" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, CourseSubclassItem entity, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="96" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="96" bodyend="100"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a100a000aca47f79dbec146a1baaa1472" compoundref="_course_subclass_item_8java" startline="39" endline="41">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a5b331afe1c2acb19aa9defa3cf6d0692" compoundref="_course_subclass_item_8java" startline="47" endline="49">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ac50d783321fa04797a848128a8ca10b1" compoundref="_course_subclass_item_8java" startline="55" endline="57">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setTitle</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a259459b375d3ddaa794c24a3b89066aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.getKey</definition>
+        <argsstring>(CourseSubclassItem entity)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="109" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="109" bodyend="115"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" compoundref="_course_subclass_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a10c39af26eac0303335933c90e92915c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.hasKey</definition>
+        <argsstring>(CourseSubclassItem entity)</argsstring>
+        <name>hasKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="118" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="118" bodyend="120"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" compoundref="_course_subclass_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getId</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a9de2285c1752f1914ef4f2840500ae7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.createTable</definition>
+        <argsstring>(Database db, boolean ifNotExists)</argsstring>
+        <name>createTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifNotExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="42" bodyend="48"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" compoundref="_dao_master_8java" startline="23" endline="33">com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a029d5ec743ab77df37c9914564eb3a11" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.dropTable</definition>
+        <argsstring>(Database db, boolean ifExists)</argsstring>
+        <name>dropTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drops the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="51" bodyend="54"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" compoundref="_dao_master_8java" startline="36" endline="46">com.angelmsger.cslaboratory.dao.DaoMaster.dropAllTables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.bindValues</definition>
+        <argsstring>(DatabaseStatement stmt, CourseSubclassItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>DatabaseStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="57" bodyend="66"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" compoundref="_course_subclass_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a6fcb78ed85bce3c4b0bb72a74a825666" compoundref="_course_subclass_item_8java" startline="43" endline="45">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a038de6010424d452a7370700d9ed85ab" compoundref="_course_subclass_item_8java" startline="51" endline="53">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getTitle</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1aadbb4ac18bce95db3ebef3df32ac1a39" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.bindValues</definition>
+        <argsstring>(SQLiteStatement stmt, CourseSubclassItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>SQLiteStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="69" bodyend="78"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" compoundref="_course_subclass_item_8java" startline="35" endline="37">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a6fcb78ed85bce3c4b0bb72a74a825666" compoundref="_course_subclass_item_8java" startline="43" endline="45">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a038de6010424d452a7370700d9ed85ab" compoundref="_course_subclass_item_8java" startline="51" endline="53">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getTitle</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a677d52ef813cb1a7ea98c2e177191540" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Long</type>
+        <definition>final Long com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.updateKeyAfterInsert</definition>
+        <argsstring>(CourseSubclassItem entity, long rowId)</argsstring>
+        <name>updateKeyAfterInsert</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kindref="compound">CourseSubclassItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rowId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="103" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="103" bodyend="106"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a100a000aca47f79dbec146a1baaa1472" compoundref="_course_subclass_item_8java" startline="39" endline="41">com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1af356c013f6b716b07ea6903b360c4024" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.isEntityUpdateable</definition>
+        <argsstring>()</argsstring>
+        <name>isEntityUpdateable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="123" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DAO for table &quot;course_subclasses&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseSubclassItemDao.java" bodystart="18" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1aadbb4ac18bce95db3ebef3df32ac1a39" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1afd5b93d1a452049051d68fd997228269" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>CourseSubclassItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a70be14c94d38ae2ac586b7407ee98b16" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>CourseSubclassItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a9de2285c1752f1914ef4f2840500ae7f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>createTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a029d5ec743ab77df37c9914564eb3a11" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>dropTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a259459b375d3ddaa794c24a3b89066aa" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>getKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a10c39af26eac0303335933c90e92915c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>hasKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1af356c013f6b716b07ea6903b360c4024" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>isEntityUpdateable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a88c8863a8bdd67fb33238e68fe85bb2f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a45960c0da6a2c9a4b0c676fc14352702" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>readKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a842cb5f7a82d93ab4480f03afd93571f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>TABLENAME</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a677d52ef813cb1a7ea98c2e177191540" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</scope><name>updateKeyAfterInsert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

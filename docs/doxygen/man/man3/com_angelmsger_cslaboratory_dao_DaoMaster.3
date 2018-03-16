@@ -1,0 +1,103 @@
+.TH "com.angelmsger.cslaboratory.dao.DaoMaster" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.DaoMaster \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDaoMaster \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBDevOpenHelper\fP"
+.br
+.ti -1c
+.RI "class \fBOpenHelper\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBDaoMaster\fP (SQLiteDatabase db)"
+.br
+.ti -1c
+.RI "\fBDaoMaster\fP (Database db)"
+.br
+.ti -1c
+.RI "\fBDaoSession\fP \fBnewSession\fP ()"
+.br
+.ti -1c
+.RI "\fBDaoSession\fP \fBnewSession\fP (IdentityScopeType type)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateAllTables\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropAllTables\fP (Database db, boolean ifExists)"
+.br
+.ti -1c
+.RI "static \fBDaoSession\fP \fBnewDevSession\fP (Context context, String name)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBSCHEMA_VERSION\fP = 1"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+Master of DAO (schema version 1): knows all DAOs\&. 
+.PP
+在文件 DaoMaster\&.java 第 19 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.DaoMaster (SQLiteDatabase db)"
+
+.PP
+在文件 DaoMaster\&.java 第 58 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.DaoMaster (Database db)"
+
+.PP
+在文件 DaoMaster\&.java 第 62 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.createAllTables (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates underlying database table using DAOs\&. 
+.PP
+在文件 DaoMaster\&.java 第 23 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.dropAllTables (Database db, boolean ifExists)\fC [static]\fP"
+Drops underlying database table using DAOs\&. 
+.PP
+在文件 DaoMaster\&.java 第 36 行定义\&.
+.SS "static \fBDaoSession\fP com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.newDevSession (Context context, String name)\fC [static]\fP"
+WARNING: Drops all table on Upgrade! Use only during development\&. Convenience method using a \fBDevOpenHelper\fP\&. 
+.PP
+在文件 DaoMaster\&.java 第 52 行定义\&.
+.SS "\fBDaoSession\fP com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.newSession ()"
+
+.PP
+在文件 DaoMaster\&.java 第 75 行定义\&.
+.SS "\fBDaoSession\fP com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.newSession (IdentityScopeType type)"
+
+.PP
+在文件 DaoMaster\&.java 第 79 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final int com\&.angelmsger\&.cslaboratory\&.dao\&.DaoMaster\&.SCHEMA_VERSION = 1\fC [static]\fP"
+
+.PP
+在文件 DaoMaster\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

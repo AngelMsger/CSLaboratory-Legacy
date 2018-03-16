@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::shared::FullscreenActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppCompatActivity</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aea2b56f746fd084f1f57d98ea751fc59" prot="private" static="yes" mutable="no">
+        <type>final boolean</type>
+        <definition>final boolean com.angelmsger.cslaboratory.shared.FullscreenActivity.AUTO_HIDE</definition>
+        <argsstring></argsstring>
+        <name>AUTO_HIDE</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>根据 <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ad8e9d4bd1c492a55678346560541896e" kindref="member">AUTO_HIDE_DELAY_MILLIS</ref> 决定系统 UI 是否自动隐藏。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ad8e9d4bd1c492a55678346560541896e" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.shared.FullscreenActivity.AUTO_HIDE_DELAY_MILLIS</definition>
+        <argsstring></argsstring>
+        <name>AUTO_HIDE_DELAY_MILLIS</name>
+        <initializer>= 3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>如果 <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aea2b56f746fd084f1f57d98ea751fc59" kindref="member">AUTO_HIDE</ref> 被设置在隐藏系统 UI 前等待的毫秒数。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="25" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a8375c1aead3414937342a2e3121aef24" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.shared.FullscreenActivity.UI_ANIMATION_DELAY</definition>
+        <argsstring></argsstring>
+        <name>UI_ANIMATION_DELAY</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>一些旧设备在 UI widget 更新与导航栏状态改变之间需要一小段延迟时间。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2c04c86ee5e9640cd4bb17c24196399c" prot="private" static="no" mutable="no">
+        <type>final Handler</type>
+        <definition>final Handler com.angelmsger.cslaboratory.shared.FullscreenActivity.mHideHandler</definition>
+        <argsstring></argsstring>
+        <name>mHideHandler</name>
+        <initializer>= new Handler()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0f673a83676277607a20e86b41e292cd" prot="private" static="no" mutable="no">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.shared.FullscreenActivity.mContentView</definition>
+        <argsstring></argsstring>
+        <name>mContentView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ab8cd6170e814c1fea7d3954ab6e789f7" prot="private" static="no" mutable="no">
+        <type>final Runnable</type>
+        <definition>final Runnable com.angelmsger.cslaboratory.shared.FullscreenActivity.mHidePart2Runnable</definition>
+        <argsstring></argsstring>
+        <name>mHidePart2Runnable</name>
+        <initializer>= new Runnable() {
+        @SuppressLint(&quot;InlinedApi&quot;)
+        @Override
+        public void run() {
+            
+
+            
+            
+            mContentView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE
+                    | View.SYSTEM_UI_FLAG_FULLSCREEN
+                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                    | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                    | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ae6b5f4bfd008a00753f1b316ee50fb6c" prot="private" static="no" mutable="no">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.shared.FullscreenActivity.mControlsView</definition>
+        <argsstring></argsstring>
+        <name>mControlsView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="49" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2b8e973152cb11d01795910630163b4d" prot="private" static="no" mutable="no">
+        <type>final Runnable</type>
+        <definition>final Runnable com.angelmsger.cslaboratory.shared.FullscreenActivity.mShowPart2Runnable</definition>
+        <argsstring></argsstring>
+        <name>mShowPart2Runnable</name>
+        <initializer>= new Runnable() {
+        @Override
+        public void run() {
+            
+            ActionBar actionBar = getSupportActionBar();
+            if (actionBar != null) {
+                actionBar.show();
+            }
+            mControlsView.setVisibility(View.VISIBLE);
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aeec009800442fa46c5ceb2e90ab3e64b" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.shared.FullscreenActivity.mVisible</definition>
+        <argsstring></argsstring>
+        <name>mVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="61" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ac426979c6fe055f8ddb6d78f31a2d4e0" prot="private" static="no" mutable="no">
+        <type>final Runnable</type>
+        <definition>final Runnable com.angelmsger.cslaboratory.shared.FullscreenActivity.mHideRunnable</definition>
+        <argsstring></argsstring>
+        <name>mHideRunnable</name>
+        <initializer>= new Runnable() {
+        @Override
+        public void run() {
+            <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" kindref="member">hide</ref>();
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0c0c9a647b930989b95224a9df39ae06" prot="private" static="no" mutable="no">
+        <type>final View.OnTouchListener</type>
+        <definition>final View.OnTouchListener com.angelmsger.cslaboratory.shared.FullscreenActivity.mDelayHideTouchListener</definition>
+        <argsstring></argsstring>
+        <name>mDelayHideTouchListener</name>
+        <initializer>= new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View view, MotionEvent motionEvent) {
+            if (<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aea2b56f746fd084f1f57d98ea751fc59" kindref="member">AUTO_HIDE</ref>) {
+                <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a7a5ad0921ec355b935987de0d154c344" kindref="member">delayedHide</ref>(<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ad8e9d4bd1c492a55678346560541896e" kindref="member">AUTO_HIDE_DELAY_MILLIS</ref>);
+            }
+            return false;
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>用来为布局内部 UI 控制延迟隐藏系统 UI 的触摸事件监听器。 这将阻止在隐藏过程中对 activity UI 的操作。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="72" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="72" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aef8fcc29af33184a291e69786d74ec1d" compoundref="_fullscreen_activity_8java" startline="83" endline="103">com.angelmsger.cslaboratory.shared.FullscreenActivity.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aef8fcc29af33184a291e69786d74ec1d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="83" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="83" bodyend="103"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" compoundref="_fullscreen_activity_8java" startline="113" endline="119">com.angelmsger.cslaboratory.shared.FullscreenActivity.toggle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0c0c9a647b930989b95224a9df39ae06" compoundref="_fullscreen_activity_8java" startline="72">com.angelmsger.cslaboratory.shared.FullscreenActivity.mDelayHideTouchListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a211a75639392c050d7c35bd943ffc50a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.onPostCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onPostCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="106" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="106" bodyend="111"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a7a5ad0921ec355b935987de0d154c344" compoundref="_fullscreen_activity_8java" startline="151" endline="154">com.angelmsger.cslaboratory.shared.FullscreenActivity.delayedHide</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.toggle</definition>
+        <argsstring>()</argsstring>
+        <name>toggle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="113" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="113" bodyend="119"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" compoundref="_fullscreen_activity_8java" startline="121" endline="133">com.angelmsger.cslaboratory.shared.FullscreenActivity.hide</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a798efeb559538771c38bf0f051272048" compoundref="_fullscreen_activity_8java" startline="136" endline="145">com.angelmsger.cslaboratory.shared.FullscreenActivity.show</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aef8fcc29af33184a291e69786d74ec1d" compoundref="_fullscreen_activity_8java" startline="83" endline="103">com.angelmsger.cslaboratory.shared.FullscreenActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.hide</definition>
+        <argsstring>()</argsstring>
+        <name>hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="121" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="121" bodyend="133"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" compoundref="_fullscreen_activity_8java" startline="113" endline="119">com.angelmsger.cslaboratory.shared.FullscreenActivity.toggle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a798efeb559538771c38bf0f051272048" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.show</definition>
+        <argsstring>()</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="136" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="136" bodyend="145"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" compoundref="_fullscreen_activity_8java" startline="113" endline="119">com.angelmsger.cslaboratory.shared.FullscreenActivity.toggle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a7a5ad0921ec355b935987de0d154c344" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.shared.FullscreenActivity.delayedHide</definition>
+        <argsstring>(int delayMillis)</argsstring>
+        <name>delayedHide</name>
+        <param>
+          <type>int</type>
+          <declname>delayMillis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>计划一个在 [delay] 毫秒后对 <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" kindref="member">hide()</ref> 的调用, 取消之前 已经计划的调用。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="151" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="151" bodyend="154"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a211a75639392c050d7c35bd943ffc50a" compoundref="_fullscreen_activity_8java" startline="106" endline="111">com.angelmsger.cslaboratory.shared.FullscreenActivity.onPostCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个能够通过与用户互动显示和隐藏系统 UI 的全屏幕 activity (i.e. status bar and navigation/system bar)。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="275">
+        <label>com.angelmsger.cslaboratory.shared.FullscreenActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>AppCompatActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="280">
+        <label>View</label>
+      </node>
+      <node id="277">
+        <label>com.angelmsger.cslaboratory.shared.FullscreenActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+        <childnode refid="279" relation="usage">
+          <edgelabel>mHideHandler</edgelabel>
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>mDelayHideTouchListener</edgelabel>
+          <edgelabel>mContentView</edgelabel>
+          <edgelabel>mControlsView</edgelabel>
+        </childnode>
+      </node>
+      <node id="279">
+        <label>Handler</label>
+      </node>
+      <node id="278">
+        <label>AppCompatActivity</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" bodystart="16" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aea2b56f746fd084f1f57d98ea751fc59" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>AUTO_HIDE</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ad8e9d4bd1c492a55678346560541896e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>AUTO_HIDE_DELAY_MILLIS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a7a5ad0921ec355b935987de0d154c344" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>delayedHide</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>hide</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0f673a83676277607a20e86b41e292cd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mContentView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ae6b5f4bfd008a00753f1b316ee50fb6c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mControlsView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0c0c9a647b930989b95224a9df39ae06" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mDelayHideTouchListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2c04c86ee5e9640cd4bb17c24196399c" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mHideHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ab8cd6170e814c1fea7d3954ab6e789f7" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mHidePart2Runnable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ac426979c6fe055f8ddb6d78f31a2d4e0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mHideRunnable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2b8e973152cb11d01795910630163b4d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mShowPart2Runnable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aeec009800442fa46c5ceb2e90ab3e64b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>mVisible</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aef8fcc29af33184a291e69786d74ec1d" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a211a75639392c050d7c35bd943ffc50a" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>onPostCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a798efeb559538771c38bf0f051272048" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>show</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>toggle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a8375c1aead3414937342a2e3121aef24" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::shared::FullscreenActivity</scope><name>UI_ANIMATION_DELAY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

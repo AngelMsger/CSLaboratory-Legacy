@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1shared" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::shared</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity" prot="public">com::angelmsger::cslaboratory::shared::FullscreenActivity</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity" prot="public">com::angelmsger::cslaboratory::shared::ScrollingActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared/FullscreenActivity.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>猫爪实验室: com.angelmsger.cslaboratory.dao.DaoSession类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo4.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">猫爪实验室
+   &#160;<span id="projectnumber">0.1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.12 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacecom.html">com</a></li><li class="navelem"><a class="el" href="namespacecom_1_1angelmsger.html">angelmsger</a></li><li class="navelem"><a class="el" href="namespacecom_1_1angelmsger_1_1cslaboratory.html">cslaboratory</a></li><li class="navelem"><a class="el" href="namespacecom_1_1angelmsger_1_1cslaboratory_1_1dao.html">dao</a></li><li class="navelem"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html">DaoSession</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">com.angelmsger.cslaboratory.dao.DaoSession类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 com.angelmsger.cslaboratory.dao.DaoSession 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session__inherit__graph.png" border="0" usemap="#com_8angelmsger_8cslaboratory_8dao_8_dao_session_inherit__map" alt="Inheritance graph"/></div>
+<map name="com_8angelmsger_8cslaboratory_8dao_8_dao_session_inherit__map" id="com_8angelmsger_8cslaboratory_8dao_8_dao_session_inherit__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+com.angelmsger.cslaboratory.dao.DaoSession 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session__coll__graph.png" border="0" usemap="#com_8angelmsger_8cslaboratory_8dao_8_dao_session_coll__map" alt="Collaboration graph"/></div>
+<map name="com_8angelmsger_8cslaboratory_8dao_8_dao_session_coll__map" id="com_8angelmsger_8cslaboratory_8dao_8_dao_session_coll__map">
+<area shape="rect" id="node3" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCategoryItemDao" alt="" coords="293,59,516,101"/>
+<area shape="rect" id="node6" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lForumTopicItemDao" alt="" coords="293,201,516,242"/>
+<area shape="rect" id="node8" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseSubclassItemDao" alt="" coords="293,266,516,307"/>
+<area shape="rect" id="node10" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityCategoryItemDao" alt="" coords="293,331,516,373"/>
+<area shape="rect" id="node12" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lDailyArticleItemDao" alt="" coords="293,397,516,438"/>
+<area shape="rect" id="node14" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityADItemDao" alt="" coords="293,465,516,506"/>
+<area shape="rect" id="node16" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCourseItemDao" alt="" coords="293,537,516,578"/>
+<area shape="rect" id="node18" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lTopologyFieldItemDao" alt="" coords="293,615,516,657"/>
+<area shape="rect" id="node20" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityArticleItemDao" alt="" coords="293,707,516,749"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a227dd5d376f69a3274db38a905114a1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a227dd5d376f69a3274db38a905114a1c">DaoSession</a> (Database db, IdentityScopeType type, Map&lt; Class&lt;? extends AbstractDao&lt;?, ?&gt;&gt;, DaoConfig &gt; daoConfigMap)</td></tr>
+<tr class="separator:a227dd5d376f69a3274db38a905114a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994388493acabb5c32bd93fe1aa6b43d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a994388493acabb5c32bd93fe1aa6b43d">clear</a> ()</td></tr>
+<tr class="separator:a994388493acabb5c32bd93fe1aa6b43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a960e2a063668bf05b442920cbb5afcd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html">CourseCourseItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a960e2a063668bf05b442920cbb5afcd4">getCourseCourseItemDao</a> ()</td></tr>
+<tr class="separator:a960e2a063668bf05b442920cbb5afcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8e40d99aa1f3ee94d30a51686cd2c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html">CourseCategoryItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#aa8e40d99aa1f3ee94d30a51686cd2c9e">getCourseCategoryItemDao</a> ()</td></tr>
+<tr class="separator:aa8e40d99aa1f3ee94d30a51686cd2c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c4e37903c5bc2252415e9303689d7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html">CourseSubclassItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a27c4e37903c5bc2252415e9303689d7b">getCourseSubclassItemDao</a> ()</td></tr>
+<tr class="separator:a27c4e37903c5bc2252415e9303689d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad396b5104c24f30b781e1f12da191157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html">DailyArticleItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#ad396b5104c24f30b781e1f12da191157">getDailyArticleItemDao</a> ()</td></tr>
+<tr class="separator:ad396b5104c24f30b781e1f12da191157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21fffd35e8b12be75cc5fb38c72cde72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html">ForumTopicItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a21fffd35e8b12be75cc5fb38c72cde72">getForumTopicItemDao</a> ()</td></tr>
+<tr class="separator:a21fffd35e8b12be75cc5fb38c72cde72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33dcd4526a90193adc23e92bd69d7934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html">QualityADItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a33dcd4526a90193adc23e92bd69d7934">getQualityADItemDao</a> ()</td></tr>
+<tr class="separator:a33dcd4526a90193adc23e92bd69d7934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2a2cf0ac157a30e8b55cfe67de8317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html">QualityArticleItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#afc2a2cf0ac157a30e8b55cfe67de8317">getQualityArticleItemDao</a> ()</td></tr>
+<tr class="separator:afc2a2cf0ac157a30e8b55cfe67de8317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaffbccab5340f738c5df2c18b3c45ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html">QualityCategoryItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#acaffbccab5340f738c5df2c18b3c45ea">getQualityCategoryItemDao</a> ()</td></tr>
+<tr class="separator:acaffbccab5340f738c5df2c18b3c45ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d702b2113f3bc9c333902e8828da1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html">TopologyFieldItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a65d702b2113f3bc9c333902e8828da1d">getTopologyFieldItemDao</a> ()</td></tr>
+<tr class="separator:a65d702b2113f3bc9c333902e8828da1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:acd42d844a4c3f9bdb2f691dc32f81491"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#acd42d844a4c3f9bdb2f691dc32f81491">courseCourseItemDaoConfig</a></td></tr>
+<tr class="separator:acd42d844a4c3f9bdb2f691dc32f81491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c2e6e1b3b8893be3c76281e18abe55"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a07c2e6e1b3b8893be3c76281e18abe55">courseCategoryItemDaoConfig</a></td></tr>
+<tr class="separator:a07c2e6e1b3b8893be3c76281e18abe55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ac6c31f1baffa20e17dfbd3e237998"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a54ac6c31f1baffa20e17dfbd3e237998">courseSubclassItemDaoConfig</a></td></tr>
+<tr class="separator:a54ac6c31f1baffa20e17dfbd3e237998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd8e7f7d28502af9c99b55050c4837a"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a2dd8e7f7d28502af9c99b55050c4837a">dailyArticleItemDaoConfig</a></td></tr>
+<tr class="separator:a2dd8e7f7d28502af9c99b55050c4837a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc31bc2ff07ebe14dab010f3c1c6bafd"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#acc31bc2ff07ebe14dab010f3c1c6bafd">forumTopicItemDaoConfig</a></td></tr>
+<tr class="separator:acc31bc2ff07ebe14dab010f3c1c6bafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec2878b66001759b8a1e6a01155192c"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a9ec2878b66001759b8a1e6a01155192c">qualityADItemDaoConfig</a></td></tr>
+<tr class="separator:a9ec2878b66001759b8a1e6a01155192c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3170ae8e1cbe889758ff2481780817b"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#ac3170ae8e1cbe889758ff2481780817b">qualityArticleItemDaoConfig</a></td></tr>
+<tr class="separator:ac3170ae8e1cbe889758ff2481780817b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4ace3f99cf19b9830cbb41159395a1"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#acc4ace3f99cf19b9830cbb41159395a1">qualityCategoryItemDaoConfig</a></td></tr>
+<tr class="separator:acc4ace3f99cf19b9830cbb41159395a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac092d978e000c9b96f0b1f7e9f9e1366"><td class="memItemLeft" align="right" valign="top">final DaoConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#ac092d978e000c9b96f0b1f7e9f9e1366">topologyFieldItemDaoConfig</a></td></tr>
+<tr class="separator:ac092d978e000c9b96f0b1f7e9f9e1366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b311fba9d5679f0054f41cd9649d79"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html">CourseCourseItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#af5b311fba9d5679f0054f41cd9649d79">courseCourseItemDao</a></td></tr>
+<tr class="separator:af5b311fba9d5679f0054f41cd9649d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea850053635b3ed9e2f771380c14ae1"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html">CourseCategoryItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a9ea850053635b3ed9e2f771380c14ae1">courseCategoryItemDao</a></td></tr>
+<tr class="separator:a9ea850053635b3ed9e2f771380c14ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a6231d7d91566be5fef25ad744bbc0"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html">CourseSubclassItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a29a6231d7d91566be5fef25ad744bbc0">courseSubclassItemDao</a></td></tr>
+<tr class="separator:a29a6231d7d91566be5fef25ad744bbc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7873c1f10b46c5405afc5e726878f262"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html">DailyArticleItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a7873c1f10b46c5405afc5e726878f262">dailyArticleItemDao</a></td></tr>
+<tr class="separator:a7873c1f10b46c5405afc5e726878f262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2fe46042b0fb46c658221f8ad35958"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html">ForumTopicItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#ace2fe46042b0fb46c658221f8ad35958">forumTopicItemDao</a></td></tr>
+<tr class="separator:ace2fe46042b0fb46c658221f8ad35958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea06d1f2337330ca7d78a36ee0a1bb0"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html">QualityADItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a4ea06d1f2337330ca7d78a36ee0a1bb0">qualityADItemDao</a></td></tr>
+<tr class="separator:a4ea06d1f2337330ca7d78a36ee0a1bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849f18062c10f5fca6d49553fab2aadb"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html">QualityArticleItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a849f18062c10f5fca6d49553fab2aadb">qualityArticleItemDao</a></td></tr>
+<tr class="separator:a849f18062c10f5fca6d49553fab2aadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce0875daf68f987837044a8df029464"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html">QualityCategoryItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#abce0875daf68f987837044a8df029464">qualityCategoryItemDao</a></td></tr>
+<tr class="separator:abce0875daf68f987837044a8df029464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7708a3f904dc54e7679c1f8d6e01bf85"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html">TopologyFieldItemDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html#a7708a3f904dc54e7679c1f8d6e01bf85">topologyFieldItemDao</a></td></tr>
+<tr class="separator:a7708a3f904dc54e7679c1f8d6e01bf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><dl class="section see"><dt>参见</dt><dd>org.greenrobot.greendao.AbstractDaoSession </dd></dl>
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00038">38</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a227dd5d376f69a3274db38a905114a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227dd5d376f69a3274db38a905114a1c">&sect;&nbsp;</a></span>DaoSession()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.angelmsger.cslaboratory.dao.DaoSession.DaoSession </td>
+          <td>(</td>
+          <td class="paramtype">Database&#160;</td>
+          <td class="paramname"><em>db</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IdentityScopeType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; Class&lt;? extends AbstractDao&lt;?, ?&gt;&gt;, DaoConfig &gt;&#160;</td>
+          <td class="paramname"><em>daoConfigMap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00060">60</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a994388493acabb5c32bd93fe1aa6b43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994388493acabb5c32bd93fe1aa6b43d">&sect;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.angelmsger.cslaboratory.dao.DaoSession.clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00112">112</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa8e40d99aa1f3ee94d30a51686cd2c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8e40d99aa1f3ee94d30a51686cd2c9e">&sect;&nbsp;</a></span>getCourseCategoryItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html">CourseCategoryItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getCourseCategoryItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00128">128</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a960e2a063668bf05b442920cbb5afcd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a960e2a063668bf05b442920cbb5afcd4">&sect;&nbsp;</a></span>getCourseCourseItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html">CourseCourseItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getCourseCourseItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00124">124</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a27c4e37903c5bc2252415e9303689d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c4e37903c5bc2252415e9303689d7b">&sect;&nbsp;</a></span>getCourseSubclassItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html">CourseSubclassItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getCourseSubclassItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00132">132</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad396b5104c24f30b781e1f12da191157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad396b5104c24f30b781e1f12da191157">&sect;&nbsp;</a></span>getDailyArticleItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html">DailyArticleItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getDailyArticleItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00136">136</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a21fffd35e8b12be75cc5fb38c72cde72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21fffd35e8b12be75cc5fb38c72cde72">&sect;&nbsp;</a></span>getForumTopicItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html">ForumTopicItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getForumTopicItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00140">140</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a33dcd4526a90193adc23e92bd69d7934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33dcd4526a90193adc23e92bd69d7934">&sect;&nbsp;</a></span>getQualityADItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html">QualityADItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getQualityADItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00144">144</a> 行定义.</p>
+
+</div>
+</div>
+<a id="afc2a2cf0ac157a30e8b55cfe67de8317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2a2cf0ac157a30e8b55cfe67de8317">&sect;&nbsp;</a></span>getQualityArticleItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html">QualityArticleItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getQualityArticleItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00148">148</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acaffbccab5340f738c5df2c18b3c45ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaffbccab5340f738c5df2c18b3c45ea">&sect;&nbsp;</a></span>getQualityCategoryItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html">QualityCategoryItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getQualityCategoryItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00152">152</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a65d702b2113f3bc9c333902e8828da1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d702b2113f3bc9c333902e8828da1d">&sect;&nbsp;</a></span>getTopologyFieldItemDao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html">TopologyFieldItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.getTopologyFieldItemDao </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00156">156</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a9ea850053635b3ed9e2f771380c14ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea850053635b3ed9e2f771380c14ae1">&sect;&nbsp;</a></span>courseCategoryItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html">CourseCategoryItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.courseCategoryItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00051">51</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a07c2e6e1b3b8893be3c76281e18abe55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c2e6e1b3b8893be3c76281e18abe55">&sect;&nbsp;</a></span>courseCategoryItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseCategoryItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<a id="af5b311fba9d5679f0054f41cd9649d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5b311fba9d5679f0054f41cd9649d79">&sect;&nbsp;</a></span>courseCourseItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html">CourseCourseItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.courseCourseItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acd42d844a4c3f9bdb2f691dc32f81491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd42d844a4c3f9bdb2f691dc32f81491">&sect;&nbsp;</a></span>courseCourseItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseCourseItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a29a6231d7d91566be5fef25ad744bbc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a6231d7d91566be5fef25ad744bbc0">&sect;&nbsp;</a></span>courseSubclassItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html">CourseSubclassItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.courseSubclassItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a54ac6c31f1baffa20e17dfbd3e237998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ac6c31f1baffa20e17dfbd3e237998">&sect;&nbsp;</a></span>courseSubclassItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.courseSubclassItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00042">42</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7873c1f10b46c5405afc5e726878f262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7873c1f10b46c5405afc5e726878f262">&sect;&nbsp;</a></span>dailyArticleItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html">DailyArticleItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.dailyArticleItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00053">53</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2dd8e7f7d28502af9c99b55050c4837a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd8e7f7d28502af9c99b55050c4837a">&sect;&nbsp;</a></span>dailyArticleItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.dailyArticleItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00043">43</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ace2fe46042b0fb46c658221f8ad35958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2fe46042b0fb46c658221f8ad35958">&sect;&nbsp;</a></span>forumTopicItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html">ForumTopicItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.forumTopicItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00054">54</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acc31bc2ff07ebe14dab010f3c1c6bafd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc31bc2ff07ebe14dab010f3c1c6bafd">&sect;&nbsp;</a></span>forumTopicItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.forumTopicItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4ea06d1f2337330ca7d78a36ee0a1bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea06d1f2337330ca7d78a36ee0a1bb0">&sect;&nbsp;</a></span>qualityADItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html">QualityADItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.qualityADItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00055">55</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a9ec2878b66001759b8a1e6a01155192c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec2878b66001759b8a1e6a01155192c">&sect;&nbsp;</a></span>qualityADItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityADItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a849f18062c10f5fca6d49553fab2aadb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849f18062c10f5fca6d49553fab2aadb">&sect;&nbsp;</a></span>qualityArticleItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html">QualityArticleItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.qualityArticleItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00056">56</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac3170ae8e1cbe889758ff2481780817b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3170ae8e1cbe889758ff2481780817b">&sect;&nbsp;</a></span>qualityArticleItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityArticleItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00046">46</a> 行定义.</p>
+
+</div>
+</div>
+<a id="abce0875daf68f987837044a8df029464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce0875daf68f987837044a8df029464">&sect;&nbsp;</a></span>qualityCategoryItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html">QualityCategoryItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.qualityCategoryItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00057">57</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acc4ace3f99cf19b9830cbb41159395a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4ace3f99cf19b9830cbb41159395a1">&sect;&nbsp;</a></span>qualityCategoryItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.qualityCategoryItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00047">47</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7708a3f904dc54e7679c1f8d6e01bf85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7708a3f904dc54e7679c1f8d6e01bf85">&sect;&nbsp;</a></span>topologyFieldItemDao</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html">TopologyFieldItemDao</a> com.angelmsger.cslaboratory.dao.DaoSession.topologyFieldItemDao</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00058">58</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac092d978e000c9b96f0b1f7e9f9e1366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac092d978e000c9b96f0b1f7e9f9e1366">&sect;&nbsp;</a></span>topologyFieldItemDaoConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final DaoConfig com.angelmsger.cslaboratory.dao.DaoSession.topologyFieldItemDaoConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_dao_session_8java_source.html">DaoSession.java</a> 第 <a class="el" href="_dao_session_8java_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/<a class="el" href="_dao_session_8java_source.html">DaoSession.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.12
+</small></address>
+</body>
+</html>

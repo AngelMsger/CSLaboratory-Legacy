@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1ac38b5d9b47f49ea465645d2e233b62f8" prot="public" static="no" mutable="no">
+        <type>final View</type>
+        <definition>final View com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.mView</definition>
+        <argsstring></argsstring>
+        <name>mView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a28ec11843a782e316974def1f0901676" prot="public" static="no" mutable="no">
+        <type>final ImageView</type>
+        <definition>final ImageView com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.mImage</definition>
+        <argsstring></argsstring>
+        <name>mImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="64" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0b3b8e4e12365be5c2f6e8ee9a0d182a" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a258bd81761cae126af98fcd724755647" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.mContent</definition>
+        <argsstring></argsstring>
+        <name>mContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="66" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0c58464258de2b472d321b11fb8509a5" prot="public" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+        <definition>DailyArticleItem com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.mItem</definition>
+        <argsstring></argsstring>
+        <name>mItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1af45d056c50aa518765c9c76afe4ca408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.DailyViewHolder</definition>
+        <argsstring>(View view)</argsstring>
+        <name>DailyViewHolder</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind</definition>
+        <argsstring>(final DailyArticleItem item)</argsstring>
+        <name>bind</name>
+        <param>
+          <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="77" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="77" bodyend="91"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" compoundref="_daily_article_item_8java" startline="53" endline="55">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getBannerURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" compoundref="_daily_article_item_8java" startline="69" endline="71">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" compoundref="_daily_article_item_8java" startline="77" endline="79">com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getContent</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ac76558a3e865b425e00f3987dfd97881">com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyItemClick</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="185">
+        <label>com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>RecyclerView::ViewHolder</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="192">
+        <label>TextView</label>
+      </node>
+      <node id="191">
+        <label>View</label>
+      </node>
+      <node id="187">
+        <label>com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>mItem</edgelabel>
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>mImage</edgelabel>
+        </childnode>
+        <childnode refid="191" relation="usage">
+          <edgelabel>mView</edgelabel>
+        </childnode>
+        <childnode refid="192" relation="usage">
+          <edgelabel>mContent</edgelabel>
+          <edgelabel>mTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="189">
+        <label>com.angelmsger.cslaboratory.daily.article.DailyArticleItem</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item"/>
+      </node>
+      <node id="188">
+        <label>RecyclerView::ViewHolder</label>
+      </node>
+      <node id="190">
+        <label>ImageView</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyRecyclerViewAdapter.java" bodystart="62" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>bind</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1af45d056c50aa518765c9c76afe4ca408" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>DailyViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a258bd81761cae126af98fcd724755647" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>mContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a28ec11843a782e316974def1f0901676" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>mImage</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0c58464258de2b472d321b11fb8509a5" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>mItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0b3b8e4e12365be5c2f6e8ee9a0d182a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1ac38b5d9b47f49ea465645d2e233b62f8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</scope><name>mView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

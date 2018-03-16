@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::ad::QualityADItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a53e6e4d5176ef66ed50ea632dff2bcf4" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.quality.ad.QualityADItem.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1c6b9eea81b3286f553234527a6cdcc6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1ab855a581fe379834a147d482d8df5bec" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.imageURI</definition>
+        <argsstring></argsstring>
+        <name>imageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="23" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a3a336b8f81abe4106962619dab30ce44" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.actionURI</definition>
+        <argsstring></argsstring>
+        <name>actionURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a315063d7e040e719f24e3272277439a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.ad.QualityADItem.QualityADItem</definition>
+        <argsstring>()</argsstring>
+        <name>QualityADItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a598891fe0db2125dd3029aa4ddff3567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.ad.QualityADItem.QualityADItem</definition>
+        <argsstring>(Long id, String title, String imageURI, String actionURI)</argsstring>
+        <name>QualityADItem</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>actionURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1d7dc2dc2be4b93c6f450ae33774d30e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.quality.ad.QualityADItem.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="39" bodyend="41"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a95885d586c4f6932e52050a4b8972236" compoundref="_quality_a_d_item_dao_8java" startline="59" endline="69">com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1adbef83ef47e8735d75b62dfb66c3175d" compoundref="_quality_a_d_item_dao_8java" startline="115" endline="121">com.angelmsger.cslaboratory.dao.QualityADItemDao.getKey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ade771850cab31385b403f07667dc547f" compoundref="_quality_a_d_item_dao_8java" startline="124" endline="126">com.angelmsger.cslaboratory.dao.QualityADItemDao.hasKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a003c1cbab48c6996c744045731732081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.ad.QualityADItem.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="43" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="43" bodyend="45"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ab4d587389661d5d7c039d59c5710e55e" compoundref="_quality_a_d_item_dao_8java" startline="101" endline="106">com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a7f7e8e200f3e220f34929db9eb8f885a" compoundref="_quality_a_d_item_dao_8java" startline="109" endline="112">com.angelmsger.cslaboratory.dao.QualityADItemDao.updateKeyAfterInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a69300cca6438000bb06cda1debce2256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="47" bodyend="49"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a95885d586c4f6932e52050a4b8972236" compoundref="_quality_a_d_item_dao_8java" startline="59" endline="69">com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a798c244f09c116107a04837626872b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.ad.QualityADItem.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="51" bodyend="53"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ab4d587389661d5d7c039d59c5710e55e" compoundref="_quality_a_d_item_dao_8java" startline="101" endline="106">com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1af17f64c2e41cb339f9f45a67d1571ae1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.getImageURI</definition>
+        <argsstring>()</argsstring>
+        <name>getImageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="55" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="55" bodyend="57"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a95885d586c4f6932e52050a4b8972236" compoundref="_quality_a_d_item_dao_8java" startline="59" endline="69">com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a5b1301ad61b6edf75230eede354e1692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.ad.QualityADItem.setImageURI</definition>
+        <argsstring>(String imageURI)</argsstring>
+        <name>setImageURI</name>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="59" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="59" bodyend="61"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ab4d587389661d5d7c039d59c5710e55e" compoundref="_quality_a_d_item_dao_8java" startline="101" endline="106">com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a4c2d13eefef025a1d65fc84d369e171b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.quality.ad.QualityADItem.getActionURI</definition>
+        <argsstring>()</argsstring>
+        <name>getActionURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="63" bodyend="65"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a95885d586c4f6932e52050a4b8972236" compoundref="_quality_a_d_item_dao_8java" startline="59" endline="69">com.angelmsger.cslaboratory.dao.QualityADItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1abef71af0da1e6d70182d10795f3f5fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.ad.QualityADItem.setActionURI</definition>
+        <argsstring>(String actionURI)</argsstring>
+        <name>setActionURI</name>
+        <param>
+          <type>String</type>
+          <declname>actionURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="67" bodyend="69"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ab4d587389661d5d7c039d59c5710e55e" compoundref="_quality_a_d_item_dao_8java" startline="101" endline="106">com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>数据项实例类。 </para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" line="14" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad/QualityADItem.java" bodystart="14" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a3a336b8f81abe4106962619dab30ce44" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>actionURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a4c2d13eefef025a1d65fc84d369e171b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>getActionURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1d7dc2dc2be4b93c6f450ae33774d30e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1af17f64c2e41cb339f9f45a67d1571ae1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>getImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a69300cca6438000bb06cda1debce2256" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a53e6e4d5176ef66ed50ea632dff2bcf4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1ab855a581fe379834a147d482d8df5bec" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>imageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a315063d7e040e719f24e3272277439a0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>QualityADItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a598891fe0db2125dd3029aa4ddff3567" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>QualityADItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1abef71af0da1e6d70182d10795f3f5fbc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>setActionURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a003c1cbab48c6996c744045731732081" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a5b1301ad61b6edf75230eede354e1692" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>setImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a798c244f09c116107a04837626872b89" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1c6b9eea81b3286f553234527a6cdcc6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::ad::QualityADItem</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

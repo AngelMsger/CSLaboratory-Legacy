@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.course.CourseFragment" name="com.angelmsger.cslaboratory.course.CourseFragment">
+<area shape="rect" id="node5" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.course.\lCourseFragment.OnListFragmentInteraction\lListener" alt="" coords="33,347,307,403"/>
+<area shape="rect" id="node10" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter.html" title="com.angelmsger.cslaboratory.course.\lCourseRecyclerViewAdapter" alt="" coords="524,430,764,471"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source.html" title="com.angelmsger.cslaboratory.source.\lDataSource" alt="" coords="524,291,764,333"/>
+<area shape="rect" id="node8" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.course.\lCourseFragment.AsynLoadData" alt="" coords="524,174,764,215"/>
+<area shape="rect" id="node16" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content.html" title="com.angelmsger.cslaboratory.course.\lCourseContent" alt="" coords="524,555,764,597"/>
+</map>

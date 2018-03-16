@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::daily::DailyContent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref> &gt;</type>
+        <definition>final List&lt;DailyArticleItem&gt; com.angelmsger.cslaboratory.daily.DailyContent.ITEMS</definition>
+        <argsstring></argsstring>
+        <name>ITEMS</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>数据项实例数组。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" line="17" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1ad49f5ac40dd16440aafb40968afdd7de" compoundref="_daily_content_8java" startline="19" endline="47">com.angelmsger.cslaboratory.daily.DailyContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1ae89fc8c5d08bed772774c4f6c8592620" compoundref="_server_data_source_8java" startline="74" endline="90">com.angelmsger.cslaboratory.source.ServerDataSource.getDailyContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1ad49f5ac40dd16440aafb40968afdd7de" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized int</type>
+        <definition>synchronized int com.angelmsger.cslaboratory.daily.DailyContent.update</definition>
+        <argsstring>(DailyContent dailyContent, boolean pushToBottom)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kindref="compound">DailyContent</ref></type>
+          <declname>dailyContent</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>pushToBottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" bodystart="19" bodyend="47"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" compoundref="_daily_content_8java" startline="17">com.angelmsger.cslaboratory.daily.DailyContent.ITEMS</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" compoundref="_daily_fragment_8java" startline="178" endline="182">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="156">
+        <label>com.angelmsger.cslaboratory.daily.DailyContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content"/>
+        <childnode refid="157" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="157">
+        <label>List&lt; com.angelmsger.cslaboratory.daily.article.DailyArticleItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" line="12" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyContent.java" bodystart="12" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyContent</scope><name>ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1ad49f5ac40dd16440aafb40968afdd7de" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyContent</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

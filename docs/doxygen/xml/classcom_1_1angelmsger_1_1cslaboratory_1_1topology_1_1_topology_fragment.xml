@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::topology::TopologyFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data" prot="private">com::angelmsger::cslaboratory::topology::TopologyFragment::AsynLoadData</innerclass>
+    <innerclass refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" prot="public">com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1abd4ea990cca0d11aeda3c458b14b4c08" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.topology.TopologyFragment.ARG_COLUMN_COUNT</definition>
+        <argsstring></argsstring>
+        <name>ARG_COLUMN_COUNT</name>
+        <initializer>= &quot;column-count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1ab844ddbb2abef45a921336de4cd5887f" compoundref="_topology_fragment_8java" startline="67" endline="73">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a51ca6a6ff25fbfda074b18183e4beabf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.topology.TopologyFragment.mColumnCount</definition>
+        <argsstring></argsstring>
+        <name>mColumnCount</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1ab844ddbb2abef45a921336de4cd5887f" compoundref="_topology_fragment_8java" startline="67" endline="73">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>OnListFragmentInteractionListener com.angelmsger.cslaboratory.topology.TopologyFragment.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a176bcb0f50f8382c0ea39cf0216e6c5b" compoundref="_topology_fragment_8java" startline="129" endline="137">com.angelmsger.cslaboratory.topology.TopologyFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a0acb5645a1d06397a9355de3273b5116" compoundref="_topology_fragment_8java" startline="140" endline="143">com.angelmsger.cslaboratory.topology.TopologyFragment.onDetach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" compoundref="_topology_fragment_8java" startline="183" endline="194">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a52b18319d687b87110185df2509c5415" prot="private" static="no" mutable="no">
+        <type>PullToRefreshView</type>
+        <definition>PullToRefreshView com.angelmsger.cslaboratory.topology.TopologyFragment.mPullToRefreshView</definition>
+        <argsstring></argsstring>
+        <name>mPullToRefreshView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" compoundref="_topology_fragment_8java" startline="183" endline="194">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1adbb78368874f7a231179b7e6143ed256" compoundref="_topology_fragment_8java" startline="197" endline="202">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a423d3e7e8077f1e509ea6e7b9af54d2a" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView com.angelmsger.cslaboratory.topology.TopologyFragment.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a3ab73ff5bc6911c15a9d2fc5b4fb446a" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter" kindref="compound">TopologyRecyclerViewAdapter</ref></type>
+        <definition>TopologyRecyclerViewAdapter com.angelmsger.cslaboratory.topology.TopologyFragment.mRecyclerViewAdapter</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerViewAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" compoundref="_topology_fragment_8java" startline="183" endline="194">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a62ea2c6d546a20dc3ed06bad2298b903" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>final DataSource com.angelmsger.cslaboratory.topology.TopologyFragment.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a97c10d8fe8b04575ffc97e45c052f6ab" compoundref="_topology_fragment_8java" startline="176" endline="180">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d0e01a7cc3ec8712105b9b5236371ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kindref="compound">TopologyContent</ref></type>
+        <definition>TopologyContent com.angelmsger.cslaboratory.topology.TopologyFragment.mTopologyContent</definition>
+        <argsstring></argsstring>
+        <name>mTopologyContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a97c10d8fe8b04575ffc97e45c052f6ab" compoundref="_topology_fragment_8java" startline="176" endline="180">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1adcd99aee3e88441abe8dc99538479353" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.topology.TopologyFragment.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a8c68efdd68ff98eab99647bc4249b45e" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data" kindref="compound">AsynLoadData</ref></type>
+        <definition>AsynLoadData com.angelmsger.cslaboratory.topology.TopologyFragment.mLoadDataTask</definition>
+        <argsstring></argsstring>
+        <name>mLoadDataTask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d80c17676c3ae81a4ad5424c0e12e6b" compoundref="_topology_fragment_8java" startline="146" endline="149">com.angelmsger.cslaboratory.topology.TopologyFragment.onRefresh</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" compoundref="_topology_fragment_8java" startline="183" endline="194">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1adbb78368874f7a231179b7e6143ed256" compoundref="_topology_fragment_8java" startline="197" endline="202">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a16c191f78891317cee399e297fc09eb0" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.topology.TopologyFragment.mRequestLimit</definition>
+        <argsstring></argsstring>
+        <name>mRequestLimit</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a97c10d8fe8b04575ffc97e45c052f6ab" compoundref="_topology_fragment_8java" startline="176" endline="180">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a4cdc6b44d5e60baf581df689b7c0ab91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.topology.TopologyFragment.TopologyFragment</definition>
+        <argsstring>()</argsstring>
+        <name>TopologyFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>为 fragment manager 预留的强制的空构造器以实例化 fragment (e.g. upon screen orientation changes)。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="50" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="50" bodyend="54"/>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1af06482b9adcc19d803ed4fb7f82eb050">com.angelmsger.cslaboratory.source.DataSource.getTopologyContent</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1afc61e89e78f3e466bdb5a8bc7e1dbda1" compoundref="_topology_fragment_8java" startline="58" endline="64">com.angelmsger.cslaboratory.topology.TopologyFragment.newInstance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1ab844ddbb2abef45a921336de4cd5887f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="67" bodyend="73"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a51ca6a6ff25fbfda074b18183e4beabf" compoundref="_topology_fragment_8java" startline="31">com.angelmsger.cslaboratory.topology.TopologyFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1abd4ea990cca0d11aeda3c458b14b4c08" compoundref="_topology_fragment_8java" startline="29">com.angelmsger.cslaboratory.topology.TopologyFragment.ARG_COLUMN_COUNT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</definition>
+        <argsstring>(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>final LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="76" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="76" bodyend="126"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a52b18319d687b87110185df2509c5415" compoundref="_topology_fragment_8java" startline="34">com.angelmsger.cslaboratory.topology.TopologyFragment.mPullToRefreshView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a423d3e7e8077f1e509ea6e7b9af54d2a" compoundref="_topology_fragment_8java" startline="35">com.angelmsger.cslaboratory.topology.TopologyFragment.mRecyclerView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a3ab73ff5bc6911c15a9d2fc5b4fb446a" compoundref="_topology_fragment_8java" startline="36">com.angelmsger.cslaboratory.topology.TopologyFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d0e01a7cc3ec8712105b9b5236371ac" compoundref="_topology_fragment_8java" startline="39">com.angelmsger.cslaboratory.topology.TopologyFragment.mTopologyContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" compoundref="_topology_content_8java" startline="16">com.angelmsger.cslaboratory.topology.TopologyContent.ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" compoundref="_topology_fragment_8java" startline="32">com.angelmsger.cslaboratory.topology.TopologyFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a51ca6a6ff25fbfda074b18183e4beabf" compoundref="_topology_fragment_8java" startline="31">com.angelmsger.cslaboratory.topology.TopologyFragment.mColumnCount</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a201fd8fa9769fe16815b829cae2e1287">com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener.onTopologyListScroll</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a8c68efdd68ff98eab99647bc4249b45e" compoundref="_topology_fragment_8java" startline="42">com.angelmsger.cslaboratory.topology.TopologyFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a196af52c93925560095d2700f0f71549" compoundref="_topology_recycler_view_adapter_8java" startline="58" endline="60">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.getNextRequestOffset</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1adcd99aee3e88441abe8dc99538479353" compoundref="_topology_fragment_8java" startline="41">com.angelmsger.cslaboratory.topology.TopologyFragment.mHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a176bcb0f50f8382c0ea39cf0216e6c5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.onAttach</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="129" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="129" bodyend="137"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" compoundref="_topology_fragment_8java" startline="32">com.angelmsger.cslaboratory.topology.TopologyFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a0acb5645a1d06397a9355de3273b5116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="140" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="140" bodyend="143"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" compoundref="_topology_fragment_8java" startline="32">com.angelmsger.cslaboratory.topology.TopologyFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d80c17676c3ae81a4ad5424c0e12e6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="146" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="146" bodyend="149"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a8c68efdd68ff98eab99647bc4249b45e" compoundref="_topology_fragment_8java" startline="42">com.angelmsger.cslaboratory.topology.TopologyFragment.mLoadDataTask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1afc61e89e78f3e466bdb5a8bc7e1dbda1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment" kindref="compound">TopologyFragment</ref></type>
+        <definition>static TopologyFragment com.angelmsger.cslaboratory.topology.TopologyFragment.newInstance</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newInstance</name>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="58" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="58" bodyend="64"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a4cdc6b44d5e60baf581df689b7c0ab91" compoundref="_topology_fragment_8java" startline="50" endline="54">com.angelmsger.cslaboratory.topology.TopologyFragment.TopologyFragment</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref> 接口。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="526">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="524">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment"/>
+        <childnode refid="525" relation="public-inheritance">
+        </childnode>
+        <childnode refid="526" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="533">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="538">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="530">
+        <label>com.angelmsger.cslaboratory.topology.TopologyContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content"/>
+        <childnode refid="531" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="536">
+        <label>com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter"/>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+        <childnode refid="538" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>mTopologyFieldItems</edgelabel>
+        </childnode>
+        <childnode refid="539" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="539">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="529">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="527">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment"/>
+        <childnode refid="528" relation="public-inheritance">
+        </childnode>
+        <childnode refid="529" relation="public-inheritance">
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>mTopologyContent</edgelabel>
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>mPullToRefreshView</edgelabel>
+        </childnode>
+        <childnode refid="533" relation="usage">
+          <edgelabel>mLoadDataTask</edgelabel>
+        </childnode>
+        <childnode refid="535" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="536" relation="usage">
+          <edgelabel>mRecyclerViewAdapter</edgelabel>
+        </childnode>
+        <childnode refid="540" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="539" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="541" relation="usage">
+          <edgelabel>mRecyclerView</edgelabel>
+        </childnode>
+      </node>
+      <node id="532">
+        <label>PullToRefreshView</label>
+      </node>
+      <node id="531">
+        <label>List&lt; com.angelmsger.cslaboratory.topology.field.TopologyFieldItem &gt;</label>
+      </node>
+      <node id="541">
+        <label>RecyclerView</label>
+      </node>
+      <node id="540">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="534">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="528">
+        <label>Fragment</label>
+      </node>
+      <node id="535">
+        <label>Handler</label>
+      </node>
+      <node id="537">
+        <label>RecyclerView::Adapter&lt; TopologyRecyclerViewAdapter.TopologyViewHolder &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="26" bodyend="204"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1abd4ea990cca0d11aeda3c458b14b4c08" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>ARG_COLUMN_COUNT</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a51ca6a6ff25fbfda074b18183e4beabf" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mColumnCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a62ea2c6d546a20dc3ed06bad2298b903" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1adcd99aee3e88441abe8dc99538479353" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a8c68efdd68ff98eab99647bc4249b45e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mLoadDataTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a52b18319d687b87110185df2509c5415" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mPullToRefreshView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a423d3e7e8077f1e509ea6e7b9af54d2a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mRecyclerView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a3ab73ff5bc6911c15a9d2fc5b4fb446a" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a16c191f78891317cee399e297fc09eb0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mRequestLimit</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d0e01a7cc3ec8712105b9b5236371ac" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>mTopologyContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1afc61e89e78f3e466bdb5a8bc7e1dbda1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>newInstance</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a176bcb0f50f8382c0ea39cf0216e6c5b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1ab844ddbb2abef45a921336de4cd5887f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>onCreateView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a0acb5645a1d06397a9355de3273b5116" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d80c17676c3ae81a4ad5424c0e12e6b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>onRefresh</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a4cdc6b44d5e60baf581df689b7c0ab91" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment</scope><name>TopologyFragment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

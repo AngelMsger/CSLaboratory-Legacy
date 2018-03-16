@@ -1,0 +1,213 @@
+.TH "com.angelmsger.cslaboratory.shared.FullscreenActivity" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.shared.FullscreenActivity \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AppCompatActivity \&.
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBonCreate\fP (Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBonPostCreate\fP (Bundle savedInstanceState)"
+.br
+.in -1c
+.SS "Private 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBtoggle\fP ()"
+.br
+.ti -1c
+.RI "void \fBhide\fP ()"
+.br
+.ti -1c
+.RI "void \fBshow\fP ()"
+.br
+.ti -1c
+.RI "void \fBdelayedHide\fP (int delayMillis)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final Handler \fBmHideHandler\fP = new Handler()"
+.br
+.ti -1c
+.RI "View \fBmContentView\fP"
+.br
+.ti -1c
+.RI "final Runnable \fBmHidePart2Runnable\fP"
+.br
+.ti -1c
+.RI "View \fBmControlsView\fP"
+.br
+.ti -1c
+.RI "final Runnable \fBmShowPart2Runnable\fP"
+.br
+.ti -1c
+.RI "boolean \fBmVisible\fP"
+.br
+.ti -1c
+.RI "final Runnable \fBmHideRunnable\fP"
+.br
+.ti -1c
+.RI "final View\&.OnTouchListener \fBmDelayHideTouchListener\fP"
+.br
+.in -1c
+.SS "静态 Private 属性"
+
+.in +1c
+.ti -1c
+.RI "static final boolean \fBAUTO_HIDE\fP = true"
+.br
+.ti -1c
+.RI "static final int \fBAUTO_HIDE_DELAY_MILLIS\fP = 3000"
+.br
+.ti -1c
+.RI "static final int \fBUI_ANIMATION_DELAY\fP = 300"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+一个能够通过与用户互动显示和隐藏系统 UI 的全屏幕 activity (i\&.e\&. status bar and navigation/system bar)。 
+.PP
+在文件 FullscreenActivity\&.java 第 16 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.delayedHide (int delayMillis)\fC [private]\fP"
+计划一个在 [delay] 毫秒后对 \fBhide()\fP 的调用, 取消之前 已经计划的调用。 
+.PP
+在文件 FullscreenActivity\&.java 第 151 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.hide ()\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 121 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.onCreate (Bundle savedInstanceState)\fC [protected]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 83 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.onPostCreate (Bundle savedInstanceState)\fC [protected]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 106 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.show ()\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 136 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.toggle ()\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 113 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.AUTO_HIDE = true\fC [static]\fP, \fC [private]\fP"
+根据 \fBAUTO_HIDE_DELAY_MILLIS\fP 决定系统 UI 是否自动隐藏。 
+.PP
+在文件 FullscreenActivity\&.java 第 20 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.AUTO_HIDE_DELAY_MILLIS = 3000\fC [static]\fP, \fC [private]\fP"
+如果 \fBAUTO_HIDE\fP 被设置在隐藏系统 UI 前等待的毫秒数。 
+.PP
+在文件 FullscreenActivity\&.java 第 25 行定义\&.
+.SS "View com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mContentView\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 32 行定义\&.
+.SS "View com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mControlsView\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 49 行定义\&.
+.SS "final View\&.OnTouchListener com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mDelayHideTouchListener\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new View\&.OnTouchListener() {
+        @Override
+        public boolean onTouch(View view, MotionEvent motionEvent) {
+            if (AUTO_HIDE) {
+                delayedHide(AUTO_HIDE_DELAY_MILLIS);
+            }
+            return false;
+        }
+    }
+.fi
+用来为布局内部 UI 控制延迟隐藏系统 UI 的触摸事件监听器。 这将阻止在隐藏过程中对 activity UI 的操作。 
+.PP
+在文件 FullscreenActivity\&.java 第 72 行定义\&.
+.SS "final Handler com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mHideHandler = new Handler()\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 31 行定义\&.
+.SS "final Runnable com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mHidePart2Runnable\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new Runnable() {
+        @SuppressLint("InlinedApi")
+        @Override
+        public void run() {
+            
+
+            
+            
+            mContentView\&.setSystemUiVisibility(View\&.SYSTEM_UI_FLAG_LOW_PROFILE
+                    | View\&.SYSTEM_UI_FLAG_FULLSCREEN
+                    | View\&.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    | View\&.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                    | View\&.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                    | View\&.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+        }
+    }
+.fi
+.PP
+在文件 FullscreenActivity\&.java 第 33 行定义\&.
+.SS "final Runnable com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mHideRunnable\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new Runnable() {
+        @Override
+        public void run() {
+            hide();
+        }
+    }
+.fi
+.PP
+在文件 FullscreenActivity\&.java 第 62 行定义\&.
+.SS "final Runnable com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mShowPart2Runnable\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new Runnable() {
+        @Override
+        public void run() {
+            
+            ActionBar actionBar = getSupportActionBar();
+            if (actionBar != null) {
+                actionBar\&.show();
+            }
+            mControlsView\&.setVisibility(View\&.VISIBLE);
+        }
+    }
+.fi
+.PP
+在文件 FullscreenActivity\&.java 第 50 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.mVisible\fC [private]\fP"
+
+.PP
+在文件 FullscreenActivity\&.java 第 61 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.shared\&.FullscreenActivity\&.UI_ANIMATION_DELAY = 300\fC [static]\fP, \fC [private]\fP"
+一些旧设备在 UI widget 更新与导航栏状态改变之间需要一小段延迟时间。 
+.PP
+在文件 FullscreenActivity\&.java 第 30 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

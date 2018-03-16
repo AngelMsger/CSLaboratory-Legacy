@@ -1,0 +1,4 @@
+<map id="com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView" name="com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView">
+<area shape="rect" id="node2" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener.html#a201fd8fa9769fe16815b829cae2e1287" title="com.angelmsger.cslaboratory.topology.\lTopologyFragment.OnListFragmentInteraction\lListener.onTopologyListScroll" alt="" coords="325,5,612,61"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter.html#a196af52c93925560095d2700f0f71549" title="com.angelmsger.cslaboratory.topology.\lTopologyRecyclerViewAdapter.getNextRequestOffset" alt="" coords="304,86,633,127"/>
+</map>

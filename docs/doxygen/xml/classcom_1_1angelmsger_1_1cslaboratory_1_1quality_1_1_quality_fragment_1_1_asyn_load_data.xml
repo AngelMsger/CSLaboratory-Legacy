@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data" kind="class" language="Java" prot="private">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, Integer &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1aeea10fb9f3678148e97b625f71a16e74" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.mRequestOffset</definition>
+        <argsstring></argsstring>
+        <name>mRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="191" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a3a5eea1ecf28fd03af4a42f7e317f843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.AsynLoadData</definition>
+        <argsstring>(int requestOffset)</argsstring>
+        <name>AsynLoadData</name>
+        <param>
+          <type>int</type>
+          <declname>requestOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="193" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="193" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.doInBackground</definition>
+        <argsstring>(Void... voids)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>voids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="198" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="198" bodyend="202"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aff4a6d2255be914f9adefe14fc636f51" compoundref="_quality_fragment_8java" startline="42">com.angelmsger.cslaboratory.quality.QualityFragment.mQualityContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" compoundref="_quality_content_8java" startline="30" endline="72">com.angelmsger.cslaboratory.quality.QualityContent.update</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a4932398466dec5c3d990ed7ad3edbe0e" compoundref="_quality_fragment_8java" startline="41">com.angelmsger.cslaboratory.quality.QualityFragment.mDataSource</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a48214c20ebf86aa9578489a695a37eaf" compoundref="_quality_fragment_8java" startline="47">com.angelmsger.cslaboratory.quality.QualityFragment.mRequestLimit</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</definition>
+        <argsstring>(Integer integer)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>Integer</type>
+          <declname>integer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="205" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="205" bodyend="216"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" compoundref="_quality_fragment_8java" startline="45">com.angelmsger.cslaboratory.quality.QualityFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" compoundref="_quality_fragment_8java" startline="35">com.angelmsger.cslaboratory.quality.QualityFragment.mListener</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a86b745d26dc8d26a2ac74ae8a8601d09">com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onQualityListUpdate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a958203c0099c03cc8306a6c6b32569a4" compoundref="_quality_fragment_8java" startline="39">com.angelmsger.cslaboratory.quality.QualityFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" compoundref="_quality_fragment_8java" startline="37">com.angelmsger.cslaboratory.quality.QualityFragment.mPullToRefreshView</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a5e7c7cebf0067ffc590150fb619ccdbf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onCancelled</definition>
+        <argsstring>()</argsstring>
+        <name>onCancelled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="219" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="219" bodyend="224"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" compoundref="_quality_fragment_8java" startline="45">com.angelmsger.cslaboratory.quality.QualityFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" compoundref="_quality_fragment_8java" startline="37">com.angelmsger.cslaboratory.quality.QualityFragment.mPullToRefreshView</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>异步加载数据到列表，需要提供加载分页页号，加载完成后更新界面。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="190" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="190" bodyend="225"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a3a5eea1ecf28fd03af4a42f7e317f843" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</scope><name>AsynLoadData</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</scope><name>doInBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1aeea10fb9f3678148e97b625f71a16e74" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</scope><name>mRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a5e7c7cebf0067ffc590150fb619ccdbf" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</scope><name>onCancelled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a68e6a8ad55600dd8b233bd7287fd23bb" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1aa9b6d4ab38367112bb65b735f7a2ae91" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.imageURI</definition>
+        <argsstring></argsstring>
+        <name>imageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a274035abf90b2b77bab784824065194e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="23" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a049308388a6135390d8816dc95059b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.CourseSubclassItem</definition>
+        <argsstring>()</argsstring>
+        <name>CourseSubclassItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="25" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="25" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a045ec425af361c078bf02007cd25c20e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.CourseSubclassItem</definition>
+        <argsstring>(Long id, String imageURI, String title)</argsstring>
+        <name>CourseSubclassItem</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="35" bodyend="37"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" compoundref="_course_subclass_item_dao_8java" startline="57" endline="66">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a259459b375d3ddaa794c24a3b89066aa" compoundref="_course_subclass_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.getKey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a10c39af26eac0303335933c90e92915c" compoundref="_course_subclass_item_dao_8java" startline="118" endline="120">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.hasKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a100a000aca47f79dbec146a1baaa1472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="39" bodyend="41"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" compoundref="_course_subclass_item_dao_8java" startline="96" endline="100">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a677d52ef813cb1a7ea98c2e177191540" compoundref="_course_subclass_item_dao_8java" startline="103" endline="106">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.updateKeyAfterInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a6fcb78ed85bce3c4b0bb72a74a825666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getImageURI</definition>
+        <argsstring>()</argsstring>
+        <name>getImageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="43" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="43" bodyend="45"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1adfb51e8396fe518e16af58bd7c0983af" compoundref="_subclass_recycler_view_adapter_8java" startline="69" endline="80">com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter.CourseClassViewHolder.bind</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" compoundref="_course_subclass_item_dao_8java" startline="57" endline="66">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a5b331afe1c2acb19aa9defa3cf6d0692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setImageURI</definition>
+        <argsstring>(String imageURI)</argsstring>
+        <name>setImageURI</name>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="47" bodyend="49"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" compoundref="_course_subclass_item_dao_8java" startline="96" endline="100">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a038de6010424d452a7370700d9ed85ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="51" bodyend="53"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1adfb51e8396fe518e16af58bd7c0983af" compoundref="_subclass_recycler_view_adapter_8java" startline="69" endline="80">com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter.CourseClassViewHolder.bind</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" compoundref="_course_subclass_item_dao_8java" startline="57" endline="66">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ac50d783321fa04797a848128a8ca10b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="55" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="55" bodyend="57"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" compoundref="_course_subclass_item_dao_8java" startline="96" endline="100">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.readEntity</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>课程分类数据项实例类。 </para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" line="14" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass/CourseSubclassItem.java" bodystart="14" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a049308388a6135390d8816dc95059b08" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>CourseSubclassItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a045ec425af361c078bf02007cd25c20e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>CourseSubclassItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a6fcb78ed85bce3c4b0bb72a74a825666" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>getImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a038de6010424d452a7370700d9ed85ab" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a68e6a8ad55600dd8b233bd7287fd23bb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1aa9b6d4ab38367112bb65b735f7a2ae91" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>imageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a100a000aca47f79dbec146a1baaa1472" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a5b331afe1c2acb19aa9defa3cf6d0692" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>setImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ac50d783321fa04797a848128a8ca10b1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a274035abf90b2b77bab784824065194e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

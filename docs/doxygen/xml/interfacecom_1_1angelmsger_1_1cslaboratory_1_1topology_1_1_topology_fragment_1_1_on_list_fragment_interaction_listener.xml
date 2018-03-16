@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" kind="interface" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</compoundname>
+    <derivedcompoundref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.MainActivity</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a201fd8fa9769fe16815b829cae2e1287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener.onTopologyListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onTopologyListScroll</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a429569c2ebc89194251bfb2091bfe239">onTopologyListScroll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="160" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" compoundref="_topology_fragment_8java" startline="76" endline="126">com.angelmsger.cslaboratory.topology.TopologyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1aa7f52cee0a6e40778f50bb7d2bcbf639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener.onTopologyListUpdate</definition>
+        <argsstring>(final int updateCount)</argsstring>
+        <name>onTopologyListUpdate</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a28581138040b814e7a1e191f63d4292f">onTopologyListUpdate</reimplementedby>
+        <param>
+          <type>final int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="161" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" compoundref="_topology_fragment_8java" startline="183" endline="194">com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a66c8c35d5b1113b61d2047ddfe39f13d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener.onTopologyItemClick</definition>
+        <argsstring>(TopologyFieldItem topologyFieldItem)</argsstring>
+        <name>onTopologyItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a39a6e686f93ef892813770b385d6af91">onTopologyItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kindref="compound">TopologyFieldItem</ref></type>
+          <declname>topologyFieldItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="162" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" compoundref="_topology_recycler_view_adapter_8java" startline="79" endline="93">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>包含此 fragment 的 activity 必须实现此接口来允许一此 fragment 和此 activity 及此 activity 中 包含的其他 fragment 进行通信。 查看 Android 训练课程 <ulink url="http://developer.android.com/training/basics/fragments/communicating.html">Communicating with Other Fragments</ulink> 以获取更多信息。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="361">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>com.angelmsger.cslaboratory.topology.TopologyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" line="158" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/TopologyFragment.java" bodystart="158" bodyend="163"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a66c8c35d5b1113b61d2047ddfe39f13d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</scope><name>onTopologyItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a201fd8fa9769fe16815b829cae2e1287" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</scope><name>onTopologyListScroll</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1aa7f52cee0a6e40778f50bb7d2bcbf639" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</scope><name>onTopologyListUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

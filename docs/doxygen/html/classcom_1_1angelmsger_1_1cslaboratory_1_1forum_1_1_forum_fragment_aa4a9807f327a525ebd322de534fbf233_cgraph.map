@@ -1,0 +1,4 @@
+<map id="com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView" name="com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView">
+<area shape="rect" id="node2" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener.html#acc8ae4d26ce9bec48cfe95ee86989d52" title="com.angelmsger.cslaboratory.forum.\lForumFragment.OnListFragmentInteraction\lListener.onForumListScroll" alt="" coords="309,5,579,61"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter.html#a181860c1fc375bffa97bee1e1de42722" title="com.angelmsger.cslaboratory.forum.\lForumRecyclerViewAdapter.getNextRequestOffset" alt="" coords="287,86,601,127"/>
+</map>

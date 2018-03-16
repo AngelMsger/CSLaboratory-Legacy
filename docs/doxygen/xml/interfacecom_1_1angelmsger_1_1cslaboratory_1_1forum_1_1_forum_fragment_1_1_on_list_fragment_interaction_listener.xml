@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kind="interface" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</compoundname>
+    <derivedcompoundref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.MainActivity</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1acc8ae4d26ce9bec48cfe95ee86989d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onForumListScroll</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af9be9354ec113f629d8abc417442799c">onForumListScroll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="161" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a34811abc8a084e97edc348610012ceeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumListUpdate</definition>
+        <argsstring>(final int updateCount)</argsstring>
+        <name>onForumListUpdate</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a84229cc5edc79497a46e4c6f6dfa265e">onForumListUpdate</reimplementedby>
+        <param>
+          <type>final int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="162" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" compoundref="_forum_fragment_8java" startline="184" endline="195">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a20e4aba11bdc498ee81d8b9675437d5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumItemClick</definition>
+        <argsstring>(ForumTopicItem forumTopicItem)</argsstring>
+        <name>onForumItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a940fa4d07755b51e12ed75b27b1b34c1">onForumItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref></type>
+          <declname>forumTopicItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="163" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" compoundref="_forum_recycler_view_adapter_8java" startline="78" endline="93">com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>包含此 fragment 的 activity 必须实现此接口来允许一此 fragment 和此 activity 及此 activity 中 包含的其他 fragment 进行通信。 查看 Android 训练课程 <ulink url="http://developer.android.com/training/basics/fragments/communicating.html">Communicating with Other Fragments</ulink> 以获取更多信息。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="364">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="159" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="159" bodyend="164"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a20e4aba11bdc498ee81d8b9675437d5c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</scope><name>onForumItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1acc8ae4d26ce9bec48cfe95ee86989d52" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</scope><name>onForumListScroll</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a34811abc8a084e97edc348610012ceeb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</scope><name>onForumListUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

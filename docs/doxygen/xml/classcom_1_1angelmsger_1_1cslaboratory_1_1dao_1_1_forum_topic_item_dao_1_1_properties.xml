@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a068478a2f31e7ba3c7cb4d4b2fec13e2" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <initializer>= new Property(0, Long.class, &quot;id&quot;, true, &quot;_id&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a3eab710ca486c1e698734672ded75211" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties.AvatarURI</definition>
+        <argsstring></argsstring>
+        <name>AvatarURI</name>
+        <initializer>= new Property(1, String.class, &quot;avatarURI&quot;, false, &quot;AVATAR_URI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1acba17055f416c3f6098d08a3eed38f3a" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties.Nickname</definition>
+        <argsstring></argsstring>
+        <name>Nickname</name>
+        <initializer>= new Property(2, String.class, &quot;nickname&quot;, false, &quot;NICKNAME&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1ac1e449952556baecbacb993a97b8213e" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <initializer>= new Property(3, String.class, &quot;title&quot;, false, &quot;TITLE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a1d87306df6374bd098e9d74fb31069d4" prot="public" static="yes" mutable="no">
+        <type>final Property</type>
+        <definition>final Property com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <initializer>= new Property(4, String.class, &quot;content&quot;, false, &quot;CONTENT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="31" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties" kindref="compound">Properties</ref> of entity ForumTopicItem.<linebreak/>
+ Can be used for QueryBuilder and for referencing column names. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="375">
+        <label>com.angelmsger.cslaboratory.dao.ForumTopicItemDao.Properties</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties"/>
+        <childnode refid="376" relation="usage">
+          <edgelabel>Title</edgelabel>
+          <edgelabel>Nickname</edgelabel>
+          <edgelabel>AvatarURI</edgelabel>
+          <edgelabel>Id</edgelabel>
+          <edgelabel>Content</edgelabel>
+        </childnode>
+      </node>
+      <node id="376">
+        <label>Property</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/ForumTopicItemDao.java" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a3eab710ca486c1e698734672ded75211" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</scope><name>AvatarURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a1d87306df6374bd098e9d74fb31069d4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</scope><name>Content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a068478a2f31e7ba3c7cb4d4b2fec13e2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</scope><name>Id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1acba17055f416c3f6098d08a3eed38f3a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</scope><name>Nickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1ac1e449952556baecbacb993a97b8213e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter.onBindViewHolder" name="com.angelmsger.cslaboratory.course.subclass.SubclassRecyclerViewAdapter.onBindViewHolder">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder.html#adfb51e8396fe518e16af58bd7c0983af" title="com.angelmsger.cslaboratory.course.subclass.\lSubclassRecyclerViewAdapter.CourseClassView\lHolder.bind" alt="" coords="363,31,669,87"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item.html#a6fcb78ed85bce3c4b0bb72a74a825666" title="com.angelmsger.cslaboratory.course.subclass.\lCourseSubclassItem.getImageURI" alt="" coords="717,5,1013,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item.html#a038de6010424d452a7370700d9ed85ab" title="com.angelmsger.cslaboratory.course.subclass.\lCourseSubclassItem.getTitle" alt="" coords="717,71,1013,112"/>
+</map>

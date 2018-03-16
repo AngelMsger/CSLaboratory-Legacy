@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_5c644549eb77d55f1c7d0f9f72c28630" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality</compoundname>
+    <innerdir refid="dir_9265b5f607204b49ab794cd3922a9340">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad</innerdir>
+    <innerdir refid="dir_9806011d36892deb51ff602adba0319a">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/article</innerdir>
+    <innerdir refid="dir_48b3d289f4d3fa5a561a09b0b119ed84">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/category</innerdir>
+    <innerfile refid="_quality_content_8java">QualityContent.java</innerfile>
+    <innerfile refid="_quality_fragment_8java">QualityFragment.java</innerfile>
+    <innerfile refid="_quality_recycler_view_adapter_8java">QualityRecyclerViewAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/"/>
+  </compounddef>
+</doxygen>

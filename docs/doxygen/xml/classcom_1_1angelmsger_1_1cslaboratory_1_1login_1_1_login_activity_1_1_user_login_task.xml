@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Integer, Boolean &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ababcf0412dbe283f7829d0f9985a6e31" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.mEmail</definition>
+        <argsstring></argsstring>
+        <name>mEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="152" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a01b7b42e00e052addb55554fd89f49a8" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.mPassword</definition>
+        <argsstring></argsstring>
+        <name>mPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="153" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ac15520c71cf6b5e24d6057c82d1157a7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.UserLoginTask</definition>
+        <argsstring>(String email, String password)</argsstring>
+        <name>UserLoginTask</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="155" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="155" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ae18f50e1b0f564f12c4976d1907584d7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.doInBackground</definition>
+        <argsstring>(Void... params)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="161" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="161" bodyend="177"/>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1aafa63f8f082ec04fc15f13792a0c0d93">com.angelmsger.cslaboratory.source.DataSource.attemptLogin</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a554fae56048880023686b8c598449b54" compoundref="_login_8java" startline="34">com.angelmsger.cslaboratory.login.Login.Response.SUCCESS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a899016e05ad527ef90448f79034c9f70" compoundref="_login_8java" startline="35">com.angelmsger.cslaboratory.login.Login.Response.FORBIDDEN</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a0a01188ac5523b69c9143b558c29df9a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.onPostExecute</definition>
+        <argsstring>(final Boolean success)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>final Boolean</type>
+          <declname>success</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="180" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="180" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ad8df0bf6435e46abe12f3499c1bd43ab" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.onProgressUpdate</definition>
+        <argsstring>(Integer... values)</argsstring>
+        <name>onProgressUpdate</name>
+        <param>
+          <type>Integer...</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="194" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a61f37723c2bef79900ca93e94871e78b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask.onCancelled</definition>
+        <argsstring>()</argsstring>
+        <name>onCancelled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="200" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="200" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>创建一个异步登录或注册任务用以认证用户。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="566">
+        <label>com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="567">
+        <label>android::os::AsyncTask&lt; Void, Integer, Boolean &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="568">
+        <label>com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task"/>
+        <childnode refid="569" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="569">
+        <label>android::os::AsyncTask&lt; Void, Integer, Boolean &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" line="151" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/LoginActivity.java" bodystart="151" bodyend="208"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ae18f50e1b0f564f12c4976d1907584d7" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>doInBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ababcf0412dbe283f7829d0f9985a6e31" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>mEmail</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a01b7b42e00e052addb55554fd89f49a8" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>mPassword</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a61f37723c2bef79900ca93e94871e78b" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>onCancelled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a0a01188ac5523b69c9143b558c29df9a" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>onPostExecute</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ad8df0bf6435e46abe12f3499c1bd43ab" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>onProgressUpdate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ac15520c71cf6b5e24d6057c82d1157a7" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</scope><name>UserLoginTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

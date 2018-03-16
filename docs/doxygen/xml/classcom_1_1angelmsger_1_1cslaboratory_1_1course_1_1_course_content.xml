@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::course::CourseContent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item" kindref="compound">CourseCategoryItem</ref> &gt;</type>
+        <definition>final List&lt;CourseCategoryItem&gt; com.angelmsger.cslaboratory.course.CourseContent.CATEGORY_ITEMS</definition>
+        <argsstring></argsstring>
+        <name>CATEGORY_ITEMS</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>数据项实例数组。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" compoundref="_course_content_8java" startline="21" endline="52">com.angelmsger.cslaboratory.course.CourseContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5006765396f71775f1530513fe426c3e" compoundref="_server_data_source_8java" startline="47" endline="71">com.angelmsger.cslaboratory.source.ServerDataSource.getCourseContent</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a53d64a104615c76f4280ea11b13ee18f" compoundref="_unreal_data_source_8java" startline="50" endline="87">com.angelmsger.cslaboratory.source.UnrealDataSource.getCourseContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item" kindref="compound">CourseCourseItem</ref> &gt;</type>
+        <definition>final List&lt;CourseCourseItem&gt; com.angelmsger.cslaboratory.course.CourseContent.COURSE_ITEMS</definition>
+        <argsstring></argsstring>
+        <name>COURSE_ITEMS</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item" kindref="compound">CourseCourseItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" compoundref="_course_content_8java" startline="21" endline="52">com.angelmsger.cslaboratory.course.CourseContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" compoundref="_course_fragment_8java" startline="74" endline="140">com.angelmsger.cslaboratory.course.CourseFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5006765396f71775f1530513fe426c3e" compoundref="_server_data_source_8java" startline="47" endline="71">com.angelmsger.cslaboratory.source.ServerDataSource.getCourseContent</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a53d64a104615c76f4280ea11b13ee18f" compoundref="_unreal_data_source_8java" startline="50" endline="87">com.angelmsger.cslaboratory.source.UnrealDataSource.getCourseContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized int</type>
+        <definition>synchronized int com.angelmsger.cslaboratory.course.CourseContent.update</definition>
+        <argsstring>(CourseContent courseContent, boolean pushToBottom)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kindref="compound">CourseContent</ref></type>
+          <declname>courseContent</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>pushToBottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" line="21" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" bodystart="21" bodyend="52"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" compoundref="_course_content_8java" startline="18">com.angelmsger.cslaboratory.course.CourseContent.CATEGORY_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" compoundref="_course_content_8java" startline="19">com.angelmsger.cslaboratory.course.CourseContent.COURSE_ITEMS</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" compoundref="_course_fragment_8java" startline="191" endline="195">com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="70">
+        <label>com.angelmsger.cslaboratory.course.CourseContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>COURSE_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>CATEGORY_ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="72">
+        <label>List&lt; com.angelmsger.cslaboratory.course.subclass.CourseCategoryItem &gt;</label>
+      </node>
+      <node id="71">
+        <label>List&lt; com.angelmsger.cslaboratory.course.course.CourseCourseItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" line="13" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseContent.java" bodystart="13" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseContent</scope><name>CATEGORY_ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseContent</scope><name>COURSE_ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseContent</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

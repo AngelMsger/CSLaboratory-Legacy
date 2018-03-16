@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" kind="interface" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</compoundname>
+    <derivedcompoundref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.MainActivity</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ad143f25f0dcc94792398aa1a935d9438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onDailyListScroll</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af3fd17d085b25dfa6fb5bd9a9ca3803d">onDailyListScroll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="162" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" compoundref="_daily_fragment_8java" startline="74" endline="127">com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1afa6e44a1e2065cf3c2a1c2124587a14b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyListUpdate</definition>
+        <argsstring>(final int updateCount)</argsstring>
+        <name>onDailyListUpdate</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6c4fa080dbaca4f22a5acddb4853bf8b">onDailyListUpdate</reimplementedby>
+        <param>
+          <type>final int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="163" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" compoundref="_daily_fragment_8java" startline="185" endline="196">com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ac76558a3e865b425e00f3987dfd97881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyItemClick</definition>
+        <argsstring>(DailyArticleItem dailyArticleItem)</argsstring>
+        <name>onDailyItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc">onDailyItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kindref="compound">DailyArticleItem</ref></type>
+          <declname>dailyArticleItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="164" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" compoundref="_daily_recycler_view_adapter_8java" startline="77" endline="91">com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>包含此 fragment 的 activity 必须实现此接口来允许一此 fragment 和此 activity 及此 activity 中 包含的其他 fragment 进行通信。 查看 Android 训练课程 <ulink url="http://developer.android.com/training/basics/fragments/communicating.html">Communicating with Other Fragments</ulink> 以获取更多信息。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="358">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="160" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="160" bodyend="165"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ac76558a3e865b425e00f3987dfd97881" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</scope><name>onDailyItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ad143f25f0dcc94792398aa1a935d9438" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</scope><name>onDailyListScroll</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1afa6e44a1e2065cf3c2a1c2124587a14b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</scope><name>onDailyListUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

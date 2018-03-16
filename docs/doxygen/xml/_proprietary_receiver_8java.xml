@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_proprietary_receiver_8java" kind="file" language="Java">
+    <compoundname>ProprietaryReceiver.java</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" prot="public">com::angelmsger::cslaboratory::ProprietaryReceiver</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory">com::angelmsger::cslaboratory</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.angelmsger.cslaboratory;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>android.content.BroadcastReceiver;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>android.content.Context;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>android.content.Intent;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" kindref="compound">ProprietaryReceiver</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>BroadcastReceiver<sp/>{</highlight></codeline>
+<codeline lineno="8" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1aaa47b0acb4b457d7391040e9ade99a6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1aaa47b0acb4b457d7391040e9ade99a6c" kindref="member">ProprietaryReceiver</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="12" refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1a48a92a7387ae88a32518b0a486b8fd26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1a48a92a7387ae88a32518b0a486b8fd26" kindref="member">onReceive</ref>(Context<sp/>context,<sp/>Intent<sp/>intent)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>此方法在收到新的符合条件的<sp/>intent<sp/>时被回调。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>此<sp/>Receiver<sp/>原本用以定义对网络状态发生改变的系统事件进行监听及处理，但在<sp/>Android<sp/>5<sp/>后系统提供了新的<sp/>JobS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>aduler<sp/>API<sp/>对此功能进行了支持，并声明在<sp/>Android<sp/>N<sp/>及后续版本中<sp/>App<sp/>不应再使用<sp/>Broadcast<sp/>Receiver<sp/>对</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>网络状态进行监听，因此此处<sp/>Receiver<sp/>类留空备用。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java"/>
+  </compounddef>
+</doxygen>

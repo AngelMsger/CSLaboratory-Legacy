@@ -1,0 +1,86 @@
+.TH "com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.login.LoginActivity.UserLoginTask \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AsyncTask< Void, Integer, Boolean > \&.
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "Boolean \fBdoInBackground\fP (Void\&.\&.\&. params)"
+.br
+.ti -1c
+.RI "void \fBonPostExecute\fP (final Boolean success)"
+.br
+.ti -1c
+.RI "void \fBonProgressUpdate\fP (Integer\&.\&.\&. values)"
+.br
+.ti -1c
+.RI "void \fBonCancelled\fP ()"
+.br
+.in -1c
+.SS "包函数"
+
+.in +1c
+.ti -1c
+.RI "\fBUserLoginTask\fP (String email, String password)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final String \fBmEmail\fP"
+.br
+.ti -1c
+.RI "final String \fBmPassword\fP"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+创建一个异步登录或注册任务用以认证用户。 
+.PP
+在文件 LoginActivity\&.java 第 151 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.UserLoginTask (String email, String password)\fC [package]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 155 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "Boolean com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.doInBackground (Void\&.\&.\&. params)\fC [protected]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 161 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.onCancelled ()\fC [protected]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 200 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.onPostExecute (final Boolean success)\fC [protected]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 180 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.onProgressUpdate (Integer\&.\&.\&. values)\fC [protected]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 194 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.mEmail\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 152 行定义\&.
+.SS "final String com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.UserLoginTask\&.mPassword\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 153 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

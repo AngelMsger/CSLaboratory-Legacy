@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a6f48a20f48104f97e60d79b277e6470e" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.daily.article.DailyArticleItem.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a89c8f0f9874f4aaa4d2a638f7590c271" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.bannerURI</definition>
+        <argsstring></argsstring>
+        <name>bannerURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="21" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a111e47c0a5ca39e7d8a6b6883fe1a9e1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.imageURI</definition>
+        <argsstring></argsstring>
+        <name>imageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="24" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a763b55dd46735c9d77c0120b4cc86f89" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a66f3198e30ae1411d0cc5e477f1be4f5" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ad03bf61d3977ddb8c103e310b46fd0b6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.postTime</definition>
+        <argsstring></argsstring>
+        <name>postTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a279b7d8b838076cc35df4b53b6b3dee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.daily.article.DailyArticleItem.DailyArticleItem</definition>
+        <argsstring>()</argsstring>
+        <name>DailyArticleItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1af5dc9a0329c7ce6472786d2511e9e80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.daily.article.DailyArticleItem.DailyArticleItem</definition>
+        <argsstring>(Long id, String bannerURI, String imageURI, String title, String content, String postTime)</argsstring>
+        <name>DailyArticleItem</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>bannerURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>postTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="45" bodyend="47"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3b6d41062b3815fd49d80571a0cc7f31" compoundref="_daily_article_item_dao_8java" startline="146" endline="152">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.getKey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a396be56297657d4824b98f7eca1b25ac" compoundref="_daily_article_item_dao_8java" startline="155" endline="157">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.hasKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="49" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="49" bodyend="51"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ad7ad5e51af1568c55269b9202d01aaee" compoundref="_daily_article_item_dao_8java" startline="140" endline="143">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.updateKeyAfterInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getBannerURI</definition>
+        <argsstring>()</argsstring>
+        <name>getBannerURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="53" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="53" bodyend="55"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" compoundref="_daily_recycler_view_adapter_8java" startline="77" endline="91">com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setBannerURI</definition>
+        <argsstring>(String bannerURI)</argsstring>
+        <name>setBannerURI</name>
+        <param>
+          <type>String</type>
+          <declname>bannerURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="57" bodyend="59"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getImageURI</definition>
+        <argsstring>()</argsstring>
+        <name>getImageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="61" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="61" bodyend="63"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" compoundref="_main_activity_8java" startline="332" endline="338">com.angelmsger.cslaboratory.MainActivity.onDailyItemClick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setImageURI</definition>
+        <argsstring>(String imageURI)</argsstring>
+        <name>setImageURI</name>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="65" bodyend="67"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="69" bodyend="71"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" compoundref="_daily_recycler_view_adapter_8java" startline="77" endline="91">com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" compoundref="_main_activity_8java" startline="332" endline="338">com.angelmsger.cslaboratory.MainActivity.onDailyItemClick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="73" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="73" bodyend="75"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getContent</definition>
+        <argsstring>()</argsstring>
+        <name>getContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="77" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="77" bodyend="79"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" compoundref="_daily_recycler_view_adapter_8java" startline="77" endline="91">com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" compoundref="_main_activity_8java" startline="332" endline="338">com.angelmsger.cslaboratory.MainActivity.onDailyItemClick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setContent</definition>
+        <argsstring>(String content)</argsstring>
+        <name>setContent</name>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="81" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="81" bodyend="83"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.daily.article.DailyArticleItem.getPostTime</definition>
+        <argsstring>()</argsstring>
+        <name>getPostTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="85" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="85" bodyend="87"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" compoundref="_daily_article_item_dao_8java" startline="66" endline="86">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.bindValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.article.DailyArticleItem.setPostTime</definition>
+        <argsstring>(String postTime)</argsstring>
+        <name>setPostTime</name>
+        <param>
+          <type>String</type>
+          <declname>postTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="89" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="89" bodyend="91"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" compoundref="_daily_article_item_dao_8java" startline="130" endline="137">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.readEntity</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>数据项实例类。 </para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article/DailyArticleItem.java" bodystart="16" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a89c8f0f9874f4aaa4d2a638f7590c271" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>bannerURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a66f3198e30ae1411d0cc5e477f1be4f5" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a279b7d8b838076cc35df4b53b6b3dee9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>DailyArticleItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1af5dc9a0329c7ce6472786d2511e9e80c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>DailyArticleItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getBannerURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getPostTime</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a6f48a20f48104f97e60d79b277e6470e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a111e47c0a5ca39e7d8a6b6883fe1a9e1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>imageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ad03bf61d3977ddb8c103e310b46fd0b6" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>postTime</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setBannerURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setPostTime</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a763b55dd46735c9d77c0120b4cc86f89" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

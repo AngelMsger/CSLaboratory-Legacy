@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::User</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" prot="public">com::angelmsger::cslaboratory::login::User::Base</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" prot="public">com::angelmsger::cslaboratory::login::User::Extra</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kindref="compound">Base</ref></type>
+        <definition>Base com.angelmsger.cslaboratory.login.User.base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="4" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="4" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1afb07cb6e9c4cc2c9366e2feeee487613" compoundref="_user_8java" startline="10" endline="13">com.angelmsger.cslaboratory.login.User.User</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a6d2abc838a8f232dab7de0763bca8de6" compoundref="_user_8java" startline="15" endline="17">com.angelmsger.cslaboratory.login.User.getBase</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a59abc2938de424a05ed028efe2aa3d42" compoundref="_user_8java" startline="19" endline="21">com.angelmsger.cslaboratory.login.User.setBase</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kindref="compound">Extra</ref></type>
+        <definition>Extra com.angelmsger.cslaboratory.login.User.extra</definition>
+        <argsstring></argsstring>
+        <name>extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="5" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1afb07cb6e9c4cc2c9366e2feeee487613" compoundref="_user_8java" startline="10" endline="13">com.angelmsger.cslaboratory.login.User.User</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1af6acd360e616cfd6259574cb25f341c8" compoundref="_user_8java" startline="23" endline="25">com.angelmsger.cslaboratory.login.User.getExtra</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a83f9f9afb981691cd01950a49075083b" compoundref="_user_8java" startline="27" endline="29">com.angelmsger.cslaboratory.login.User.setExtra</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a2c2796b9801063c1a94b3d9939b0a279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.User</definition>
+        <argsstring>()</argsstring>
+        <name>User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="7" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="7" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1afb07cb6e9c4cc2c9366e2feeee487613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.User.User</definition>
+        <argsstring>(Base base, Extra extra)</argsstring>
+        <name>User</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kindref="compound">Base</ref></type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kindref="compound">Extra</ref></type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="10" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="10" bodyend="13"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" compoundref="_user_8java" startline="4">com.angelmsger.cslaboratory.login.User.base</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" compoundref="_user_8java" startline="5">com.angelmsger.cslaboratory.login.User.extra</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a6d2abc838a8f232dab7de0763bca8de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kindref="compound">Base</ref></type>
+        <definition>Base com.angelmsger.cslaboratory.login.User.getBase</definition>
+        <argsstring>()</argsstring>
+        <name>getBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="15" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="15" bodyend="17"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" compoundref="_user_8java" startline="4">com.angelmsger.cslaboratory.login.User.base</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" compoundref="_main_activity_8java" startline="196" endline="205">com.angelmsger.cslaboratory.MainActivity.refreshUserinfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a59abc2938de424a05ed028efe2aa3d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.setBase</definition>
+        <argsstring>(Base base)</argsstring>
+        <name>setBase</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kindref="compound">Base</ref></type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="19" bodyend="21"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" compoundref="_user_8java" startline="4">com.angelmsger.cslaboratory.login.User.base</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1af6acd360e616cfd6259574cb25f341c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kindref="compound">Extra</ref></type>
+        <definition>Extra com.angelmsger.cslaboratory.login.User.getExtra</definition>
+        <argsstring>()</argsstring>
+        <name>getExtra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="23" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="23" bodyend="25"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" compoundref="_user_8java" startline="5">com.angelmsger.cslaboratory.login.User.extra</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a83f9f9afb981691cd01950a49075083b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.User.setExtra</definition>
+        <argsstring>(Extra extra)</argsstring>
+        <name>setExtra</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kindref="compound">Extra</ref></type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="27" bodyend="29"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" compoundref="_user_8java" startline="5">com.angelmsger.cslaboratory.login.User.extra</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="564">
+        <label>com.angelmsger.cslaboratory.login.User.Base</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base"/>
+      </node>
+      <node id="565">
+        <label>com.angelmsger.cslaboratory.login.User.Extra</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra"/>
+      </node>
+      <node id="563">
+        <label>com.angelmsger.cslaboratory.login.User</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user"/>
+        <childnode refid="564" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="565" relation="usage">
+          <edgelabel>extra</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" line="3" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/User.java" bodystart="3" bodyend="169"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>base</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>extra</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a6d2abc838a8f232dab7de0763bca8de6" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>getBase</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1af6acd360e616cfd6259574cb25f341c8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>getExtra</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a59abc2938de424a05ed028efe2aa3d42" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>setBase</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a83f9f9afb981691cd01950a49075083b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>setExtra</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a2c2796b9801063c1a94b3d9939b0a279" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>User</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1afb07cb6e9c4cc2c9366e2feeee487613" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::User</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

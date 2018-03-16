@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.forum.ForumFragment" name="com.angelmsger.cslaboratory.forum.ForumFragment">
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content.html" title="com.angelmsger.cslaboratory.forum.\lForumContent" alt="" coords="471,158,705,199"/>
+<area shape="rect" id="node12" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter.html" title="com.angelmsger.cslaboratory.forum.\lForumRecyclerViewAdapter" alt="" coords="471,223,705,265"/>
+<area shape="rect" id="node8" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.forum.\lForumFragment.AsynLoadData" alt="" coords="471,403,705,445"/>
+<area shape="rect" id="node10" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source.html" title="com.angelmsger.cslaboratory.source.\lDataSource" alt="" coords="468,469,708,510"/>
+<area shape="rect" id="node15" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.forum.\lForumFragment.OnListFragmentInteraction\lListener" alt="" coords="19,264,290,320"/>
+</map>

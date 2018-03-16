@@ -1,0 +1,12 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity.html" title="com.angelmsger.cslaboratory.login.\lLoginActivity" alt="" coords="346,5,574,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_signup_activity.html" title="com.angelmsger.cslaboratory.login.\lSignupActivity" alt="" coords="346,71,574,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity.html" title="com.angelmsger.cslaboratory.\lMainActivity" alt="" coords="361,368,559,409"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity.html" title="com.angelmsger.cslaboratory.shared.\lFullscreenActivity" alt="" coords="340,136,580,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity.html" title="com.angelmsger.cslaboratory.shared.\lScrollingActivity" alt="" coords="340,201,580,243"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.course.\lCourseFragment.OnListFragmentInteraction\lListener" alt="" coords="11,161,286,217"/>
+<area shape="rect" id="node8" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.OnListFragmentInteraction\lListener" alt="" coords="11,241,286,297"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.OnListFragmentInteraction\lListener" alt="" coords="17,321,280,377"/>
+<area shape="rect" id="node10" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.topology.\lTopologyFragment.OnListFragmentInteraction\lListener" alt="" coords="5,401,292,457"/>
+<area shape="rect" id="node11" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.forum.\lForumFragment.OnListFragmentInteraction\lListener" alt="" coords="13,481,284,537"/>
+</map>

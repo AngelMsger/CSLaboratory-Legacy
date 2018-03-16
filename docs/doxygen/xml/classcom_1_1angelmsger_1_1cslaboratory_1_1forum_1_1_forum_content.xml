@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumContent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref> &gt;</type>
+        <definition>final List&lt;ForumTopicItem&gt; com.angelmsger.cslaboratory.forum.ForumContent.ITEMS</definition>
+        <argsstring></argsstring>
+        <name>ITEMS</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>数据项实例数组。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" line="17" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a95be85b35396c99b5be4bd90a130947c" compoundref="_forum_content_8java" startline="19" endline="47">com.angelmsger.cslaboratory.forum.ForumContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" compoundref="_forum_fragment_8java" startline="76" endline="127">com.angelmsger.cslaboratory.forum.ForumFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac090a14c7d61eae1d5381a5c0aa6adb1" compoundref="_unreal_data_source_8java" startline="95" endline="123">com.angelmsger.cslaboratory.source.UnrealDataSource.getForumContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a95be85b35396c99b5be4bd90a130947c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized int</type>
+        <definition>synchronized int com.angelmsger.cslaboratory.forum.ForumContent.update</definition>
+        <argsstring>(ForumContent forumContent, boolean pushToBottom)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kindref="compound">ForumContent</ref></type>
+          <declname>forumContent</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>pushToBottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" bodystart="19" bodyend="47"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" compoundref="_forum_content_8java" startline="17">com.angelmsger.cslaboratory.forum.ForumContent.ITEMS</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" compoundref="_forum_fragment_8java" startline="177" endline="181">com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="234">
+        <label>com.angelmsger.cslaboratory.forum.ForumContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content"/>
+        <childnode refid="235" relation="usage">
+          <edgelabel>ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>List&lt; com.angelmsger.cslaboratory.forum.topic.ForumTopicItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" line="12" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" bodystart="12" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumContent</scope><name>ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a95be85b35396c99b5be4bd90a130947c" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumContent</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

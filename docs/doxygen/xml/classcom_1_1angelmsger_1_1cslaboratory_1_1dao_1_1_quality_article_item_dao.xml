@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties" prot="public">com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1afe0b202ddb3ce1d243bddc134bed15f2" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.dao.QualityArticleItemDao.TABLENAME</definition>
+        <argsstring></argsstring>
+        <name>TABLENAME</name>
+        <initializer>= &quot;quality_articles&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1affe8c452cb8b02cd507d7a1d6ba1c6dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.QualityArticleItemDao.QualityArticleItemDao</definition>
+        <argsstring>(DaoConfig config)</argsstring>
+        <name>QualityArticleItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a482d5fdd0215951c6278124bd4dc4341" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.QualityArticleItemDao.QualityArticleItemDao</definition>
+        <argsstring>(DaoConfig config, DaoSession daoSession)</argsstring>
+        <name>QualityArticleItemDao</name>
+        <param>
+          <type>DaoConfig</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+          <declname>daoSession</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a2ad47b7ce0a18237a5e7389308c9ff17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.QualityArticleItemDao.readKey</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readKey</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="130" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a7f173372ec16b6faa241f10de4eca6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+        <definition>QualityArticleItem com.angelmsger.cslaboratory.dao.QualityArticleItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="135" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="135" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1ae2320614b3af03fc93587d150e693f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.dao.QualityArticleItemDao.readEntity</definition>
+        <argsstring>(Cursor cursor, QualityArticleItem entity, int offset)</argsstring>
+        <name>readEntity</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cursor</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="150" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="150" bodyend="159"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a735957ed342c31ea10a00404542d3c9e" compoundref="_quality_article_item_8java" startline="62" endline="64">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae7bc26966211b878204bfb0fff05e21e" compoundref="_quality_article_item_8java" startline="70" endline="72">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a1bbaad7d4eff6c93d4e34b070d48b58f" compoundref="_quality_article_item_8java" startline="78" endline="80">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setGroup</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa6d1c4705743d06a91b8b5fdcee49380" compoundref="_quality_article_item_8java" startline="86" endline="88">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a01879adf45902378b50d91b7d8d2d511" compoundref="_quality_article_item_8java" startline="94" endline="96">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa383c41667dfa7764f18155c42735b7e" compoundref="_quality_article_item_8java" startline="102" endline="104">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setActionURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ab7dd5c8afddafd48abad6d7a3193dec6" compoundref="_quality_article_item_8java" startline="110" endline="112">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setBangCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a95dadadc914dc1b575067d3296ac08a0" compoundref="_quality_article_item_8java" startline="118" endline="120">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setCommentCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1abb64c06f78a3b01bde4b8d6765963d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.dao.QualityArticleItemDao.getKey</definition>
+        <argsstring>(QualityArticleItem entity)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="168" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="168" bodyend="174"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae36bf68b62b9b71fe0d433c51e7c7513" compoundref="_quality_article_item_8java" startline="58" endline="60">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68e814efd3e4963564903f34ce9b09df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.angelmsger.cslaboratory.dao.QualityArticleItemDao.hasKey</definition>
+        <argsstring>(QualityArticleItem entity)</argsstring>
+        <name>hasKey</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="177" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="177" bodyend="179"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae36bf68b62b9b71fe0d433c51e7c7513" compoundref="_quality_article_item_8java" startline="58" endline="60">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getId</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a93ef0eabaef59b77f23ebb09786e3f11" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.QualityArticleItemDao.createTable</definition>
+        <argsstring>(Database db, boolean ifNotExists)</argsstring>
+        <name>createTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifNotExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="47" bodyend="63"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" compoundref="_dao_master_8java" startline="23" endline="33">com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a9c8de8cf6a19aedb8144c38cbba45f68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.QualityArticleItemDao.dropTable</definition>
+        <argsstring>(Database db, boolean ifExists)</argsstring>
+        <name>dropTable</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drops the underlying database table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="66" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="66" bodyend="69"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" compoundref="_dao_master_8java" startline="36" endline="46">com.angelmsger.cslaboratory.dao.DaoMaster.dropAllTables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a326a0f5b80e0f5b497cbf1a6fdb05103" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.QualityArticleItemDao.bindValues</definition>
+        <argsstring>(DatabaseStatement stmt, QualityArticleItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>DatabaseStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="72" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="72" bodyend="98"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae36bf68b62b9b71fe0d433c51e7c7513" compoundref="_quality_article_item_8java" startline="58" endline="60">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a52851588b4a807dd8548340cf528d334" compoundref="_quality_article_item_8java" startline="66" endline="68">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae7cb18d09feec8e112a21c9586d7e22b" compoundref="_quality_article_item_8java" startline="74" endline="76">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getGroup</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a56c1c0a31b0de1ecdcfed0cdb9dea1b0" compoundref="_quality_article_item_8java" startline="82" endline="84">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa3b09d8cee7c98b30f2960a900c020d5" compoundref="_quality_article_item_8java" startline="90" endline="92">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a5b40c4ce98308fa9fb7c40b9e2b6ffcd" compoundref="_quality_article_item_8java" startline="98" endline="100">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getActionURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a6b71ada70d129c6f73f11b9d425fc6fe" compoundref="_quality_article_item_8java" startline="106" endline="108">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getBangCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a4a88f5ad3619e4c69ff893836a846d11" compoundref="_quality_article_item_8java" startline="114" endline="116">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getCommentCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a662a9f6f259708cb7d1e441a79dc6b41" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.dao.QualityArticleItemDao.bindValues</definition>
+        <argsstring>(SQLiteStatement stmt, QualityArticleItem entity)</argsstring>
+        <name>bindValues</name>
+        <param>
+          <type>SQLiteStatement</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="101" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="101" bodyend="127"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae36bf68b62b9b71fe0d433c51e7c7513" compoundref="_quality_article_item_8java" startline="58" endline="60">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getId</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a52851588b4a807dd8548340cf528d334" compoundref="_quality_article_item_8java" startline="66" endline="68">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae7cb18d09feec8e112a21c9586d7e22b" compoundref="_quality_article_item_8java" startline="74" endline="76">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getGroup</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a56c1c0a31b0de1ecdcfed0cdb9dea1b0" compoundref="_quality_article_item_8java" startline="82" endline="84">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa3b09d8cee7c98b30f2960a900c020d5" compoundref="_quality_article_item_8java" startline="90" endline="92">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getImageURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a5b40c4ce98308fa9fb7c40b9e2b6ffcd" compoundref="_quality_article_item_8java" startline="98" endline="100">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getActionURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a6b71ada70d129c6f73f11b9d425fc6fe" compoundref="_quality_article_item_8java" startline="106" endline="108">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getBangCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a4a88f5ad3619e4c69ff893836a846d11" compoundref="_quality_article_item_8java" startline="114" endline="116">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.getCommentCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68b8d11144c9007e5a400eebd911cabe" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Long</type>
+        <definition>final Long com.angelmsger.cslaboratory.dao.QualityArticleItemDao.updateKeyAfterInsert</definition>
+        <argsstring>(QualityArticleItem entity, long rowId)</argsstring>
+        <name>updateKeyAfterInsert</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rowId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="162" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="162" bodyend="165"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a735957ed342c31ea10a00404542d3c9e" compoundref="_quality_article_item_8java" startline="62" endline="64">com.angelmsger.cslaboratory.quality.article.QualityArticleItem.setId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a32e76d20e64e072fc0c0e2780eeeec24" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean com.angelmsger.cslaboratory.dao.QualityArticleItemDao.isEntityUpdateable</definition>
+        <argsstring>()</argsstring>
+        <name>isEntityUpdateable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="182" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="182" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DAO for table &quot;quality_articles&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="413">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="415">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/QualityArticleItemDao.java" bodystart="18" bodyend="186"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a326a0f5b80e0f5b497cbf1a6fdb05103" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a662a9f6f259708cb7d1e441a79dc6b41" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>bindValues</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a93ef0eabaef59b77f23ebb09786e3f11" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>createTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a9c8de8cf6a19aedb8144c38cbba45f68" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>dropTable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1abb64c06f78a3b01bde4b8d6765963d75" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>getKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68e814efd3e4963564903f34ce9b09df" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>hasKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a32e76d20e64e072fc0c0e2780eeeec24" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>isEntityUpdateable</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1affe8c452cb8b02cd507d7a1d6ba1c6dc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>QualityArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a482d5fdd0215951c6278124bd4dc4341" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>QualityArticleItemDao</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a7f173372ec16b6faa241f10de4eca6da" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1ae2320614b3af03fc93587d150e693f31" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>readEntity</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a2ad47b7ce0a18237a5e7389308c9ff17" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>readKey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1afe0b202ddb3ce1d243bddc134bed15f2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>TABLENAME</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68b8d11144c9007e5a400eebd911cabe" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</scope><name>updateKeyAfterInsert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

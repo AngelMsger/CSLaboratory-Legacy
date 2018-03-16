@@ -1,0 +1,11 @@
+<map id="com.angelmsger.cslaboratory.dao.DaoSession" name="com.angelmsger.cslaboratory.dao.DaoSession">
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCategoryItemDao" alt="" coords="293,59,516,101"/>
+<area shape="rect" id="node6" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lForumTopicItemDao" alt="" coords="293,201,516,242"/>
+<area shape="rect" id="node8" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseSubclassItemDao" alt="" coords="293,266,516,307"/>
+<area shape="rect" id="node10" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityCategoryItemDao" alt="" coords="293,331,516,373"/>
+<area shape="rect" id="node12" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lDailyArticleItemDao" alt="" coords="293,397,516,438"/>
+<area shape="rect" id="node14" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityADItemDao" alt="" coords="293,465,516,506"/>
+<area shape="rect" id="node16" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCourseItemDao" alt="" coords="293,537,516,578"/>
+<area shape="rect" id="node18" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lTopologyFieldItemDao" alt="" coords="293,615,516,657"/>
+<area shape="rect" id="node20" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityArticleItemDao" alt="" coords="293,707,516,749"/>
+</map>

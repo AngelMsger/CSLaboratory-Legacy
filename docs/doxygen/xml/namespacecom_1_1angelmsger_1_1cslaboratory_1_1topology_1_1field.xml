@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::topology::field</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" prot="public">com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

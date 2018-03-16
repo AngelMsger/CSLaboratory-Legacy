@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_30d09979890d72db4cc9c34fb267b4e7" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao</compoundname>
+    <innerfile refid="_course_category_item_dao_8java">CourseCategoryItemDao.java</innerfile>
+    <innerfile refid="_course_course_item_dao_8java">CourseCourseItemDao.java</innerfile>
+    <innerfile refid="_course_subclass_item_dao_8java">CourseSubclassItemDao.java</innerfile>
+    <innerfile refid="_daily_article_item_dao_8java">DailyArticleItemDao.java</innerfile>
+    <innerfile refid="_dao_master_8java">DaoMaster.java</innerfile>
+    <innerfile refid="_dao_session_8java">DaoSession.java</innerfile>
+    <innerfile refid="_forum_topic_item_dao_8java">ForumTopicItemDao.java</innerfile>
+    <innerfile refid="_quality_a_d_item_dao_8java">QualityADItemDao.java</innerfile>
+    <innerfile refid="_quality_article_item_dao_8java">QualityArticleItemDao.java</innerfile>
+    <innerfile refid="_quality_category_item_dao_8java">QualityCategoryItemDao.java</innerfile>
+    <innerfile refid="_topology_field_item_dao_8java">TopologyFieldItemDao.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/"/>
+  </compounddef>
+</doxygen>

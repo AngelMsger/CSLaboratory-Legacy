@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_e5110dfcba4caa17c8ad79c24406ed88" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source</compoundname>
+    <innerfile refid="_data_source_8java">DataSource.java</innerfile>
+    <innerfile refid="_local_data_source_8java">LocalDataSource.java</innerfile>
+    <innerfile refid="_server_data_source_8java">ServerDataSource.java</innerfile>
+    <innerfile refid="_unreal_data_source_8java">UnrealDataSource.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source/"/>
+  </compounddef>
+</doxygen>

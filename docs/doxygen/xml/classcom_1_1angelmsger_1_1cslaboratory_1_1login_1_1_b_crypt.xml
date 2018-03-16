@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::BCrypt</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ab757731a176897e0e3d7417ba433c540" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.GENSALT_DEFAULT_LOG2_ROUNDS</definition>
+        <argsstring></argsstring>
+        <name>GENSALT_DEFAULT_LOG2_ROUNDS</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="53" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac9bbea88711903e60e79254083fdf1de" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.BCRYPT_SALT_LEN</definition>
+        <argsstring></argsstring>
+        <name>BCRYPT_SALT_LEN</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="54" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" compoundref="_b_crypt_8java" startline="693" endline="706">com.angelmsger.cslaboratory.login.BCrypt.gensalt</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a44782e86de51e47d874b041c914fd2b1" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.BLOWFISH_NUM_ROUNDS</definition>
+        <argsstring></argsstring>
+        <name>BLOWFISH_NUM_ROUNDS</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a65355a3912b15d2d82291231f75c4735" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.P_orig[]</definition>
+        <argsstring>[]</argsstring>
+        <name>P_orig</name>
+        <initializer>= {
+            0x243f6a88, 0x85a308d3, 0x13198a2e, 0x03707344,
+            0xa4093822, 0x299f31d0, 0x082efa98, 0xec4e6c89,
+            0x452821e6, 0x38d01377, 0xbe5466cf, 0x34e90c6c,
+            0xc0ac29b7, 0xc97c50dd, 0x3f84d5b5, 0xb5470917,
+            0x9216d5d9, 0x8979fb1b
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="60" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a9cfe2acc7a603f77d76aafda4b3ad26e" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.S_orig[]</definition>
+        <argsstring>[]</argsstring>
+        <name>S_orig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a748ecef072ebfa9db2d1d724238b9574" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.login.BCrypt.bf_crypt_ciphertext[]</definition>
+        <argsstring>[]</argsstring>
+        <name>bf_crypt_ciphertext</name>
+        <initializer>= {
+            0x4f727068, 0x65616e42, 0x65686f6c,
+            0x64657253, 0x63727944, 0x6f756274
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="327" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac70e3a68ff347bc5356d955fa5082f08" prot="private" static="yes" mutable="no">
+        <type>final char</type>
+        <definition>final char com.angelmsger.cslaboratory.login.BCrypt.base64_code[]</definition>
+        <argsstring>[]</argsstring>
+        <name>base64_code</name>
+        <initializer>= {
+            &apos;.&apos;, &apos;/&apos;, &apos;A&apos;, &apos;B&apos;, &apos;C&apos;, &apos;D&apos;, &apos;E&apos;, &apos;F&apos;, &apos;G&apos;, &apos;H&apos;, &apos;I&apos;, &apos;J&apos;,
+            &apos;K&apos;, &apos;L&apos;, &apos;M&apos;, &apos;N&apos;, &apos;O&apos;, &apos;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a486f8ba1b5cec711d013d5dd413a3571" kindref="member">P</ref>&apos;, &apos;Q&apos;, &apos;R&apos;, &apos;<ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a1b8f54f2df6a5b2c8a9bdebbb26cc1" kindref="member">S</ref>&apos;, &apos;T&apos;, &apos;U&apos;, &apos;V&apos;,
+            &apos;W&apos;, &apos;X&apos;, &apos;Y&apos;, &apos;Z&apos;, &apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;, &apos;f&apos;, &apos;g&apos;, &apos;h&apos;,
+            &apos;i&apos;, &apos;j&apos;, &apos;k&apos;, &apos;l&apos;, &apos;m&apos;, &apos;n&apos;, &apos;o&apos;, &apos;p&apos;, &apos;q&apos;, &apos;r&apos;, &apos;s&apos;, &apos;t&apos;,
+            &apos;u&apos;, &apos;v&apos;, &apos;w&apos;, &apos;x&apos;, &apos;y&apos;, &apos;z&apos;, &apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;,
+            &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="333" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a86e7357efd654ff3a64029773b613d" prot="private" static="yes" mutable="no">
+        <type>final byte</type>
+        <definition>final byte com.angelmsger.cslaboratory.login.BCrypt.index_64[]</definition>
+        <argsstring>[]</argsstring>
+        <name>index_64</name>
+        <initializer>= {
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, 0, 1, 54, 55,
+            56, 57, 58, 59, 60, 61, 62, 63, -1, -1,
+            -1, -1, -1, -1, -1, 2, 3, 4, 5, 6,
+            7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+            17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+            -1, -1, -1, -1, -1, -1, 28, 29, 30,
+            31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+            41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+            51, 52, 53, -1, -1, -1, -1, -1
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="343" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a486f8ba1b5cec711d013d5dd413a3571" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.BCrypt.P[]</definition>
+        <argsstring>[]</argsstring>
+        <name>P</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="360" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a1b8f54f2df6a5b2c8a9bdebbb26cc1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.login.BCrypt.S[]</definition>
+        <argsstring>[]</argsstring>
+        <name>S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="361" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a28c8e7fd5acfac642f3a4c5cc9be68eb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.angelmsger.cslaboratory.login.BCrypt.encode_base64</definition>
+        <argsstring>(byte d[], int len)</argsstring>
+        <name>encode_base64</name>
+        <param>
+          <type>byte</type>
+          <declname>d</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <exceptions> throws IllegalArgumentException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode a byte array using bcrypt&apos;s slightly-modified base64 encoding scheme. Note that this is <emphasis>not</emphasis> compatible with the standard MIME-base64 encoding.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the byte array to encode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of bytes to encode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>base64-encoded string </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the length is invalid </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="373" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="373" bodyend="404"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" compoundref="_b_crypt_8java" startline="635" endline="683">com.angelmsger.cslaboratory.login.BCrypt.hashpw</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" compoundref="_b_crypt_8java" startline="693" endline="706">com.angelmsger.cslaboratory.login.BCrypt.gensalt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3e650e55cd70e4199259bf333052f980" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>static byte com.angelmsger.cslaboratory.login.BCrypt.char64</definition>
+        <argsstring>(char x)</argsstring>
+        <name>char64</name>
+        <param>
+          <type>char</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Look up the 3 bits base64-encoded by the specified character, range-checking againt conversion table <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the base64-encoded value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the decoded value of x </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="412" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="412" bodyend="416"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3f8819f4b73c6e9ce1604ec64ce654dc" compoundref="_b_crypt_8java" startline="427" endline="466">com.angelmsger.cslaboratory.login.BCrypt.decode_base64</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3f8819f4b73c6e9ce1604ec64ce654dc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte []</type>
+        <definition>static byte [] com.angelmsger.cslaboratory.login.BCrypt.decode_base64</definition>
+        <argsstring>(String s, int maxolen)</argsstring>
+        <name>decode_base64</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxolen</declname>
+        </param>
+        <exceptions> throws IllegalArgumentException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decode a string encoded using bcrypt&apos;s base64 scheme to a byte array. Note that this is <emphasis>not</emphasis> compatible with the standard MIME-base64 encoding. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to decode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxolen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the maximum number of bytes to decode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an array containing the decoded bytes </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IllegalArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if maxolen is invalid </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="427" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="427" bodyend="466"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3e650e55cd70e4199259bf333052f980" compoundref="_b_crypt_8java" startline="412" endline="416">com.angelmsger.cslaboratory.login.BCrypt.char64</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" compoundref="_b_crypt_8java" startline="635" endline="683">com.angelmsger.cslaboratory.login.BCrypt.hashpw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a171a82d210009deea73330b94073e4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int com.angelmsger.cslaboratory.login.BCrypt.streamtoword</definition>
+        <argsstring>(byte data[], int offp[])</argsstring>
+        <name>streamtoword</name>
+        <param>
+          <type>byte</type>
+          <declname>data</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offp</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cycically extract a word of key material <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to extract the data from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a &quot;pointer&quot; (as a one-entry array) to the current offset into data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the next word of material from data </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="504" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="504" bodyend="516"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" compoundref="_b_crypt_8java" startline="530" endline="550">com.angelmsger.cslaboratory.login.BCrypt.key</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" compoundref="_b_crypt_8java" startline="559" endline="583">com.angelmsger.cslaboratory.login.BCrypt.ekskey</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void com.angelmsger.cslaboratory.login.BCrypt.encipher</definition>
+        <argsstring>(int lr[], int off)</argsstring>
+        <name>encipher</name>
+        <param>
+          <type>int</type>
+          <declname>lr</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Blowfish encipher a single 64-bit block encoded as two 32-bit halves <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array containing the two 32-bit half blocks </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>off</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position in the array of the blocks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="474" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="474" bodyend="495"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" compoundref="_b_crypt_8java" startline="530" endline="550">com.angelmsger.cslaboratory.login.BCrypt.key</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" compoundref="_b_crypt_8java" startline="559" endline="583">com.angelmsger.cslaboratory.login.BCrypt.ekskey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" compoundref="_b_crypt_8java" startline="594" endline="626">com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1adae25f314450101347ab01743ac002dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.BCrypt.init_key</definition>
+        <argsstring>()</argsstring>
+        <name>init_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialise the Blowfish key schedule </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="521" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="521" bodyend="524"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" compoundref="_b_crypt_8java" startline="594" endline="626">com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.BCrypt.key</definition>
+        <argsstring>(byte key[])</argsstring>
+        <name>key</name>
+        <param>
+          <type>byte</type>
+          <declname>key</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key the Blowfish cipher <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array containing the key </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="530" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="530" bodyend="550"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a171a82d210009deea73330b94073e4" compoundref="_b_crypt_8java" startline="504" endline="516">com.angelmsger.cslaboratory.login.BCrypt.streamtoword</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" compoundref="_b_crypt_8java" startline="474" endline="495">com.angelmsger.cslaboratory.login.BCrypt.encipher</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" compoundref="_b_crypt_8java" startline="594" endline="626">com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.BCrypt.ekskey</definition>
+        <argsstring>(byte data[], byte key[])</argsstring>
+        <name>ekskey</name>
+        <param>
+          <type>byte</type>
+          <declname>data</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>key</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform the &quot;enhanced key schedule&quot; step described by Provos and Mazieres in &quot;A Future-Adaptable Password Scheme&quot; <ulink url="http://www.openbsd.org/papers/bcrypt-paper.ps">http://www.openbsd.org/papers/bcrypt-paper.ps</ulink> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>salt information </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password information </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="559" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="559" bodyend="583"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a171a82d210009deea73330b94073e4" compoundref="_b_crypt_8java" startline="504" endline="516">com.angelmsger.cslaboratory.login.BCrypt.streamtoword</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" compoundref="_b_crypt_8java" startline="474" endline="495">com.angelmsger.cslaboratory.login.BCrypt.encipher</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" compoundref="_b_crypt_8java" startline="594" endline="626">com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte []</type>
+        <definition>byte [] com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</definition>
+        <argsstring>(byte password[], byte salt[], int log_rounds)</argsstring>
+        <name>crypt_raw</name>
+        <param>
+          <type>byte</type>
+          <declname>password</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>salt</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_rounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform the central password hashing step in the bcrypt scheme <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the password to hash </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>salt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the binary salt to hash with the password </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>log_rounds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the binary logarithm of the number of rounds of hashing to apply </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an array containing the binary hashed password </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="594" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="594" bodyend="626"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1adae25f314450101347ab01743ac002dd" compoundref="_b_crypt_8java" startline="521" endline="524">com.angelmsger.cslaboratory.login.BCrypt.init_key</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" compoundref="_b_crypt_8java" startline="559" endline="583">com.angelmsger.cslaboratory.login.BCrypt.ekskey</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" compoundref="_b_crypt_8java" startline="530" endline="550">com.angelmsger.cslaboratory.login.BCrypt.key</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" compoundref="_b_crypt_8java" startline="474" endline="495">com.angelmsger.cslaboratory.login.BCrypt.encipher</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" compoundref="_b_crypt_8java" startline="635" endline="683">com.angelmsger.cslaboratory.login.BCrypt.hashpw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.angelmsger.cslaboratory.login.BCrypt.hashpw</definition>
+        <argsstring>(String password, String salt)</argsstring>
+        <name>hashpw</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>salt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hash a password using the OpenBSD bcrypt scheme <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the password to hash </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>salt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the salt to hash with (perhaps generated using <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" kindref="member">BCrypt.gensalt</ref>) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the hashed password </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="635" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="635" bodyend="683"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3f8819f4b73c6e9ce1604ec64ce654dc" compoundref="_b_crypt_8java" startline="427" endline="466">com.angelmsger.cslaboratory.login.BCrypt.decode_base64</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" compoundref="_b_crypt_8java" startline="594" endline="626">com.angelmsger.cslaboratory.login.BCrypt.crypt_raw</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a28c8e7fd5acfac642f3a4c5cc9be68eb" compoundref="_b_crypt_8java" startline="373" endline="404">com.angelmsger.cslaboratory.login.BCrypt.encode_base64</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ad9eca7d24a787b2638328cf8dc3ec431" compoundref="_b_crypt_8java" startline="736" endline="738">com.angelmsger.cslaboratory.login.BCrypt.checkpw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.angelmsger.cslaboratory.login.BCrypt.gensalt</definition>
+        <argsstring>(int log_rounds, SecureRandom random)</argsstring>
+        <name>gensalt</name>
+        <param>
+          <type>int</type>
+          <declname>log_rounds</declname>
+        </param>
+        <param>
+          <type>SecureRandom</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate a salt for use with the <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" kindref="member">BCrypt.hashpw()</ref> method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_rounds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the log2 of the number of rounds of hashing to apply - the work factor therefore increases as 2**log_rounds. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>random</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an instance of SecureRandom to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an encoded salt value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="693" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="693" bodyend="706"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac9bbea88711903e60e79254083fdf1de" compoundref="_b_crypt_8java" startline="54">com.angelmsger.cslaboratory.login.BCrypt.BCRYPT_SALT_LEN</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a28c8e7fd5acfac642f3a4c5cc9be68eb" compoundref="_b_crypt_8java" startline="373" endline="404">com.angelmsger.cslaboratory.login.BCrypt.encode_base64</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1aba13017b8637a343bfc5766028db535a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.angelmsger.cslaboratory.login.BCrypt.gensalt</definition>
+        <argsstring>(int log_rounds)</argsstring>
+        <name>gensalt</name>
+        <param>
+          <type>int</type>
+          <declname>log_rounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate a salt for use with the <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" kindref="member">BCrypt.hashpw()</ref> method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_rounds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the log2 of the number of rounds of hashing to apply - the work factor therefore increases as 2**log_rounds. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an encoded salt value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="715" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="715" bodyend="717"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" compoundref="_b_crypt_8java" startline="725" endline="727">com.angelmsger.cslaboratory.login.BCrypt.gensalt</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.angelmsger.cslaboratory.login.BCrypt.gensalt</definition>
+        <argsstring>()</argsstring>
+        <name>gensalt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate a salt for use with the <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" kindref="member">BCrypt.hashpw()</ref> method, selecting a reasonable default for the number of hashing rounds to apply <simplesect kind="return"><para>an encoded salt value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="725" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="725" bodyend="727"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1aba13017b8637a343bfc5766028db535a" compoundref="_b_crypt_8java" startline="715" endline="717">com.angelmsger.cslaboratory.login.BCrypt.gensalt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ad9eca7d24a787b2638328cf8dc3ec431" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean com.angelmsger.cslaboratory.login.BCrypt.checkpw</definition>
+        <argsstring>(String plaintext, String hashed)</argsstring>
+        <name>checkpw</name>
+        <param>
+          <type>String</type>
+          <declname>plaintext</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>hashed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check that a plaintext password matches a previously hashed one <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>plaintext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the plaintext password to verify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hashed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the previously-hashed password </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the passwords match, false otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="736" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="736" bodyend="738"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" compoundref="_b_crypt_8java" startline="635" endline="683">com.angelmsger.cslaboratory.login.BCrypt.hashpw</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a15eaf622043a9dc066a61ef906ce9157" compoundref="_p_h_pass_8java" startline="121" endline="155">com.angelmsger.cslaboratory.login.PHPass.CheckPassword</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt" kindref="compound">BCrypt</ref> implements OpenBSD-style Blowfish password hashing using the scheme described in &quot;A Future-Adaptable Password Scheme&quot; by Niels Provos and David Mazieres. </para><para>This password hashing system tries to thwart off-line password cracking using a computationally-intensive hashing algorithm, based on Bruce Schneier&apos;s Blowfish cipher. The work factor of the algorithm is parameterised, so it can be increased as computers get faster. </para><para>Usage is really simple. To hash a password for the first time, call the hashpw method with a random salt, like this: </para><para><computeroutput> String pw_hash = <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" kindref="member">BCrypt.hashpw</ref>(plain_password, <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" kindref="member">BCrypt.gensalt()</ref>); <linebreak/>
+ </computeroutput> </para><para>To check whether a plaintext password matches one that has been hashed previously, use the checkpw method: </para><para><computeroutput> if (BCrypt.checkpw(candidate_password, stored_hash))<linebreak/>
+ <nonbreakablespace/><nonbreakablespace/><nonbreakablespace/><nonbreakablespace/>System.out.println(&quot;It matches&quot;);<linebreak/>
+ else<linebreak/>
+ <nonbreakablespace/><nonbreakablespace/><nonbreakablespace/><nonbreakablespace/>System.out.println(&quot;It does not match&quot;);<linebreak/>
+ </computeroutput> </para><para>The <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" kindref="member">gensalt()</ref> method takes an optional parameter (log_rounds) that determines the computational complexity of the hashing: </para><para><computeroutput> String strong_salt = BCrypt.gensalt(10)<linebreak/>
+ String stronger_salt = BCrypt.gensalt(12)<linebreak/>
+ </computeroutput> </para><para>The amount of work increases exponentially (2**log_rounds), so each increment is twice as much work. The default log_rounds is 10, and the valid range is 4 to 31.</para><para><simplesect kind="author"><para>Damien Miller </para></simplesect>
+<simplesect kind="version"><para>0.2 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" line="51" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/BCrypt.java" bodystart="51" bodyend="739"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac70e3a68ff347bc5356d955fa5082f08" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>base64_code</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac9bbea88711903e60e79254083fdf1de" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>BCRYPT_SALT_LEN</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a748ecef072ebfa9db2d1d724238b9574" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>bf_crypt_ciphertext</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a44782e86de51e47d874b041c914fd2b1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>BLOWFISH_NUM_ROUNDS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3e650e55cd70e4199259bf333052f980" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>char64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ad9eca7d24a787b2638328cf8dc3ec431" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>checkpw</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>crypt_raw</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3f8819f4b73c6e9ce1604ec64ce654dc" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>decode_base64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>ekskey</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>encipher</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a28c8e7fd5acfac642f3a4c5cc9be68eb" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>encode_base64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>gensalt</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1aba13017b8637a343bfc5766028db535a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>gensalt</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>gensalt</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ab757731a176897e0e3d7417ba433c540" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>GENSALT_DEFAULT_LOG2_ROUNDS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>hashpw</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a86e7357efd654ff3a64029773b613d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>index_64</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1adae25f314450101347ab01743ac002dd" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>init_key</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>key</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a486f8ba1b5cec711d013d5dd413a3571" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>P</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a65355a3912b15d2d82291231f75c4735" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>P_orig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a1b8f54f2df6a5b2c8a9bdebbb26cc1" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>S</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a9cfe2acc7a603f77d76aafda4b3ad26e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>S_orig</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a171a82d210009deea73330b94073e4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::BCrypt</scope><name>streamtoword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

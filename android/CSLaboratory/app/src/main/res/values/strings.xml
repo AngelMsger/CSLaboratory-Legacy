@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">猫爪实验室</string>
+
+    <string name="drawer_open">打开导航菜单</string>
+    <string name="drawer_close">关闭导航菜单</string>
+
+    <string name="action_settings">设置</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">密码 (可选项)</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">Email 格式不正确</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">必须填写 Email</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_daily">最新动态</string>
+    <string name="title_forum">社区话题</string>
+    <string name="title_quality">优质推荐</string>
+    <string name="title_course">精选教程</string>
+    <string name="title_topology">知识拓扑</string>
+
+    <string name="course_learner_count">%1$d人学习过该课程</string>
+
+    <string name="login_complete">登录成功</string>
+    <string name="login_error">错误</string>
+    <string name="nav_header_nickname">未登录</string>
+
+    <string name="nav_header_signin_button">签到</string>
+    <string name="nav_header_signin_button_signed">已签到</string>
+
+    <string name="drawer_menu_message">我的消息</string>
+    <string name="drawer_menu_route">学习路径</string>
+    <string name="drawer_menu_history">最近浏览</string>
+    <string name="drawer_menu_favorite">收藏关注</string>
+    <string name="drawer_menu_draft">我的草稿</string>
+    <string name="drawer_menu_group_options">可选项</string>
+    <string name="drawer_menu_settings">设置</string>
+    <string name="drawer_menu_exit">退出</string>
+</resources>

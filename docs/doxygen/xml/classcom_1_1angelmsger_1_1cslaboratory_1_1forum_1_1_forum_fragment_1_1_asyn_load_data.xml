@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data" kind="class" language="Java" prot="private">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, Integer &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a5a1498273de0462ac30c37bfbcaad69b" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.mRequestOffset</definition>
+        <argsstring></argsstring>
+        <name>mRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="170" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1aef61e140c816f2760bf6da8ff026133d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.AsynLoadData</definition>
+        <argsstring>(int requestOffset)</argsstring>
+        <name>AsynLoadData</name>
+        <param>
+          <type>int</type>
+          <declname>requestOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="172" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="172" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.doInBackground</definition>
+        <argsstring>(Void... voids)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>voids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="177" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="177" bodyend="181"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab91a936d245bc7b081001c880a4da9e9" compoundref="_forum_fragment_8java" startline="39">com.angelmsger.cslaboratory.forum.ForumFragment.mForumContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a95be85b35396c99b5be4bd90a130947c" compoundref="_forum_content_8java" startline="19" endline="47">com.angelmsger.cslaboratory.forum.ForumContent.update</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afc6e1400b7f64699ce1651d06de63fde" compoundref="_forum_fragment_8java" startline="38">com.angelmsger.cslaboratory.forum.ForumFragment.mDataSource</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a87c93916e66a0fa58e865a72e2591c8c" compoundref="_forum_fragment_8java" startline="44">com.angelmsger.cslaboratory.forum.ForumFragment.mRequestLimit</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onPostExecute</definition>
+        <argsstring>(Integer integer)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>Integer</type>
+          <declname>integer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="184" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="184" bodyend="195"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" compoundref="_forum_fragment_8java" startline="42">com.angelmsger.cslaboratory.forum.ForumFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" compoundref="_forum_fragment_8java" startline="32">com.angelmsger.cslaboratory.forum.ForumFragment.mListener</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a34811abc8a084e97edc348610012ceeb">com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumListUpdate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a9872ffaf4fc52ee660a65b550191f8a8" compoundref="_forum_fragment_8java" startline="36">com.angelmsger.cslaboratory.forum.ForumFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" compoundref="_forum_fragment_8java" startline="34">com.angelmsger.cslaboratory.forum.ForumFragment.mPullToRefreshView</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1adbeda03db4ef39498b7c434fa510ba90" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData.onCancelled</definition>
+        <argsstring>()</argsstring>
+        <name>onCancelled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="198" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="198" bodyend="203"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" compoundref="_forum_fragment_8java" startline="42">com.angelmsger.cslaboratory.forum.ForumFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" compoundref="_forum_fragment_8java" startline="34">com.angelmsger.cslaboratory.forum.ForumFragment.mPullToRefreshView</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>异步加载数据到列表，需要提供加载分页页号，加载完成后更新界面。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="29">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="31">
+        <label>com.angelmsger.cslaboratory.forum.ForumFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" line="169" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumFragment.java" bodystart="169" bodyend="204"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1aef61e140c816f2760bf6da8ff026133d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</scope><name>AsynLoadData</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</scope><name>doInBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a5a1498273de0462ac30c37bfbcaad69b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</scope><name>mRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1adbeda03db4ef39498b7c434fa510ba90" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</scope><name>onCancelled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

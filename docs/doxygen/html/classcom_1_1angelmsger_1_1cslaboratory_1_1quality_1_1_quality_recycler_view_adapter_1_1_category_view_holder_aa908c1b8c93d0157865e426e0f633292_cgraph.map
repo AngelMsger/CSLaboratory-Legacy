@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.CategoryViewHolder.bind" name="com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.CategoryViewHolder.bind">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item.html#ab195322c91a479ceef0e2c02ddb7e0b1" title="com.angelmsger.cslaboratory.quality.category.\lQualityCategoryItem.getImageURI" alt="" coords="324,5,617,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item.html#a41365ae959c7f51757a7fbd003367ae7" title="com.angelmsger.cslaboratory.quality.category.\lQualityCategoryItem.getTitle" alt="" coords="324,71,617,112"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener.html#ae8f3f77d470b293bf4e01e6c7da7b1a6" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.OnListFragmentInteraction\lListener.onCategoryItemClick" alt="" coords="333,137,608,193"/>
+</map>

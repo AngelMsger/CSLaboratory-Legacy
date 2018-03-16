@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4357d585a23827c1888204cb65299b2b" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="18" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa1aabf26d1c33691efb99e949380e167" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.backgroundURI</definition>
+        <argsstring></argsstring>
+        <name>backgroundURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="21" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a3da372280f4e9bcf407d07232627c2c4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="24" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a40ed9c9a065a8c046129f74712389409" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa07a37713f997a0f9de9388c525cf2be" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.imageURI</definition>
+        <argsstring></argsstring>
+        <name>imageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1af5e359d7094d49be56d57cfd420bc3e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.TopologyFieldItem</definition>
+        <argsstring>()</argsstring>
+        <name>TopologyFieldItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a127389c7be474727aff08af44ca7a92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.TopologyFieldItem</definition>
+        <argsstring>(Long id, String backgroundURI, String title, String content, String imageURI)</argsstring>
+        <name>TopologyFieldItem</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>backgroundURI</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a6135cf9d4ccc37d6852613d5ffb1df91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="45" bodyend="47"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" compoundref="_topology_field_item_dao_8java" startline="64" endline="75">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a1195b020dfbafbb59f3a9ca16c74a7f6" compoundref="_topology_field_item_dao_8java" startline="124" endline="130">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.getKey</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a295909477ec9c64e75ec467d8d9206c9" compoundref="_topology_field_item_dao_8java" startline="133" endline="135">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.hasKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a286b6cd4ced92a75c87c01efdd6a6fd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="49" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="49" bodyend="51"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" compoundref="_topology_field_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.readEntity</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aac72c539bb64827562965f2aaa28b983" compoundref="_topology_field_item_dao_8java" startline="118" endline="121">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.updateKeyAfterInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a9e205cd5a78e31c62b7ac456d08952d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getBackgroundURI</definition>
+        <argsstring>()</argsstring>
+        <name>getBackgroundURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="53" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="53" bodyend="55"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" compoundref="_topology_field_item_dao_8java" startline="64" endline="75">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" compoundref="_topology_recycler_view_adapter_8java" startline="79" endline="93">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1afdd845adecd0a5dbd0046bff8a7fc569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.setBackgroundURI</definition>
+        <argsstring>(String backgroundURI)</argsstring>
+        <name>setBackgroundURI</name>
+        <param>
+          <type>String</type>
+          <declname>backgroundURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="57" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="57" bodyend="59"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" compoundref="_topology_field_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1abe50a2a068d3d78c2fd63766c1f82a90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="61" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="61" bodyend="63"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" compoundref="_topology_field_item_dao_8java" startline="64" endline="75">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" compoundref="_topology_recycler_view_adapter_8java" startline="79" endline="93">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4caa7c6174ce87e5bb18511ad9871d27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="65" bodyend="67"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" compoundref="_topology_field_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae8f3bb7dc8a51bec3dc3b13027b165af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getContent</definition>
+        <argsstring>()</argsstring>
+        <name>getContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="69" bodyend="71"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" compoundref="_topology_field_item_dao_8java" startline="64" endline="75">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" compoundref="_topology_recycler_view_adapter_8java" startline="79" endline="93">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa0877ce3f44bce68862e59b0ae79c390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.setContent</definition>
+        <argsstring>(String content)</argsstring>
+        <name>setContent</name>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="73" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="73" bodyend="75"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" compoundref="_topology_field_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.readEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae096ba91918178af5e7eab967723533a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.getImageURI</definition>
+        <argsstring>()</argsstring>
+        <name>getImageURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="77" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="77" bodyend="79"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" compoundref="_topology_field_item_dao_8java" startline="64" endline="75">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.bindValues</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" compoundref="_topology_recycler_view_adapter_8java" startline="79" endline="93">com.angelmsger.cslaboratory.topology.TopologyRecyclerViewAdapter.TopologyViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a34edac3a9accc85aeccebdbe3e75cfbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.topology.field.TopologyFieldItem.setImageURI</definition>
+        <argsstring>(String imageURI)</argsstring>
+        <name>setImageURI</name>
+        <param>
+          <type>String</type>
+          <declname>imageURI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="81" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="81" bodyend="83"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" compoundref="_topology_field_item_dao_8java" startline="109" endline="115">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.readEntity</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>数据项实例类。 </para>    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field/TopologyFieldItem.java" bodystart="16" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa1aabf26d1c33691efb99e949380e167" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>backgroundURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a40ed9c9a065a8c046129f74712389409" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>content</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a9e205cd5a78e31c62b7ac456d08952d4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>getBackgroundURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae8f3bb7dc8a51bec3dc3b13027b165af" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>getContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a6135cf9d4ccc37d6852613d5ffb1df91" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>getId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae096ba91918178af5e7eab967723533a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>getImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1abe50a2a068d3d78c2fd63766c1f82a90" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>getTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4357d585a23827c1888204cb65299b2b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>id</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa07a37713f997a0f9de9388c525cf2be" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>imageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1afdd845adecd0a5dbd0046bff8a7fc569" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>setBackgroundURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa0877ce3f44bce68862e59b0ae79c390" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>setContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a286b6cd4ced92a75c87c01efdd6a6fd4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>setId</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a34edac3a9accc85aeccebdbe3e75cfbc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>setImageURI</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4caa7c6174ce87e5bb18511ad9871d27" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a3da372280f4e9bcf407d07232627c2c4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>title</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1af5e359d7094d49be56d57cfd420bc3e2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>TopologyFieldItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a127389c7be474727aff08af44ca7a92e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</scope><name>TopologyFieldItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

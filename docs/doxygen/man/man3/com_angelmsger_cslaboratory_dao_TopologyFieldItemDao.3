@@ -1,0 +1,146 @@
+.TH "com.angelmsger.cslaboratory.dao.TopologyFieldItemDao" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.TopologyFieldItemDao \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDao< TopologyFieldItem, Long > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBProperties\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBTopologyFieldItemDao\fP (DaoConfig config)"
+.br
+.ti -1c
+.RI "\fBTopologyFieldItemDao\fP (DaoConfig config, \fBDaoSession\fP daoSession)"
+.br
+.ti -1c
+.RI "Long \fBreadKey\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "\fBTopologyFieldItem\fP \fBreadEntity\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "void \fBreadEntity\fP (Cursor cursor, \fBTopologyFieldItem\fP entity, int offset)"
+.br
+.ti -1c
+.RI "Long \fBgetKey\fP (\fBTopologyFieldItem\fP entity)"
+.br
+.ti -1c
+.RI "boolean \fBhasKey\fP (\fBTopologyFieldItem\fP entity)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateTable\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropTable\fP (Database db, boolean ifExists)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTABLENAME\fP = 'topology_fields'"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "final void \fBbindValues\fP (DatabaseStatement stmt, \fBTopologyFieldItem\fP entity)"
+.br
+.ti -1c
+.RI "final void \fBbindValues\fP (SQLiteStatement stmt, \fBTopologyFieldItem\fP entity)"
+.br
+.ti -1c
+.RI "final Long \fBupdateKeyAfterInsert\fP (\fBTopologyFieldItem\fP entity, long rowId)"
+.br
+.ti -1c
+.RI "final boolean \fBisEntityUpdateable\fP ()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+DAO for table 'topology_fields'\&. 
+.PP
+在文件 TopologyFieldItemDao\&.java 第 18 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.TopologyFieldItemDao (DaoConfig config)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 35 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.TopologyFieldItemDao (DaoConfig config, \fBDaoSession\fP daoSession)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 39 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.bindValues (DatabaseStatement stmt, \fBTopologyFieldItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 64 行定义\&.
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.bindValues (SQLiteStatement stmt, \fBTopologyFieldItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 78 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.createTable (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates the underlying database table\&. 
+.PP
+在文件 TopologyFieldItemDao\&.java 第 44 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.dropTable (Database db, boolean ifExists)\fC [static]\fP"
+Drops the underlying database table\&. 
+.PP
+在文件 TopologyFieldItemDao\&.java 第 58 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.getKey (\fBTopologyFieldItem\fP entity)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 124 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.hasKey (\fBTopologyFieldItem\fP entity)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 133 行定义\&.
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.isEntityUpdateable ()\fC [protected]\fP"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 138 行定义\&.
+.SS "\fBTopologyFieldItem\fP com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.readEntity (Cursor cursor, int offset)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 97 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.readEntity (Cursor cursor, \fBTopologyFieldItem\fP entity, int offset)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 109 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.readKey (Cursor cursor, int offset)"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 92 行定义\&.
+.SS "final Long com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.updateKeyAfterInsert (\fBTopologyFieldItem\fP entity, long rowId)\fC [protected]\fP"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 118 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.dao\&.TopologyFieldItemDao\&.TABLENAME = 'topology_fields'\fC [static]\fP"
+
+.PP
+在文件 TopologyFieldItemDao\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

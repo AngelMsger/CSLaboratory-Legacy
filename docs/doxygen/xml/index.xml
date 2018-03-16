@@ -1,0 +1,1239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADPagerAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1d87702f7209895b4480652cabdafe79" kind="variable"><name>mADViews</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1a7de570bf2c6231d435e9b72a11e49a" kind="function"><name>ADPagerAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a472d81c4771890bbb4b5dad4f75608d9" kind="function"><name>getCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1ac001d2acf85b2e531f42615d1271687f" kind="function"><name>isViewFromObject</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a6a4be505ae8bb3d910e3a2d4d32e5c91" kind="function"><name>instantiateItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a276c5aa0b0d6c8e1b253b158e15cb2ce" kind="function"><name>destroyItem</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::ADViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1aa61f1e657687a2032d23948afef76b3b" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1ab1847a9e8f76be7b55f792bf2dd552f8" kind="variable"><name>mContainer</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1afc1a4363c760c2cc8f8171c68e64a895" kind="variable"><name>mIndicator</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1aee14d9a9d665bda799fc84f85f821552" kind="variable"><name>mItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1a3398af4fc504292a25714192fc9ad1e7" kind="function"><name>ADViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_view_holder_1a421dd4a0670b4f437e96e868509e064c" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data" kind="class"><name>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1aa629a4456db5f3242cb88576dde52ef4" kind="variable"><name>mRequestOffset</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a5be25b24ce00e9911093b3353d1a673d" kind="function"><name>AsynLoadData</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ad6dcdffda36b2968618f90837bd3a7a3" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data" kind="class"><name>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ae996b3161cd3ccb66b0c9251596a9b4b" kind="variable"><name>mRequestOffset</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ababe7ad72893f01c9bb692a4a8a2742f" kind="function"><name>AsynLoadData</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1a5b6eb912d53a0db65010e82b1145494d" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1aeea10fb9f3678148e97b625f71a16e74" kind="variable"><name>mRequestOffset</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a3a5eea1ecf28fd03af4a42f7e317f843" kind="function"><name>AsynLoadData</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a5e7c7cebf0067ffc590150fb619ccdbf" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data" kind="class"><name>com::angelmsger::cslaboratory::topology::TopologyFragment::AsynLoadData</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a8ade709b4f3ca7cae9884407510d957b" kind="variable"><name>mRequestOffset</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1ac36657c609dda04f328dda6ae5f55ecb" kind="function"><name>AsynLoadData</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a97c10d8fe8b04575ffc97e45c052f6ab" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1a712395d0da32c1cc699180ec9f1683f5" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_asyn_load_data_1adbb78368874f7a231179b7e6143ed256" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data" kind="class"><name>com::angelmsger::cslaboratory::forum::ForumFragment::AsynLoadData</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a5a1498273de0462ac30c37bfbcaad69b" kind="variable"><name>mRequestOffset</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1aef61e140c816f2760bf6da8ff026133d" kind="function"><name>AsynLoadData</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1ad3f0e09bd2d56d29187fe9c9c02e3006" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1a41f92944e75359729a7de08264797faa" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_asyn_load_data_1adbeda03db4ef39498b7c434fa510ba90" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base" kind="class"><name>com::angelmsger::cslaboratory::login::User::Base</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1abbbe8a7e2c8a5df02e13f354010d925a" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a1fcb6f39465c9bb944e67c16974714a8" kind="variable"><name>nickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9d2885e38d9d8844039e7ea2c1180c7a" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1ad295b90a07938c28e8b5368c9919a99e" kind="variable"><name>avatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a2b52ef796f36e5228b5ac7f97bc39cea" kind="function"><name>Base</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1aa8721467f59944dce9a530050bf76804" kind="function"><name>Base</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a6e7749e05eba618b7a436cbdee2aee42" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af506570507d27272931d8af9c1f0be31" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a04a55e80e0c02b021028aea1c618f32b" kind="function"><name>getNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1acdf6c58aff58dc67ff57430b01b2c3a5" kind="function"><name>setNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1adf6f44a33e97431ff8157726f9a7b4c8" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1af37a6b4c23c1a2b74e5817bd4f4088ce" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a8c5c497c6ae430dfc2732542bb29d85e" kind="function"><name>getAvatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_base_1a9e5833fc196bbeb5ba3121f27c0bef8c" kind="function"><name>setAvatarURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt" kind="class"><name>com::angelmsger::cslaboratory::login::BCrypt</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ab757731a176897e0e3d7417ba433c540" kind="variable"><name>GENSALT_DEFAULT_LOG2_ROUNDS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac9bbea88711903e60e79254083fdf1de" kind="variable"><name>BCRYPT_SALT_LEN</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a44782e86de51e47d874b041c914fd2b1" kind="variable"><name>BLOWFISH_NUM_ROUNDS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a65355a3912b15d2d82291231f75c4735" kind="variable"><name>P_orig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a9cfe2acc7a603f77d76aafda4b3ad26e" kind="variable"><name>S_orig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a748ecef072ebfa9db2d1d724238b9574" kind="variable"><name>bf_crypt_ciphertext</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac70e3a68ff347bc5356d955fa5082f08" kind="variable"><name>base64_code</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a86e7357efd654ff3a64029773b613d" kind="variable"><name>index_64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a486f8ba1b5cec711d013d5dd413a3571" kind="variable"><name>P</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a1b8f54f2df6a5b2c8a9bdebbb26cc1" kind="variable"><name>S</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a28c8e7fd5acfac642f3a4c5cc9be68eb" kind="function"><name>encode_base64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3e650e55cd70e4199259bf333052f980" kind="function"><name>char64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3f8819f4b73c6e9ce1604ec64ce654dc" kind="function"><name>decode_base64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a3a171a82d210009deea73330b94073e4" kind="function"><name>streamtoword</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a35a85311c86bfe2dc2ea20d07d3b9bd9" kind="function"><name>encipher</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1adae25f314450101347ab01743ac002dd" kind="function"><name>init_key</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4c5331b3cd58a4f374b06d305d33caf8" kind="function"><name>key</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ac854445fd3fe636e2c9eedff5ec9b3fa" kind="function"><name>ekskey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a94fe7dacc2251c68946172f62c38baf5" kind="function"><name>crypt_raw</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a60bce65d25256a315028d43efae49cab" kind="function"><name>hashpw</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a272bd40c00748c5b18a26cc3b9e511c8" kind="function"><name>gensalt</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1aba13017b8637a343bfc5766028db535a" kind="function"><name>gensalt</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1a4ccf6940124a2cb295a7d599b9795616" kind="function"><name>gensalt</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_b_crypt_1ad9eca7d24a787b2638328cf8dc3ec431" kind="function"><name>checkpw</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::CategoryViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1aeac3e062a8674d5da38c140612166880" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1a5fcaa19a5a93aec8de853d63fbc1d5bf" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1a11a9fe195df16b009fda5f2d2b102b23" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1a12836f50ef56a0444673320ba91e9700" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1ae5f8e0b8d6b8ff07f377f85b70b3ddf2" kind="function"><name>CategoryViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1aa908c1b8c93d0157865e426e0f633292" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder" kind="class"><name>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a9159ca621fe8547661d583f289611881" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1afc0e6c67691c76be5d8f9bfe32a6d75b" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a7adc8674699e60353027f6f548521e6d" kind="variable"><name>mList</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a79a6f40bae9150df8b5425b3a258452e" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1ae0b2c0e8f785a9cd6d0f4aa034c3bd98" kind="function"><name>ClassViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1aad70efbce20a6aef9a1c5f09597ae373" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item" kind="class"><name>com::angelmsger::cslaboratory::course::subclass::CourseCategoryItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a2d59786cea4777e0e229ac9b612c104d" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a91d1efe4b7a84947b9cbda98f9dd916a" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a9e07865a42b0d42657283181ccce2949" kind="variable"><name>subclasses</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a58af053c6fabf42dd0295f9ac61cd68d" kind="function"><name>CourseCategoryItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a61cc72f065a122e9424d5106fee4d136" kind="function"><name>CourseCategoryItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1ae83824958321106a889980768d55c0f3" kind="function"><name>CourseCategoryItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1acda7751dd15013695b2b06682e518f8b" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1afdc2c2ca0939a3de0ed6fabfa339e189" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a019591bc7ef1a311a266be3e76fc7e72" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1ab555deb6b7273e886575d855d5ce038d" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a47e7e94ab30d9564e37c6c0caa784136" kind="function"><name>getSubclasses</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a20b5ab408ea4c355136370da7518d9bb" kind="function"><name>setSubclasses</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseCategoryItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a868ae82dd6d04f7db0aa56e4c8fa27a4" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a1a3694ecf6a8565f3add72b2f661a733" kind="function"><name>CourseCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1afe0c86dadc0bafd86e8b1b59741dec30" kind="function"><name>CourseCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1ae77eb69441362c6d881f0aacd7dcb415" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a3e7aaf64d2240d966d5b0d83120858f1" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1abcaeb9ee35050ac429d430f133e105b3" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a15f4565e48a6e196bfd5095dea1b2290" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1aa76425b23c404c50f884027f1e6d7f08" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a108628629263b66b2e2a683898250e80" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a668c82dc1dbec9cbe51ec537b857330b" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1adb8156887e6b1c828fffd96bf05a2241" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a2bb298db98db0606ce8ee1182ee2dfb1" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1af39a43176c5a909a70f7e2a82dcb24fa" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1af1a56f339f48091010d75dff08fc0da1" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder" kind="class"><name>com::angelmsger::cslaboratory::course::subclass::SubclassRecyclerViewAdapter::CourseClassViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1ab389a999444cf624defbad04e2ea8687" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1ae394735155a4bd00f90d9803e66087dd" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1abb1277615022f2d59ddcf5ebe57ab5d8" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1a2f905a198199575c69c0e8de98a5aea3" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1a48cdf55e1c9bc4d992639557fd967aa4" kind="function"><name>CourseClassViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1_1_course_class_view_holder_1adfb51e8396fe518e16af58bd7c0983af" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" kind="class"><name>com::angelmsger::cslaboratory::course::CourseContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa2956e13b5d8ee01d691f8211979f478" kind="variable"><name>CATEGORY_ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1a143408ca9c339647d386293ccfc1b787" kind="variable"><name>COURSE_ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item" kind="class"><name>com::angelmsger::cslaboratory::course::course::CourseCourseItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a4c826404e8289d0f76fceeead1177413" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1ad3044653c939f44c7718aaedf00a2c53" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a422f13610b928404b170124e1b109961" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a2178a061162c6fbaab240007a96d9b1b" kind="variable"><name>actionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a74cd5ec89c47afb54d88de58d4333187" kind="variable"><name>learnNum</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a6d97ebd95287ecd0f08e2f6256cea13e" kind="function"><name>CourseCourseItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1acc0f147681fb341890b1827bc8430531" kind="function"><name>CourseCourseItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1ac7c0de057011ede54142379e01b51802" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1adbaef1ec4423c954a3f6908e0e724f89" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a041a261e59d40c766cb4d5cd73b1fe9a" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a9638db347201db6db215f3b765cd0322" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1aa33eaca88a177613722709c395984892" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a530f5fa9efd924b872acb22220eee199" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a73abd8e36a67b59c7da35e6317ac40d1" kind="function"><name>getActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1a10a5e192ca52b771bdf5ba179659ed25" kind="function"><name>setActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1aad96aa4cb3a53057ec7c67c81cb90ebb" kind="function"><name>getLearnNum</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item_1aa06993a6a4039f7dd7afdf6617f1e6d2" kind="function"><name>setLearnNum</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseCourseItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a9ff2f5ccf2d5eaa58f278d3cf95a78c6" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a5fc073c82a5f52b1496f5d87f8efc2e0" kind="function"><name>CourseCourseItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1ab9a89bfeed3681c7eb35528950c9490d" kind="function"><name>CourseCourseItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a9f41d3c5240c3b1f488506444b0cf46b" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a11692802674160b95f233aed0390be18" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a59e6552b66d84857bd48399af92c08e0" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a0af6d7af5913dc9e06fec4335720a51d" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1abd89d3143900596750d8e0c5ed754863" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1afc886e90165ccb99c26a684982adc184" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1ab80e17a145193d18985eddb566e36c54" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a7b0ec4592b41623977ebf69a52f65350" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a7ed8590ea5eb9c7efd4a93f484d38cc4" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a182c8eaab14761013329ad2ce72b5405" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1a37d28dae69a34fc47707a05b1283a8e2" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment" kind="class"><name>com::angelmsger::cslaboratory::course::CourseFragment</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a308423b24c733c300d26dbdaa584c922" kind="variable"><name>ARG_COLUMN_COUNT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1ab129fd3ab746397a03b329bc46aef9fa" kind="variable"><name>mColumnCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" kind="variable"><name>mPullToRefreshView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1add9327c5c1f77a3e903dda67f076d1b1" kind="variable"><name>mRecyclerView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5f304e1a60141118166a39ea71bf5c22" kind="variable"><name>mRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8f167d072f40d4d33c3a32a880175112" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5bdb30cba7f139923fd6b992530c9175" kind="variable"><name>mCourseContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a2aabfa2ffa3decf111cd619021569a25" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" kind="variable"><name>mLoadDataTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a16cb3ba6515e239fd19b8b00b9659b25" kind="variable"><name>mRequestLimit</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a136785a1b0bfb44de1c994331f099a7a" kind="function"><name>CourseFragment</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a3d1a3c964a8a856873b4daf1cca5a429" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8bc9bff0b415da747318239ae3888485" kind="function"><name>onCreateView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1abf944eb1fb7892c24e3b223c5057655a" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a0ece848e9903c8a136f624a743aa8509" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a92ed05963417f950b6b8bdf3df50a558" kind="function"><name>onRefresh</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a66a65ed3302cc67d6e69a9181f72719b" kind="function"><name>newInstance</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1a6bb9db3ae4e61fce6da43a61898f7068" kind="variable"><name>mCourseCategoryItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1afb7bec99903972a826af946716a18aa6" kind="variable"><name>mCourseCourseItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1ac5e5c9c73533b8f50ded6a25daedac0d" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1acfcd768da39a70b3d3051502b31125cc" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1abf79004b99683a417c58a60df8f95795" kind="function"><name>CourseRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1ad9e2b9f5d94aad9cbc9d7a9bd58b7ec2" kind="function"><name>getItemViewType</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1a67c062f054441e0cb96c6423643a3096" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1af262ea51efca9d82e00177f9d8be1fa5" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1adca7e20ab2c89cf9d3b3096cd932b4a4" kind="function"><name>getItemCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1a5fea8c751a95514ee84a1d5bf3d2c8c9" kind="function"><name>getNextRequestOffset</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item" kind="class"><name>com::angelmsger::cslaboratory::course::subclass::CourseSubclassItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a68e6a8ad55600dd8b233bd7287fd23bb" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1aa9b6d4ab38367112bb65b735f7a2ae91" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a274035abf90b2b77bab784824065194e" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a049308388a6135390d8816dc95059b08" kind="function"><name>CourseSubclassItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a045ec425af361c078bf02007cd25c20e" kind="function"><name>CourseSubclassItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ad85bf940e4b02c701a1d517ea88df78f" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a100a000aca47f79dbec146a1baaa1472" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a6fcb78ed85bce3c4b0bb72a74a825666" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a5b331afe1c2acb19aa9defa3cf6d0692" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1a038de6010424d452a7370700d9ed85ab" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_subclass_item_1ac50d783321fa04797a848128a8ca10b1" kind="function"><name>setTitle</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a842cb5f7a82d93ab4480f03afd93571f" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1afd5b93d1a452049051d68fd997228269" kind="function"><name>CourseSubclassItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a70be14c94d38ae2ac586b7407ee98b16" kind="function"><name>CourseSubclassItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a45960c0da6a2c9a4b0c676fc14352702" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a88c8863a8bdd67fb33238e68fe85bb2f" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1abbed9666c99ef4bfba8366a01b56e422" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a259459b375d3ddaa794c24a3b89066aa" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a10c39af26eac0303335933c90e92915c" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a9de2285c1752f1914ef4f2840500ae7f" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a029d5ec743ab77df37c9914564eb3a11" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a7da8849da655bd8e9e8d78f79dd73704" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1aadbb4ac18bce95db3ebef3df32ac1a39" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a677d52ef813cb1a7ea98c2e177191540" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1af356c013f6b716b07ea6903b360c4024" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder" kind="class"><name>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::CourseViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1a2cea327fdf0361a332f62a55f97eb77a" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1a6e2f1797c729936cbe48f4bae8550afb" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1a0c674fb07d22187d3ae9491d292bbda9" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1ae9a40bff3c232bb6123f0eb025dd7b84" kind="variable"><name>mLearnerCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1a9da22a928cf4b3b332f2f5474db57af2" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1a649554da59e7916e0f5d61368fa3b268" kind="function"><name>CourseViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_course_view_holder_1aa0b7b1798e5481c04f4ae4fcb7611758" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory" kind="class"><name>com::angelmsger::cslaboratory::CSLaboratory</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a2e4c946cad96b13cec8b76139ac25cf4" kind="variable"><name>mExecutorService</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a0aef3c87c25198a7cf66801de00c072d" kind="variable"><name>mHttpCache</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a258da7b8ec7929460d02f349a0599ec3" kind="variable"><name>mHttpClient</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1af6b02d1b4cc00970ceabd8890655aa9e" kind="variable"><name>mApiClient</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a03e8126373733b08768185d52d7b7530" kind="variable"><name>mDaoSession</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a653986a4f6acccd6b32d9d8345b5a3e3" kind="variable"><name>mGlobal</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1ac6069bc4c21183b0805572ad5c5b8a70" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a3efd13f91443163414a3d7ca178aaf27" kind="function"><name>onTrimMemory</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item" kind="class"><name>com::angelmsger::cslaboratory::daily::article::DailyArticleItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a6f48a20f48104f97e60d79b277e6470e" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a89c8f0f9874f4aaa4d2a638f7590c271" kind="variable"><name>bannerURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a111e47c0a5ca39e7d8a6b6883fe1a9e1" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a763b55dd46735c9d77c0120b4cc86f89" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a66f3198e30ae1411d0cc5e477f1be4f5" kind="variable"><name>content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ad03bf61d3977ddb8c103e310b46fd0b6" kind="variable"><name>postTime</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a279b7d8b838076cc35df4b53b6b3dee9" kind="function"><name>DailyArticleItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1af5dc9a0329c7ce6472786d2511e9e80c" kind="function"><name>DailyArticleItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae89b286047640080e7d19f325742719e" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1abdafea28635b73b3ae60e67750dcc873" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1aa2a6cf65b6db291049f2dc75578993f7" kind="function"><name>getBannerURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a8ec2ed81277cea9ede9c750d66af2331" kind="function"><name>setBannerURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a4a431d0b7fb17472b061fe70340909b3" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a62d83d4644abda564385c50b1e87f785" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a18ab25dafdfd85790038646c43e664c3" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1adefe09f99a5059d99cd2a05f1fe49786" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1a798757f0cd11b5e902806c55ff21eebc" kind="function"><name>getContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae4260a1123ee11dcb32bbffa3623cb06" kind="function"><name>setContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1afcd9f6a0830290cd8cafa49fc15bbd57" kind="function"><name>getPostTime</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item_1ae2a63c8510afd50d088be66f5272a992" kind="function"><name>setPostTime</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::DailyArticleItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3119aa90ab8f59ee53bf27e9fd37a46c" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a692bccd125838d966e818f218bf9a49c" kind="function"><name>DailyArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ac49dc37b5399302c0cc874933854582c" kind="function"><name>DailyArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a189ec7057ed512da47938c27d7774513" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1adff244c0a2c3c1dead469c0e8f7dd21d" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a09ea60efd02f9eb71696f198a97e1094" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a3b6d41062b3815fd49d80571a0cc7f31" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a396be56297657d4824b98f7eca1b25ac" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a632f6064972fd6ed4a47a4d34cb105d8" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a8da8928262bb90e87288309b3f8d17a9" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1abbd485771545fa2add8b14f059f7d453" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ab1b43bacb98d51a3371c574ea74ef9b8" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1ad7ad5e51af1568c55269b9202d01aaee" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a4143648475b503f6d0f256059d781a2f" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content" kind="class"><name>com::angelmsger::cslaboratory::daily::DailyContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1acf6e9f052e19703f318609d844305e08" kind="variable"><name>ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1ad49f5ac40dd16440aafb40968afdd7de" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment" kind="class"><name>com::angelmsger::cslaboratory::daily::DailyFragment</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a70c61a2a2c1e7358346af510442d0fcf" kind="variable"><name>ARG_COLUMN_COUNT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a5ba8ef93402c0caf8e6c8de6c684e406" kind="variable"><name>mColumnCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" kind="variable"><name>mPullToRefreshView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a261c5fc63e0ce5dddb2c26a784a705b0" kind="variable"><name>mRecyclerView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a0fbd291ad51add51ceaa4d8f32833642" kind="variable"><name>mRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a2994176eaf0bb6a6297babb9b46551fb" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a00489ec7284835d773ed5f31ffd56761" kind="variable"><name>mDailyContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1af48d269094555236f3d3e14270ed8e11" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" kind="variable"><name>mLoadDataTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a076fdb59f5497fb79abde00630e30938" kind="variable"><name>mRequestLimit</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a7840a6b737baa6f54eb73df8f2063faf" kind="function"><name>DailyFragment</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa74a68ed6b4638631c361f7f41ce843f" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ae324e1b1b30009396236a50c359ff050" kind="function"><name>onCreateView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ac5f9a571596074d045dfd298bd0258fe" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a77840ca356320069c07c8b66874715f4" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a429aa1e2d544bf67bd8a556a8fed3ca0" kind="function"><name>onRefresh</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1ab8c5177524cc71b1c6ccf5de77987e45" kind="function"><name>newInstance</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1ae73fc2e532412c7184ac30cc5e34ee92" kind="variable"><name>mDailyArticleItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a076b45ffeaf8a8814b98d2fc2cd5bed7" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1aed564c6166548653d06eb8386f6bdf34" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a837154c0016982741f5bcb9d69a63c54" kind="variable"><name>mHtmlPattern</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a1e8ea38f4ee07dcb864202a8728e98ed" kind="function"><name>DailyRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a2b6cebc811b8d3a84521a0892ec5f6ed" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a60bb3c0d452c9e649a1930657af19c27" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a622b92bab361093bb5c696f061267746" kind="function"><name>getItemCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1a5db2c78e12e1c132988e35c5350873e4" kind="function"><name>getNextRequestOffset</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder" kind="class"><name>com::angelmsger::cslaboratory::daily::DailyRecyclerViewAdapter::DailyViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1ac38b5d9b47f49ea465645d2e233b62f8" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a28ec11843a782e316974def1f0901676" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0b3b8e4e12365be5c2f6e8ee9a0d182a" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a258bd81761cae126af98fcd724755647" kind="variable"><name>mContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1a0c58464258de2b472d321b11fb8509a5" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1af45d056c50aa518765c9c76afe4ca408" kind="function"><name>DailyViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter_1_1_daily_view_holder_1abe9878fa7cba6e1ff09a53664233a5a8" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master" kind="class"><name>com::angelmsger::cslaboratory::dao::DaoMaster</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ac52536f98f4388d7a806ed5c2bd53399" kind="variable"><name>SCHEMA_VERSION</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" kind="function"><name>createAllTables</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" kind="function"><name>dropAllTables</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ad3641d6597c343fc0ccfd9ad9ae1ef4f" kind="function"><name>newDevSession</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a8f753491b634e51f4f38998e9349029a" kind="function"><name>DaoMaster</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a84bad0f64934bce6545a03e2562a95f8" kind="function"><name>DaoMaster</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a0a5dcb8d4f710bee38c32349014ca31f" kind="function"><name>newSession</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a67038f5ba748e4115097931a665e321d" kind="function"><name>newSession</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kind="class"><name>com::angelmsger::cslaboratory::dao::DaoSession</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acd42d844a4c3f9bdb2f691dc32f81491" kind="variable"><name>courseCourseItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a07c2e6e1b3b8893be3c76281e18abe55" kind="variable"><name>courseCategoryItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a54ac6c31f1baffa20e17dfbd3e237998" kind="variable"><name>courseSubclassItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a2dd8e7f7d28502af9c99b55050c4837a" kind="variable"><name>dailyArticleItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc31bc2ff07ebe14dab010f3c1c6bafd" kind="variable"><name>forumTopicItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ec2878b66001759b8a1e6a01155192c" kind="variable"><name>qualityADItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac3170ae8e1cbe889758ff2481780817b" kind="variable"><name>qualityArticleItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acc4ace3f99cf19b9830cbb41159395a1" kind="variable"><name>qualityCategoryItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ac092d978e000c9b96f0b1f7e9f9e1366" kind="variable"><name>topologyFieldItemDaoConfig</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1af5b311fba9d5679f0054f41cd9649d79" kind="variable"><name>courseCourseItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a9ea850053635b3ed9e2f771380c14ae1" kind="variable"><name>courseCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a29a6231d7d91566be5fef25ad744bbc0" kind="variable"><name>courseSubclassItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7873c1f10b46c5405afc5e726878f262" kind="variable"><name>dailyArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ace2fe46042b0fb46c658221f8ad35958" kind="variable"><name>forumTopicItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a4ea06d1f2337330ca7d78a36ee0a1bb0" kind="variable"><name>qualityADItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a849f18062c10f5fca6d49553fab2aadb" kind="variable"><name>qualityArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1abce0875daf68f987837044a8df029464" kind="variable"><name>qualityCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a7708a3f904dc54e7679c1f8d6e01bf85" kind="variable"><name>topologyFieldItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a227dd5d376f69a3274db38a905114a1c" kind="function"><name>DaoSession</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a994388493acabb5c32bd93fe1aa6b43d" kind="function"><name>clear</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a960e2a063668bf05b442920cbb5afcd4" kind="function"><name>getCourseCourseItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1aa8e40d99aa1f3ee94d30a51686cd2c9e" kind="function"><name>getCourseCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a27c4e37903c5bc2252415e9303689d7b" kind="function"><name>getCourseSubclassItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1ad396b5104c24f30b781e1f12da191157" kind="function"><name>getDailyArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a21fffd35e8b12be75cc5fb38c72cde72" kind="function"><name>getForumTopicItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a33dcd4526a90193adc23e92bd69d7934" kind="function"><name>getQualityADItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1afc2a2cf0ac157a30e8b55cfe67de8317" kind="function"><name>getQualityArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1acaffbccab5340f738c5df2c18b3c45ea" kind="function"><name>getQualityCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session_1a65d702b2113f3bc9c333902e8828da1d" kind="function"><name>getTopologyFieldItemDao</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kind="interface"><name>com::angelmsger::cslaboratory::source::DataSource</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1aafa63f8f082ec04fc15f13792a0c0d93" kind="function"><name>attemptLogin</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a1759cb945c4d5e1d69a11eb5dd26951b" kind="function"><name>getCourseContent</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a39aa5a36adf3325db4368f3c4ca4e8fc" kind="function"><name>getDailyContent</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1ae7050fcea726224039bc44a5e080bc82" kind="function"><name>getForumContent</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a608a34020903097b2bc20001df452630" kind="function"><name>getQualityContent</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1af06482b9adcc19d803ed4fb7f82eb050" kind="function"><name>getTopologyContent</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper" kind="class"><name>com::angelmsger::cslaboratory::dao::DaoMaster::DevOpenHelper</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper_1a17ae3c368b5e48cbd8ce90bc3f62d528" kind="function"><name>DevOpenHelper</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper_1aad3e1d7880db9b2b761f3f8a01f54f36" kind="function"><name>DevOpenHelper</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper_1ae0aa01e2f88e769a9ec48bc7476bf618" kind="function"><name>onUpgrade</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra" kind="class"><name>com::angelmsger::cslaboratory::login::User::Extra</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3e85292605751f82e1d6c4963bbb11bf" kind="variable"><name>sex</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a0f4b29cbe24fcecbe8ccac097614d0eb" kind="variable"><name>topicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a70073117976de938b9f17dd013514a0c" kind="variable"><name>replyCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a9de8da18a2da0430653c3014739ea2b8" kind="variable"><name>followerCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ab5cd415ba2fbded4ad975e039d803be3" kind="variable"><name>goodTopicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1aaac8515cb950fb29e7c44f029e6acfdd" kind="variable"><name>favUser</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a4eb9444b9d9678cbfa64a8ff9dae705d" kind="variable"><name>favTag</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a6db06c53395b368139284760e6218ccb" kind="variable"><name>favTopic</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1acb360a0480ad8ac53ad3eb02f9b36c38" kind="function"><name>Extra</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1abc8e9dd209e48af7709a7ba0a7b1b315" kind="function"><name>Extra</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a290b5255f2c5baa02847aefbf7b9e4f1" kind="function"><name>getSex</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3b8e505cac214b11244f9073fc42fca8" kind="function"><name>setSex</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1afec326ae91196fc3800ee418c8bf3e33" kind="function"><name>getTopicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a5c47c830c66ad5b6b34c9096cd6cd97f" kind="function"><name>setTopicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a343c62a36a0afd8efc2ea2ae819835e6" kind="function"><name>getReplyCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c3019d2ebea4537fdfc55240dd9ece2" kind="function"><name>setReplyCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac9d58d4c3dbe2d69754b14cd44e01204" kind="function"><name>getFollowerCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a91da2ec4d2f08f93dd67a3d370072f5a" kind="function"><name>setFollowerCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a529426d30a00e96103353a532950ca52" kind="function"><name>getGoodTopicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac3db6c80138f2e681776e528cb155f2e" kind="function"><name>setGoodTopicCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a3c4902f08fdd5454c2e1755914037f16" kind="function"><name>getFavUser</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ac39d54f9a6048976039161dbb15c48fd" kind="function"><name>setFavUser</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1ae2abcd1da72a7a2f5d19bfae2410159a" kind="function"><name>getFavTag</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a361e368452fabf04596bc7262116e6b7" kind="function"><name>setFavTag</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1a714cbdeb076090e47b62d6489f2b36b7" kind="function"><name>getFavTopic</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1_1_extra_1af1e3d86a0f4ec4d85e700fa07c1b3818" kind="function"><name>setFavTopic</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" kind="class"><name>com::angelmsger::cslaboratory::forum::ForumContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a603a746c70f38fc64e9123cb008719cb" kind="variable"><name>ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content_1a95be85b35396c99b5be4bd90a130947c" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment" kind="class"><name>com::angelmsger::cslaboratory::forum::ForumFragment</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afcf3c4aeaaafbf94edf4e899e18ea730" kind="variable"><name>ARG_COLUMN_COUNT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aff9550a5ec7692c84fe3b58aac222ea4" kind="variable"><name>mColumnCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a1f7df9611a882c3aaf307e5a1f7cb373" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab14e91cfe8a2ae48dd5e013a8354b553" kind="variable"><name>mPullToRefreshView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a5679c6544c50f7ca3edaf0ee55d85e4b" kind="variable"><name>mRecyclerView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a9872ffaf4fc52ee660a65b550191f8a8" kind="variable"><name>mRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1afc6e1400b7f64699ce1651d06de63fde" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ab91a936d245bc7b081001c880a4da9e9" kind="variable"><name>mForumContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a4006b7c3c51ad8ce5502add697780720" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a51ddfa0dd62135cfec09ada1892ebbf1" kind="variable"><name>mLoadDataTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a87c93916e66a0fa58e865a72e2591c8c" kind="variable"><name>mRequestLimit</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a846290cbff5441f32f1156acba9dce2e" kind="function"><name>ForumFragment</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a7881db7e71bebfa9e13709e2315f6e08" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1aa4a9807f327a525ebd322de534fbf233" kind="function"><name>onCreateView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a34479d11567f78861a028f7c39df4002" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a492af9481f08de1dc07eed206959ead8" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1ae900d8085d402e831960e5d871e4eb03" kind="function"><name>onRefresh</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1a3f479f38a3051de06b66fe83521a99e2" kind="function"><name>newInstance</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1abf9e34db143de312f1689a02a1b314d9" kind="variable"><name>mForumTopicItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a749c0c970f06d5eba6b01e0f35ec9036" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a5c2406a9f37cec47e38899c5e77dc498" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a713b8f5f47a45829fd2ef7d5e1d2abc5" kind="function"><name>ForumRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a85b43d7ef9c8e270e999cc064f1cbc6e" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1ad182a81a7d2e455f111ccc7400f22704" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1adf0110b2589d20736ad6ba444a669df5" kind="function"><name>getItemCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1a181860c1fc375bffa97bee1e1de42722" kind="function"><name>getNextRequestOffset</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kind="class"><name>com::angelmsger::cslaboratory::forum::topic::ForumTopicItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a027fd419024c840d5037c5392965ec7d" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a1e495f8b1973c5dd5c3e3e1406bf7498" kind="variable"><name>avatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a0a416f894dc72f480cfb9871e2823809" kind="variable"><name>nickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1acaf6c82d6ce21677c598ec66abcbefce" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a57cef7452dbf87549ebcae35235a61a3" kind="variable"><name>content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a40be7e63d28796d69aeda0c2982480a1" kind="function"><name>ForumTopicItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a3535f76a0abbb3063071ab4f6853f108" kind="function"><name>ForumTopicItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a05af82d3f0a9d256ca23dd55f1188412" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c5b04bb3df90e0763c26eb3db1b787e" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1adedf3eb0806be3a411472a1961f31345" kind="function"><name>getAvatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a201f2d518e5f88730688363062b2fe22" kind="function"><name>setAvatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c54d6527e03d127a18a13e915dcff7a" kind="function"><name>getNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a444e0d54d69007a214c6c01f4053668f" kind="function"><name>setNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a18b04ebf4a750fdffc631aa092c53220" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a50f74a8f310aef5f33a850c24d638f6f" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1ac319a921fbcedf7ef0b3cd4a4272ca4e" kind="function"><name>getContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a96b39c331bf5f32691fe71febc385531" kind="function"><name>setContent</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::ForumTopicItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1ac62d44315c54e2d3ce97235b96c3ddf8" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9b42abc51c16dda6bdea96084a59d095" kind="function"><name>ForumTopicItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1abb7c555bb71bb49a2e8243b5f80aa1ad" kind="function"><name>ForumTopicItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a6e254ed4089319a121dda1162d9ecaa1" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a6355dfb7a299d940aa292bc69ca6bda7" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a7acac5544d96bb1f6cf43184ce6968d3" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a8c47de0456866ab841ec56fe99f0c998" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a697fdd103bc04022b1ef7b5c352e9926" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a398c6441fbef2d51a37072df27f185af" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a8a4d97673a5a85ac87452a35d236d667" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a9dd76cfb536122e5e86164a90e720402" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1ac0fcd48b4c227a21b40d95b0f4fa2a4e" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a6927d578b43767c07db2d1c8219465ea" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a3ecdec72c4d4495543418dff41e105d1" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder" kind="class"><name>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a3f39da620baad85847dd1792018ddb16" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1aa5d4deb79f30ed9810159964eee95fee" kind="variable"><name>mAvatar</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae6708192f1ac47a9752ab812f2f1b85e" kind="variable"><name>mNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ab8f738842a71518bca8b5f97dd8fb552" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1af1c7150262a2b2338da8fbddb7542a7b" kind="variable"><name>mContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae2354287c94c8a04bfa78e52753ec231" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1abd34cb65e8251e5b536aa20d45c72e27" kind="function"><name>ForumViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity" kind="class"><name>com::angelmsger::cslaboratory::shared::FullscreenActivity</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aea2b56f746fd084f1f57d98ea751fc59" kind="variable"><name>AUTO_HIDE</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ad8e9d4bd1c492a55678346560541896e" kind="variable"><name>AUTO_HIDE_DELAY_MILLIS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a8375c1aead3414937342a2e3121aef24" kind="variable"><name>UI_ANIMATION_DELAY</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2c04c86ee5e9640cd4bb17c24196399c" kind="variable"><name>mHideHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0f673a83676277607a20e86b41e292cd" kind="variable"><name>mContentView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ab8cd6170e814c1fea7d3954ab6e789f7" kind="variable"><name>mHidePart2Runnable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ae6b5f4bfd008a00753f1b316ee50fb6c" kind="variable"><name>mControlsView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a2b8e973152cb11d01795910630163b4d" kind="variable"><name>mShowPart2Runnable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aeec009800442fa46c5ceb2e90ab3e64b" kind="variable"><name>mVisible</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1ac426979c6fe055f8ddb6d78f31a2d4e0" kind="variable"><name>mHideRunnable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a0c0c9a647b930989b95224a9df39ae06" kind="variable"><name>mDelayHideTouchListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1aef8fcc29af33184a291e69786d74ec1d" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a211a75639392c050d7c35bd943ffc50a" kind="function"><name>onPostCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a987e0a62bbdae4475fd3b143e0f93074" kind="function"><name>toggle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a6d7e2a1fc093ee00a51333ddc76e2e66" kind="function"><name>hide</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a798efeb559538771c38bf0f051272048" kind="function"><name>show</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_fullscreen_activity_1a7a5ad0921ec355b935987de0d154c344" kind="function"><name>delayedHide</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source" kind="class"><name>com::angelmsger::cslaboratory::source::LocalDataSource</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1ad1b9de355f4720ba60f16a0cd7acde05" kind="function"><name>attemptLogin</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1a88202428d100ae83ac0d622692f7b827" kind="function"><name>getCourseContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1a1189e135a08ec45caeaf8ed4a4dbc1db" kind="function"><name>getDailyContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1a3448f75a86ecef9287979efd865b54eb" kind="function"><name>getForumContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1a6bdd1536556709aa2939621c6c443e8d" kind="function"><name>getQualityContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_local_data_source_1a1deab9535b9a373d7e7047ce42c1e5b4" kind="function"><name>getTopologyContent</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login" kind="class"><name>com::angelmsger::cslaboratory::login::Login</name>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity" kind="class"><name>com::angelmsger::cslaboratory::login::LoginActivity</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a3dd306a4f6519c0fd13367b2262f1941" kind="variable"><name>mEmailSignInButton</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a984a680460d928e2d68b1f9df4bfe53f" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a772572dc6d9b205df6b4e14ec821701a" kind="variable"><name>mResetButton</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a6d9e55334049ccf0da39a85ee54077ce" kind="variable"><name>mLoginSuccessfully</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa8c3284a49a4e2452fe591bb7a28f318" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a8a55a381d7d55f2bfba5816b11bd6b4a" kind="variable"><name>mAuthTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a122ffc799597a0e8b80dc0ef47360cd3" kind="variable"><name>mEmailView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a91191087c939bb6a47f65d4889e8e0ff" kind="variable"><name>mPasswordView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1aa6b1d19c079daa6911520d7d2cbfca4d" kind="variable"><name>LOGIN_SUCCESSFULLY</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1ace66bcd35a9be362ef98be6bb29f9e88" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a08fbc8d2bcd50c0af51cf4b06cd7fb7c" kind="function"><name>attemptLogin</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1af98ccbf14435c4909566c70abde9b329" kind="function"><name>isEmailValid</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1a059a1da498c1bb373aef08c20f80acdd" kind="function"><name>isPasswordValid</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" kind="class"><name>com::angelmsger::cslaboratory::MainActivity</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab923e244e79b06d937f93dcce15e13a7" kind="variable"><name>mFloatingActionButton</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1642ad5df5500f5ff2e6fdfe9a57e421" kind="variable"><name>mDrawerImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a50cd138a4dc98fed62b6524c075f193c" kind="variable"><name>mDrawerAvatar</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a9452cffdbd0ea26802254643e5d18b1f" kind="variable"><name>mDrawerNickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a51e57f1d673f8b1dc41475ca127c1742" kind="variable"><name>mDrawerSigninButton</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a55b6ae564c33f4e34e3ca3071a14483f" kind="variable"><name>mFragments</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a10d2015acc532908f1e66c369e23b030" kind="variable"><name>mModels</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1acf28f5ee4c2b7d09e6a9485d753fdba4" kind="variable"><name>mColorStates</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1017b4cd2bba59dadaf62691d336bbe6" kind="variable"><name>mApplication</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a205b9583bd4abc2a796c58d27893d619" kind="variable"><name>PERMISSIONS_REQUEST_INTERNET</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a34daac628b0f191509565327ffa4ad6d" kind="variable"><name>LOGIN_REQUEST</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a5bac5c459653498bb764d5a2b9a6a94e" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a387e45af23698014cdb2995e2d99381f" kind="function"><name>onActivityResult</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" kind="function"><name>initUI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" kind="function"><name>refreshUserinfo</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab6cec1c1ab01e57f1ace780d658479f7" kind="function"><name>requestPermission</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a376b245dc2a83b925fd4cfa6c0af8fcc" kind="function"><name>onBackPressed</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a073548f45df4840e8290f8a5e4a709b2" kind="function"><name>onCreateOptionsMenu</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a19835298183fa2571ff367fb7024839f" kind="function"><name>onOptionsItemSelected</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a539fe34a92ea47cef1354b3ef80bc8b0" kind="function"><name>onNavigationItemSelected</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae91ff563a99c97d15e96a6cbb9fe4d9b" kind="function"><name>onPageScrolled</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ae461c2272d29aa1240f7d92ccb3ba468" kind="function"><name>onPageSelected</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af55afccc430a16cf06a351ca47ec9653" kind="function"><name>onPageScrollStateChanged</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a2db7124ea5b1eee7199d1d2f1364058f" kind="function"><name>onCourseListScroll</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aefa718679a175cbd0ff80940ed93301a" kind="function"><name>onCourseListUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ac07b4b67a8380f68e90745c8a69f8fe1" kind="function"><name>onCourseCategoryItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a72c0b37a823d7c33b74549713aaa11c1" kind="function"><name>onCourseItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af3fd17d085b25dfa6fb5bd9a9ca3803d" kind="function"><name>onDailyListScroll</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6c4fa080dbaca4f22a5acddb4853bf8b" kind="function"><name>onDailyListUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a6986dd393c278a510f54c16709d789bc" kind="function"><name>onDailyItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1af9be9354ec113f629d8abc417442799c" kind="function"><name>onForumListScroll</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a84229cc5edc79497a46e4c6f6dfa265e" kind="function"><name>onForumListUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a940fa4d07755b51e12ed75b27b1b34c1" kind="function"><name>onForumItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aec971522ac16701dcebf6b746947b69f" kind="function"><name>onQualityListScroll</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a70c00f4b82e166695b4425f2548ef275" kind="function"><name>onQualityListUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ad50bf0e8a25c2c467d69eaeeaf8d42bf" kind="function"><name>onADItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a4330d04dd2d7fff389de075e3ea16469" kind="function"><name>onCategoryItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1f0effd647a8651a551025bd8e425599" kind="function"><name>onQualityItemClick</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a429569c2ebc89194251bfb2091bfe239" kind="function"><name>onTopologyListScroll</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a28581138040b814e7a1e191f63d4292f" kind="function"><name>onTopologyListUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a39a6e686f93ef892813770b385d6af91" kind="function"><name>onTopologyItemClick</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener" kind="interface"><name>com::angelmsger::cslaboratory::course::CourseFragment::OnListFragmentInteractionListener</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1a4db99b63a63693a0a1c38b2d5ff63973" kind="function"><name>onCourseListScroll</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1ae08852d7873b0bfdef329ecc7fcfc081" kind="function"><name>onCourseListUpdate</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1a3c92c90978ad6e29b1455fce2296ff3c" kind="function"><name>onCourseCategoryItemClick</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1ac6540b775e526bffc6f1f027ae06bc44" kind="function"><name>onCourseItemClick</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kind="interface"><name>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a9a3da28b846dbabdbdb9e38213414209" kind="function"><name>onQualityListScroll</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a86b745d26dc8d26a2ac74ae8a8601d09" kind="function"><name>onQualityListUpdate</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a6aa7377fd5550d30b9cf1b8c89327c81" kind="function"><name>onADItemClick</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1ae8f3f77d470b293bf4e01e6c7da7b1a6" kind="function"><name>onCategoryItemClick</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a88bbfe7eb711725c5185a9c450a255ed" kind="function"><name>onQualityItemClick</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener" kind="interface"><name>com::angelmsger::cslaboratory::daily::DailyFragment::OnListFragmentInteractionListener</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ad143f25f0dcc94792398aa1a935d9438" kind="function"><name>onDailyListScroll</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1afa6e44a1e2065cf3c2a1c2124587a14b" kind="function"><name>onDailyListUpdate</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1ac76558a3e865b425e00f3987dfd97881" kind="function"><name>onDailyItemClick</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener" kind="interface"><name>com::angelmsger::cslaboratory::topology::TopologyFragment::OnListFragmentInteractionListener</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a201fd8fa9769fe16815b829cae2e1287" kind="function"><name>onTopologyListScroll</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1aa7f52cee0a6e40778f50bb7d2bcbf639" kind="function"><name>onTopologyListUpdate</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1_1_on_list_fragment_interaction_listener_1a66c8c35d5b1113b61d2047ddfe39f13d" kind="function"><name>onTopologyItemClick</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener" kind="interface"><name>com::angelmsger::cslaboratory::forum::ForumFragment::OnListFragmentInteractionListener</name>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1acc8ae4d26ce9bec48cfe95ee86989d52" kind="function"><name>onForumListScroll</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a34811abc8a084e97edc348610012ceeb" kind="function"><name>onForumListUpdate</name></member>
+    <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a20e4aba11bdc498ee81d8b9675437d5c" kind="function"><name>onForumItemClick</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper" kind="class"><name>com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1acc13fd5fa805218642331ba310eb4193" kind="function"><name>OpenHelper</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a36623b1a38006d4467b2cfbc7a8e0ef2" kind="function"><name>OpenHelper</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a548511adce25d951cde3e5dcc54dfaeb" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass" kind="class"><name>com::angelmsger::cslaboratory::login::PHPass</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a0d9811658545ec12011fbf5d51fe3a82" kind="variable"><name>itoa64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad4e80c95fd8e8a2ab412ef962c066b8c" kind="variable"><name>iterationCountLog2</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a147f7bb772c378324ddeb7a81fbb175f" kind="variable"><name>randomGen</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a2fc641ddf8674fe49a22634131f64008" kind="function"><name>PHPass</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ab2ae7b1d66950601311a050cdc022d5b" kind="function"><name>HashPassword</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a15eaf622043a9dc066a61ef906ce9157" kind="function"><name>CheckPassword</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ad1f1ba195c8a97451c9a3d486991c879" kind="function"><name>encode64</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a8921d0251b541b9726e8b3c1243293a6" kind="function"><name>cryptPrivate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1a5bd44f8a9bbfb0c167329011e06ea553" kind="function"><name>gensaltPrivate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_p_h_pass_1ae307d7c10dfeb8d57d34996af04af42c" kind="function"><name>stringToUtf8</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::ForumTopicItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a068478a2f31e7ba3c7cb4d4b2fec13e2" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a3eab710ca486c1e698734672ded75211" kind="variable"><name>AvatarURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1acba17055f416c3f6098d08a3eed38f3a" kind="variable"><name>Nickname</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1ac1e449952556baecbacb993a97b8213e" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1_1_properties_1a1d87306df6374bd098e9d74fb31069d4" kind="variable"><name>Content</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityADItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1_1_properties_1ae8752d2715bf1288793e8f1f3b320d82" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1_1_properties_1a17d47eb915e7aefd9c1fc1d1a307a240" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1_1_properties_1ad2a9c163a5c913635511a49b3d1cf96f" kind="variable"><name>ImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1_1_properties_1ad4fe1f39682a42c8b021f6f4ecd3680c" kind="variable"><name>ActionURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityArticleItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1aa48d3316c9bb62f8f983c9436787dd19" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9fbc3a69cfc43ac6b66579bf469cc44a" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a351674c0a79cbab622ad37696c0ee0a6" kind="variable"><name>Group</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a0c78656eccd54cabda8d5971dee75658" kind="variable"><name>Content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a6edad615e7bd3e3b27b507129a660076" kind="variable"><name>ImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a9e6acc8b5e01389378ecdf926ff7141d" kind="variable"><name>ActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a959507e83d74fc48d3d4c7648a679b77" kind="variable"><name>BangCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1_1_properties_1a300acaabf6db4396e43840e94bf79b25" kind="variable"><name>CommentCount</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1_1_properties_1ace1a464c97440723a64a26f0e45462f5" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1_1_properties_1a6d5b47b0c1faee56664dd89edbec04ab" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1_1_properties_1a7a70c9649f75a1b9ce885425847efac9" kind="variable"><name>ImageURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseCourseItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1afd4eea18fd1763b23032225de49951c3" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1abdf4b43ec6895907ada167b9234358b4" kind="variable"><name>ImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a3242f4ed37d68b3502dba96fb247328b" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1ac609dbf1f251e5d05f06414fe9a1a9e7" kind="variable"><name>ActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1_1_properties_1a7853633744e5f80797c27440a0aecb5f" kind="variable"><name>LearnNum</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseSubclassItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1_1_properties_1a1b1b0f66442ea22bfd803498b47274d4" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1_1_properties_1aef5902db596c465b7018acf872104fc6" kind="variable"><name>ImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1_1_properties_1a8955a08ad8e155080b4928c1d0d7a95f" kind="variable"><name>Title</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::CourseCategoryItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1_1_properties_1a8035ab4fb860f2ddef7b522d1abcaa39" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1_1_properties_1aa1048680fb2408a3808369a2b1c4fdd8" kind="variable"><name>Title</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::DailyArticleItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a03217e98574da8c45872eb11149398c8" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aa9f0efdcf33845ea284f33520fa8ec08" kind="variable"><name>BannerURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a56d29298268ed2b2576d35471f05eb02" kind="variable"><name>ImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1aed839ed291c822cafb83c94c3d0e4ad2" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a101e3296929ffbdbdcf19ffe3a64c534" kind="variable"><name>Content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1_1_properties_1a8a8142c9e74866f372b85c68347d3b70" kind="variable"><name>PostTime</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties" kind="class"><name>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao::Properties</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a98fb8a636649e1c052386d14753809c9" kind="variable"><name>Id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ac3db290e49e696418087064873d25432" kind="variable"><name>BackgroundURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1ad384399c573cf89698443bcf56158245" kind="variable"><name>Title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a1666bcd579c130ffa5d0704c20ebfd0b" kind="variable"><name>Content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1_1_properties_1a69dfb2bf08d50c31f85496dd1faf1021" kind="variable"><name>ImageURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" kind="class"><name>com::angelmsger::cslaboratory::ProprietaryReceiver</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1aaa47b0acb4b457d7391040e9ade99a6c" kind="function"><name>ProprietaryReceiver</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1a48a92a7387ae88a32518b0a486b8fd26" kind="function"><name>onReceive</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kind="class"><name>com::angelmsger::cslaboratory::quality::ad::QualityADItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a53e6e4d5176ef66ed50ea632dff2bcf4" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1c6b9eea81b3286f553234527a6cdcc6" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1ab855a581fe379834a147d482d8df5bec" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a3a336b8f81abe4106962619dab30ce44" kind="variable"><name>actionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a315063d7e040e719f24e3272277439a0" kind="function"><name>QualityADItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a598891fe0db2125dd3029aa4ddff3567" kind="function"><name>QualityADItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a1d7dc2dc2be4b93c6f450ae33774d30e" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a003c1cbab48c6996c744045731732081" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a69300cca6438000bb06cda1debce2256" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a798c244f09c116107a04837626872b89" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1af17f64c2e41cb339f9f45a67d1571ae1" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a5b1301ad61b6edf75230eede354e1692" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1a4c2d13eefef025a1d65fc84d369e171b" kind="function"><name>getActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item_1abef71af0da1e6d70182d10795f3f5fbc" kind="function"><name>setActionURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityADItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a902c5cf417e89120d4f0eeb36b28457c" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a5d7dc0dbe2553fd7a490b8d6036542d5" kind="function"><name>QualityADItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a215f3c5e409724e5aeb2909876e398c4" kind="function"><name>QualityADItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a9d8e282c2233d4ada5c2fd8270d25d35" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1acdda3b33a2c4654d8aa8ba4c94a0d8ba" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ab4d587389661d5d7c039d59c5710e55e" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1adbef83ef47e8735d75b62dfb66c3175d" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1ade771850cab31385b403f07667dc547f" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a255853d1cd6173c0f9474cb504e85358" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a7bbdbee5bb1138a6356b62398d5eb804" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a95885d586c4f6932e52050a4b8972236" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a081126580938f68d7d501a27f7e21efd" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a7f7e8e200f3e220f34929db9eb8f885a" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a23f2bdf97fb937af5cd5642e553d6560" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kind="class"><name>com::angelmsger::cslaboratory::quality::article::QualityArticleItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ad2a7a1e7e0ee4642d01a270dbc852840" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1abe7f160c72ee92d032d66d417a9a1e16" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a8de4fe4831fcfa4a711a9be25038c056" kind="variable"><name>group</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a33f8e3a57d79a3a2060a043730a10783" kind="variable"><name>content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa2a48a22d3148397eda5304322fb0a4a" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a931f5dd27ff6868306656c3c2082903b" kind="variable"><name>actionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a4224f1e3a5c9f21fe4244f6a498817e7" kind="variable"><name>bangCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a7fd589d7a9fe43d4da7b2524c786bbfb" kind="variable"><name>commentCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a37f827e2cfb9be90cd29a2fd7d358154" kind="function"><name>QualityArticleItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a4b6b14130033be368f4057ba551cfa5f" kind="function"><name>QualityArticleItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae36bf68b62b9b71fe0d433c51e7c7513" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a735957ed342c31ea10a00404542d3c9e" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a52851588b4a807dd8548340cf528d334" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae7bc26966211b878204bfb0fff05e21e" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ae7cb18d09feec8e112a21c9586d7e22b" kind="function"><name>getGroup</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a1bbaad7d4eff6c93d4e34b070d48b58f" kind="function"><name>setGroup</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a56c1c0a31b0de1ecdcfed0cdb9dea1b0" kind="function"><name>getContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa6d1c4705743d06a91b8b5fdcee49380" kind="function"><name>setContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa3b09d8cee7c98b30f2960a900c020d5" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a01879adf45902378b50d91b7d8d2d511" kind="function"><name>setImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a5b40c4ce98308fa9fb7c40b9e2b6ffcd" kind="function"><name>getActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1aa383c41667dfa7764f18155c42735b7e" kind="function"><name>setActionURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a6b71ada70d129c6f73f11b9d425fc6fe" kind="function"><name>getBangCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1ab7dd5c8afddafd48abad6d7a3193dec6" kind="function"><name>setBangCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a4a88f5ad3619e4c69ff893836a846d11" kind="function"><name>getCommentCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item_1a95dadadc914dc1b575067d3296ac08a0" kind="function"><name>setCommentCount</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityArticleItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1afe0b202ddb3ce1d243bddc134bed15f2" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1affe8c452cb8b02cd507d7a1d6ba1c6dc" kind="function"><name>QualityArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a482d5fdd0215951c6278124bd4dc4341" kind="function"><name>QualityArticleItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a2ad47b7ce0a18237a5e7389308c9ff17" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a7f173372ec16b6faa241f10de4eca6da" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1ae2320614b3af03fc93587d150e693f31" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1abb64c06f78a3b01bde4b8d6765963d75" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68e814efd3e4963564903f34ce9b09df" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a93ef0eabaef59b77f23ebb09786e3f11" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a9c8de8cf6a19aedb8144c38cbba45f68" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a326a0f5b80e0f5b497cbf1a6fdb05103" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a662a9f6f259708cb7d1e441a79dc6b41" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a68b8d11144c9007e5a400eebd911cabe" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a32e76d20e64e072fc0c0e2780eeeec24" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kind="class"><name>com::angelmsger::cslaboratory::quality::category::QualityCategoryItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a37d21d347289c62f4b209cb2f61af9e1" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a06c4eead001f50a4bdcc53b031966c38" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1aa685d00b2342e4f3bb1bfab09399d826" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1ac2371af144cf0ea879d21d3138dd10db" kind="function"><name>QualityCategoryItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1ae5f40317dfb4ec1eac39ce7ded9a6732" kind="function"><name>QualityCategoryItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a46053cf23939e674aaac34105a778da4" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a1dc233cf7d05a5a1b403dc62d904ebbb" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a41365ae959c7f51757a7fbd003367ae7" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a457a8602067aadf93dcc9b676029e796" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1ab195322c91a479ceef0e2c02ddb7e0b1" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item_1a999218a69f93f1d8f3077ab632aefdae" kind="function"><name>setImageURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a294c239b541266d368340f165f2a7feb" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8fe32b058f24f042f03cfe70f7e9d16c" kind="function"><name>QualityCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ad70589883242f9c15a8345f8c5e4876b" kind="function"><name>QualityCategoryItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aa207000439410216020dfdd9441b23a3" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a20ee4d2c1ab6c00f98bc714d970817c7" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4571d1c710e838906dd389b10d0086dc" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a2ab2b0099e66fd54e42d85d8b06caa59" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1aff8e2961f43efba662ff1158e502aab1" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ab7ac2141d91ca8ea98589d9d4347c19e" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ae1fecb5dae15e2791ba9ae44116700f0" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a8a184706f0af3a075c4719cc465b50c4" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a7300869db5e7e55a7b2a6c74b7135427" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a1721d8061aad1acac7c6b92a2ae43869" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1a4f89365b4e31c905dbddef140511543c" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" kind="variable"><name>AD_ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" kind="variable"><name>CLASS_ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" kind="variable"><name>QUALITY_ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityFragment</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a0048dbfba97cfe1996f27fa33b6c6448" kind="variable"><name>ARG_COLUMN_COUNT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a25080c9c23a70d89ca8ad9247d5510d3" kind="variable"><name>mColumnCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" kind="variable"><name>mPullToRefreshView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2002c0ac7dab7887d62717157f895b9d" kind="variable"><name>mRecyclerView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a958203c0099c03cc8306a6c6b32569a4" kind="variable"><name>mRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a4932398466dec5c3d990ed7ad3edbe0e" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aff4a6d2255be914f9adefe14fc636f51" kind="variable"><name>mQualityContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1acc2a549055a6588d3e4338ff76257bb0" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" kind="variable"><name>mLoadDataTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a48214c20ebf86aa9578489a695a37eaf" kind="variable"><name>mRequestLimit</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a270c22d5cbaa3ba49816038abdad6ff7" kind="function"><name>QualityFragment</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a1485032a5770ef7d3dd84f1cd3a3fbdb" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" kind="function"><name>onCreateView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afcab0a2e2f5bcc1c4022b4a953a10004" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aaa40d85f442c311aeb1a384327a67d0a" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a92229ec21f4ee38ca96bbaf0b1d8c514" kind="function"><name>onRefresh</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aecff98c9368030359e2fc9748fe36378" kind="function"><name>newInstance</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2d1940d54f77ce2f061e86aed512719a" kind="variable"><name>mQualityADItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a937ca37c258ef0ea572772a3eee39d30" kind="variable"><name>mQualityCategoryItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a89bb97dd60edb178acaedb811ebc82e6" kind="variable"><name>mQualityArticleItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1af5a8e0b9021dcc5aa64501fdbb16f823" kind="variable"><name>mColCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a3fbe84ae3d429a8dd3871b4f24530e47" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a50e94681bf1d745f57ddb45e3c26913f" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1afef2dca58cc5800c12b9f2b18f8d820e" kind="variable"><name>mCategoryItemsCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a2ebd225e6e08cf1ff3d06c4d24fb0960" kind="variable"><name>mPageCapacity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a18aa6420c9de8a571e4f3e9a50354957" kind="variable"><name>mCategoryItemsRowCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1ac0d598356326e9433c51577054dac6d3" kind="variable"><name>mQualityItemsRowCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a6ae5958fd1459eb0fb59c1d27b5f3875" kind="function"><name>QualityRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" kind="function"><name>getItemViewType</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5025f8af6fef943c1cc34590322cf8af" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a4137a63374f8b858cf05260888cb8143" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1adb969620cf0120a32f53e217033a802f" kind="function"><name>getItemCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5177cef6d1aff524b6540579d1d89521" kind="function"><name>getNextRequestOffset</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder" kind="class"><name>com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter::QualityViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a4e55e7d69b6ef91565c9a6ffd9266a29" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1aed690d3cafae449a5c237de4837b8f59" kind="variable"><name>mClass</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a19eefe1029f820816ae13a487c38c674" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a83ddca99a5479c8432c52a7239386b22" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1ac70295098e554c53beffe3775d0f9c97" kind="variable"><name>mContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a3f5b14a1f1735e0956f2e879c57a088e" kind="variable"><name>mAttitude</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1aa0d16af440db7e2da77ef99644200e31" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1acfa4f5db0b218a89d3eaaa58d1576673" kind="function"><name>QualityViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a96f86c4daa54f00da9ec582020f478ad" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request" kind="class"><name>com::angelmsger::cslaboratory::login::Login::Request</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" kind="variable"><name>email</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" kind="variable"><name>password</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ab30328f803439e24eb5ba67d42da0cfc" kind="function"><name>Request</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a068724be0b148d0b82ad1475fd8d88f0" kind="function"><name>Request</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a58a849b1b8a9c758250c1652f1790b6e" kind="function"><name>getEmail</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ad299d15abb5f5d39eabd3c5f824ee9f4" kind="function"><name>setEmail</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a5dfde067990867edd28f82ab77b9b03b" kind="function"><name>getPassword</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a2e2fb5f01f1ef7942e592ad76fddf70d" kind="function"><name>setPassword</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response" kind="class"><name>com::angelmsger::cslaboratory::login::Login::Response</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a554fae56048880023686b8c598449b54" kind="variable"><name>SUCCESS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a899016e05ad527ef90448f79034c9f70" kind="variable"><name>FORBIDDEN</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a6b97eafd92fbde574aa53b5dc2f8ede3" kind="variable"><name>NOT_FOUND</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a26deb5996f51cfbacd970e2a3f6f84d9" kind="variable"><name>code</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1af28aaa955e0c51763399862b96ae4ee6" kind="variable"><name>user</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a37e542ee70d8ba50aa7765d3531bf4c2" kind="function"><name>Response</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1a23e3284e6d2dbb7bb2a548d3760ecaa4" kind="function"><name>Response</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1af6d49913461398edd2c2fa06eb55dd73" kind="function"><name>getCode</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1abe40d43bba9b430039b0655c3d935c4b" kind="function"><name>setCode</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1aedb1a1d30c60bb83c72dc3246190bafc" kind="function"><name>getUser</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response_1affcfd595d0f1f792e289ec8c3f344651" kind="function"><name>setUser</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity" kind="class"><name>com::angelmsger::cslaboratory::shared::ScrollingActivity</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1a70b21939ce5b8e63a5e3bd35dac5fca1" kind="variable"><name>IMAGE_URI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1afda4d06158d5a2d6eea547b0f697fa1f" kind="variable"><name>ARTICLE_TITLE</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1a2c63620631d5ff06ef723ea06b1f465f" kind="variable"><name>ARTICLE_CONTENT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1shared_1_1_scrolling_activity_1a6d20b642738f692ff1afba4e9828e5a7" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter" kind="class"><name>com::angelmsger::cslaboratory::MainActivity::SectionsPagerAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ab965c5be8737a9a69de2be98d656cc33" kind="function"><name>SectionsPagerAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a82919b8a8df95ff1b55e74f22df709f9" kind="function"><name>getItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1ad6212168c1418b61aaecb9cf2a35812c" kind="function"><name>getCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1adcb053d3c7bf43bf94cab95f80822f89" kind="function"><name>getPageTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1_1_sections_pager_adapter_1a559968ac2d220a1f3fe4ad468dad4933" kind="function"><name>destroyItem</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source" kind="class"><name>com::angelmsger::cslaboratory::source::ServerDataSource</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a124b9fdd94db63868ef83d5652f51834" kind="variable"><name>mBaseRequestURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1aba4cdd27c7f0a8a1732514295e4d80fd" kind="variable"><name>mContext</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a67d14c3e58b77e0372d21a7a728c8b5d" kind="variable"><name>mApiClient</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1afe7880fbbf94a85005904e837c25b00c" kind="variable"><name>mGson</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abf18ef6aedccf89a1698008c1cd22151" kind="function"><name>ServerDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a818069b4fabc2d890b9134332f394aab" kind="function"><name>attemptLogin</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5006765396f71775f1530513fe426c3e" kind="function"><name>getCourseContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1ae89fc8c5d08bed772774c4f6c8592620" kind="function"><name>getDailyContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a408e537e817904800bb7fca3ef241902" kind="function"><name>getForumContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1abe91cd7c27f62aedfb28a25a6b650a67" kind="function"><name>getQualityContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_server_data_source_1a5cefe60a089f3ac4472e88ae778c7a43" kind="function"><name>getTopologyContent</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_signup_activity" kind="class"><name>com::angelmsger::cslaboratory::login::SignupActivity</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_signup_activity_1a78108802b9590887005653edb90b4030" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_content" kind="class"><name>com::angelmsger::cslaboratory::course::subclass::SubclassContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_content_1a5c49a7d602f954a4551184d865b9d9de" kind="variable"><name>ITEMS</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::course::subclass::SubclassRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1a8a17bd5d58513af7ccdabc46a7c9e3fd" kind="variable"><name>mCourseSubclassItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1ae82693636b76654d2157854c9070927e" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1a126d9f0b2212473801f734ddcbd11a21" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1ad591b0b44ab0aded76eb94920f8c2695" kind="function"><name>SubclassRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1ae60aa3eba3bfd04b7643a90cb0c46e19" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1a2f81793d3939858b8fe5b6268c77d5e9" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_subclass_recycler_view_adapter_1a95ed9f4bbb1cc9cb0d95969191a159a6" kind="function"><name>getItemCount</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content" kind="class"><name>com::angelmsger::cslaboratory::topology::TopologyContent</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1a78cb9bc251891d926fd38e61065c530f" kind="variable"><name>ITEMS</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_content_1aefe32bdfd7d6532779ea0ab22bcebcad" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item" kind="class"><name>com::angelmsger::cslaboratory::topology::field::TopologyFieldItem</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4357d585a23827c1888204cb65299b2b" kind="variable"><name>id</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa1aabf26d1c33691efb99e949380e167" kind="variable"><name>backgroundURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a3da372280f4e9bcf407d07232627c2c4" kind="variable"><name>title</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a40ed9c9a065a8c046129f74712389409" kind="variable"><name>content</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa07a37713f997a0f9de9388c525cf2be" kind="variable"><name>imageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1af5e359d7094d49be56d57cfd420bc3e2" kind="function"><name>TopologyFieldItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a127389c7be474727aff08af44ca7a92e" kind="function"><name>TopologyFieldItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a6135cf9d4ccc37d6852613d5ffb1df91" kind="function"><name>getId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a286b6cd4ced92a75c87c01efdd6a6fd4" kind="function"><name>setId</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a9e205cd5a78e31c62b7ac456d08952d4" kind="function"><name>getBackgroundURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1afdd845adecd0a5dbd0046bff8a7fc569" kind="function"><name>setBackgroundURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1abe50a2a068d3d78c2fd63766c1f82a90" kind="function"><name>getTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a4caa7c6174ce87e5bb18511ad9871d27" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae8f3bb7dc8a51bec3dc3b13027b165af" kind="function"><name>getContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1aa0877ce3f44bce68862e59b0ae79c390" kind="function"><name>setContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1ae096ba91918178af5e7eab967723533a" kind="function"><name>getImageURI</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field_1_1_topology_field_item_1a34edac3a9accc85aeccebdbe3e75cfbc" kind="function"><name>setImageURI</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao" kind="class"><name>com::angelmsger::cslaboratory::dao::TopologyFieldItemDao</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1ab22c54a213326f0e3dd60b2745b2a303" kind="variable"><name>TABLENAME</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1ab6b7fa72ca79e24e4d4214cf88f2d7cb" kind="function"><name>TopologyFieldItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1abbb4c85b402a09b056b95a890dd3620c" kind="function"><name>TopologyFieldItemDao</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a61fd64c4bf5550d96de8a17c8b45ff8b" kind="function"><name>readKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a35626455c6cb120d3bc332e1143995e0" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a557f37dbf0d6c5ce2e3636062aa8724b" kind="function"><name>readEntity</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a1195b020dfbafbb59f3a9ca16c74a7f6" kind="function"><name>getKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a295909477ec9c64e75ec467d8d9206c9" kind="function"><name>hasKey</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aa5019b08c3613734f67ebad956aca743" kind="function"><name>createTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aa1b48f25d7b775425d70693b66804b9b" kind="function"><name>dropTable</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a4ad2ea50cd2d15be4361e74dd5ea4ef7" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1ac3bd6dfc46bd6ae9a60e8eda34c96242" kind="function"><name>bindValues</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aac72c539bb64827562965f2aaa28b983" kind="function"><name>updateKeyAfterInsert</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1a5b35f817f654beff30753017410b825a" kind="function"><name>isEntityUpdateable</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment" kind="class"><name>com::angelmsger::cslaboratory::topology::TopologyFragment</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1abd4ea990cca0d11aeda3c458b14b4c08" kind="variable"><name>ARG_COLUMN_COUNT</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a51ca6a6ff25fbfda074b18183e4beabf" kind="variable"><name>mColumnCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2b062c6a3735577b5a085a1a5fc8855f" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a52b18319d687b87110185df2509c5415" kind="variable"><name>mPullToRefreshView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a423d3e7e8077f1e509ea6e7b9af54d2a" kind="variable"><name>mRecyclerView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a3ab73ff5bc6911c15a9d2fc5b4fb446a" kind="variable"><name>mRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a62ea2c6d546a20dc3ed06bad2298b903" kind="variable"><name>mDataSource</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d0e01a7cc3ec8712105b9b5236371ac" kind="variable"><name>mTopologyContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1adcd99aee3e88441abe8dc99538479353" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a8c68efdd68ff98eab99647bc4249b45e" kind="variable"><name>mLoadDataTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a16c191f78891317cee399e297fc09eb0" kind="variable"><name>mRequestLimit</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a4cdc6b44d5e60baf581df689b7c0ab91" kind="function"><name>TopologyFragment</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1ab844ddbb2abef45a921336de4cd5887f" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1af5e141e4aeb165ce5d67a0547f4a71eb" kind="function"><name>onCreateView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a176bcb0f50f8382c0ea39cf0216e6c5b" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a0acb5645a1d06397a9355de3273b5116" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1a2d80c17676c3ae81a4ad5424c0e12e6b" kind="function"><name>onRefresh</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_fragment_1afc61e89e78f3e466bdb5a8bc7e1dbda1" kind="function"><name>newInstance</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter" kind="class"><name>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a861bb909bfd5f678ef6baa15850567c9" kind="variable"><name>mTopologyFieldItems</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a558d9d2f250b2a22b16dbc2b39d1e1c2" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a102c645e69521c6dedd1a9c0fee0bf72" kind="variable"><name>mListener</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a5c0c91c0ba9a32a5483295b89e68b9af" kind="function"><name>TopologyRecyclerViewAdapter</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a55447a33ad2bf4143c6d267eccd99f8e" kind="function"><name>onCreateViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a6405e68f455ba70e0d742a9cdb6ce9c0" kind="function"><name>onBindViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1abcf4fe91e016f84054b3995c50dbf668" kind="function"><name>getItemCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1a196af52c93925560095d2700f0f71549" kind="function"><name>getNextRequestOffset</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder" kind="class"><name>com::angelmsger::cslaboratory::topology::TopologyRecyclerViewAdapter::TopologyViewHolder</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a0727c123f733fbea88120ddd00c6ae9b" kind="variable"><name>mView</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a09f51ddd519acbf2c6d5c5ff49c24924" kind="variable"><name>mBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a2fc897402f5efd40c23831cb378313a1" kind="variable"><name>mTitle</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1aa8e747543e3baa80a38d9efd8b6ad83e" kind="variable"><name>mContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a638d192a7816d8843ed165c0bb6868da" kind="variable"><name>mImage</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a5028b046f103daa880329f2732478920" kind="variable"><name>mItem</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1ad1aa0dc593577fcf16b001779f39554f" kind="function"><name>TopologyViewHolder</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1_topology_recycler_view_adapter_1_1_topology_view_holder_1a6b741a0f0a315f58ed3390172792407a" kind="function"><name>bind</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source" kind="class"><name>com::angelmsger::cslaboratory::source::UnrealDataSource</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a7f310ce74c7bd9495c9031c3d95b0176" kind="variable"><name>mRequestsCount</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac589b1756691bc49039eb4522ba9421a" kind="function"><name>attemptLogin</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a53d64a104615c76f4280ea11b13ee18f" kind="function"><name>getCourseContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a5573d4eb3ce05aeaa3262ef538304470" kind="function"><name>getDailyContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1ac090a14c7d61eae1d5381a5c0aa6adb1" kind="function"><name>getForumContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" kind="function"><name>getQualityContent</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a00f888e4a2d7f4c2c4499562cbaaf7f6" kind="function"><name>getTopologyContent</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user" kind="class"><name>com::angelmsger::cslaboratory::login::User</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1ae4fd0a65a94aa50829a04232387a4b96" kind="variable"><name>base</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a1732bd7f5cf1ac723272a08e1d8d81ad" kind="variable"><name>extra</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a2c2796b9801063c1a94b3d9939b0a279" kind="function"><name>User</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1afb07cb6e9c4cc2c9366e2feeee487613" kind="function"><name>User</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a6d2abc838a8f232dab7de0763bca8de6" kind="function"><name>getBase</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a59abc2938de424a05ed028efe2aa3d42" kind="function"><name>setBase</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1af6acd360e616cfd6259574cb25f341c8" kind="function"><name>getExtra</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_user_1a83f9f9afb981691cd01950a49075083b" kind="function"><name>setExtra</name></member>
+  </compound>
+  <compound refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task" kind="class"><name>com::angelmsger::cslaboratory::login::LoginActivity::UserLoginTask</name>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ababcf0412dbe283f7829d0f9985a6e31" kind="variable"><name>mEmail</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a01b7b42e00e052addb55554fd89f49a8" kind="variable"><name>mPassword</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ac15520c71cf6b5e24d6057c82d1157a7" kind="function"><name>UserLoginTask</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ae18f50e1b0f564f12c4976d1907584d7" kind="function"><name>doInBackground</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a0a01188ac5523b69c9143b558c29df9a" kind="function"><name>onPostExecute</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1ad8df0bf6435e46abe12f3499c1bd43ab" kind="function"><name>onProgressUpdate</name></member>
+    <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_activity_1_1_user_login_task_1a61f37723c2bef79900ca93e94871e78b" kind="function"><name>onCancelled</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger" kind="namespace"><name>com::angelmsger</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory" kind="namespace"><name>com::angelmsger::cslaboratory</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course" kind="namespace"><name>com::angelmsger::cslaboratory::course</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course" kind="namespace"><name>com::angelmsger::cslaboratory::course::course</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass" kind="namespace"><name>com::angelmsger::cslaboratory::course::subclass</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily" kind="namespace"><name>com::angelmsger::cslaboratory::daily</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article" kind="namespace"><name>com::angelmsger::cslaboratory::daily::article</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1dao" kind="namespace"><name>com::angelmsger::cslaboratory::dao</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1forum" kind="namespace"><name>com::angelmsger::cslaboratory::forum</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic" kind="namespace"><name>com::angelmsger::cslaboratory::forum::topic</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1login" kind="namespace"><name>com::angelmsger::cslaboratory::login</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality" kind="namespace"><name>com::angelmsger::cslaboratory::quality</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad" kind="namespace"><name>com::angelmsger::cslaboratory::quality::ad</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article" kind="namespace"><name>com::angelmsger::cslaboratory::quality::article</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category" kind="namespace"><name>com::angelmsger::cslaboratory::quality::category</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1shared" kind="namespace"><name>com::angelmsger::cslaboratory::shared</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1source" kind="namespace"><name>com::angelmsger::cslaboratory::source</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1topology" kind="namespace"><name>com::angelmsger::cslaboratory::topology</name>
+  </compound>
+  <compound refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1topology_1_1field" kind="namespace"><name>com::angelmsger::cslaboratory::topology::field</name>
+  </compound>
+  <compound refid="_course_course_item_8java" kind="file"><name>CourseCourseItem.java</name>
+  </compound>
+  <compound refid="_course_content_8java" kind="file"><name>CourseContent.java</name>
+  </compound>
+  <compound refid="_course_fragment_8java" kind="file"><name>CourseFragment.java</name>
+  </compound>
+  <compound refid="_course_recycler_view_adapter_8java" kind="file"><name>CourseRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="_course_category_item_8java" kind="file"><name>CourseCategoryItem.java</name>
+  </compound>
+  <compound refid="_course_subclass_item_8java" kind="file"><name>CourseSubclassItem.java</name>
+  </compound>
+  <compound refid="_subclass_content_8java" kind="file"><name>SubclassContent.java</name>
+  </compound>
+  <compound refid="_subclass_recycler_view_adapter_8java" kind="file"><name>SubclassRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="_c_s_laboratory_8java" kind="file"><name>CSLaboratory.java</name>
+  </compound>
+  <compound refid="_daily_article_item_8java" kind="file"><name>DailyArticleItem.java</name>
+  </compound>
+  <compound refid="_daily_content_8java" kind="file"><name>DailyContent.java</name>
+  </compound>
+  <compound refid="_daily_fragment_8java" kind="file"><name>DailyFragment.java</name>
+  </compound>
+  <compound refid="_daily_recycler_view_adapter_8java" kind="file"><name>DailyRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="_course_category_item_dao_8java" kind="file"><name>CourseCategoryItemDao.java</name>
+  </compound>
+  <compound refid="_course_course_item_dao_8java" kind="file"><name>CourseCourseItemDao.java</name>
+  </compound>
+  <compound refid="_course_subclass_item_dao_8java" kind="file"><name>CourseSubclassItemDao.java</name>
+  </compound>
+  <compound refid="_daily_article_item_dao_8java" kind="file"><name>DailyArticleItemDao.java</name>
+  </compound>
+  <compound refid="_dao_master_8java" kind="file"><name>DaoMaster.java</name>
+  </compound>
+  <compound refid="_dao_session_8java" kind="file"><name>DaoSession.java</name>
+  </compound>
+  <compound refid="_forum_topic_item_dao_8java" kind="file"><name>ForumTopicItemDao.java</name>
+  </compound>
+  <compound refid="_quality_a_d_item_dao_8java" kind="file"><name>QualityADItemDao.java</name>
+  </compound>
+  <compound refid="_quality_article_item_dao_8java" kind="file"><name>QualityArticleItemDao.java</name>
+  </compound>
+  <compound refid="_quality_category_item_dao_8java" kind="file"><name>QualityCategoryItemDao.java</name>
+  </compound>
+  <compound refid="_topology_field_item_dao_8java" kind="file"><name>TopologyFieldItemDao.java</name>
+  </compound>
+  <compound refid="_forum_content_8java" kind="file"><name>ForumContent.java</name>
+  </compound>
+  <compound refid="_forum_fragment_8java" kind="file"><name>ForumFragment.java</name>
+  </compound>
+  <compound refid="_forum_recycler_view_adapter_8java" kind="file"><name>ForumRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="_forum_topic_item_8java" kind="file"><name>ForumTopicItem.java</name>
+  </compound>
+  <compound refid="_b_crypt_8java" kind="file"><name>BCrypt.java</name>
+  </compound>
+  <compound refid="_login_8java" kind="file"><name>Login.java</name>
+  </compound>
+  <compound refid="_login_activity_8java" kind="file"><name>LoginActivity.java</name>
+  </compound>
+  <compound refid="_p_h_pass_8java" kind="file"><name>PHPass.java</name>
+  </compound>
+  <compound refid="_signup_activity_8java" kind="file"><name>SignupActivity.java</name>
+  </compound>
+  <compound refid="_user_8java" kind="file"><name>User.java</name>
+  </compound>
+  <compound refid="_main_activity_8java" kind="file"><name>MainActivity.java</name>
+  </compound>
+  <compound refid="_proprietary_receiver_8java" kind="file"><name>ProprietaryReceiver.java</name>
+  </compound>
+  <compound refid="_quality_a_d_item_8java" kind="file"><name>QualityADItem.java</name>
+  </compound>
+  <compound refid="_quality_article_item_8java" kind="file"><name>QualityArticleItem.java</name>
+  </compound>
+  <compound refid="_quality_category_item_8java" kind="file"><name>QualityCategoryItem.java</name>
+  </compound>
+  <compound refid="_quality_content_8java" kind="file"><name>QualityContent.java</name>
+  </compound>
+  <compound refid="_quality_fragment_8java" kind="file"><name>QualityFragment.java</name>
+  </compound>
+  <compound refid="_quality_recycler_view_adapter_8java" kind="file"><name>QualityRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="_fullscreen_activity_8java" kind="file"><name>FullscreenActivity.java</name>
+  </compound>
+  <compound refid="_scrolling_activity_8java" kind="file"><name>ScrollingActivity.java</name>
+  </compound>
+  <compound refid="_data_source_8java" kind="file"><name>DataSource.java</name>
+  </compound>
+  <compound refid="_local_data_source_8java" kind="file"><name>LocalDataSource.java</name>
+  </compound>
+  <compound refid="_server_data_source_8java" kind="file"><name>ServerDataSource.java</name>
+  </compound>
+  <compound refid="_unreal_data_source_8java" kind="file"><name>UnrealDataSource.java</name>
+  </compound>
+  <compound refid="_topology_field_item_8java" kind="file"><name>TopologyFieldItem.java</name>
+  </compound>
+  <compound refid="_topology_content_8java" kind="file"><name>TopologyContent.java</name>
+  </compound>
+  <compound refid="_topology_fragment_8java" kind="file"><name>TopologyFragment.java</name>
+  </compound>
+  <compound refid="_topology_recycler_view_adapter_8java" kind="file"><name>TopologyRecyclerViewAdapter.java</name>
+  </compound>
+  <compound refid="dir_9265b5f607204b49ab794cd3922a9340" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/ad</name>
+  </compound>
+  <compound refid="dir_c4d82892a714ce0f3972f74e7729345b" kind="dir"><name>D:/Workspace/AndroidStudio</name>
+  </compound>
+  <compound refid="dir_b94f7b7eac1624264c1be0352c21384d" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger</name>
+  </compound>
+  <compound refid="dir_c7e628ea90ead72bdb153273adb422ef" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app</name>
+  </compound>
+  <compound refid="dir_74c676e3fcbbf75947512cfdf3896153" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article</name>
+  </compound>
+  <compound refid="dir_9806011d36892deb51ff602adba0319a" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/article</name>
+  </compound>
+  <compound refid="dir_48b3d289f4d3fa5a561a09b0b119ed84" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/category</name>
+  </compound>
+  <compound refid="dir_7d5b2bd17675d326ad90c9bd8df4ba2f" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com</name>
+  </compound>
+  <compound refid="dir_65765ce55df6430011ac0c6bdfeb5632" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course</name>
+  </compound>
+  <compound refid="dir_3962f65897b05d89203feb695c8e7fa1" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/course</name>
+  </compound>
+  <compound refid="dir_377bd368e4ab3174a088e655a2bd1710" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory</name>
+  </compound>
+  <compound refid="dir_588d3b20df5070b479831ad3e43735c9" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_ba74327a4cd74d2d6c6b2d1eb34c95d2" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily</name>
+  </compound>
+  <compound refid="dir_30d09979890d72db4cc9c34fb267b4e7" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao</name>
+  </compound>
+  <compound refid="dir_c399cdb0867a30e9d28b940f0426cfb0" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology/field</name>
+  </compound>
+  <compound refid="dir_e1d38602d704d36576536c822dcd7aab" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum</name>
+  </compound>
+  <compound refid="dir_037c9e166ef6455c0adc7ccf9d356ae1" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java</name>
+  </compound>
+  <compound refid="dir_53165c7c73f99b4f197512640eb4197f" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login</name>
+  </compound>
+  <compound refid="dir_da6c11c91279ce1d53350eb079e02c02" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main</name>
+  </compound>
+  <compound refid="dir_5c644549eb77d55f1c7d0f9f72c28630" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality</name>
+  </compound>
+  <compound refid="dir_2d0ac8114a8193eec55eaef52ee3e7f0" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/shared</name>
+  </compound>
+  <compound refid="dir_e5110dfcba4caa17c8ad79c24406ed88" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/source</name>
+  </compound>
+  <compound refid="dir_f627a8126053d845ff58c5fdd6e2754c" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src</name>
+  </compound>
+  <compound refid="dir_fd5f13ab71dd3fffa407bf1f6c0a6c98" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass</name>
+  </compound>
+  <compound refid="dir_60c435049a5db7b290157213b53bcadc" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/topic</name>
+  </compound>
+  <compound refid="dir_3d529131db3b9d4ae900f7cf52feae94" kind="dir"><name>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/topology</name>
+  </compound>
+  <compound refid="dir_6dfdd596525396cb296a0367e48d2f4d" kind="dir"><name>D:/Workspace</name>
+  </compound>
+</doxygenindex>

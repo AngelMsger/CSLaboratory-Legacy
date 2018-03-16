@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityContent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref> &gt;</type>
+        <definition>final List&lt;QualityADItem&gt; com.angelmsger.cslaboratory.quality.QualityContent.AD_ITEMS</definition>
+        <argsstring></argsstring>
+        <name>AD_ITEMS</name>
+        <initializer>= new LinkedList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>数据项实例数组。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" compoundref="_quality_content_8java" startline="30" endline="72">com.angelmsger.cslaboratory.quality.QualityContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" compoundref="_unreal_data_source_8java" startline="126" endline="170">com.angelmsger.cslaboratory.source.UnrealDataSource.getQualityContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref> &gt;</type>
+        <definition>final List&lt;QualityCategoryItem&gt; com.angelmsger.cslaboratory.quality.QualityContent.CLASS_ITEMS</definition>
+        <argsstring></argsstring>
+        <name>CLASS_ITEMS</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" line="21" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" compoundref="_quality_content_8java" startline="30" endline="72">com.angelmsger.cslaboratory.quality.QualityContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" compoundref="_unreal_data_source_8java" startline="126" endline="170">com.angelmsger.cslaboratory.source.UnrealDataSource.getQualityContent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" prot="public" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref> &gt;</type>
+        <definition>final List&lt;QualityArticleItem&gt; com.angelmsger.cslaboratory.quality.QualityContent.QUALITY_ITEMS</definition>
+        <argsstring></argsstring>
+        <name>QUALITY_ITEMS</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" line="22" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" compoundref="_quality_content_8java" startline="30" endline="72">com.angelmsger.cslaboratory.quality.QualityContent.update</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_unreal_data_source_1a8ac6f82e080ca5f2bc8ca75156bf2894" compoundref="_unreal_data_source_8java" startline="126" endline="170">com.angelmsger.cslaboratory.source.UnrealDataSource.getQualityContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized int</type>
+        <definition>synchronized int com.angelmsger.cslaboratory.quality.QualityContent.update</definition>
+        <argsstring>(QualityContent qualityContent, boolean pushToBottom)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kindref="compound">QualityContent</ref></type>
+          <declname>qualityContent</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>pushToBottom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>互斥更新 <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter" kindref="compound">QualityRecyclerViewAdapter</ref> 数据集， 此方法认为得到的数据条目已经根据 ID 由大到小排列，且 ID 越大代表数据优先级越高。 <simplesect kind="return"><para>新增条目数量 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" bodystart="30" bodyend="72"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" compoundref="_quality_content_8java" startline="20">com.angelmsger.cslaboratory.quality.QualityContent.AD_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" compoundref="_quality_content_8java" startline="21">com.angelmsger.cslaboratory.quality.QualityContent.CLASS_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" compoundref="_quality_content_8java" startline="22">com.angelmsger.cslaboratory.quality.QualityContent.QUALITY_ITEMS</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" compoundref="_quality_fragment_8java" startline="198" endline="202">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>为用户接口提供内容的帮助类。 TODO: 根据需要替换为具体实现。 </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="425">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.ad.QualityADItem &gt;</label>
+      </node>
+      <node id="424">
+        <label>com.angelmsger.cslaboratory.quality.QualityContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content"/>
+        <childnode refid="425" relation="usage">
+          <edgelabel>AD_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="426" relation="usage">
+          <edgelabel>QUALITY_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="427" relation="usage">
+          <edgelabel>CLASS_ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="426">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.article.QualityArticleItem &gt;</label>
+      </node>
+      <node id="427">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.category.QualityCategoryItem &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" line="15" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityContent.java" bodystart="15" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityContent</scope><name>AD_ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityContent</scope><name>CLASS_ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityContent</scope><name>QUALITY_ITEMS</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a5cacd3acac3ccad3973f0f1d8548065a" prot="package" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityContent</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

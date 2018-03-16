@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data" kind="class" language="Java" prot="private">
+    <compoundname>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, Integer &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ae996b3161cd3ccb66b0c9251596a9b4b" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.mRequestOffset</definition>
+        <argsstring></argsstring>
+        <name>mRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="171" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ababe7ad72893f01c9bb692a4a8a2742f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.AsynLoadData</definition>
+        <argsstring>(int requestOffset)</argsstring>
+        <name>AsynLoadData</name>
+        <param>
+          <type>int</type>
+          <declname>requestOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="173" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.doInBackground</definition>
+        <argsstring>(Void... voids)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>voids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="178" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="178" bodyend="182"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a00489ec7284835d773ed5f31ffd56761" compoundref="_daily_fragment_8java" startline="39">com.angelmsger.cslaboratory.daily.DailyFragment.mDailyContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content_1ad49f5ac40dd16440aafb40968afdd7de" compoundref="_daily_content_8java" startline="19" endline="47">com.angelmsger.cslaboratory.daily.DailyContent.update</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a2994176eaf0bb6a6297babb9b46551fb" compoundref="_daily_fragment_8java" startline="38">com.angelmsger.cslaboratory.daily.DailyFragment.mDataSource</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a076fdb59f5497fb79abde00630e30938" compoundref="_daily_fragment_8java" startline="44">com.angelmsger.cslaboratory.daily.DailyFragment.mRequestLimit</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onPostExecute</definition>
+        <argsstring>(Integer integer)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>Integer</type>
+          <declname>integer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="185" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="185" bodyend="196"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" compoundref="_daily_fragment_8java" startline="42">com.angelmsger.cslaboratory.daily.DailyFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1aa93ed055ff4021182e93f9f265ef92d6" compoundref="_daily_fragment_8java" startline="32">com.angelmsger.cslaboratory.daily.DailyFragment.mListener</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener_1afa6e44a1e2065cf3c2a1c2124587a14b">com.angelmsger.cslaboratory.daily.DailyFragment.OnListFragmentInteractionListener.onDailyListUpdate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a0fbd291ad51add51ceaa4d8f32833642" compoundref="_daily_fragment_8java" startline="36">com.angelmsger.cslaboratory.daily.DailyFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" compoundref="_daily_fragment_8java" startline="34">com.angelmsger.cslaboratory.daily.DailyFragment.mPullToRefreshView</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1a5b6eb912d53a0db65010e82b1145494d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData.onCancelled</definition>
+        <argsstring>()</argsstring>
+        <name>onCancelled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="199" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="199" bodyend="204"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a89df3e1616b7d2559dcbe63c09d1d9fc" compoundref="_daily_fragment_8java" startline="42">com.angelmsger.cslaboratory.daily.DailyFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1a46f82d673708f5679262718d0bf3972a" compoundref="_daily_fragment_8java" startline="34">com.angelmsger.cslaboratory.daily.DailyFragment.mPullToRefreshView</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>异步加载数据到列表，需要提供加载分页页号，加载完成后更新界面。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="17">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="19">
+        <label>com.angelmsger.cslaboratory.daily.DailyFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" line="170" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/DailyFragment.java" bodystart="170" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ababe7ad72893f01c9bb692a4a8a2742f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</scope><name>AsynLoadData</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ac03e1414a90be3a66c401581ef6f9e83" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</scope><name>doInBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1ae996b3161cd3ccb66b0c9251596a9b4b" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</scope><name>mRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1a5b6eb912d53a0db65010e82b1145494d" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</scope><name>onCancelled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data_1aff59c949e90e110c104647582c50b120" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::daily::DailyFragment::AsynLoadData</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

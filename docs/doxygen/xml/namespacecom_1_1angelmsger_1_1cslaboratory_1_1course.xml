@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::course</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content" prot="public">com::angelmsger::cslaboratory::course::CourseContent</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment" prot="public">com::angelmsger::cslaboratory::course::CourseFragment</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter" prot="public">com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course">com::angelmsger::cslaboratory::course::course</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass">com::angelmsger::cslaboratory::course::subclass</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

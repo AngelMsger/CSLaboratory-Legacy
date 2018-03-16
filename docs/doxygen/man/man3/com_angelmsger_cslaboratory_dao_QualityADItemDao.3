@@ -1,0 +1,146 @@
+.TH "com.angelmsger.cslaboratory.dao.QualityADItemDao" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.dao.QualityADItemDao \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AbstractDao< QualityADItem, Long > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBProperties\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBQualityADItemDao\fP (DaoConfig config)"
+.br
+.ti -1c
+.RI "\fBQualityADItemDao\fP (DaoConfig config, \fBDaoSession\fP daoSession)"
+.br
+.ti -1c
+.RI "Long \fBreadKey\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "\fBQualityADItem\fP \fBreadEntity\fP (Cursor cursor, int offset)"
+.br
+.ti -1c
+.RI "void \fBreadEntity\fP (Cursor cursor, \fBQualityADItem\fP entity, int offset)"
+.br
+.ti -1c
+.RI "Long \fBgetKey\fP (\fBQualityADItem\fP entity)"
+.br
+.ti -1c
+.RI "boolean \fBhasKey\fP (\fBQualityADItem\fP entity)"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateTable\fP (Database db, boolean ifNotExists)"
+.br
+.ti -1c
+.RI "static void \fBdropTable\fP (Database db, boolean ifExists)"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTABLENAME\fP = 'quality_ads'"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "final void \fBbindValues\fP (DatabaseStatement stmt, \fBQualityADItem\fP entity)"
+.br
+.ti -1c
+.RI "final void \fBbindValues\fP (SQLiteStatement stmt, \fBQualityADItem\fP entity)"
+.br
+.ti -1c
+.RI "final Long \fBupdateKeyAfterInsert\fP (\fBQualityADItem\fP entity, long rowId)"
+.br
+.ti -1c
+.RI "final boolean \fBisEntityUpdateable\fP ()"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+DAO for table 'quality_ads'\&. 
+.PP
+在文件 QualityADItemDao\&.java 第 18 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.QualityADItemDao (DaoConfig config)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 34 行定义\&.
+.SS "com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.QualityADItemDao (DaoConfig config, \fBDaoSession\fP daoSession)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 38 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.bindValues (DatabaseStatement stmt, \fBQualityADItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 QualityADItemDao\&.java 第 59 行定义\&.
+.SS "final void com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.bindValues (SQLiteStatement stmt, \fBQualityADItem\fP entity)\fC [protected]\fP"
+
+.PP
+在文件 QualityADItemDao\&.java 第 72 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.createTable (Database db, boolean ifNotExists)\fC [static]\fP"
+Creates the underlying database table\&. 
+.PP
+在文件 QualityADItemDao\&.java 第 43 行定义\&.
+.SS "static void com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.dropTable (Database db, boolean ifExists)\fC [static]\fP"
+Drops the underlying database table\&. 
+.PP
+在文件 QualityADItemDao\&.java 第 53 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.getKey (\fBQualityADItem\fP entity)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 115 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.hasKey (\fBQualityADItem\fP entity)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 124 行定义\&.
+.SS "final boolean com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.isEntityUpdateable ()\fC [protected]\fP"
+
+.PP
+在文件 QualityADItemDao\&.java 第 129 行定义\&.
+.SS "\fBQualityADItem\fP com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.readEntity (Cursor cursor, int offset)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 90 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.readEntity (Cursor cursor, \fBQualityADItem\fP entity, int offset)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 101 行定义\&.
+.SS "Long com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.readKey (Cursor cursor, int offset)"
+
+.PP
+在文件 QualityADItemDao\&.java 第 85 行定义\&.
+.SS "final Long com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.updateKeyAfterInsert (\fBQualityADItem\fP entity, long rowId)\fC [protected]\fP"
+
+.PP
+在文件 QualityADItemDao\&.java 第 109 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.dao\&.QualityADItemDao\&.TABLENAME = 'quality_ads'\fC [static]\fP"
+
+.PP
+在文件 QualityADItemDao\&.java 第 20 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

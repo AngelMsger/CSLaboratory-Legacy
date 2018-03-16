@@ -1,0 +1,72 @@
+.TH "com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.topology.TopologyFragment.AsynLoadData \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AsyncTask< Void, Void, Integer > \&.
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBAsynLoadData\fP (int requestOffset)"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "Integer \fBdoInBackground\fP (Void\&.\&.\&. voids)"
+.br
+.ti -1c
+.RI "void \fBonPostExecute\fP (Integer integer)"
+.br
+.ti -1c
+.RI "void \fBonCancelled\fP ()"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final int \fBmRequestOffset\fP"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+异步加载数据到列表，需要提供加载分页页号，加载完成后更新界面。 
+.PP
+在文件 TopologyFragment\&.java 第 168 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.AsynLoadData\&.AsynLoadData (int requestOffset)"
+
+.PP
+在文件 TopologyFragment\&.java 第 171 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "Integer com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.AsynLoadData\&.doInBackground (Void\&.\&.\&. voids)\fC [protected]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 176 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.AsynLoadData\&.onCancelled ()\fC [protected]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 197 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.AsynLoadData\&.onPostExecute (Integer integer)\fC [protected]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 183 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final int com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.AsynLoadData\&.mRequestOffset\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 169 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

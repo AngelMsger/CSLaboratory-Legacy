@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a3f39da620baad85847dd1792018ddb16" prot="public" static="no" mutable="no">
+        <type>final View</type>
+        <definition>final View com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mView</definition>
+        <argsstring></argsstring>
+        <name>mView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1aa5d4deb79f30ed9810159964eee95fee" prot="public" static="no" mutable="no">
+        <type>final CircleImageView</type>
+        <definition>final CircleImageView com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mAvatar</definition>
+        <argsstring></argsstring>
+        <name>mAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="63" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae6708192f1ac47a9752ab812f2f1b85e" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mNickname</definition>
+        <argsstring></argsstring>
+        <name>mNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="64" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ab8f738842a71518bca8b5f97dd8fb552" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="65" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1af1c7150262a2b2338da8fbddb7542a7b" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mContent</definition>
+        <argsstring></argsstring>
+        <name>mContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="66" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae2354287c94c8a04bfa78e52753ec231" prot="public" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref></type>
+        <definition>ForumTopicItem com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.mItem</definition>
+        <argsstring></argsstring>
+        <name>mItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="67" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1abd34cb65e8251e5b536aa20d45c72e27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.ForumViewHolder</definition>
+        <argsstring>(View view)</argsstring>
+        <name>ForumViewHolder</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="69" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder.bind</definition>
+        <argsstring>(final ForumTopicItem item)</argsstring>
+        <name>bind</name>
+        <param>
+          <type>final <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item" kindref="compound">ForumTopicItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="78" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="78" bodyend="93"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1adedf3eb0806be3a411472a1961f31345" compoundref="_forum_topic_item_8java" startline="52" endline="54">com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getAvatarURI</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a5c54d6527e03d127a18a13e915dcff7a" compoundref="_forum_topic_item_8java" startline="60" endline="62">com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getNickname</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1a18b04ebf4a750fdffc631aa092c53220" compoundref="_forum_topic_item_8java" startline="68" endline="70">com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item_1ac319a921fbcedf7ef0b3cd4a4272ca4e" compoundref="_forum_topic_item_8java" startline="76" endline="78">com.angelmsger.cslaboratory.forum.topic.ForumTopicItem.getContent</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment_1_1_on_list_fragment_interaction_listener_1a20e4aba11bdc498ee81d8b9675437d5c">com.angelmsger.cslaboratory.forum.ForumFragment.OnListFragmentInteractionListener.onForumItemClick</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="268">
+        <label>ViewHolder</label>
+      </node>
+      <node id="267">
+        <label>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="274">
+        <label>TextView</label>
+      </node>
+      <node id="271">
+        <label>CircleImageView</label>
+      </node>
+      <node id="273">
+        <label>View</label>
+      </node>
+      <node id="270">
+        <label>ViewHolder</label>
+      </node>
+      <node id="272">
+        <label>com.angelmsger.cslaboratory.forum.topic.ForumTopicItem</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic_1_1_forum_topic_item"/>
+      </node>
+      <node id="269">
+        <label>com.angelmsger.cslaboratory.forum.ForumRecyclerViewAdapter.ForumViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>mAvatar</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>mItem</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>mView</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>mNickname</edgelabel>
+          <edgelabel>mContent</edgelabel>
+          <edgelabel>mTitle</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" line="61" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumRecyclerViewAdapter.java" bodystart="61" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a869b52200913804f7252a11deca24bfc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>bind</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1abd34cb65e8251e5b536aa20d45c72e27" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>ForumViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1aa5d4deb79f30ed9810159964eee95fee" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mAvatar</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1af1c7150262a2b2338da8fbddb7542a7b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae2354287c94c8a04bfa78e52753ec231" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ae6708192f1ac47a9752ab812f2f1b85e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mNickname</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1ab8f738842a71518bca8b5f97dd8fb552" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter_1_1_forum_view_holder_1a3f39da620baad85847dd1792018ddb16" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter::ForumViewHolder</scope><name>mView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_037c9e166ef6455c0adc7ccf9d356ae1" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java</compoundname>
+    <innerdir refid="dir_7d5b2bd17675d326ad90c9bd8df4ba2f">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/"/>
+  </compounddef>
+</doxygen>

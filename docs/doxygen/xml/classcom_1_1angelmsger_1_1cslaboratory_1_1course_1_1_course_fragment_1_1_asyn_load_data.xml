@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data" kind="class" language="Java" prot="private">
+    <compoundname>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Void, Void, Integer &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1aa629a4456db5f3242cb88576dde52ef4" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.mRequestOffset</definition>
+        <argsstring></argsstring>
+        <name>mRequestOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="184" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a5be25b24ce00e9911093b3353d1a673d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.AsynLoadData</definition>
+        <argsstring>(int requestOffset)</argsstring>
+        <name>AsynLoadData</name>
+        <param>
+          <type>int</type>
+          <declname>requestOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="186" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.doInBackground</definition>
+        <argsstring>(Void... voids)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Void...</type>
+          <declname>voids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="191" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="191" bodyend="195"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5bdb30cba7f139923fd6b992530c9175" compoundref="_course_fragment_8java" startline="39">com.angelmsger.cslaboratory.course.CourseFragment.mCourseContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_content_1aa03b118414430eeb96443d37dae7c7a9" compoundref="_course_content_8java" startline="21" endline="52">com.angelmsger.cslaboratory.course.CourseContent.update</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a8f167d072f40d4d33c3a32a880175112" compoundref="_course_fragment_8java" startline="38">com.angelmsger.cslaboratory.course.CourseFragment.mDataSource</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a16cb3ba6515e239fd19b8b00b9659b25" compoundref="_course_fragment_8java" startline="44">com.angelmsger.cslaboratory.course.CourseFragment.mRequestLimit</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onPostExecute</definition>
+        <argsstring>(Integer integer)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>Integer</type>
+          <declname>integer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="198" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="198" bodyend="209"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" compoundref="_course_fragment_8java" startline="42">com.angelmsger.cslaboratory.course.CourseFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a6a38259d18b6320957a1984a03566a78" compoundref="_course_fragment_8java" startline="33">com.angelmsger.cslaboratory.course.CourseFragment.mListener</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener_1ae08852d7873b0bfdef329ecc7fcfc081">com.angelmsger.cslaboratory.course.CourseFragment.OnListFragmentInteractionListener.onCourseListUpdate</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a5f304e1a60141118166a39ea71bf5c22" compoundref="_course_fragment_8java" startline="37">com.angelmsger.cslaboratory.course.CourseFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" compoundref="_course_fragment_8java" startline="35">com.angelmsger.cslaboratory.course.CourseFragment.mPullToRefreshView</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ad6dcdffda36b2968618f90837bd3a7a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData.onCancelled</definition>
+        <argsstring>()</argsstring>
+        <name>onCancelled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="212" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="212" bodyend="217"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1a9f15e624a48ca8dbcfb4ceb05e762202" compoundref="_course_fragment_8java" startline="42">com.angelmsger.cslaboratory.course.CourseFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1adaac7f7c739eaf60fa08e8934e23f524" compoundref="_course_fragment_8java" startline="35">com.angelmsger.cslaboratory.course.CourseFragment.mPullToRefreshView</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>异步加载数据到列表，需要提供加载分页页号，加载完成后更新界面。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>com.angelmsger.cslaboratory.course.CourseFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" line="183" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseFragment.java" bodystart="183" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a5be25b24ce00e9911093b3353d1a673d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</scope><name>AsynLoadData</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ab5e60deab941eab2448b67ea91580212" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</scope><name>doInBackground</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1aa629a4456db5f3242cb88576dde52ef4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</scope><name>mRequestOffset</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1ad6dcdffda36b2968618f90837bd3a7a3" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</scope><name>onCancelled</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_asyn_load_data_1a85da769b4a3576fb8b331b397715f51c" prot="protected" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseFragment::AsynLoadData</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

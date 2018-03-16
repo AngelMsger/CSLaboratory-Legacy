@@ -1,0 +1,6 @@
+<map id="com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.CourseViewHolder.bind" name="com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.CourseViewHolder.bind">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#a041a261e59d40c766cb4d5cd73b1fe9a" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getImageURI" alt="" coords="313,5,596,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#aa33eaca88a177613722709c395984892" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getTitle" alt="" coords="313,71,596,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1course_1_1_course_course_item.html#aad96aa4cb3a53057ec7c67c81cb90ebb" title="com.angelmsger.cslaboratory.course.course.\lCourseCourseItem.getLearnNum" alt="" coords="313,136,596,177"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_fragment_1_1_on_list_fragment_interaction_listener.html#ac6540b775e526bffc6f1f027ae06bc44" title="com.angelmsger.cslaboratory.course.\lCourseFragment.OnListFragmentInteraction\lListener.onCourseItemClick" alt="" coords="317,202,592,258"/>
+</map>

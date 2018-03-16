@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data" prot="private">com::angelmsger::cslaboratory::quality::QualityFragment::AsynLoadData</innerclass>
+    <innerclass refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" prot="public">com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a0048dbfba97cfe1996f27fa33b6c6448" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.angelmsger.cslaboratory.quality.QualityFragment.ARG_COLUMN_COUNT</definition>
+        <argsstring></argsstring>
+        <name>ARG_COLUMN_COUNT</name>
+        <initializer>= &quot;column-count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="32" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a1485032a5770ef7d3dd84f1cd3a3fbdb" compoundref="_quality_fragment_8java" startline="71" endline="77">com.angelmsger.cslaboratory.quality.QualityFragment.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a25080c9c23a70d89ca8ad9247d5510d3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.angelmsger.cslaboratory.quality.QualityFragment.mColumnCount</definition>
+        <argsstring></argsstring>
+        <name>mColumnCount</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="34" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a1485032a5770ef7d3dd84f1cd3a3fbdb" compoundref="_quality_fragment_8java" startline="71" endline="77">com.angelmsger.cslaboratory.quality.QualityFragment.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref></type>
+        <definition>OnListFragmentInteractionListener com.angelmsger.cslaboratory.quality.QualityFragment.mListener</definition>
+        <argsstring></argsstring>
+        <name>mListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="35" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afcab0a2e2f5bcc1c4022b4a953a10004" compoundref="_quality_fragment_8java" startline="149" endline="157">com.angelmsger.cslaboratory.quality.QualityFragment.onAttach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aaa40d85f442c311aeb1a384327a67d0a" compoundref="_quality_fragment_8java" startline="160" endline="163">com.angelmsger.cslaboratory.quality.QualityFragment.onDetach</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" compoundref="_quality_fragment_8java" startline="205" endline="216">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" prot="private" static="no" mutable="no">
+        <type>PullToRefreshView</type>
+        <definition>PullToRefreshView com.angelmsger.cslaboratory.quality.QualityFragment.mPullToRefreshView</definition>
+        <argsstring></argsstring>
+        <name>mPullToRefreshView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="37" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" compoundref="_quality_fragment_8java" startline="205" endline="216">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a5e7c7cebf0067ffc590150fb619ccdbf" compoundref="_quality_fragment_8java" startline="219" endline="224">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2002c0ac7dab7887d62717157f895b9d" prot="private" static="no" mutable="no">
+        <type>RecyclerView</type>
+        <definition>RecyclerView com.angelmsger.cslaboratory.quality.QualityFragment.mRecyclerView</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="38" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a958203c0099c03cc8306a6c6b32569a4" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter" kindref="compound">QualityRecyclerViewAdapter</ref></type>
+        <definition>QualityRecyclerViewAdapter com.angelmsger.cslaboratory.quality.QualityFragment.mRecyclerViewAdapter</definition>
+        <argsstring></argsstring>
+        <name>mRecyclerViewAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" compoundref="_quality_fragment_8java" startline="205" endline="216">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a4932398466dec5c3d990ed7ad3edbe0e" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>final DataSource com.angelmsger.cslaboratory.quality.QualityFragment.mDataSource</definition>
+        <argsstring></argsstring>
+        <name>mDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="41" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" compoundref="_quality_fragment_8java" startline="198" endline="202">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aff4a6d2255be914f9adefe14fc636f51" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" kindref="compound">QualityContent</ref></type>
+        <definition>QualityContent com.angelmsger.cslaboratory.quality.QualityFragment.mQualityContent</definition>
+        <argsstring></argsstring>
+        <name>mQualityContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" compoundref="_quality_fragment_8java" startline="198" endline="202">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1acc2a549055a6588d3e4338ff76257bb0" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler com.angelmsger.cslaboratory.quality.QualityFragment.mHandler</definition>
+        <argsstring></argsstring>
+        <name>mHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="44" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data" kindref="compound">AsynLoadData</ref></type>
+        <definition>AsynLoadData com.angelmsger.cslaboratory.quality.QualityFragment.mLoadDataTask</definition>
+        <argsstring></argsstring>
+        <name>mLoadDataTask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="45" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a92229ec21f4ee38ca96bbaf0b1d8c514" compoundref="_quality_fragment_8java" startline="166" endline="169">com.angelmsger.cslaboratory.quality.QualityFragment.onRefresh</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" compoundref="_quality_fragment_8java" startline="205" endline="216">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1a5e7c7cebf0067ffc590150fb619ccdbf" compoundref="_quality_fragment_8java" startline="219" endline="224">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onCancelled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a48214c20ebf86aa9578489a695a37eaf" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.quality.QualityFragment.mRequestLimit</definition>
+        <argsstring></argsstring>
+        <name>mRequestLimit</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="47" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ab75479b4d97676d550fa7e5140791c46" compoundref="_quality_fragment_8java" startline="198" endline="202">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.doInBackground</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a270c22d5cbaa3ba49816038abdad6ff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.quality.QualityFragment.QualityFragment</definition>
+        <argsstring>()</argsstring>
+        <name>QualityFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>为 fragment manager 预留的强制的空构造器以实例化 fragment (e.g. upon screen orientation changes)。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="54" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="54" bodyend="58"/>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source_1a608a34020903097b2bc20001df452630">com.angelmsger.cslaboratory.source.DataSource.getQualityContent</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aecff98c9368030359e2fc9748fe36378" compoundref="_quality_fragment_8java" startline="62" endline="68">com.angelmsger.cslaboratory.quality.QualityFragment.newInstance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a1485032a5770ef7d3dd84f1cd3a3fbdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="71" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="71" bodyend="77"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a25080c9c23a70d89ca8ad9247d5510d3" compoundref="_quality_fragment_8java" startline="34">com.angelmsger.cslaboratory.quality.QualityFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a0048dbfba97cfe1996f27fa33b6c6448" compoundref="_quality_fragment_8java" startline="32">com.angelmsger.cslaboratory.quality.QualityFragment.ARG_COLUMN_COUNT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</definition>
+        <argsstring>(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>final LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="80" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="80" bodyend="146"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" compoundref="_quality_fragment_8java" startline="37">com.angelmsger.cslaboratory.quality.QualityFragment.mPullToRefreshView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2002c0ac7dab7887d62717157f895b9d" compoundref="_quality_fragment_8java" startline="38">com.angelmsger.cslaboratory.quality.QualityFragment.mRecyclerView</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a958203c0099c03cc8306a6c6b32569a4" compoundref="_quality_fragment_8java" startline="39">com.angelmsger.cslaboratory.quality.QualityFragment.mRecyclerViewAdapter</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aff4a6d2255be914f9adefe14fc636f51" compoundref="_quality_fragment_8java" startline="42">com.angelmsger.cslaboratory.quality.QualityFragment.mQualityContent</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1aa29e37d8c4091306d50e401592e5f170" compoundref="_quality_content_8java" startline="20">com.angelmsger.cslaboratory.quality.QualityContent.AD_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a9091912c99c501b90ce399a722d12212" compoundref="_quality_content_8java" startline="21">com.angelmsger.cslaboratory.quality.QualityContent.CLASS_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content_1a643f201c1a87401783774b65316326f1" compoundref="_quality_content_8java" startline="22">com.angelmsger.cslaboratory.quality.QualityContent.QUALITY_ITEMS</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a25080c9c23a70d89ca8ad9247d5510d3" compoundref="_quality_fragment_8java" startline="34">com.angelmsger.cslaboratory.quality.QualityFragment.mColumnCount</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" compoundref="_quality_fragment_8java" startline="35">com.angelmsger.cslaboratory.quality.QualityFragment.mListener</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a925470212b15420db1ab1611d908f0e2" compoundref="_quality_recycler_view_adapter_8java" startline="63" endline="70">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getItemViewType</references>
+        <references refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a9a3da28b846dbabdbdb9e38213414209">com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onQualityListScroll</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" compoundref="_quality_fragment_8java" startline="45">com.angelmsger.cslaboratory.quality.QualityFragment.mLoadDataTask</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1a5177cef6d1aff524b6540579d1d89521" compoundref="_quality_recycler_view_adapter_8java" startline="116" endline="118">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.getNextRequestOffset</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1acc2a549055a6588d3e4338ff76257bb0" compoundref="_quality_fragment_8java" startline="44">com.angelmsger.cslaboratory.quality.QualityFragment.mHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afcab0a2e2f5bcc1c4022b4a953a10004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.onAttach</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onAttach</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="149" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="149" bodyend="157"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" compoundref="_quality_fragment_8java" startline="35">com.angelmsger.cslaboratory.quality.QualityFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aaa40d85f442c311aeb1a384327a67d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="160" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="160" bodyend="163"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" compoundref="_quality_fragment_8java" startline="35">com.angelmsger.cslaboratory.quality.QualityFragment.mListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a92229ec21f4ee38ca96bbaf0b1d8c514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="166" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="166" bodyend="169"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" compoundref="_quality_fragment_8java" startline="45">com.angelmsger.cslaboratory.quality.QualityFragment.mLoadDataTask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aecff98c9368030359e2fc9748fe36378" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment" kindref="compound">QualityFragment</ref></type>
+        <definition>static QualityFragment com.angelmsger.cslaboratory.quality.QualityFragment.newInstance</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newInstance</name>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="62" bodyend="68"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a270c22d5cbaa3ba49816038abdad6ff7" compoundref="_quality_fragment_8java" startline="54" endline="58">com.angelmsger.cslaboratory.quality.QualityFragment.QualityFragment</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ab4cade45201b0a4a8691ceca93ccfe7b" compoundref="_main_activity_8java" startline="87" endline="194">com.angelmsger.cslaboratory.MainActivity.initUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 <ref refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kindref="compound">OnListFragmentInteractionListener</ref> 接口。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="430">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="429">
+        <label>Fragment</label>
+      </node>
+      <node id="428">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="434">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data"/>
+        <childnode refid="435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>LayoutInflater</label>
+      </node>
+      <node id="440">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.ad.QualityADItem &gt;</label>
+      </node>
+      <node id="446">
+        <label>com.angelmsger.cslaboratory.quality.QualityContent</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content"/>
+        <childnode refid="440" relation="usage">
+          <edgelabel>AD_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>QUALITY_ITEMS</edgelabel>
+        </childnode>
+        <childnode refid="443" relation="usage">
+          <edgelabel>CLASS_ITEMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="441">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+      <node id="433">
+        <label>OnRefreshListener</label>
+      </node>
+      <node id="442">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.article.QualityArticleItem &gt;</label>
+      </node>
+      <node id="443">
+        <label>List&lt; com.angelmsger.cslaboratory.quality.category.QualityCategoryItem &gt;</label>
+      </node>
+      <node id="437">
+        <label>com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter"/>
+        <childnode refid="438" relation="public-inheritance">
+        </childnode>
+        <childnode refid="439" relation="usage">
+          <edgelabel>mInflater</edgelabel>
+        </childnode>
+        <childnode refid="440" relation="usage">
+          <edgelabel>mQualityADItems</edgelabel>
+        </childnode>
+        <childnode refid="441" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>mQualityArticleItems</edgelabel>
+        </childnode>
+        <childnode refid="443" relation="usage">
+          <edgelabel>mQualityCategoryItems</edgelabel>
+        </childnode>
+      </node>
+      <node id="436">
+        <label>PullToRefreshView</label>
+      </node>
+      <node id="447">
+        <label>RecyclerView</label>
+      </node>
+      <node id="445">
+        <label>com.angelmsger.cslaboratory.source.DataSource</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source"/>
+      </node>
+      <node id="435">
+        <label>android::os::AsyncTask&lt; Void, Void, Integer &gt;</label>
+      </node>
+      <node id="432">
+        <label>Fragment</label>
+      </node>
+      <node id="444">
+        <label>Handler</label>
+      </node>
+      <node id="438">
+        <label>RecyclerView::Adapter&lt; ViewHolder &gt;</label>
+      </node>
+      <node id="431">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment"/>
+        <childnode refid="432" relation="public-inheritance">
+        </childnode>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+        <childnode refid="434" relation="usage">
+          <edgelabel>mLoadDataTask</edgelabel>
+        </childnode>
+        <childnode refid="436" relation="usage">
+          <edgelabel>mPullToRefreshView</edgelabel>
+        </childnode>
+        <childnode refid="437" relation="usage">
+          <edgelabel>mRecyclerViewAdapter</edgelabel>
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>mHandler</edgelabel>
+        </childnode>
+        <childnode refid="445" relation="usage">
+          <edgelabel>mDataSource</edgelabel>
+        </childnode>
+        <childnode refid="441" relation="usage">
+          <edgelabel>mListener</edgelabel>
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>mQualityContent</edgelabel>
+        </childnode>
+        <childnode refid="447" relation="usage">
+          <edgelabel>mRecyclerView</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="29" bodyend="226"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a0048dbfba97cfe1996f27fa33b6c6448" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>ARG_COLUMN_COUNT</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a25080c9c23a70d89ca8ad9247d5510d3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mColumnCount</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a4932398466dec5c3d990ed7ad3edbe0e" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mDataSource</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1acc2a549055a6588d3e4338ff76257bb0" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mHandler</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a3105dca7ac744a678cb7b7d55cad06ea" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mListener</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a6b79bb60c32ff64c23b4ac5f7ff51642" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mLoadDataTask</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afaecfcc24829970648c0fe35f5b317a2" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mPullToRefreshView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aff4a6d2255be914f9adefe14fc636f51" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mQualityContent</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2002c0ac7dab7887d62717157f895b9d" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mRecyclerView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a958203c0099c03cc8306a6c6b32569a4" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mRecyclerViewAdapter</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a48214c20ebf86aa9578489a695a37eaf" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>mRequestLimit</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aecff98c9368030359e2fc9748fe36378" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>newInstance</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1afcab0a2e2f5bcc1c4022b4a953a10004" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a1485032a5770ef7d3dd84f1cd3a3fbdb" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>onCreateView</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1aaa40d85f442c311aeb1a384327a67d0a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a92229ec21f4ee38ca96bbaf0b1d8c514" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>onRefresh</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a270c22d5cbaa3ba49816038abdad6ff7" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment</scope><name>QualityFragment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

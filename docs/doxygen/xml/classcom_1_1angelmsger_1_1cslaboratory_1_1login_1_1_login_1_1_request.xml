@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::Login::Request</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.Login.Request.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="5" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a068724be0b148d0b82ad1475fd8d88f0" compoundref="_login_8java" startline="11" endline="14">com.angelmsger.cslaboratory.login.Login.Request.Request</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a58a849b1b8a9c758250c1652f1790b6e" compoundref="_login_8java" startline="16" endline="18">com.angelmsger.cslaboratory.login.Login.Request.getEmail</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ad299d15abb5f5d39eabd3c5f824ee9f4" compoundref="_login_8java" startline="20" endline="22">com.angelmsger.cslaboratory.login.Login.Request.setEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.Login.Request.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="6" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a068724be0b148d0b82ad1475fd8d88f0" compoundref="_login_8java" startline="11" endline="14">com.angelmsger.cslaboratory.login.Login.Request.Request</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a5dfde067990867edd28f82ab77b9b03b" compoundref="_login_8java" startline="24" endline="26">com.angelmsger.cslaboratory.login.Login.Request.getPassword</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a2e2fb5f01f1ef7942e592ad76fddf70d" compoundref="_login_8java" startline="28" endline="30">com.angelmsger.cslaboratory.login.Login.Request.setPassword</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ab30328f803439e24eb5ba67d42da0cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.Login.Request.Request</definition>
+        <argsstring>()</argsstring>
+        <name>Request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="8" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="8" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a068724be0b148d0b82ad1475fd8d88f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.login.Login.Request.Request</definition>
+        <argsstring>(String email, String password)</argsstring>
+        <name>Request</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="11" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="11" bodyend="14"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" compoundref="_login_8java" startline="5">com.angelmsger.cslaboratory.login.Login.Request.email</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" compoundref="_login_8java" startline="6">com.angelmsger.cslaboratory.login.Login.Request.password</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a58a849b1b8a9c758250c1652f1790b6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.Login.Request.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="16" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="16" bodyend="18"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" compoundref="_login_8java" startline="5">com.angelmsger.cslaboratory.login.Login.Request.email</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ad299d15abb5f5d39eabd3c5f824ee9f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.Login.Request.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="20" bodyend="22"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" compoundref="_login_8java" startline="5">com.angelmsger.cslaboratory.login.Login.Request.email</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a5dfde067990867edd28f82ab77b9b03b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.angelmsger.cslaboratory.login.Login.Request.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="24" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="24" bodyend="26"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" compoundref="_login_8java" startline="6">com.angelmsger.cslaboratory.login.Login.Request.password</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a2e2fb5f01f1ef7942e592ad76fddf70d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.login.Login.Request.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="28" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="28" bodyend="30"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" compoundref="_login_8java" startline="6">com.angelmsger.cslaboratory.login.Login.Request.password</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="4" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="4" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a31bd1d22022bd21acd4ce7539ac0a3b3" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>email</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a58a849b1b8a9c758250c1652f1790b6e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>getEmail</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a5dfde067990867edd28f82ab77b9b03b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>getPassword</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a917586a20799feecdc550637b13e4516" prot="private" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>password</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ab30328f803439e24eb5ba67d42da0cfc" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>Request</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a068724be0b148d0b82ad1475fd8d88f0" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>Request</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1ad299d15abb5f5d39eabd3c5f824ee9f4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>setEmail</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request_1a2e2fb5f01f1ef7942e592ad76fddf70d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::login::Login::Request</scope><name>setPassword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

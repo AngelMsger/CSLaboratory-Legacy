@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::quality</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content" prot="public">com::angelmsger::cslaboratory::quality::QualityContent</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment" prot="public">com::angelmsger::cslaboratory::quality::QualityFragment</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter" prot="public">com::angelmsger::cslaboratory::quality::QualityRecyclerViewAdapter</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad">com::angelmsger::cslaboratory::quality::ad</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article">com::angelmsger::cslaboratory::quality::article</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category">com::angelmsger::cslaboratory::quality::category</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

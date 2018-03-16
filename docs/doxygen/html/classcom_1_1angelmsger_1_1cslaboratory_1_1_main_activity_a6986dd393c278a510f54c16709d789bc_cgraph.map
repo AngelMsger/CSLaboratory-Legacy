@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.MainActivity.onDailyItemClick" name="com.angelmsger.cslaboratory.MainActivity.onDailyItemClick">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#a4a431d0b7fb17472b061fe70340909b3" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getImageURI" alt="" coords="251,5,517,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#a18ab25dafdfd85790038646c43e664c3" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getTitle" alt="" coords="251,71,517,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#a798757f0cd11b5e902806c55ff21eebc" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getContent" alt="" coords="251,136,517,177"/>
+</map>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::ProprietaryReceiver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BroadcastReceiver</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1aaa47b0acb4b457d7391040e9ade99a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.ProprietaryReceiver.ProprietaryReceiver</definition>
+        <argsstring>()</argsstring>
+        <name>ProprietaryReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" line="8" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" bodystart="8" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1a48a92a7387ae88a32518b0a486b8fd26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.ProprietaryReceiver.onReceive</definition>
+        <argsstring>(Context context, Intent intent)</argsstring>
+        <name>onReceive</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" line="12" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" bodystart="12" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="402">
+        <label>BroadcastReceiver</label>
+      </node>
+      <node id="401">
+        <label>com.angelmsger.cslaboratory.ProprietaryReceiver</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="404">
+        <label>BroadcastReceiver</label>
+      </node>
+      <node id="403">
+        <label>com.angelmsger.cslaboratory.ProprietaryReceiver</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" line="7" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/ProprietaryReceiver.java" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1a48a92a7387ae88a32518b0a486b8fd26" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::ProprietaryReceiver</scope><name>onReceive</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver_1aaa47b0acb4b457d7391040e9ade99a6c" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::ProprietaryReceiver</scope><name>ProprietaryReceiver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,177 @@
+.TH "com.angelmsger.cslaboratory.topology.TopologyFragment" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.topology.TopologyFragment \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 Fragment , 以及 OnRefreshListener \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBAsynLoadData\fP"
+.br
+.ti -1c
+.RI "interface \fBOnListFragmentInteractionListener\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBTopologyFragment\fP ()"
+.br
+.ti -1c
+.RI "void \fBonCreate\fP (Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "View \fBonCreateView\fP (final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBonAttach\fP (Context context)"
+.br
+.ti -1c
+.RI "void \fBonDetach\fP ()"
+.br
+.ti -1c
+.RI "void \fBonRefresh\fP ()"
+.br
+.in -1c
+.SS "静态 Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "static \fBTopologyFragment\fP \fBnewInstance\fP (int columnCount)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "int \fBmColumnCount\fP = 2"
+.br
+.ti -1c
+.RI "\fBOnListFragmentInteractionListener\fP \fBmListener\fP"
+.br
+.ti -1c
+.RI "PullToRefreshView \fBmPullToRefreshView\fP"
+.br
+.ti -1c
+.RI "RecyclerView \fBmRecyclerView\fP"
+.br
+.ti -1c
+.RI "\fBTopologyRecyclerViewAdapter\fP \fBmRecyclerViewAdapter\fP"
+.br
+.ti -1c
+.RI "final \fBDataSource\fP \fBmDataSource\fP"
+.br
+.ti -1c
+.RI "\fBTopologyContent\fP \fBmTopologyContent\fP"
+.br
+.ti -1c
+.RI "Handler \fBmHandler\fP"
+.br
+.ti -1c
+.RI "\fBAsynLoadData\fP \fBmLoadDataTask\fP"
+.br
+.ti -1c
+.RI "final int \fBmRequestLimit\fP = 16"
+.br
+.in -1c
+.SS "静态 Private 属性"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBARG_COLUMN_COUNT\fP = 'column\-count'"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+一个表现 Items 列表的 fragment。 包含这个 fragment 的 Activities 必须实现 \fBOnListFragmentInteractionListener\fP 接口。 
+.PP
+在文件 TopologyFragment\&.java 第 26 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.TopologyFragment ()"
+为 fragment manager 预留的强制的空构造器以实例化 fragment (e\&.g\&. upon screen orientation changes)。 
+.PP
+在文件 TopologyFragment\&.java 第 50 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "static \fBTopologyFragment\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.newInstance (int columnCount)\fC [static]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 58 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.onAttach (Context context)"
+
+.PP
+在文件 TopologyFragment\&.java 第 129 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.onCreate (Bundle savedInstanceState)"
+
+.PP
+在文件 TopologyFragment\&.java 第 67 行定义\&.
+.SS "View com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.onCreateView (final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)"
+
+.PP
+在文件 TopologyFragment\&.java 第 76 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.onDetach ()"
+
+.PP
+在文件 TopologyFragment\&.java 第 140 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.onRefresh ()"
+
+.PP
+在文件 TopologyFragment\&.java 第 146 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final String com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.ARG_COLUMN_COUNT = 'column\-count'\fC [static]\fP, \fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 29 行定义\&.
+.SS "int com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mColumnCount = 2\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 31 行定义\&.
+.SS "final \fBDataSource\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mDataSource\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 38 行定义\&.
+.SS "Handler com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mHandler\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 41 行定义\&.
+.SS "\fBOnListFragmentInteractionListener\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mListener\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 32 行定义\&.
+.SS "\fBAsynLoadData\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mLoadDataTask\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 42 行定义\&.
+.SS "PullToRefreshView com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mPullToRefreshView\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 34 行定义\&.
+.SS "RecyclerView com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mRecyclerView\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 35 行定义\&.
+.SS "\fBTopologyRecyclerViewAdapter\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mRecyclerViewAdapter\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 36 行定义\&.
+.SS "final int com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mRequestLimit = 16\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 44 行定义\&.
+.SS "\fBTopologyContent\fP com\&.angelmsger\&.cslaboratory\&.topology\&.TopologyFragment\&.mTopologyContent\fC [private]\fP"
+
+.PP
+在文件 TopologyFragment\&.java 第 39 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

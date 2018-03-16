@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::dao::DaoMaster</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractDaoMaster</basecompoundref>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper" prot="public">com::angelmsger::cslaboratory::dao::DaoMaster::DevOpenHelper</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper" prot="public">com::angelmsger::cslaboratory::dao::DaoMaster::OpenHelper</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ac52536f98f4388d7a806ed5c2bd53399" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.angelmsger.cslaboratory.dao.DaoMaster.SCHEMA_VERSION</definition>
+        <argsstring></argsstring>
+        <name>SCHEMA_VERSION</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="20" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.DaoMaster.createAllTables</definition>
+        <argsstring>(Database db, boolean ifNotExists)</argsstring>
+        <name>createAllTables</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifNotExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates underlying database table using DAOs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="23" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="23" bodyend="33"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1afc886e90165ccb99c26a684982adc184" compoundref="_course_course_item_dao_8java" startline="44" endline="55">com.angelmsger.cslaboratory.dao.CourseCourseItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a108628629263b66b2e2a683898250e80" compoundref="_course_category_item_dao_8java" startline="41" endline="46">com.angelmsger.cslaboratory.dao.CourseCategoryItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a9de2285c1752f1914ef4f2840500ae7f" compoundref="_course_subclass_item_dao_8java" startline="42" endline="48">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a632f6064972fd6ed4a47a4d34cb105d8" compoundref="_daily_article_item_dao_8java" startline="45" endline="57">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a398c6441fbef2d51a37072df27f185af" compoundref="_forum_topic_item_dao_8java" startline="44" endline="55">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a255853d1cd6173c0f9474cb504e85358" compoundref="_quality_a_d_item_dao_8java" startline="43" endline="50">com.angelmsger.cslaboratory.dao.QualityADItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a93ef0eabaef59b77f23ebb09786e3f11" compoundref="_quality_article_item_dao_8java" startline="47" endline="63">com.angelmsger.cslaboratory.dao.QualityArticleItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ab7ac2141d91ca8ea98589d9d4347c19e" compoundref="_quality_category_item_dao_8java" startline="42" endline="48">com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.createTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aa5019b08c3613734f67ebad956aca743" compoundref="_topology_field_item_dao_8java" startline="44" endline="55">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.createTable</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_open_helper_1a548511adce25d951cde3e5dcc54dfaeb" compoundref="_dao_master_8java" startline="96" endline="99">com.angelmsger.cslaboratory.dao.DaoMaster.OpenHelper.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.angelmsger.cslaboratory.dao.DaoMaster.dropAllTables</definition>
+        <argsstring>(Database db, boolean ifExists)</argsstring>
+        <name>dropAllTables</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>ifExists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drops underlying database table using DAOs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="36" bodyend="46"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao_1ab80e17a145193d18985eddb566e36c54" compoundref="_course_course_item_dao_8java" startline="58" endline="61">com.angelmsger.cslaboratory.dao.CourseCourseItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao_1a668c82dc1dbec9cbe51ec537b857330b" compoundref="_course_category_item_dao_8java" startline="49" endline="52">com.angelmsger.cslaboratory.dao.CourseCategoryItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao_1a029d5ec743ab77df37c9914564eb3a11" compoundref="_course_subclass_item_dao_8java" startline="51" endline="54">com.angelmsger.cslaboratory.dao.CourseSubclassItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao_1a8da8928262bb90e87288309b3f8d17a9" compoundref="_daily_article_item_dao_8java" startline="60" endline="63">com.angelmsger.cslaboratory.dao.DailyArticleItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao_1a8a4d97673a5a85ac87452a35d236d667" compoundref="_forum_topic_item_dao_8java" startline="58" endline="61">com.angelmsger.cslaboratory.dao.ForumTopicItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao_1a7bbdbee5bb1138a6356b62398d5eb804" compoundref="_quality_a_d_item_dao_8java" startline="53" endline="56">com.angelmsger.cslaboratory.dao.QualityADItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao_1a9c8de8cf6a19aedb8144c38cbba45f68" compoundref="_quality_article_item_dao_8java" startline="66" endline="69">com.angelmsger.cslaboratory.dao.QualityArticleItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao_1ae1fecb5dae15e2791ba9ae44116700f0" compoundref="_quality_category_item_dao_8java" startline="51" endline="54">com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.dropTable</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao_1aa1b48f25d7b775425d70693b66804b9b" compoundref="_topology_field_item_dao_8java" startline="58" endline="61">com.angelmsger.cslaboratory.dao.TopologyFieldItemDao.dropTable</references>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper_1ae0aa01e2f88e769a9ec48bc7476bf618" compoundref="_dao_master_8java" startline="113" endline="117">com.angelmsger.cslaboratory.dao.DaoMaster.DevOpenHelper.onUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ad3641d6597c343fc0ccfd9ad9ae1ef4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+        <definition>static DaoSession com.angelmsger.cslaboratory.dao.DaoMaster.newDevSession</definition>
+        <argsstring>(Context context, String name)</argsstring>
+        <name>newDevSession</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WARNING: Drops all table on Upgrade! Use only during development. Convenience method using a <ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1_1_dev_open_helper" kindref="compound">DevOpenHelper</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="52" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="52" bodyend="56"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a8f753491b634e51f4f38998e9349029a" compoundref="_dao_master_8java" startline="58" endline="60">com.angelmsger.cslaboratory.dao.DaoMaster.DaoMaster</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a0a5dcb8d4f710bee38c32349014ca31f" compoundref="_dao_master_8java" startline="75" endline="77">com.angelmsger.cslaboratory.dao.DaoMaster.newSession</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a8f753491b634e51f4f38998e9349029a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DaoMaster.DaoMaster</definition>
+        <argsstring>(SQLiteDatabase db)</argsstring>
+        <name>DaoMaster</name>
+        <param>
+          <type>SQLiteDatabase</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="58" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="58" bodyend="60"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ad3641d6597c343fc0ccfd9ad9ae1ef4f" compoundref="_dao_master_8java" startline="52" endline="56">com.angelmsger.cslaboratory.dao.DaoMaster.newDevSession</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a84bad0f64934bce6545a03e2562a95f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.dao.DaoMaster.DaoMaster</definition>
+        <argsstring>(Database db)</argsstring>
+        <name>DaoMaster</name>
+        <param>
+          <type>Database</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="62" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="62" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a0a5dcb8d4f710bee38c32349014ca31f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+        <definition>DaoSession com.angelmsger.cslaboratory.dao.DaoMaster.newSession</definition>
+        <argsstring>()</argsstring>
+        <name>newSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="75" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="75" bodyend="77"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1ac6069bc4c21183b0805572ad5c5b8a70" compoundref="_c_s_laboratory_8java" startline="42" endline="70">com.angelmsger.cslaboratory.CSLaboratory.onCreate</referencedby>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ad3641d6597c343fc0ccfd9ad9ae1ef4f" compoundref="_dao_master_8java" startline="52" endline="56">com.angelmsger.cslaboratory.dao.DaoMaster.newDevSession</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a67038f5ba748e4115097931a665e321d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+        <definition>DaoSession com.angelmsger.cslaboratory.dao.DaoMaster.newSession</definition>
+        <argsstring>(IdentityScopeType type)</argsstring>
+        <name>newSession</name>
+        <param>
+          <type>IdentityScopeType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="79" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Master of DAO (schema version 1): knows all DAOs. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="194">
+        <label>AbstractDaoMaster</label>
+      </node>
+      <node id="193">
+        <label>com.angelmsger.cslaboratory.dao.DaoMaster</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="196">
+        <label>AbstractDaoMaster</label>
+      </node>
+      <node id="195">
+        <label>com.angelmsger.cslaboratory.dao.DaoMaster</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" line="19" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/DaoMaster.java" bodystart="19" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a7faa5e1bdce01baeacc2e752c0a8b9b2" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>createAllTables</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a8f753491b634e51f4f38998e9349029a" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>DaoMaster</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a84bad0f64934bce6545a03e2562a95f8" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>DaoMaster</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1abcb7ca18fead56ce70f5694c9afa20e9" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>dropAllTables</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ad3641d6597c343fc0ccfd9ad9ae1ef4f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>newDevSession</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a0a5dcb8d4f710bee38c32349014ca31f" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>newSession</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a67038f5ba748e4115097931a665e321d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>newSession</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1ac52536f98f4388d7a806ed5c2bd53399" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::dao::DaoMaster</scope><name>SCHEMA_VERSION</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

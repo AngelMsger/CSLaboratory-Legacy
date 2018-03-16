@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1dao" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::dao</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao" prot="public">com::angelmsger::cslaboratory::dao::CourseCategoryItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao" prot="public">com::angelmsger::cslaboratory::dao::CourseCourseItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao" prot="public">com::angelmsger::cslaboratory::dao::CourseSubclassItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao" prot="public">com::angelmsger::cslaboratory::dao::DailyArticleItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master" prot="public">com::angelmsger::cslaboratory::dao::DaoMaster</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" prot="public">com::angelmsger::cslaboratory::dao::DaoSession</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao" prot="public">com::angelmsger::cslaboratory::dao::ForumTopicItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao" prot="public">com::angelmsger::cslaboratory::dao::QualityADItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao" prot="public">com::angelmsger::cslaboratory::dao::QualityArticleItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao" prot="public">com::angelmsger::cslaboratory::dao::QualityCategoryItemDao</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao" prot="public">com::angelmsger::cslaboratory::dao::TopologyFieldItemDao</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/dao/CourseCategoryItemDao.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

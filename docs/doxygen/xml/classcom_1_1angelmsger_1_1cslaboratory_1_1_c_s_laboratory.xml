@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::CSLaboratory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a2e4c946cad96b13cec8b76139ac25cf4" prot="public" static="no" mutable="no">
+        <type>ExecutorService</type>
+        <definition>ExecutorService com.angelmsger.cslaboratory.CSLaboratory.mExecutorService</definition>
+        <argsstring></argsstring>
+        <name>mExecutorService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="27" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a0aef3c87c25198a7cf66801de00c072d" prot="public" static="no" mutable="no">
+        <type>Cache</type>
+        <definition>Cache com.angelmsger.cslaboratory.CSLaboratory.mHttpCache</definition>
+        <argsstring></argsstring>
+        <name>mHttpCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="29" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a258da7b8ec7929460d02f349a0599ec3" prot="public" static="no" mutable="no">
+        <type>OkHttpClient</type>
+        <definition>OkHttpClient com.angelmsger.cslaboratory.CSLaboratory.mHttpClient</definition>
+        <argsstring></argsstring>
+        <name>mHttpClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="30" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1af6b02d1b4cc00970ceabd8890655aa9e" prot="public" static="no" mutable="no">
+        <type>OkHttpClient</type>
+        <definition>OkHttpClient com.angelmsger.cslaboratory.CSLaboratory.mApiClient</definition>
+        <argsstring></argsstring>
+        <name>mApiClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="33" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a03e8126373733b08768185d52d7b7530" prot="public" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session" kindref="compound">DaoSession</ref></type>
+        <definition>DaoSession com.angelmsger.cslaboratory.CSLaboratory.mDaoSession</definition>
+        <argsstring></argsstring>
+        <name>mDaoSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="36" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a653986a4f6acccd6b32d9d8345b5a3e3" prot="public" static="no" mutable="no">
+        <type>final Map&lt; String, Object &gt;</type>
+        <definition>final Map&lt;String, Object&gt; com.angelmsger.cslaboratory.CSLaboratory.mGlobal</definition>
+        <argsstring></argsstring>
+        <name>mGlobal</name>
+        <initializer>= new HashMap&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="39" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a450ec43ecd4021d1a06c1a015eb160ae" compoundref="_main_activity_8java" startline="196" endline="205">com.angelmsger.cslaboratory.MainActivity.refreshUserinfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1ac6069bc4c21183b0805572ad5c5b8a70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.CSLaboratory.onCreate</definition>
+        <argsstring>()</argsstring>
+        <name>onCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="42" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="42" bodyend="70"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_master_1a0a5dcb8d4f710bee38c32349014ca31f" compoundref="_dao_master_8java" startline="75" endline="77">com.angelmsger.cslaboratory.dao.DaoMaster.newSession</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a3efd13f91443163414a3d7ca178aaf27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.CSLaboratory.onTrimMemory</definition>
+        <argsstring>(int level)</argsstring>
+        <name>onTrimMemory</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="73" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="73" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="121">
+        <label>Application</label>
+      </node>
+      <node id="120">
+        <label>com.angelmsger.cslaboratory.CSLaboratory</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="138">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityADItem, Long &gt;</label>
+      </node>
+      <node id="124">
+        <label>com.angelmsger.cslaboratory.dao.DaoSession</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>courseCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>qualityADItemDaoConfig</edgelabel>
+          <edgelabel>topologyFieldItemDaoConfig</edgelabel>
+          <edgelabel>dailyArticleItemDaoConfig</edgelabel>
+          <edgelabel>forumTopicItemDaoConfig</edgelabel>
+          <edgelabel>courseCourseItemDaoConfig</edgelabel>
+          <edgelabel>courseSubclassItemDaoConfig</edgelabel>
+          <edgelabel>qualityCategoryItemDaoConfig</edgelabel>
+          <edgelabel>courseCategoryItemDaoConfig</edgelabel>
+          <edgelabel>qualityArticleItemDaoConfig</edgelabel>
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>forumTopicItemDao</edgelabel>
+        </childnode>
+        <childnode refid="131" relation="usage">
+          <edgelabel>courseSubclassItemDao</edgelabel>
+        </childnode>
+        <childnode refid="133" relation="usage">
+          <edgelabel>qualityCategoryItemDao</edgelabel>
+        </childnode>
+        <childnode refid="135" relation="usage">
+          <edgelabel>dailyArticleItemDao</edgelabel>
+        </childnode>
+        <childnode refid="137" relation="usage">
+          <edgelabel>qualityADItemDao</edgelabel>
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>courseCourseItemDao</edgelabel>
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>topologyFieldItemDao</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>qualityArticleItemDao</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>com.angelmsger.cslaboratory.dao.TopologyFieldItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>org::greenrobot::greendao::AbstractDao&lt; DailyArticleItem, Long &gt;</label>
+      </node>
+      <node id="128">
+        <label>DaoConfig</label>
+      </node>
+      <node id="140">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCourseItem, Long &gt;</label>
+      </node>
+      <node id="145">
+        <label>OkHttpClient</label>
+      </node>
+      <node id="146">
+        <label>Cache</label>
+      </node>
+      <node id="133">
+        <label>com.angelmsger.cslaboratory.dao.QualityCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>com.angelmsger.cslaboratory.dao.QualityArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>com.angelmsger.cslaboratory.dao.CourseCourseItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>com.angelmsger.cslaboratory.dao.CourseSubclassItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>Application</label>
+      </node>
+      <node id="142">
+        <label>org::greenrobot::greendao::AbstractDao&lt; TopologyFieldItem, Long &gt;</label>
+      </node>
+      <node id="148">
+        <label>ExecutorService</label>
+      </node>
+      <node id="126">
+        <label>com.angelmsger.cslaboratory.dao.CourseCategoryItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>com.angelmsger.cslaboratory.dao.DailyArticleItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>com.angelmsger.cslaboratory.dao.QualityADItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseSubclassItem, Long &gt;</label>
+      </node>
+      <node id="125">
+        <label>AbstractDaoSession</label>
+      </node>
+      <node id="147">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+      <node id="134">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityCategoryItem, Long &gt;</label>
+      </node>
+      <node id="122">
+        <label>com.angelmsger.cslaboratory.CSLaboratory</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="usage">
+          <edgelabel>mDaoSession</edgelabel>
+        </childnode>
+        <childnode refid="145" relation="usage">
+          <edgelabel>mHttpClient</edgelabel>
+          <edgelabel>mApiClient</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>mHttpCache</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>mGlobal</edgelabel>
+        </childnode>
+        <childnode refid="148" relation="usage">
+          <edgelabel>mExecutorService</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>org::greenrobot::greendao::AbstractDao&lt; ForumTopicItem, Long &gt;</label>
+      </node>
+      <node id="127">
+        <label>org::greenrobot::greendao::AbstractDao&lt; CourseCategoryItem, Long &gt;</label>
+      </node>
+      <node id="129">
+        <label>com.angelmsger.cslaboratory.dao.ForumTopicItemDao</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>org::greenrobot::greendao::AbstractDao&lt; QualityArticleItem, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" line="26" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/CSLaboratory.java" bodystart="26" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1af6b02d1b4cc00970ceabd8890655aa9e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mApiClient</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a03e8126373733b08768185d52d7b7530" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mDaoSession</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a2e4c946cad96b13cec8b76139ac25cf4" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mExecutorService</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a653986a4f6acccd6b32d9d8345b5a3e3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mGlobal</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a0aef3c87c25198a7cf66801de00c072d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mHttpCache</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a258da7b8ec7929460d02f349a0599ec3" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>mHttpClient</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1ac6069bc4c21183b0805572ad5c5b8a70" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory_1a3efd13f91443163414a3d7ca178aaf27" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::CSLaboratory</scope><name>onTrimMemory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener" kind="interface" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</compoundname>
+    <derivedcompoundref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" prot="public" virt="non-virtual">com.angelmsger.cslaboratory.MainActivity</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a9a3da28b846dbabdbdb9e38213414209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onQualityListScroll</definition>
+        <argsstring>()</argsstring>
+        <name>onQualityListScroll</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1aec971522ac16701dcebf6b746947b69f">onQualityListScroll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="180" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1a2fd7dd07ff6ba02eabf2eba2bad31ca0" compoundref="_quality_fragment_8java" startline="80" endline="146">com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a86b745d26dc8d26a2ac74ae8a8601d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onQualityListUpdate</definition>
+        <argsstring>(final int updateCount)</argsstring>
+        <name>onQualityListUpdate</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a70c00f4b82e166695b4425f2548ef275">onQualityListUpdate</reimplementedby>
+        <param>
+          <type>final int</type>
+          <declname>updateCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="181" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data_1ac97fbba030e9d51e2d410012231a775b" compoundref="_quality_fragment_8java" startline="205" endline="216">com.angelmsger.cslaboratory.quality.QualityFragment.AsynLoadData.onPostExecute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a6aa7377fd5550d30b9cf1b8c89327c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onADItemClick</definition>
+        <argsstring>(QualityADItem qualityAdItem)</argsstring>
+        <name>onADItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1ad50bf0e8a25c2c467d69eaeeaf8d42bf">onADItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item" kindref="compound">QualityADItem</ref></type>
+          <declname>qualityAdItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="182" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_a_d_pager_adapter_1a1a7de570bf2c6231d435e9b72a11e49a" compoundref="_quality_recycler_view_adapter_8java" startline="215" endline="235">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.ADPagerAdapter.ADPagerAdapter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1ae8f3f77d470b293bf4e01e6c7da7b1a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onCategoryItemClick</definition>
+        <argsstring>(QualityCategoryItem qualityCategoryItem)</argsstring>
+        <name>onCategoryItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a4330d04dd2d7fff389de075e3ea16469">onCategoryItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item" kindref="compound">QualityCategoryItem</ref></type>
+          <declname>qualityCategoryItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="183" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_category_view_holder_1aa908c1b8c93d0157865e426e0f633292" compoundref="_quality_recycler_view_adapter_8java" startline="158" endline="171">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.CategoryViewHolder.bind</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a88bbfe7eb711725c5185a9c450a255ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener.onQualityItemClick</definition>
+        <argsstring>(QualityArticleItem qualityArticleItem)</argsstring>
+        <name>onQualityItemClick</name>
+        <reimplementedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity_1a1f0effd647a8651a551025bd8e425599">onQualityItemClick</reimplementedby>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1article_1_1_quality_article_item" kindref="compound">QualityArticleItem</ref></type>
+          <declname>qualityArticleItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="184" column="1"/>
+        <referencedby refid="classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter_1_1_quality_view_holder_1a96f86c4daa54f00da9ec582020f478ad" compoundref="_quality_recycler_view_adapter_8java" startline="193" endline="209">com.angelmsger.cslaboratory.quality.QualityRecyclerViewAdapter.QualityViewHolder.bind</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>包含此 fragment 的 activity 必须实现此接口来允许一此 fragment 和此 activity 及此 activity 中 包含的其他 fragment 进行通信。 查看 Android 训练课程 <ulink url="http://developer.android.com/training/basics/fragments/communicating.html">Communicating with Other Fragments</ulink> 以获取更多信息。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>com.angelmsger.cslaboratory.MainActivity</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>com.angelmsger.cslaboratory.quality.QualityFragment.OnListFragmentInteractionListener</label>
+        <link refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" line="178" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/quality/QualityFragment.java" bodystart="178" bodyend="185"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a6aa7377fd5550d30b9cf1b8c89327c81" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</scope><name>onADItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1ae8f3f77d470b293bf4e01e6c7da7b1a6" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</scope><name>onCategoryItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a88bbfe7eb711725c5185a9c450a255ed" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</scope><name>onQualityItemClick</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a9a3da28b846dbabdbdb9e38213414209" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</scope><name>onQualityListScroll</name></member>
+      <member refid="interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener_1a86b745d26dc8d26a2ac74ae8a8601d09" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::quality::QualityFragment::OnListFragmentInteractionListener</scope><name>onQualityListUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

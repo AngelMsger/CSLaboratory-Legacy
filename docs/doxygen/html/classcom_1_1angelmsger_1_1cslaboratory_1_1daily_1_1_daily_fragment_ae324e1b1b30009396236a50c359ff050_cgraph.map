@@ -1,0 +1,4 @@
+<map id="com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView" name="com.angelmsger.cslaboratory.daily.DailyFragment.onCreateView">
+<area shape="rect" id="node2" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener.html#ad143f25f0dcc94792398aa1a935d9438" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.OnListFragmentInteraction\lListener.onDailyListScroll" alt="" coords="303,5,566,61"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter.html#a5db2c78e12e1c132988e35c5350873e4" title="com.angelmsger.cslaboratory.daily.\lDailyRecyclerViewAdapter.getNextRequestOffset" alt="" coords="281,86,588,127"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind" name="com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter.DailyViewHolder.bind">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#aa2a6cf65b6db291049f2dc75578993f7" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getBannerURI" alt="" coords="355,5,621,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#a18ab25dafdfd85790038646c43e664c3" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getTitle" alt="" coords="355,71,621,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1article_1_1_daily_article_item.html#a798757f0cd11b5e902806c55ff21eebc" title="com.angelmsger.cslaboratory.daily.article.\lDailyArticleItem.getContent" alt="" coords="355,136,621,177"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener.html#ac76558a3e865b425e00f3987dfd97881" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.OnListFragmentInteraction\lListener.onDailyItemClick" alt="" coords="357,202,619,258"/>
+</map>

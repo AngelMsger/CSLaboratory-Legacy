@@ -1,0 +1,156 @@
+.TH "com.angelmsger.cslaboratory.login.LoginActivity" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.login.LoginActivity \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 AppCompatActivity \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBUserLoginTask\fP"
+.br
+.in -1c
+.SS "静态 Public 属性"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBLOGIN_SUCCESSFULLY\fP = 0"
+.br
+.in -1c
+.SS "Protected 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBonCreate\fP (Bundle savedInstanceState)"
+.br
+.in -1c
+.SS "Private 成员函数"
+
+.in +1c
+.ti -1c
+.RI "void \fBattemptLogin\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmailValid\fP (String email)"
+.br
+.ti -1c
+.RI "boolean \fBisPasswordValid\fP (String password)"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "CircularProgressButton \fBmEmailSignInButton\fP"
+.br
+.ti -1c
+.RI "Handler \fBmHandler\fP"
+.br
+.ti -1c
+.RI "Runnable \fBmResetButton\fP"
+.br
+.ti -1c
+.RI "Runnable \fBmLoginSuccessfully\fP"
+.br
+.ti -1c
+.RI "\fBDataSource\fP \fBmDataSource\fP"
+.br
+.ti -1c
+.RI "\fBUserLoginTask\fP \fBmAuthTask\fP = null"
+.br
+.ti -1c
+.RI "AutoCompleteTextView \fBmEmailView\fP"
+.br
+.ti -1c
+.RI "EditText \fBmPasswordView\fP"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+一个登录屏幕以提供了电子邮箱地址及密码登录方式。 
+.PP
+在文件 LoginActivity\&.java 第 27 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "void com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.attemptLogin ()\fC [private]\fP"
+来自登录表格的注册或登录请求。 如果存在非法输入 (无效的电子邮件地址，缺少填写的内容等。), 错误将被跳过并且不会发出登录请求。 
+.PP
+在文件 LoginActivity\&.java 第 93 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.isEmailValid (String email)\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 138 行定义\&.
+.SS "boolean com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.isPasswordValid (String password)\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 143 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.onCreate (Bundle savedInstanceState)\fC [protected]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 59 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final int com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.LOGIN_SUCCESSFULLY = 0\fC [static]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 47 行定义\&.
+.SS "\fBUserLoginTask\fP com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mAuthTask = null\fC [private]\fP"
+持续跟踪登录任务以保证当需要时可以取消。 
+.PP
+在文件 LoginActivity\&.java 第 52 行定义\&.
+.SS "\fBDataSource\fP com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mDataSource\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 45 行定义\&.
+.SS "CircularProgressButton com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mEmailSignInButton\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 28 行定义\&.
+.SS "AutoCompleteTextView com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mEmailView\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 55 行定义\&.
+.SS "Handler com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mHandler\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 30 行定义\&.
+.SS "Runnable com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mLoginSuccessfully\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new Runnable() {
+        @Override
+        public void run() {
+            setResult(LOGIN_SUCCESSFULLY);
+            finish();
+        }
+    }
+.fi
+.PP
+在文件 LoginActivity\&.java 第 37 行定义\&.
+.SS "EditText com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mPasswordView\fC [private]\fP"
+
+.PP
+在文件 LoginActivity\&.java 第 56 行定义\&.
+.SS "Runnable com\&.angelmsger\&.cslaboratory\&.login\&.LoginActivity\&.mResetButton\fC [private]\fP"
+\fB初始值:\fP
+.PP
+.nf
+= new Runnable() {
+        @Override
+        public void run() {
+            mEmailSignInButton\&.setProgress(0);
+        }
+    }
+.fi
+.PP
+在文件 LoginActivity\&.java 第 31 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

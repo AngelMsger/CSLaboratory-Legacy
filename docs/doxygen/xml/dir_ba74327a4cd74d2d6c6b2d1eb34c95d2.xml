@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_ba74327a4cd74d2d6c6b2d1eb34c95d2" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily</compoundname>
+    <innerdir refid="dir_74c676e3fcbbf75947512cfdf3896153">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/article</innerdir>
+    <innerfile refid="_daily_content_8java">DailyContent.java</innerfile>
+    <innerfile refid="_daily_fragment_8java">DailyFragment.java</innerfile>
+    <innerfile refid="_daily_recycler_view_adapter_8java">DailyRecyclerViewAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/daily/"/>
+  </compounddef>
+</doxygen>

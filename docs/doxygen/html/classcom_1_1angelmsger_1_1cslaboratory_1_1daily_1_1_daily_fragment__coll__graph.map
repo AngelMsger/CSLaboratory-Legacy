@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.daily.DailyFragment" name="com.angelmsger.cslaboratory.daily.DailyFragment">
+<area shape="rect" id="node6" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source.html" title="com.angelmsger.cslaboratory.source.\lDataSource" alt="" coords="467,209,707,250"/>
+<area shape="rect" id="node7" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_recycler_view_adapter.html" title="com.angelmsger.cslaboratory.daily.\lDailyRecyclerViewAdapter" alt="" coords="473,343,701,385"/>
+<area shape="rect" id="node10" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.OnListFragmentInteraction\lListener" alt="" coords="24,256,287,312"/>
+<area shape="rect" id="node13" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_content.html" title="com.angelmsger.cslaboratory.daily.\lDailyContent" alt="" coords="473,409,701,450"/>
+<area shape="rect" id="node15" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1daily_1_1_daily_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.daily.\lDailyFragment.AsynLoadData" alt="" coords="473,547,701,589"/>
+</map>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::login::Login</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_request" prot="public">com::angelmsger::cslaboratory::login::Login::Request</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1login_1_1_login_1_1_response" prot="public">com::angelmsger::cslaboratory::login::Login::Response</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" line="3" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/login/Login.java" bodystart="3" bodyend="65"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

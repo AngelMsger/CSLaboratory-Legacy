@@ -1,0 +1,6 @@
+<map id="com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity" name="com.angelmsger.cslaboratory.dao.QualityADItemDao.readEntity">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a003c1cbab48c6996c744045731732081" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.setId" alt="" coords="276,5,533,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a798c244f09c116107a04837626872b89" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.setTitle" alt="" coords="276,71,533,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#a5b1301ad61b6edf75230eede354e1692" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.setImageURI" alt="" coords="276,136,533,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1ad_1_1_quality_a_d_item.html#abef71af0da1e6d70182d10795f3f5fbc" title="com.angelmsger.cslaboratory.quality.ad.\lQualityADItem.setActionURI" alt="" coords="276,201,533,243"/>
+</map>

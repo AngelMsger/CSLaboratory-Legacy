@@ -1,0 +1,7 @@
+<map id="com.angelmsger.cslaboratory.quality.QualityFragment" name="com.angelmsger.cslaboratory.quality.QualityFragment">
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_asyn_load_data.html" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.AsynLoadData" alt="" coords="522,107,761,149"/>
+<area shape="rect" id="node7" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter.html" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter" alt="" coords="522,287,761,329"/>
+<area shape="rect" id="node16" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_content.html" title="com.angelmsger.cslaboratory.quality.\lQualityContent" alt="" coords="522,470,761,511"/>
+<area shape="rect" id="node11" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener.html" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.OnListFragmentInteraction\lListener" alt="" coords="31,207,306,263"/>
+<area shape="rect" id="node15" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1source_1_1_data_source.html" title="com.angelmsger.cslaboratory.source.\lDataSource" alt="" coords="521,405,761,446"/>
+</map>

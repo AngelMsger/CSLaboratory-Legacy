@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_65765ce55df6430011ac0c6bdfeb5632" kind="dir">
+    <compoundname>D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course</compoundname>
+    <innerdir refid="dir_3962f65897b05d89203feb695c8e7fa1">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/course</innerdir>
+    <innerdir refid="dir_fd5f13ab71dd3fffa407bf1f6c0a6c98">D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/subclass</innerdir>
+    <innerfile refid="_course_content_8java">CourseContent.java</innerfile>
+    <innerfile refid="_course_fragment_8java">CourseFragment.java</innerfile>
+    <innerfile refid="_course_recycler_view_adapter_8java">CourseRecyclerViewAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/"/>
+  </compounddef>
+</doxygen>

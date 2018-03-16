@@ -1,0 +1,12 @@
+<map id="com.angelmsger.cslaboratory.CSLaboratory" name="com.angelmsger.cslaboratory.CSLaboratory">
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_dao_session.html" title="com.angelmsger.cslaboratory.dao.\lDaoSession" alt="" coords="741,355,964,396"/>
+<area shape="rect" id="node5" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCategoryItemDao" alt="" coords="293,68,516,110"/>
+<area shape="rect" id="node8" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_forum_topic_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lForumTopicItemDao" alt="" coords="293,212,516,254"/>
+<area shape="rect" id="node10" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_subclass_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseSubclassItemDao" alt="" coords="293,278,516,319"/>
+<area shape="rect" id="node12" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_category_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityCategoryItemDao" alt="" coords="293,343,516,384"/>
+<area shape="rect" id="node14" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_daily_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lDailyArticleItemDao" alt="" coords="293,408,516,450"/>
+<area shape="rect" id="node16" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_a_d_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityADItemDao" alt="" coords="293,478,516,519"/>
+<area shape="rect" id="node18" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_course_course_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lCourseCourseItemDao" alt="" coords="293,552,516,594"/>
+<area shape="rect" id="node20" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_topology_field_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lTopologyFieldItemDao" alt="" coords="293,632,516,674"/>
+<area shape="rect" id="node22" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1dao_1_1_quality_article_item_dao.html" title="com.angelmsger.cslaboratory.dao.\lQualityArticleItemDao" alt="" coords="293,704,516,746"/>
+</map>

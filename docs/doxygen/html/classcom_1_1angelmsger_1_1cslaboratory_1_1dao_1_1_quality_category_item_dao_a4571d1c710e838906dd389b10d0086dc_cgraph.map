@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.readEntity" name="com.angelmsger.cslaboratory.dao.QualityCategoryItemDao.readEntity">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item.html#a1dc233cf7d05a5a1b403dc62d904ebbb" title="com.angelmsger.cslaboratory.quality.category.\lQualityCategoryItem.setId" alt="" coords="280,5,573,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item.html#a457a8602067aadf93dcc9b676029e796" title="com.angelmsger.cslaboratory.quality.category.\lQualityCategoryItem.setTitle" alt="" coords="280,71,573,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1category_1_1_quality_category_item.html#a999218a69f93f1d8f3077ab632aefdae" title="com.angelmsger.cslaboratory.quality.category.\lQualityCategoryItem.setImageURI" alt="" coords="280,136,573,177"/>
+</map>

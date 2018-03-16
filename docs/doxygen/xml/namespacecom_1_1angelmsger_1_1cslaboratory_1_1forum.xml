@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory_1_1forum" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory::forum</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_content" prot="public">com::angelmsger::cslaboratory::forum::ForumContent</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_fragment" prot="public">com::angelmsger::cslaboratory::forum::ForumFragment</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1_forum_recycler_view_adapter" prot="public">com::angelmsger::cslaboratory::forum::ForumRecyclerViewAdapter</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1forum_1_1topic">com::angelmsger::cslaboratory::forum::topic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/forum/ForumContent.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

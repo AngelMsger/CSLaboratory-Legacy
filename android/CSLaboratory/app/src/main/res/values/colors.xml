@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D2D2D</color>
+    <color name="colorPrimaryDark">#2D2D2D</color>
+    <color name="colorAccent">#76AFCF</color>
+
+    <color name="colorDaily">#DF5A55</color>
+    <color name="colorForum">#F9BB72</color>
+    <color name="colorQuality">#76AFCF</color>
+    <color name="colorCourse">#DD6495</color>
+    <color name="colorTopology">#72D3B4</color>
+
+    <color name="communityFavorite">#BF0B0B</color>
+
+    <color name="gray">#888888</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_overlay">#88888888</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white_overlay">#BBFFFFFF</color>
+</resources>

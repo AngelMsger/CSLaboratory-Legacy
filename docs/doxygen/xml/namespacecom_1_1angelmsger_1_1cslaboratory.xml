@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespacecom_1_1angelmsger_1_1cslaboratory" kind="namespace" language="Java">
+    <compoundname>com::angelmsger::cslaboratory</compoundname>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_c_s_laboratory" prot="public">com::angelmsger::cslaboratory::CSLaboratory</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_main_activity" prot="public">com::angelmsger::cslaboratory::MainActivity</innerclass>
+    <innerclass refid="classcom_1_1angelmsger_1_1cslaboratory_1_1_proprietary_receiver" prot="public">com::angelmsger::cslaboratory::ProprietaryReceiver</innerclass>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1course">com::angelmsger::cslaboratory::course</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1daily">com::angelmsger::cslaboratory::daily</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1dao">com::angelmsger::cslaboratory::dao</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1forum">com::angelmsger::cslaboratory::forum</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1login">com::angelmsger::cslaboratory::login</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1quality">com::angelmsger::cslaboratory::quality</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1shared">com::angelmsger::cslaboratory::shared</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1source">com::angelmsger::cslaboratory::source</innernamespace>
+    <innernamespace refid="namespacecom_1_1angelmsger_1_1cslaboratory_1_1topology">com::angelmsger::cslaboratory::topology</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

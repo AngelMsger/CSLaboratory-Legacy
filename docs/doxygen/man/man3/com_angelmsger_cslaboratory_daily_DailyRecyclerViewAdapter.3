@@ -1,0 +1,103 @@
+.TH "com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter" 3 "2016年 十二月 27日 星期二" "Version 0.1.0" "猫爪实验室" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.angelmsger.cslaboratory.daily.DailyRecyclerViewAdapter \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+继承自 Adapter< ViewHolder > \&.
+.SS "类"
+
+.in +1c
+.ti -1c
+.RI "class \fBDailyViewHolder\fP"
+.br
+.in -1c
+.SS "Public 成员函数"
+
+.in +1c
+.ti -1c
+.RI "\fBDailyRecyclerViewAdapter\fP (List< \fBDailyArticleItem\fP > dailyArticleItems, LayoutInflater inflater, \fBOnListFragmentInteractionListener\fP listener)"
+.br
+.ti -1c
+.RI "ViewHolder \fBonCreateViewHolder\fP (ViewGroup parent, int viewType)"
+.br
+.ti -1c
+.RI "void \fBonBindViewHolder\fP (final ViewHolder holder, int position)"
+.br
+.ti -1c
+.RI "int \fBgetItemCount\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNextRequestOffset\fP ()"
+.br
+.in -1c
+.SS "Private 属性"
+
+.in +1c
+.ti -1c
+.RI "final List< \fBDailyArticleItem\fP > \fBmDailyArticleItems\fP"
+.br
+.ti -1c
+.RI "final LayoutInflater \fBmInflater\fP"
+.br
+.ti -1c
+.RI "final \fBOnListFragmentInteractionListener\fP \fBmListener\fP"
+.br
+.ti -1c
+.RI "final Pattern \fBmHtmlPattern\fP = Pattern\&.compile('<[^>]+>', Pattern\&.CASE_INSENSITIVE)"
+.br
+.in -1c
+.SH "详细描述"
+.PP 
+\fBRecyclerView\&.Adapter\fP 可以展示一些 \fBDailyArticleItem\fP 并且调用指定的 \fBOnListFragmentInteractionListener\fP\&. TODO: 替换为自定义代码段。 
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 24 行定义\&.
+.SH "构造及析构函数说明"
+.PP 
+.SS "com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.DailyRecyclerViewAdapter (List< \fBDailyArticleItem\fP > dailyArticleItems, LayoutInflater inflater, \fBOnListFragmentInteractionListener\fP listener)"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 32 行定义\&.
+.SH "成员函数说明"
+.PP 
+.SS "int com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.getItemCount ()"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 53 行定义\&.
+.SS "int com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.getNextRequestOffset ()"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 58 行定义\&.
+.SS "void com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.onBindViewHolder (final ViewHolder holder, int position)"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 48 行定义\&.
+.SS "ViewHolder com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.onCreateViewHolder (ViewGroup parent, int viewType)"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 41 行定义\&.
+.SH "类成员变量说明"
+.PP 
+.SS "final List<\fBDailyArticleItem\fP> com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.mDailyArticleItems\fC [private]\fP"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 26 行定义\&.
+.SS "final Pattern com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.mHtmlPattern = Pattern\&.compile('<[^>]+>', Pattern\&.CASE_INSENSITIVE)\fC [private]\fP"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 30 行定义\&.
+.SS "final LayoutInflater com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.mInflater\fC [private]\fP"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 27 行定义\&.
+.SS "final \fBOnListFragmentInteractionListener\fP com\&.angelmsger\&.cslaboratory\&.daily\&.DailyRecyclerViewAdapter\&.mListener\fC [private]\fP"
+
+.PP
+在文件 DailyRecyclerViewAdapter\&.java 第 28 行定义\&.
+
+.SH "作者"
+.PP 
+由 Doyxgen 通过分析 猫爪实验室 的 源代码自动生成\&.

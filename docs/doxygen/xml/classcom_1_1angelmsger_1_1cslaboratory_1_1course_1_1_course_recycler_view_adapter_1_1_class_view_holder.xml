@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder" kind="class" language="Java" prot="public">
+    <compoundname>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a9159ca621fe8547661d583f289611881" prot="public" static="no" mutable="no">
+        <type>final View</type>
+        <definition>final View com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.mView</definition>
+        <argsstring></argsstring>
+        <name>mView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="90" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1afc0e6c67691c76be5d8f9bfe32a6d75b" prot="public" static="no" mutable="no">
+        <type>final TextView</type>
+        <definition>final TextView com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.mTitle</definition>
+        <argsstring></argsstring>
+        <name>mTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="91" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a7adc8674699e60353027f6f548521e6d" prot="public" static="no" mutable="no">
+        <type>final RecyclerView</type>
+        <definition>final RecyclerView com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.mList</definition>
+        <argsstring></argsstring>
+        <name>mList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="92" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a79a6f40bae9150df8b5425b3a258452e" prot="public" static="no" mutable="no">
+        <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item" kindref="compound">CourseCategoryItem</ref></type>
+        <definition>CourseCategoryItem com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.mItem</definition>
+        <argsstring></argsstring>
+        <name>mItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="93" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1ae0b2c0e8f785a9cd6d0f4aa034c3bd98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.ClassViewHolder</definition>
+        <argsstring>(View view)</argsstring>
+        <name>ClassViewHolder</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="95" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1aad70efbce20a6aef9a1c5f09597ae373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder.bind</definition>
+        <argsstring>(CourseCategoryItem courseCourseCategoryItem)</argsstring>
+        <name>bind</name>
+        <param>
+          <type><ref refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item" kindref="compound">CourseCategoryItem</ref></type>
+          <declname>courseCourseCategoryItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="102" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="102" bodyend="109"/>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a019591bc7ef1a311a266be3e76fc7e72" compoundref="_course_category_item_8java" startline="52" endline="54">com.angelmsger.cslaboratory.course.subclass.CourseCategoryItem.getTitle</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item_1a47e7e94ab30d9564e37c6c0caa784136" compoundref="_course_category_item_8java" startline="61" endline="63">com.angelmsger.cslaboratory.course.subclass.CourseCategoryItem.getSubclasses</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1ac5e5c9c73533b8f50ded6a25daedac0d" compoundref="_course_recycler_view_adapter_8java" startline="31">com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.mInflater</references>
+        <references refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1acfcd768da39a70b3d3051502b31125cc" compoundref="_course_recycler_view_adapter_8java" startline="32">com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.mListener</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>ViewHolder</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>TextView</label>
+      </node>
+      <node id="50">
+        <label>List&lt; com.angelmsger.cslaboratory.course.subclass.CourseSubclassItem &gt;</label>
+      </node>
+      <node id="47">
+        <label>com.angelmsger.cslaboratory.course.CourseRecyclerViewAdapter.ClassViewHolder</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>mItem</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>mList</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>mView</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>mTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>com.angelmsger.cslaboratory.course.subclass.CourseCategoryItem</label>
+        <link refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1subclass_1_1_course_category_item"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>subclasses</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>View</label>
+      </node>
+      <node id="48">
+        <label>ViewHolder</label>
+      </node>
+      <node id="51">
+        <label>RecyclerView</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" line="89" column="1" bodyfile="D:/Workspace/AndroidStudio/CSLaboratory/app/src/main/java/com/angelmsger/cslaboratory/course/CourseRecyclerViewAdapter.java" bodystart="89" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1aad70efbce20a6aef9a1c5f09597ae373" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>bind</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1ae0b2c0e8f785a9cd6d0f4aa034c3bd98" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>ClassViewHolder</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a79a6f40bae9150df8b5425b3a258452e" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>mItem</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a7adc8674699e60353027f6f548521e6d" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>mList</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1afc0e6c67691c76be5d8f9bfe32a6d75b" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>mTitle</name></member>
+      <member refid="classcom_1_1angelmsger_1_1cslaboratory_1_1course_1_1_course_recycler_view_adapter_1_1_class_view_holder_1a9159ca621fe8547661d583f289611881" prot="public" virt="non-virtual"><scope>com::angelmsger::cslaboratory::course::CourseRecyclerViewAdapter::ClassViewHolder</scope><name>mView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

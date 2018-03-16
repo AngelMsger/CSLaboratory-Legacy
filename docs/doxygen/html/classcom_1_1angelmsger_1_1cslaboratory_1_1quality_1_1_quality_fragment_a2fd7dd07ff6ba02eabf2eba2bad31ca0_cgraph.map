@@ -1,0 +1,5 @@
+<map id="com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView" name="com.angelmsger.cslaboratory.quality.QualityFragment.onCreateView">
+<area shape="rect" id="node2" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter.html#a925470212b15420db1ab1611d908f0e2" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter.getItemViewType" alt="" coords="306,5,597,47"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_fragment_1_1_on_list_fragment_interaction_listener.html#a9a3da28b846dbabdbdb9e38213414209" title="com.angelmsger.cslaboratory.quality.\lQualityFragment.OnListFragmentInteraction\lListener.onQualityListScroll" alt="" coords="314,71,589,127"/>
+<area shape="rect" id="node4" href="$classcom_1_1angelmsger_1_1cslaboratory_1_1quality_1_1_quality_recycler_view_adapter.html#a5177cef6d1aff524b6540579d1d89521" title="com.angelmsger.cslaboratory.quality.\lQualityRecyclerViewAdapter.getNextRequestOffset" alt="" coords="292,152,611,193"/>
+</map>
