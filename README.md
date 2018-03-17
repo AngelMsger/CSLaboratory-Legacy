@@ -1,7 +1,7 @@
 # CSLaboratory-Legacy
 
 ## Overview
-CSLaboratory-Legacy is a legacy project for [CSLaboratory](https://angelmsger.com/) which contain a [Android APP](android), a [API server](server) and a [crawler](crawler). **It is no longer maintained for really a long time, this repo is only to archive the code and improve my workload**.
+CSLaboratory-Legacy is a legacy project for [CSLaboratory](https://angelmsger.com/) which contain a [Android APP](android), a [API server](server) and a [crawler](crawler). **I have no longer maintained it for really a long time, this repo is only to archive the code and prove my workload**.
 
 ![](docs/show/1.png)
 ![](docs/show/2.png)
