@@ -17,3 +17,6 @@ CSLaboratory-Legacy is a legacy project for [CSLaboratory](https://angelmsger.co
 
 ## Documents
 You can find projects documents and code structure [here](docs).
+
+## Quote
+1. Use [Carbon-Forum](https://github.com/lincanbin/Carbon-Forum) to set up forum web pages(usage not include API).
